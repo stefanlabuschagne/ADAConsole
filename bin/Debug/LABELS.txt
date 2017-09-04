@@ -1,0 +1,64 @@
+<label class="label f9" id="label8" style="left: 0px; width: 107px; bottom: 0px;" for="x-arid_WIN_0_8">Persal Number</label>
+<label class="label f9" id="label4" style="left: 0px; width: 226px; bottom: 0px;" for="x-arid_WIN_0_4">Department Name</label>
+<label class="label f9" id="label536870926" style="left: 0px; width: 70px; bottom: 0px;" for="x-arid_WIN_0_536870926">Title</label>
+<label class="label f6" id="label536870930" style="left: 0px; width: 27px; bottom: 0px;" for="x-arid_WIN_0_536870930">Initial</label>
+<label class="label f9" id="label536870917" style="left: 0px; width: 171px; bottom: 0px;" for="x-arid_WIN_0_536870917">First Name</label>
+<label class="label f9" id="label536870918" style="left: 0px; width: 223px; bottom: 0px;" for="x-arid_WIN_0_536870918">Last Name</label>
+<label class="label f6" id="label536870932" style="left: 0px; width: 110px; bottom: 0px;" for="x-arid_WIN_0_536870932">Nickname</label>
+<label class="label f6" id="label536870937" style="left: 0px; width: 223px; bottom: 0px;" for="x-arid_WIN_0_536870937">Rank</label>
+<label class="label f9" id="label536870923" style="left: 0px; width: 80px; bottom: 0px;" for="x-arid_WIN_0_536870923">Telephone</label>
+<label class="label f6" id="label536870924" style="left: 0px; width: 64px; bottom: 0px;" for="x-arid_WIN_0_536870924">Fax Number</label>
+<label class="label f6" id="label536870979" style="left: 0px; width: 64px; bottom: 0px;" for="x-arid_WIN_0_536870979">Cellphone</label>
+<label class="label f6" id="label536870980" style="left: 0px; width: 50px; bottom: 0px;" for="x-arid_WIN_0_536870980">Extension</label>
+<label class="label f6" id="label536870925" style="left: 0px; width: 220px; bottom: 0px;" for="x-arid_WIN_0_536870925">E-Mail</label>
+<label class="label f6" id="label536870931" style="left: 0px; width: 551px; bottom: 0px;" for="x-arid_WIN_0_536870931">Comments</label>
+<label class="label f9" id="label536870928" style="left: 0px; width: 197px; bottom: 0px;" for="x-arid_WIN_0_536870928">Department Type</label>
+<label class="label f1 do" id="label536870967" style="left: 0px; width: 198px; bottom: 0px;" for="x-arid_WIN_0_536870967">Role</label>
+<label class="label f6" id="label536871010" style="left: 0px; width: 106px; bottom: 0px;" for="x-arid_WIN_0_536871010">Persal Num</label>
+<label class="label f9" id="label2" style="left: 0px; width: 167px; bottom: 0px;" for="x-arid_WIN_0_2">Submitter</label>
+<label class="label f9" id="label7" style="left: 0px; width: 97px; bottom: 0px;" for="x-arid_WIN_0_7">Record Status</label>
+<label class="label f9" id="label536870933" style="left: 0px; width: 154px; bottom: 0px;" for="x-arid_WIN_0_536870933">Remote Access Availability</label>
+<label class="label f6" id="label536870935" style="left: 0px; width: 123px; bottom: 0px;" for="x-arid_WIN_0_536870935">LOGIS Dept Number</label>
+<label class="label f6" id="label536870961" style="left: 0px; width: 158px; bottom: 0px;" for="x-arid_WIN_0_536870961">BAS Dept Number</label>
+<label class="label f6" id="label536870962" style="left: 0px; width: 169px; bottom: 0px;" for="x-arid_WIN_0_536870962">VULIN Dept Number</label>
+<label class="label f6" id="label536870982" style="left: 0px; width: 123px; bottom: 0px;" for="x-arid_WIN_0_536870982">PERSAL Dept Number</label>
+<label class="label f6" id="label536870983" style="left: 0px; width: 123px; bottom: 0px;" for="x-arid_WIN_0_536870983">FMS Dept Number</label>
+<label class="label f6" id="label536870965" style="left: 0px; width: 158px; bottom: 0px;" for="x-arid_WIN_0_536870965">BAS Role</label>
+<label class="label f6" id="label536870938" style="left: 0px; width: 158px; bottom: 0px;" for="x-arid_WIN_0_536870938">LOGIS Role</label>
+<label class="label f6" id="label536870929" style="left: 0px; width: 158px; bottom: 0px;" for="x-arid_WIN_0_536870929">VULINDLELA Role</label>
+<label class="label f6" id="label536870984" style="left: 0px; width: 158px; bottom: 0px;" for="x-arid_WIN_0_536870984">PERSAL Role</label>
+<label class="label f6" id="label536870985" style="left: 0px; width: 158px; bottom: 0px;" for="x-arid_WIN_0_536870985">FMS Role</label>
+<label class="label f1 do" id="label536870946" style="left: 0px; width: 311px; bottom: 0px;" for="x-arid_WIN_0_536870946">Postal Address</label>
+<label class="label f1 do" id="label536870947" style="left: 0px; width: 118px; bottom: 0px;" for="x-arid_WIN_0_536870947">City</label>
+<label class="label f1 do" id="label536870970" style="left: 0px; width: 187px; bottom: 0px;" for="x-arid_WIN_0_536870970">Region</label>
+<label class="label f1 do" id="label536870948" style="left: 0px; width: 115px; bottom: 0px;" for="x-arid_WIN_0_536870948">Province</label>
+<label class="label f1 do" id="label536870981" style="left: 0px; width: 57px; bottom: 0px;" for="x-arid_WIN_0_536870981">Code</label>
+<label class="label f1 do" id="label536870996" style="left: 0px; width: 57px; bottom: 0px;" for="x-arid_WIN_0_536870996">Database</label>
+<label class="label f1 do" id="label536870997" style="left: 0px; width: 57px; bottom: 0px;" for="x-arid_WIN_0_536870997">User Code</label>
+<label class="label f1 do" id="label536870949" style="left: 0px; width: 61px; bottom: 0px;" for="x-arid_WIN_0_536870949">Postal Code</label>
+<label class="label f1 do" id="label536870998" style="left: 0px; width: 44px; bottom: 0px;" for="x-arid_WIN_0_536870998">Pre-FMS</label>
+<label class="label f1 do" id="label536870999" style="left: 0px; width: 60px; bottom: 0px;" for="x-arid_WIN_0_536870999">Pre-EFT</label>
+<label class="label f1 do" id="label536871000" style="left: 0px; width: 48px; bottom: 0px;" for="x-arid_WIN_0_536871000">Pre-PER</label>
+<label class="label f10" id="label5" style="left: 0px; width: 160px; bottom: 0px;" for="x-arid_WIN_0_5">Last Modified By</label>
+<label class="label f10" id="label3" style="left: 0px; width: 165px; bottom: 0px;" for="arid_WIN_0_3">Create Date</label>
+<label class="label f10" id="label6" style="left: 0px; width: 158px; bottom: 0px;" for="arid_WIN_0_6">Modified Date</label>
+<label class="label f1 do" id="label536870940" style="left: 0px; width: 98px; bottom: 0px;" for="arid_WIN_0_536870940">zDispPersalNo</label>
+<label class="label f10" id="label1" style="left: 0px; width: 88px; bottom: 0px;" for="x-arid_WIN_0_1">Entry ID</label>
+<label class="label f1 do" id="label536870944" style="left: 0px; width: 104px; bottom: 0px;" for="x-arid_WIN_0_536870944">zDispUserResponse</label>
+<label class="label f1 do" id="label536870963" style="left: 0px; width: 112px; bottom: 0px;" for="x-arid_WIN_0_536870963">zDispStoreNo</label>
+<label class="label f1 do" id="label536871002" style="left: 0px; width: 112px; bottom: 0px;" for="x-arid_WIN_0_536871002">zValidPersalNumber</label>
+<label class="label f1 do" id="label536870956" style="left: 0px; width: 58px; bottom: 0px;" for="x-arid_WIN_0_536870956">zDispClose</label>
+<label class="label f1 do" id="label536870966" style="left: 0px; width: 112px; bottom: 0px;" for="x-arid_WIN_0_536870966">zDispNoStoreNumber</label>
+<label class="label f1 do" id="label536870964" style="left: 0px; width: 113px; bottom: 0px;" for="x-arid_WIN_0_536870964">System Group</label>
+<label class="label f1 do" id="label536870950" style="left: 0px; width: 104px; bottom: 0px;" for="x-arid_WIN_0_536870950">zDispCheckDuplicate</label>
+<label class="label f1 do" id="label536870942" style="left: 0px; width: 140px; bottom: 0px;" for="x-arid_WIN_0_536870942">zDispChangeStoreNo</label>
+<label class="label f1 do" id="label536870957" style="left: 0px; width: 104px; bottom: 0px;" for="x-arid_WIN_0_536870957">zDispCallsOpen</label>
+<label class="label f1 do" id="label536870960" style="left: 0px; width: 104px; bottom: 0px;" for="x-arid_WIN_0_536870960">zDispWrongDept</label>
+<label class="label f1 do" id="label536870945" style="left: 0px; width: 135px; bottom: 0px;" for="arid_WIN_0_536870945">zDispDefaultDateForNew</label>
+<label class="label f1 do" id="label536870959" style="left: 0px; width: 104px; bottom: 0px;" for="x-arid_WIN_0_536870959">zDispOldPersalNo</label>
+<label class="label f1 do" id="label536870958" style="left: 0px; width: 133px; bottom: 0px;" for="x-arid_WIN_0_536870958">zDispRe-AssignCallsOpen</label>
+<label class="label f1 do" id="label536871001" style="left: 0px; width: 67px; bottom: 0px;" for="x-arid_WIN_0_536871001">zDispInternal?</label>
+<label class="label f1 do" id="label536870986" style="left: 0px; width: 126px; bottom: 0px;" for="x-arid_WIN_0_536870986">zDispReAssignPersalNo</label>
+<label class="label f6" id="label536871004" style="left: 0px; width: 135px; bottom: 0px;" for="x-arid_WIN_0_536871004">Temp Postal Code</label>
+<label class="label f6" id="label536871003" style="left: 0px; width: 161px; bottom: 0px;" for="x-arid_WIN_0_536871003">Temp Postal Address</label>
+<label class="hidden" style="left: 0px; top: 0px;" for="arid1005">Advanced Search Bar</label>

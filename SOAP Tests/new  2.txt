@@ -1,0 +1,12 @@
+
+LOG_IN_Request_Tracking_BasicWS
+http://ProdLGRemV1:8080/arsys/WSDL/public/ProdLGRemV1/LOG_IN_Request Tracking BasicWS
+
+LOG_DM_Personnel_BasicWS
+http://ProdLGRemV1:8080/arsys/WSDL/public/ProdLGRemV1/LOG_DM_Personnel BasicWS
+
+LOG_DM_Department_BasicWS
+http://ProdLGRemV1:8080/arsys/WSDL/public/ProdLGRemV1/LOG_DM_Department BasicWS
+
+LOG_DM_Customer_Information_BasicWS 
+http://ProdLGRemV1:8080/arsys/WSDL/public/ProdLGRemV1/LOG_DM_Customer Information_BasicWS

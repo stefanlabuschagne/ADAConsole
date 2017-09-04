@@ -1,0 +1,65 @@
+Label,FieldName
+label8,Persal Number
+label4,Department Name
+label536870926,Title
+label536870930,Initial
+label536870917,First Name
+label536870918,Last Name
+label536870932,Nickname
+label536870937,Rank
+label536870923,Telephone
+label536870924,Fax Number
+label536870979,Cellphone
+label536870980,Extension
+label536870925,E-Mail
+label536870931,Comments
+label536870928,Department Type
+label536870967,Role
+label536871010,Persal Num
+label2,Submitter
+label7,Record Status
+label536870933,Remote Access Availability
+label536870935,LOGIS Dept Number
+label536870961,BAS Dept Number
+label536870962,VULIN Dept Number
+label536870982,PERSAL Dept Number
+label536870983,FMS Dept Number
+label536870965,BAS Role
+label536870938,LOGIS Role
+label536870929,VULINDLELA Role
+label536870984,PERSAL Role
+label536870985,FMS Role
+label536870946,Postal Address
+label536870947,City
+label536870970,Region
+label536870948,Province
+label536870981,Code
+label536870996,Database
+label536870997,User Code
+label536870949,Postal Code
+label536870998,Pre-FMS
+label536870999,Pre-EFT
+label536871000,Pre-PER
+label5,Last Modified By
+label3,Create Date
+label6,Modified Date
+label536870940,zDispPersalNo
+label1,Entry ID
+label536870944,zDispUserResponse
+label536870963,zDispStoreNo
+label536871002,zValidPersalNumber
+label536870956,zDispClose
+label536870966,zDispNoStoreNumber
+label536870964,System Group
+label536870950,zDispCheckDuplicate
+label536870942,zDispChangeStoreNo
+label536870957,zDispCallsOpen
+label536870960,zDispWrongDept
+label536870945,zDispDefaultDateForNew
+label536870959,zDispOldPersalNo
+label536870958,zDispRe-AssignCallsOpen
+label536871001,zDispInternal?
+label536870986,zDispReAssignPersalNo
+label536871004,Temp Postal Code
+label536871003,Temp Postal Address
+dndproxylabel,

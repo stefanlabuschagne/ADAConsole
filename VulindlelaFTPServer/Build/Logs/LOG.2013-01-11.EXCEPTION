@@ -1,0 +1,726 @@
+﻿<ERRORLOG>
+  <LOG TIME="09:40:20" SOURCE="FTP">
+    <EXCEPTION>System.Runtime.InteropServices.COMException (0x80005000): Unknown error (0x80005000)
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</EXCEPTION>
+    <MESSAGE>Unknown error (0x80005000)</MESSAGE>
+    <SOURCE>System.DirectoryServices</SOURCE>
+    <STACK>   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</STACK>
+    <TARGETSITE>Bind</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="09:40:20" SOURCE="FTP">
+    <EXCEPTION>System.Runtime.InteropServices.COMException (0x80005000): Unknown error (0x80005000)
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</EXCEPTION>
+    <MESSAGE>Unknown error (0x80005000)</MESSAGE>
+    <SOURCE>System.DirectoryServices</SOURCE>
+    <STACK>   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</STACK>
+    <TARGETSITE>Bind</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="09:40:55" SOURCE="FTP">
+    <EXCEPTION>System.Runtime.InteropServices.COMException (0x80005000): Unknown error (0x80005000)
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</EXCEPTION>
+    <MESSAGE>Unknown error (0x80005000)</MESSAGE>
+    <SOURCE>System.DirectoryServices</SOURCE>
+    <STACK>   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</STACK>
+    <TARGETSITE>Bind</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="09:41:00" SOURCE="FTP">
+    <EXCEPTION>System.Runtime.InteropServices.COMException (0x80005000): Unknown error (0x80005000)
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</EXCEPTION>
+    <MESSAGE>Unknown error (0x80005000)</MESSAGE>
+    <SOURCE>System.DirectoryServices</SOURCE>
+    <STACK>   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</STACK>
+    <TARGETSITE>Bind</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="10:02:43" SOURCE="FTP">
+    <EXCEPTION>System.Runtime.InteropServices.COMException (0x80005000): Unknown error (0x80005000)
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</EXCEPTION>
+    <MESSAGE>Unknown error (0x80005000)</MESSAGE>
+    <SOURCE>System.DirectoryServices</SOURCE>
+    <STACK>   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</STACK>
+    <TARGETSITE>Bind</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="10:28:09" SOURCE="FTP">
+    <EXCEPTION>System.Runtime.InteropServices.COMException (0x80005000): Unknown error (0x80005000)
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</EXCEPTION>
+    <MESSAGE>Unknown error (0x80005000)</MESSAGE>
+    <SOURCE>System.DirectoryServices</SOURCE>
+    <STACK>   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</STACK>
+    <TARGETSITE>Bind</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="10:28:09" SOURCE="FTP">
+    <EXCEPTION>System.Runtime.InteropServices.COMException (0x80005000): Unknown error (0x80005000)
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</EXCEPTION>
+    <MESSAGE>Unknown error (0x80005000)</MESSAGE>
+    <SOURCE>System.DirectoryServices</SOURCE>
+    <STACK>   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</STACK>
+    <TARGETSITE>Bind</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="10:30:10" SOURCE="FTP">
+    <EXCEPTION>System.Runtime.InteropServices.COMException (0x80005000): Unknown error (0x80005000)
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</EXCEPTION>
+    <MESSAGE>Unknown error (0x80005000)</MESSAGE>
+    <SOURCE>System.DirectoryServices</SOURCE>
+    <STACK>   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</STACK>
+    <TARGETSITE>Bind</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="10:31:23" SOURCE="FTP">
+    <EXCEPTION>System.Runtime.InteropServices.COMException (0x80005000): Unknown error (0x80005000)
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</EXCEPTION>
+    <MESSAGE>Unknown error (0x80005000)</MESSAGE>
+    <SOURCE>System.DirectoryServices</SOURCE>
+    <STACK>   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</STACK>
+    <TARGETSITE>Bind</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="10:31:23" SOURCE="FTP">
+    <EXCEPTION>System.Runtime.InteropServices.COMException (0x80005000): Unknown error (0x80005000)
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</EXCEPTION>
+    <MESSAGE>Unknown error (0x80005000)</MESSAGE>
+    <SOURCE>System.DirectoryServices</SOURCE>
+    <STACK>   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</STACK>
+    <TARGETSITE>Bind</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="10:36:22" SOURCE="FTP">
+    <EXCEPTION>System.NullReferenceException: Object reference not set to an instance of an object.
+   at VulindlelaFTPServer.FTPClient..ctor(Socket ClientSocket) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPClient.cs:line 67
+   at VulindlelaFTPServer.FTPServer.NewFTPClientArrived(IAsyncResult arg) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPServer.cs:line 53</EXCEPTION>
+    <MESSAGE>Object reference not set to an instance of an object.</MESSAGE>
+    <SOURCE>FTPServer</SOURCE>
+    <STACK>   at VulindlelaFTPServer.FTPClient..ctor(Socket ClientSocket) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPClient.cs:line 67
+   at VulindlelaFTPServer.FTPServer.NewFTPClientArrived(IAsyncResult arg) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPServer.cs:line 53</STACK>
+    <TARGETSITE>.ctor</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="10:36:53" SOURCE="FTP">
+    <EXCEPTION>System.NullReferenceException: Object reference not set to an instance of an object.
+   at VulindlelaFTPServer.FTPClient..ctor(Socket ClientSocket) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPClient.cs:line 67
+   at VulindlelaFTPServer.FTPServer.NewFTPClientArrived(IAsyncResult arg) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPServer.cs:line 53</EXCEPTION>
+    <MESSAGE>Object reference not set to an instance of an object.</MESSAGE>
+    <SOURCE>FTPServer</SOURCE>
+    <STACK>   at VulindlelaFTPServer.FTPClient..ctor(Socket ClientSocket) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPClient.cs:line 67
+   at VulindlelaFTPServer.FTPServer.NewFTPClientArrived(IAsyncResult arg) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPServer.cs:line 53</STACK>
+    <TARGETSITE>.ctor</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="10:46:49" SOURCE="FTP">
+    <EXCEPTION>System.NullReferenceException: Object reference not set to an instance of an object.
+   at VulindlelaFTPServer.FTPUser.LoadProfile(String UserName, String Password) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPUser.cs:line 43</EXCEPTION>
+    <MESSAGE>Object reference not set to an instance of an object.</MESSAGE>
+    <SOURCE>FTPServer</SOURCE>
+    <STACK>   at VulindlelaFTPServer.FTPUser.LoadProfile(String UserName, String Password) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPUser.cs:line 43</STACK>
+    <TARGETSITE>LoadProfile</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="10:54:30" SOURCE="FTP">
+    <EXCEPTION>System.Runtime.InteropServices.COMException (0x80005000): Unknown error (0x80005000)
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</EXCEPTION>
+    <MESSAGE>Unknown error (0x80005000)</MESSAGE>
+    <SOURCE>System.DirectoryServices</SOURCE>
+    <STACK>   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</STACK>
+    <TARGETSITE>Bind</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="10:54:37" SOURCE="FTP">
+    <EXCEPTION>System.Runtime.InteropServices.COMException (0x80005000): Unknown error (0x80005000)
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</EXCEPTION>
+    <MESSAGE>Unknown error (0x80005000)</MESSAGE>
+    <SOURCE>System.DirectoryServices</SOURCE>
+    <STACK>   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</STACK>
+    <TARGETSITE>Bind</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="10:55:39" SOURCE="FTP">
+    <EXCEPTION>System.Runtime.InteropServices.COMException (0x80005000): Unknown error (0x80005000)
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</EXCEPTION>
+    <MESSAGE>Unknown error (0x80005000)</MESSAGE>
+    <SOURCE>System.DirectoryServices</SOURCE>
+    <STACK>   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</STACK>
+    <TARGETSITE>Bind</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="11:41:46" SOURCE="FTP">
+    <EXCEPTION>System.Runtime.InteropServices.COMException (0x80005000): Unknown error (0x80005000)
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</EXCEPTION>
+    <MESSAGE>Unknown error (0x80005000)</MESSAGE>
+    <SOURCE>System.DirectoryServices</SOURCE>
+    <STACK>   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</STACK>
+    <TARGETSITE>Bind</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="13:31:01" SOURCE="FTP">
+    <EXCEPTION>System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at VulindlelaFTPServer.ApplicationSettings.ReadSettings() in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\Settings.cs:line 285</EXCEPTION>
+    <MESSAGE>Data at the root level is invalid. Line 1, position 1.</MESSAGE>
+    <SOURCE>System.Xml</SOURCE>
+    <STACK>   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at VulindlelaFTPServer.ApplicationSettings.ReadSettings() in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\Settings.cs:line 285</STACK>
+    <TARGETSITE>Throw</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="13:38:01" SOURCE="FTP">
+    <EXCEPTION>System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at VulindlelaFTPServer.ApplicationSettings.ReadSettings() in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\Settings.cs:line 240</EXCEPTION>
+    <MESSAGE>Data at the root level is invalid. Line 1, position 1.</MESSAGE>
+    <SOURCE>System.Xml</SOURCE>
+    <STACK>   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at VulindlelaFTPServer.ApplicationSettings.ReadSettings() in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\Settings.cs:line 240</STACK>
+    <TARGETSITE>Throw</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="13:43:09" SOURCE="FTP">
+    <EXCEPTION>System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at VulindlelaFTPServer.ApplicationSettings.ReadSettings() in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\Settings.cs:line 189</EXCEPTION>
+    <MESSAGE>Data at the root level is invalid. Line 1, position 1.</MESSAGE>
+    <SOURCE>System.Xml</SOURCE>
+    <STACK>   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at VulindlelaFTPServer.ApplicationSettings.ReadSettings() in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\Settings.cs:line 189</STACK>
+    <TARGETSITE>Throw</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="13:43:09" SOURCE="FTP">
+    <EXCEPTION>System.NullReferenceException: Object reference not set to an instance of an object.
+   at VulindlelaFTPServer.ApplicationSettings.GetSettingsAsString(SettingsKey Key) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\Settings.cs:line 297
+   at VulindlelaFTPServer.ApplicationSettings.get_FTPPort() in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\Settings.cs:line 60
+   at VulindlelaFTPServer.FTPServer.Start() in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPServer.cs:line 30</EXCEPTION>
+    <MESSAGE>Object reference not set to an instance of an object.</MESSAGE>
+    <SOURCE>FTPServer</SOURCE>
+    <STACK>   at VulindlelaFTPServer.ApplicationSettings.GetSettingsAsString(SettingsKey Key) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\Settings.cs:line 297
+   at VulindlelaFTPServer.ApplicationSettings.get_FTPPort() in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\Settings.cs:line 60
+   at VulindlelaFTPServer.FTPServer.Start() in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPServer.cs:line 30</STACK>
+    <TARGETSITE>GetSettingsAsString</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="13:47:03" SOURCE="FTP">
+    <EXCEPTION>System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at VulindlelaFTPServer.ApplicationSettings.ReadSettings() in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\Settings.cs:line 189</EXCEPTION>
+    <MESSAGE>Data at the root level is invalid. Line 1, position 1.</MESSAGE>
+    <SOURCE>System.Xml</SOURCE>
+    <STACK>   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at VulindlelaFTPServer.ApplicationSettings.ReadSettings() in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\Settings.cs:line 189</STACK>
+    <TARGETSITE>Throw</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="13:47:03" SOURCE="FTP">
+    <EXCEPTION>System.NullReferenceException: Object reference not set to an instance of an object.
+   at VulindlelaFTPServer.ApplicationSettings.GetSettingsAsString(SettingsKey Key) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\Settings.cs:line 297
+   at VulindlelaFTPServer.ApplicationSettings.get_FTPPort() in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\Settings.cs:line 60
+   at VulindlelaFTPServer.FTPServer.Start() in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPServer.cs:line 30</EXCEPTION>
+    <MESSAGE>Object reference not set to an instance of an object.</MESSAGE>
+    <SOURCE>FTPServer</SOURCE>
+    <STACK>   at VulindlelaFTPServer.ApplicationSettings.GetSettingsAsString(SettingsKey Key) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\Settings.cs:line 297
+   at VulindlelaFTPServer.ApplicationSettings.get_FTPPort() in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\Settings.cs:line 60
+   at VulindlelaFTPServer.FTPServer.Start() in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPServer.cs:line 30</STACK>
+    <TARGETSITE>GetSettingsAsString</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="13:47:05" SOURCE="FTP">
+    <EXCEPTION>System.NullReferenceException: Object reference not set to an instance of an object.
+   at VulindlelaFTPServer.ApplicationSettings.GetSettingsAsString(SettingsKey Key) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\Settings.cs:line 297
+   at VulindlelaFTPServer.ApplicationSettings.get_FTPPort() in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\Settings.cs:line 60
+   at VulindlelaFTPServer.FTPServer.Start() in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPServer.cs:line 30</EXCEPTION>
+    <MESSAGE>Object reference not set to an instance of an object.</MESSAGE>
+    <SOURCE>FTPServer</SOURCE>
+    <STACK>   at VulindlelaFTPServer.ApplicationSettings.GetSettingsAsString(SettingsKey Key) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\Settings.cs:line 297
+   at VulindlelaFTPServer.ApplicationSettings.get_FTPPort() in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\Settings.cs:line 60
+   at VulindlelaFTPServer.FTPServer.Start() in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPServer.cs:line 30</STACK>
+    <TARGETSITE>GetSettingsAsString</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="13:47:11" SOURCE="FTP">
+    <EXCEPTION>System.NullReferenceException: Object reference not set to an instance of an object.
+   at VulindlelaFTPServer.ApplicationSettings.GetSettingsAsString(SettingsKey Key) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\Settings.cs:line 297
+   at VulindlelaFTPServer.ApplicationSettings.get_FTPPort() in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\Settings.cs:line 60
+   at VulindlelaFTPServer.FTPServer.Start() in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPServer.cs:line 30</EXCEPTION>
+    <MESSAGE>Object reference not set to an instance of an object.</MESSAGE>
+    <SOURCE>FTPServer</SOURCE>
+    <STACK>   at VulindlelaFTPServer.ApplicationSettings.GetSettingsAsString(SettingsKey Key) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\Settings.cs:line 297
+   at VulindlelaFTPServer.ApplicationSettings.get_FTPPort() in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\Settings.cs:line 60
+   at VulindlelaFTPServer.FTPServer.Start() in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPServer.cs:line 30</STACK>
+    <TARGETSITE>GetSettingsAsString</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="13:54:49" SOURCE="FTP">
+    <EXCEPTION>System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at VulindlelaFTPServer.ApplicationSettings.ReadSettings() in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\Settings.cs:line 189</EXCEPTION>
+    <MESSAGE>Data at the root level is invalid. Line 1, position 1.</MESSAGE>
+    <SOURCE>System.Xml</SOURCE>
+    <STACK>   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at VulindlelaFTPServer.ApplicationSettings.ReadSettings() in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\Settings.cs:line 189</STACK>
+    <TARGETSITE>Throw</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="13:54:49" SOURCE="FTP">
+    <EXCEPTION>System.NullReferenceException: Object reference not set to an instance of an object.
+   at VulindlelaFTPServer.ApplicationSettings.GetSettingsAsString(SettingsKey Key) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\Settings.cs:line 297
+   at VulindlelaFTPServer.ApplicationSettings.get_FTPPort() in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\Settings.cs:line 60
+   at VulindlelaFTPServer.FTPServer.Start() in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPServer.cs:line 30</EXCEPTION>
+    <MESSAGE>Object reference not set to an instance of an object.</MESSAGE>
+    <SOURCE>FTPServer</SOURCE>
+    <STACK>   at VulindlelaFTPServer.ApplicationSettings.GetSettingsAsString(SettingsKey Key) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\Settings.cs:line 297
+   at VulindlelaFTPServer.ApplicationSettings.get_FTPPort() in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\Settings.cs:line 60
+   at VulindlelaFTPServer.FTPServer.Start() in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPServer.cs:line 30</STACK>
+    <TARGETSITE>GetSettingsAsString</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="14:07:04" SOURCE="FTP">
+    <EXCEPTION>System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at VulindlelaFTPServer.ApplicationSettings.ReadSettings() in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\Settings.cs:line 191</EXCEPTION>
+    <MESSAGE>Data at the root level is invalid. Line 1, position 1.</MESSAGE>
+    <SOURCE>System.Xml</SOURCE>
+    <STACK>   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at VulindlelaFTPServer.ApplicationSettings.ReadSettings() in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\Settings.cs:line 191</STACK>
+    <TARGETSITE>Throw</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="14:08:02" SOURCE="FTP">
+    <EXCEPTION>System.Runtime.InteropServices.COMException (0x80005000): Unknown error (0x80005000)
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</EXCEPTION>
+    <MESSAGE>Unknown error (0x80005000)</MESSAGE>
+    <SOURCE>System.DirectoryServices</SOURCE>
+    <STACK>   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</STACK>
+    <TARGETSITE>Bind</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="14:12:21" SOURCE="FTP">
+    <EXCEPTION>System.Runtime.InteropServices.COMException (0x80005000): Unknown error (0x80005000)
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</EXCEPTION>
+    <MESSAGE>Unknown error (0x80005000)</MESSAGE>
+    <SOURCE>System.DirectoryServices</SOURCE>
+    <STACK>   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</STACK>
+    <TARGETSITE>Bind</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="14:12:51" SOURCE="FTP">
+    <EXCEPTION>System.Runtime.InteropServices.COMException (0x80005000): Unknown error (0x80005000)
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</EXCEPTION>
+    <MESSAGE>Unknown error (0x80005000)</MESSAGE>
+    <SOURCE>System.DirectoryServices</SOURCE>
+    <STACK>   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</STACK>
+    <TARGETSITE>Bind</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="14:13:27" SOURCE="FTP">
+    <EXCEPTION>System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at VulindlelaFTPServer.ApplicationSettings.ReadSettings() in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\Settings.cs:line 191</EXCEPTION>
+    <MESSAGE>Data at the root level is invalid. Line 1, position 1.</MESSAGE>
+    <SOURCE>System.Xml</SOURCE>
+    <STACK>   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at VulindlelaFTPServer.ApplicationSettings.ReadSettings() in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\Settings.cs:line 191</STACK>
+    <TARGETSITE>Throw</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="14:38:17" SOURCE="FTP">
+    <EXCEPTION>System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at VulindlelaFTPServer.ApplicationSettings.ReadSettings() in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\Settings.cs:line 191</EXCEPTION>
+    <MESSAGE>Data at the root level is invalid. Line 1, position 1.</MESSAGE>
+    <SOURCE>System.Xml</SOURCE>
+    <STACK>   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at VulindlelaFTPServer.ApplicationSettings.ReadSettings() in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\Settings.cs:line 191</STACK>
+    <TARGETSITE>Throw</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="14:38:21" SOURCE="FTP">
+    <EXCEPTION>System.Runtime.InteropServices.COMException (0x80005000): Unknown error (0x80005000)
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</EXCEPTION>
+    <MESSAGE>Unknown error (0x80005000)</MESSAGE>
+    <SOURCE>System.DirectoryServices</SOURCE>
+    <STACK>   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</STACK>
+    <TARGETSITE>Bind</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="14:38:30" SOURCE="FTP">
+    <EXCEPTION>System.Runtime.InteropServices.COMException (0x80005000): Unknown error (0x80005000)
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</EXCEPTION>
+    <MESSAGE>Unknown error (0x80005000)</MESSAGE>
+    <SOURCE>System.DirectoryServices</SOURCE>
+    <STACK>   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</STACK>
+    <TARGETSITE>Bind</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="15:17:09" SOURCE="FTP">
+    <EXCEPTION>System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at VulindlelaFTPServer.ApplicationSettings.ReadSettings() in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\Settings.cs:line 191</EXCEPTION>
+    <MESSAGE>Data at the root level is invalid. Line 1, position 1.</MESSAGE>
+    <SOURCE>System.Xml</SOURCE>
+    <STACK>   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at VulindlelaFTPServer.ApplicationSettings.ReadSettings() in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\Settings.cs:line 191</STACK>
+    <TARGETSITE>Throw</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="15:18:02" SOURCE="FTP">
+    <EXCEPTION>System.NullReferenceException: Object reference not set to an instance of an object.
+   at VulindlelaFTPServer.FTPUser.LoadProfile(String UserName) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPUser.cs:line 45</EXCEPTION>
+    <MESSAGE>Object reference not set to an instance of an object.</MESSAGE>
+    <SOURCE>FTPServer</SOURCE>
+    <STACK>   at VulindlelaFTPServer.FTPUser.LoadProfile(String UserName) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPUser.cs:line 45</STACK>
+    <TARGETSITE>LoadProfile</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="15:19:06" SOURCE="FTP">
+    <EXCEPTION>System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at VulindlelaFTPServer.ApplicationSettings.ReadSettings() in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\Settings.cs:line 191</EXCEPTION>
+    <MESSAGE>Data at the root level is invalid. Line 1, position 1.</MESSAGE>
+    <SOURCE>System.Xml</SOURCE>
+    <STACK>   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at VulindlelaFTPServer.ApplicationSettings.ReadSettings() in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\Settings.cs:line 191</STACK>
+    <TARGETSITE>Throw</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="15:23:46" SOURCE="FTP">
+    <EXCEPTION>System.NullReferenceException: Object reference not set to an instance of an object.
+   at VulindlelaFTPServer.FTPUser.LoadProfile(String UserName) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPUser.cs:line 45</EXCEPTION>
+    <MESSAGE>Object reference not set to an instance of an object.</MESSAGE>
+    <SOURCE>FTPServer</SOURCE>
+    <STACK>   at VulindlelaFTPServer.FTPUser.LoadProfile(String UserName) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPUser.cs:line 45</STACK>
+    <TARGETSITE>LoadProfile</TARGETSITE>
+  </LOG>
+</ERRORLOG>

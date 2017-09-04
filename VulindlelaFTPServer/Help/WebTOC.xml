@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="936d0ee0-7fd9-4584-ac74-e1efda21c8c3" Title="VulindlelaFTPServer" Url="html/a8092e00-5750-1f83-e12f-1a4332263c3d.htm">
+    <HelpTOCNode Id="6f6facd0-adc2-4884-94c8-2423af5f3b99" Title="VulindlelaFTPServer Namespace" Url="html/d5432fbb-5b09-6d0c-2286-96e359367d10.htm">
+      <HelpTOCNode Id="4c6bcaea-5c8b-416d-b626-0a76eced1622" Title="adCrypto Class" Url="html/367279ed-63f7-b0dd-8c35-8bb4e054c63d.htm">
+        <HelpTOCNode Title="adCrypto Members" Url="html/b370968b-9e63-e640-4508-96f82a5b92d7.htm" />
+        <HelpTOCNode Title="adCrypto Constructor " Url="html/926001b5-d32e-7906-199f-87bf7e866950.htm" />
+        <HelpTOCNode Id="45f3bee7-9cd8-4af0-b0e1-01865325f920" Title="adCrypto Methods" Url="html/66634c75-ccc6-ccc6-1c2b-14a3080b3d57.htm">
+          <HelpTOCNode Title="ComputeMD5Hash Method " Url="html/35363d64-2aba-cd40-75bb-e6d8606d01df.htm" />
+          <HelpTOCNode Title="Dekodeer128 Method " Url="html/9c1420c0-839b-39b1-7b97-11d47e7cc40e.htm" />
+          <HelpTOCNode Title="kodeer128 Method " Url="html/74ff75e3-fcef-1903-c67d-edf73c5b3e5e.htm" />
+          <HelpTOCNode Title="VerifyHash Method " Url="html/5778e7ce-15ef-36f5-b6fb-15dd685b32a9.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="3c0fe204-71a4-45be-b367-1bec6b0b8bfa" Title="frmMain Class" Url="html/3d645d46-1b2e-600a-b903-558ad9fb0327.htm">
+        <HelpTOCNode Title="frmMain Members" Url="html/5adb9484-e72e-1c32-f589-51ba09df2782.htm" />
+        <HelpTOCNode Title="frmMain Constructor " Url="html/a214e101-a0df-5b0c-4633-e72e567ba113.htm" />
+        <HelpTOCNode Id="9d6ce735-3e9f-4772-9281-10ef4cf7bd8f" Title="frmMain Methods" Url="html/0f07c2cd-3e1a-a15a-65a8-e03aef6e9d7d.htm">
+          <HelpTOCNode Id="9775e3aa-79dd-4b39-994b-64e912368677" Title="Dispose Method " Url="html/b6f006f5-358d-027c-30fe-8babbe47f88e.htm">
+            <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/fbb1b1eb-99bb-279a-9207-ea68a0c95c9e.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="ProcessNewInstance Method " Url="html/9ca6ce47-01cb-9a12-7fc3-2cc7511ea5d9.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="frmMain Properties" Url="html/841ec11d-e694-b09f-ef0f-8d46c4661917.htm" />
+        <HelpTOCNode Title="frmMain Events" Url="html/85d65147-85c6-262f-84bc-cc517489794a.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="frmMain.ProcessNewInstanceDelegate Delegate" Url="html/e95eb3c3-7173-0acc-96da-6836728f5885.htm" />
+      <HelpTOCNode Id="7b52e3b9-8197-4549-b474-e630d9c238c1" Title="frmOnlineUsers Class" Url="html/e617b0e9-c98c-b18a-72f7-13f478470963.htm">
+        <HelpTOCNode Title="frmOnlineUsers Members" Url="html/d501a27c-d451-6b84-25a8-257af7b10388.htm" />
+        <HelpTOCNode Title="frmOnlineUsers Constructor " Url="html/0ed91e9a-a014-6494-7b29-d351c506dc79.htm" />
+        <HelpTOCNode Id="4b83b845-6a50-4e16-ad65-6388870ceb8b" Title="frmOnlineUsers Methods" Url="html/1954c8e8-72ad-7378-96c7-87f9535b1d33.htm">
+          <HelpTOCNode Id="f94f49b8-580a-4abe-8b27-b927a6a1e919" Title="Dispose Method " Url="html/c16573bc-cc69-13da-0418-0a732f1153e0.htm">
+            <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/9e6787f4-adcc-d658-3823-654272f8b7fe.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Title="frmOnlineUsers Properties" Url="html/c2c26170-7bf7-b672-f3c3-dcbbd0aae956.htm" />
+        <HelpTOCNode Title="frmOnlineUsers Events" Url="html/8d8a598a-8d45-7754-f5ec-fc1b7490881f.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="44fcf5e9-e3bd-45e0-9ad0-1d2dfe4bae05" Title="frmUser Class" Url="html/f23730ab-6f10-4fa6-2322-15296564d6f1.htm">
+        <HelpTOCNode Title="frmUser Members" Url="html/c221544a-eb34-b684-283c-7874bb3734ed.htm" />
+        <HelpTOCNode Id="ac8d8df8-3c66-484a-b987-3bd7135c1e6e" Title="frmUser Constructor " Url="html/9785af95-9f91-359a-6b5f-8914bbbaa2ff.htm">
+          <HelpTOCNode Title="frmUser Constructor " Url="html/5a62a23a-b34b-d078-ce12-407d15dadde6.htm" />
+          <HelpTOCNode Title="frmUser Constructor (String)" Url="html/07a15671-45af-3fd1-137e-0b147cb8c09b.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="fda94d6b-eba8-4dfd-8f52-4b9420e21ff6" Title="frmUser Methods" Url="html/62b5c2d3-e27b-c0ac-2999-146b6e666818.htm">
+          <HelpTOCNode Title="button1_Click Method " Url="html/16438a18-c37a-5e48-a206-e6afc89e0141.htm" />
+          <HelpTOCNode Id="922f8dd1-3ac9-4f26-b2ac-701ba7a18971" Title="Dispose Method " Url="html/17611ed0-55de-ff64-44b6-5264913343ee.htm">
+            <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/08c1e404-88ee-e579-0a80-5e1d7e4e71ac.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Title="frmUser Properties" Url="html/064984a8-dd78-1262-b9de-010eceaeda7c.htm" />
+        <HelpTOCNode Title="frmUser Events" Url="html/69dd419b-d124-13fa-d993-9676248558cb.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ed8b6faa-6cae-459e-863d-8b37d59b9a3a" Title="WindowsService Namespace" Url="html/5c5be833-bf80-793c-84fd-1916c29a6b41.htm">
+      <HelpTOCNode Id="423769e5-cbc1-42e6-ad4f-b2db9ae5247c" Title="InstallerService Class" Url="html/ade3d81a-f6c2-e0e5-bc9a-847e17ff3522.htm">
+        <HelpTOCNode Title="InstallerService Members" Url="html/fe460669-fb22-6294-7a59-462f9f892240.htm" />
+        <HelpTOCNode Title="InstallerService Constructor " Url="html/8c8e7d92-b19f-57a6-cff3-3a264994e642.htm" />
+        <HelpTOCNode Id="7ef3f00b-48a1-4c21-b052-f040845ecad0" Title="InstallerService Methods" Url="html/c4b7ca1e-213a-c9e3-65c2-28183511c84a.htm">
+          <HelpTOCNode Title="OnAfterUninstall Method " Url="html/e2513402-03e6-e8ac-856c-b7a399884a22.htm" />
+          <HelpTOCNode Title="OnCommitted Method " Url="html/747b1cd1-6608-5873-eae4-e206c7e351f3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="InstallerService Properties" Url="html/9787014d-4880-d0b2-1d7c-79da878d6b79.htm" />
+        <HelpTOCNode Title="InstallerService Events" Url="html/a7251343-ffe0-9a54-2e30-bdcefdf2c067.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

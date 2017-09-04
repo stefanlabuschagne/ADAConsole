@@ -1,0 +1,5 @@
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Build\FTPService.exe
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Build\FTPService.pdb
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Service\obj\Debug\ResolveAssemblyReference.cache
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Service\obj\Debug\FTPService.exe
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Service\obj\Debug\FTPService.pdb

@@ -1,0 +1,8 @@
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\PropertyGrids\howto_net_collection_type_converter\bin\howto_net_collection_type_converter.exe
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\PropertyGrids\howto_net_collection_type_converter\bin\howto_net_collection_type_converter.pdb
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\PropertyGrids\howto_net_collection_type_converter\bin\howto_net_collection_type_converter.xml
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\PropertyGrids\howto_net_collection_type_converter\obj\Debug\howto_net_collection_type_converter.Form1.resources
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\PropertyGrids\howto_net_collection_type_converter\obj\Debug\howto_net_collection_type_converter.vbproj.GenerateResource.Cache
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\PropertyGrids\howto_net_collection_type_converter\obj\Debug\howto_net_collection_type_converter.exe
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\PropertyGrids\howto_net_collection_type_converter\obj\Debug\howto_net_collection_type_converter.xml
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\PropertyGrids\howto_net_collection_type_converter\obj\Debug\howto_net_collection_type_converter.pdb

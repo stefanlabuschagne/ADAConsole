@@ -1,0 +1,248 @@
+.MainMenuItemTop
+{
+	font-family: Verdana;
+	font-size: 14px;
+	text-decoration: none;
+	color: #000000;
+	
+	font-weight: bold;
+	vertical-align: middle;
+	text-align: center;
+	height: 21px;
+}
+.preloadImages 
+{ 
+    top: -1000px;
+    left: -1000px;
+    width: 0px; 
+    height: 0px; 
+    display: inline; 
+    background-image: url("~/Images/bg.png");
+    background-image: url("~/images/GreenDivider.jpg");
+    background-image: url("~/Images/ReferralsHelp.jpg");
+    background-image: url("~/Images/recommend me.png");
+}
+h1
+{
+    font-family: Tahoma;
+    font-size: 10px;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(0, 153, 51);
+    line-height: 10px;
+    vertical-align: middle;
+    text-align: center;
+    letter-spacing: 2px;
+	height: 13px;
+	width: 713px;
+}
+h2
+{
+	font-family: 'Arial Rounded MT Bold';
+	font-size: 24px;
+	color: rgb(0, 153, 51);
+	font-weight: bold;
+	font-style: normal;
+	line-height: 21px;
+	height: 24px;
+	text-align: center;
+}
+.content1
+{
+    font-family: Verdana;
+    font-size: 15px;
+    font-weight: bold;
+    color: #000000;
+    line-height: 20px;
+    text-align: left;
+    vertical-align:middle;
+    /*width: 318px;*/
+    list-style-image:url('images/checkmark.gif');
+}
+.MainMiddleSection
+{
+    width: 800px;
+}
+.ArialRoundedMTBold20Grey
+{
+	font-family: 'Arial Rounded MT Bold';
+	font-size: 20px;
+	color: rgb(0, 153, 51);
+	font-weight: bold;
+	font-style: normal;
+	text-align: center;
+}    
+.tdRight {
+    text-align : right;
+    font-family: verdana;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 18px;
+    }
+.tdLeft 
+{
+    text-align :left ;
+    font-family: verdana; 
+    font-size: 10px; 
+    font-weight: bold;
+    line-height: 18px;
+    width: 65%;
+}
+.tdCenter {
+    text-align :center ;
+    font-family: verdana; 
+    font-size: 10px; 
+    font-weight: bold;
+    line-height: 18px;
+}
+html 
+{
+    height: 98%;
+    margin-bottom: 1px;
+}
+
+body
+{
+	font-family: Verdana, Tahoma, Arial, sans-serif;
+	line-height: 1.3em;
+	margin: 0;
+	padding: 0;
+	font-size: 11px;
+	background: #a6a7a9 url("/images/bg.png") repeat-x top left;
+}
+.DarkGreyBulletCenter 
+{
+	color: rgb(51, 51, 51);
+	font-size: 16px;
+	font-family: 'Arial Rounded MT Bold';
+	font-weight: lighter;
+	font-style: normal;
+	text-align: center;
+}
+.NormalLeftVerdana
+{
+	font-family: Verdana;
+	font-size: 13px;
+	font-weight: normal;
+	color: #666666;
+	text-align: left;
+	line-height: 25px;
+}
+.NormalVerdana
+{
+	font-family: Verdana;
+	font-size: 13px;
+	font-weight: normal;
+	color: #666666;
+	text-align: center;
+	line-height: 25px;
+}
+.NormalVerdanaCenter
+{
+	font-family: Verdana;
+	font-size: 13px;
+	font-weight: normal;
+	font-style: normal;
+	color: #666666;
+	text-align: center;
+}
+.GreenVerdanaBoldCenter
+{
+	font-family: Verdana;
+	font-size: 15px;
+	font-weight: bold;
+	font-style: normal;
+	color: rgb(0, 153, 51);
+	text-align: center;
+}
+.BlackVerdanaBoldLeftBullet
+{
+	font-family: Verdana;
+	font-size: 13px;
+	font-weight: bold;
+	font-style: normal;
+	color: #666666;
+	text-align: left;
+	list-style-type: square;
+	list-style-image: inherit;
+	line-height: 25px;
+}
+.ValidatorRED
+{
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: bold;
+	color: rgb(255, 0, 0);
+}
+.ValidatorBLUE
+{
+    font-family: Verdana;
+    font-size: 12px;
+    font-weight: bold;
+    color: #0000FF;
+}
+.HR1Grey
+{
+	width: 80%;
+	height: 1px;
+	color: #C0C0C0;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #C0C0C0;
+}
+.ContentPlaceHolder
+{
+    font-family: Verdana;
+    font-size: 10px;
+    font-weight: normal;
+    vertical-align: top;
+    text-align: center;
+    width: 98%;
+    height: auto;
+}
+A:link
+{
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+}
+A:visited
+{
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+}
+A:active
+{
+	cursor: Hand;
+	color: #FFFFFF;
+	background-color: #66FF66;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	vertical-align: middle;
+}
+A:hover
+{
+	cursor: Hand;
+	color: #FFFFFF;
+	background-color: #66FF66;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	vertical-align: middle;
+}
+td a:link
+{
+	display: block;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+td a:hover
+{
+	background-position: #99FF33;
+	background: #66FF66;
+	color: rgb(0, 153, 51);
+}

@@ -1,0 +1,21 @@
+"ID","PersalNr","Province","Dept","Title","Firstname","Surname","Responsibility","Rank","TelB","Fax","Cell","EMail","HR","FIN","LOGIS","GFS","DPSA","Notes","Done","Reset","Created","Exported","DownloadedBy"
+"27610","13038010","gau","gau_din","Ms","Johan","Vermeulen","Financials","","(012) 6574316","(012) 6574316","(082) 7810415","No","No","No","No","No","TESTING CFO APPLICATION","3","True",2011-11-01T09:45:22,1900-01-01T00:00:00,""
+"27876","P63225875","","","Mr","Calvin Dumisani","Zuma","Financials","07","(031) 9057871","","(078) 2907605","zumad@webmail.co.za","No","No","No","No","No","","3","True",2011-11-17T12:42:44,1900-01-01T00:00:00,""
+"420","T0005221","kzn","kzn_trans","Mr","Test Name","Test Surname","","Consultant","(012) 6574316","None","(082) 7810415","Yes","Yes","Yes","No","No","","3","True",2006-03-08T14:15:28,2008-07-04T08:34:36,"Thompson Mojalefa"
+"422","T0005221","nat","socgr","Mr","Johan","Vemeulen","","Cons","(011) 6574316","(011) 6574316","(082) 7661297","Yes","Yes","Yes","No","No","as","3","False",2006-03-09T10:56:01,2006-11-01T11:11:46,"Johan Vermeulen"
+"4597","T0005221","","","Mr","Johan","Vermeulen","","Consultant","(012) 6574316","None","(082) 7810415","No","No","No","No","No","It Works","3","True",2006-11-20T15:36:25,2008-07-04T08:34:36,"Thompson Mojalefa"
+"4603","T0005221","","","Mr","Johan","Vermeulen","","Koos","(012) 6574316","(012) 6574316","(082) 7810415","No","No","No","No","No","Koos","3","False",2006-11-21T09:45:07,2008-07-04T08:34:37,"Thompson Mojalefa"
+"4624","T0005221","nat","cip","Mr","Johan","Vermeulen","","Other","(012) 6574316","(012) 6574316","(012) 6574316","omnus@mweb.co.za","Yes","Yes","Yes","No","No","TEST PLEASE LEAVE ALONE","3","False",2006-11-22T12:14:34,2008-07-04T08:34:37,"Thompson Mojalefa"
+"8177","T0005221","nat","ntrea","Mr","Johan","Vermeulen","Financials","01","(012) 6574316","na","na","Yes","Yes","No","No","No","Test","3","False",2007-12-14T11:37:32,2007-12-14T11:41:26,"Tasneem Omarjee"
+"9192","13038010","","","Ms","elmari","de Witt","Other","12","(012) 6574045","(012) 6574020","(082) 8090763","elmari.dewitt@treasury.gov.za","No","No","No","No","No","Forgot password, please reset","3","False",2008-04-10T14:30:22,2008-04-10T14:39:58,"Thompson Mojalefa"
+"9243","13038010","","","Ms","elmari","de witt","Other","12","(012) 6574045","(012) 6574020","(082) 8090673","elmari.dewitt@treasury.gov.za","No","No","No","No","No","RSA level access - password forgotten sorry!","3","False",2008-04-15T14:57:26,2008-04-15T15:11:05,"Tasneem Omarjee"
+"10113","T0005221","","","Mr","Johan","Vermeulen","Financials","01","1212-1212122","1212","121122222","omnu@.caasaaaa","No","No","No","No","No","dddd","3","False",2008-07-09T13:39:25,1901-01-01T00:00:00,""
+"10632","T0005221","nat","ntrea","Mr","Johan ","Vermeulen","Financials","01","(012) 6574316","(012) 6574555","(012) 6574316","No","5","No","No","No","Notes ","3","False",2008-08-19T14:08:35,1901-01-01T00:00:00,""
+"17718","13038010","wcp","wcp_fin","Ms","Elmari","de witt","Human Resource","","(012) 6574334","(012) 6574555","(082) 7745698","ronel.ilsley@treasury.gov.za","No","No","No","No","No","Test CFO Application. Approve this one please Ralton.","3","False",2009-09-09T14:41:55,1900-01-01T00:00:00,""
+"17764","13038010","nat","ntrea","Ms","Elmari","de Witt","Financials","","(012) 6574444","","(082) 8090673","elmari.dewitt@treasury.gov.za","No","No","No","No","No","TEST
+Want access to aal","3","False",2009-09-11T14:01:55,1900-01-01T00:00:00,""
+"17926","13038010","nat","ntrea","Ms","Elmari","de Witt","Financials","","(012) 6574334","(012) 6574444","(082) 3569853","ronel.ilsley@treasury.gov.za","No","No","No","No","No","Test CFO Application","3","False",2009-09-21T13:29:31,1900-01-01T00:00:00,""
+"17956","13038010","nat","ntrea","Ms","Elmari","de Witt","Financials","","(012) 6574444","(012) 6574444","(082) 1145698","ronel.ilsley@treasury.gov.za","No","No","No","No","No","Test CFO","3","False",2009-09-22T10:05:40,1900-01-01T00:00:00,""
+"19056","13038010","nat","ntrea","Ms","Elmari","De Witt","Financials","","(012) 6574046","(012) 5574555","(082) 8090673","elmari.dewitt@treasury.gov.za","No","No","No","No","No","THIS IS A TEST.
+
+","3","False",2010-01-04T10:08:57,1900-01-01T00:00:00,""

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MycroXaml Name="Form"
+		xmlns:wf="System.Windows.Forms, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+		xmlns:mc="MycroXaml.MxContainer, MycroXaml.MxContainer">
+
+	<wf:Form Name="AppMainForm" StartPosition="CenterScreen" ClientSize="600, 400" Text="Declarative Property Grid Demo">
+	
+		<mc:MxContainer Name="Container" DefaultProperty="OutputDirectory">
+			<mc:MxEnumerations>
+				<mc:MxEnum Name="MyEnum" Values="Executable, Library, Console"/>
+			</mc:MxEnumerations>
+			<mc:MxProperties>
+				<mc:MxProperty Name="Font" Type="Font"
+					Category="Editor" Description="The text editor font." InitialValue="new Font(&quot;MS Sans Serif&quot;, 10)"/>
+
+				<mc:MxProperty Name="Color" Type="Color" InitialValue="Color.Green"
+					Category="Editor" Description="The text editor color."/>
+
+				<mc:MxProperty Name="OutputDirectory" Type="string" InitialValue="&quot;c:\\test&quot;" DefaultValue="&quot;c:\\test&quot;"
+					Category="Project Settings" Description="Output directory." OnValueChanged="OnOutputDirectoryChanged"/>
+					
+				<mc:MxProperty Name="Exclude" Type="bool"
+					Category="Project Settings" Description="Exclude this project from the build." InitialValue="true" DefaultValue="true"/>
+
+				<mc:MxProperty Name="OutputType" Type="MyEnum" Category="Project Settings" Description="Project output type." DefaultValue="MyEnum.Executable"/>
+
+				<mc:MxProperty Name="CreatedOn" Type="DateTime" InitialValue="DateTime.Today" ReadOnly="true"
+					Category="Project Information" Description="Project start date."/>
+
+				<mc:MxProperty Name="LastModifiedOn" Type="DateTime" InitialValue="DateTime.Today" ReadOnly="true"
+					Category="Project Information" Description="Project last changed date."/>
+					
+			</mc:MxProperties>
+		</mc:MxContainer>
+	
+		<wf:Controls>
+			<wf:PropertyGrid Name="PropertyGrid" Dock="Fill" SelectedObject="{Container}" HelpBackColor="LightSteelBlue"/>
+			<wf:TextBox Name="TextBox" Dock="Left" Text="Foobar" Multiline="true" Width="300" BorderStyle="Fixed3D">
+				<wf:DataBindings>
+					<!-- This markup is slightly different from MyXaml, as the data source here is using the {} tags -->
+					<mc:DataBinding PropertyName="ForeColor" DataSource="{Container}" DataMember="Color"/>
+					<mc:DataBinding PropertyName="Font" DataSource="{Container}" DataMember="Font"/>
+				</wf:DataBindings>
+			</wf:TextBox>
+			<wf:Panel Dock="Top" Height="40">
+				<wf:Controls>
+					<wf:Button Text="Serialize" Location="10, 10" Size="80, 25" FlatStyle="System" Click="OnSerialize"/>
+					<wf:Button Text="Deserialize" Location="100, 10" Size="80, 25" FlatStyle="System" Click="OnDeserialize"/>
+				</wf:Controls>
+			</wf:Panel>
+		</wf:Controls>
+	</wf:Form>        	
+</MycroXaml>
+

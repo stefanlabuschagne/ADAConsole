@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LibFTPServ.FTP.FTPLogEventArgs">
+    <Position X="11.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAQBDAAACABEAAAgAAAARAAAAABAAAA=</HashCode>
+      <FileName>FTP\EventHandlers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibFTPServ.FTP.FTPServer">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYAggiQEECACAkoAAAACQAAYKAACAAAAJAAgCAABIgA=</HashCode>
+      <FileName>FTP\FTPServer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibFTPServ.FTP.FTPSession">
+    <Position X="2.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQIAAzA4BABwwJARCLAgMAIQAARYACAAEQAAPAAEgI=</HashCode>
+      <FileName>FTP\FTPSession.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibFTPServ.FTP.UserManager">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEEAAAAAAAAAAAAACAAAAAQAAAAAAIAgAAABAAAAAAA=</HashCode>
+      <FileName>FTP\UserManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibFTPServ.FTP.FTPUser">
+    <Position X="5.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAgAAAQAAAAAAAAAEAAAAAAAABA=</HashCode>
+      <FileName>FTP\Types.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibFTPServ.FTP.FTPListItem">
+    <Position X="4" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAEAAAAAAQAAAAAAAABAAAAAAAAAAI=</HashCode>
+      <FileName>FTP\Types.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibFTPServ.FTP.FTPUserPermission">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABIAAAAAAAAgAAAEAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>FTP\Types.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="LibFTPServ.FTP.FTPLogEventType">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAgQAAAIACAACBAATEYAAABAAQQAAAAUAEIQAAAgAA=</HashCode>
+      <FileName>FTP\EventHandlers.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="LibFTPServ.FTP.FTPLogEventHandler">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FTP\EventHandlers.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

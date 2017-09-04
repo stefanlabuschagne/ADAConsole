@@ -1,0 +1,466 @@
+C:\Users\vul2229\Desktop\Ad project\PRD Release\BAS_Detail\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\activeds.tlb
+C:\Users\vul2229\Desktop\Ad project\PRD Release\BAS_Detail\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\ADAdminConsole.exe.config
+C:\Users\vul2229\Desktop\Ad project\PRD Release\BAS_Detail\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\ADAdminConsole.exe
+C:\Users\vul2229\Desktop\Ad project\PRD Release\BAS_Detail\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\ADAdminConsole.pdb
+C:\Users\vul2229\Desktop\Ad project\PRD Release\BAS_Detail\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\Interop.ActiveDs.dll
+C:\Users\vul2229\Desktop\Ad project\PRD Release\BAS_Detail\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\Invoker.dll
+C:\Users\vul2229\Desktop\Ad project\PRD Release\BAS_Detail\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\vul2229\Desktop\Ad project\PRD Release\BAS_Detail\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\vul2229\Desktop\Ad project\PRD Release\BAS_Detail\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmAD_create_new_shortcode.resources
+C:\Users\vul2229\Desktop\Ad project\PRD Release\BAS_Detail\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmCFOTable.resources
+C:\Users\vul2229\Desktop\Ad project\PRD Release\BAS_Detail\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmConfigProblem.resources
+C:\Users\vul2229\Desktop\Ad project\PRD Release\BAS_Detail\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmControllers.resources
+C:\Users\vul2229\Desktop\Ad project\PRD Release\BAS_Detail\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmDeptDiffers.resources
+C:\Users\vul2229\Desktop\Ad project\PRD Release\BAS_Detail\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmEstablishment.resources
+C:\Users\vul2229\Desktop\Ad project\PRD Release\BAS_Detail\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmInfoRequired.resources
+C:\Users\vul2229\Desktop\Ad project\PRD Release\BAS_Detail\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmKodeer.resources
+C:\Users\vul2229\Desktop\Ad project\PRD Release\BAS_Detail\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmMain.resources
+C:\Users\vul2229\Desktop\Ad project\PRD Release\BAS_Detail\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmNewUsers.resources
+C:\Users\vul2229\Desktop\Ad project\PRD Release\BAS_Detail\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmOpenRequests.resources
+C:\Users\vul2229\Desktop\Ad project\PRD Release\BAS_Detail\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmOptionsDialog.resources
+C:\Users\vul2229\Desktop\Ad project\PRD Release\BAS_Detail\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmReferrals.resources
+C:\Users\vul2229\Desktop\Ad project\PRD Release\BAS_Detail\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmRemedyBySurname.resources
+C:\Users\vul2229\Desktop\Ad project\PRD Release\BAS_Detail\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmRequestTracking.resources
+C:\Users\vul2229\Desktop\Ad project\PRD Release\BAS_Detail\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmResetPassword.resources
+C:\Users\vul2229\Desktop\Ad project\PRD Release\BAS_Detail\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmEnvironment.resources
+C:\Users\vul2229\Desktop\Ad project\PRD Release\BAS_Detail\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmStats.resources
+C:\Users\vul2229\Desktop\Ad project\PRD Release\BAS_Detail\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmTempCFOList.resources
+C:\Users\vul2229\Desktop\Ad project\PRD Release\BAS_Detail\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmUsersNotOnEstab.resources
+C:\Users\vul2229\Desktop\Ad project\PRD Release\BAS_Detail\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmVariationList.resources
+C:\Users\vul2229\Desktop\Ad project\PRD Release\BAS_Detail\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmVPNadmins.resources
+C:\Users\vul2229\Desktop\Ad project\PRD Release\BAS_Detail\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmVulExceptions.resources
+C:\Users\vul2229\Desktop\Ad project\PRD Release\BAS_Detail\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmWebBrowser.resources
+C:\Users\vul2229\Desktop\Ad project\PRD Release\BAS_Detail\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmWebRequest.resources
+C:\Users\vul2229\Desktop\Ad project\PRD Release\BAS_Detail\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.SplashScreen.resources
+C:\Users\vul2229\Desktop\Ad project\PRD Release\BAS_Detail\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.Resources.resources
+C:\Users\vul2229\Desktop\Ad project\PRD Release\BAS_Detail\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminConsole.vbproj.GenerateResource.Cache
+C:\Users\vul2229\Desktop\Ad project\PRD Release\BAS_Detail\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminConsole.exe
+C:\Users\vul2229\Desktop\Ad project\PRD Release\BAS_Detail\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminConsole.pdb
+C:\Users\vul2229\Desktop\Ad project\PRD Release\BAS_Detail\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminConsole.vbprojResolveAssemblyReference.cache
+C:\Users\vul2229\Desktop\ad urls\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\activeds.tlb
+C:\Users\vul2229\Desktop\ad urls\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\ADAdminConsole.exe.config
+C:\Users\vul2229\Desktop\ad urls\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\ADAdminConsole.exe
+C:\Users\vul2229\Desktop\ad urls\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\ADAdminConsole.pdb
+C:\Users\vul2229\Desktop\ad urls\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\Interop.ActiveDs.dll
+C:\Users\vul2229\Desktop\ad urls\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\Invoker.dll
+C:\Users\vul2229\Desktop\ad urls\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\vul2229\Desktop\ad urls\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\vul2229\Desktop\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminConsole.vbprojResolveAssemblyReference.cache
+C:\Users\vul2229\Desktop\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmAD_create_new_shortcode.resources
+C:\Users\vul2229\Desktop\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmCFOTable.resources
+C:\Users\vul2229\Desktop\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmConfigProblem.resources
+C:\Users\vul2229\Desktop\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmControllers.resources
+C:\Users\vul2229\Desktop\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmDeptDiffers.resources
+C:\Users\vul2229\Desktop\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmEstablishment.resources
+C:\Users\vul2229\Desktop\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmInfoRequired.resources
+C:\Users\vul2229\Desktop\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmKodeer.resources
+C:\Users\vul2229\Desktop\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmMain.resources
+C:\Users\vul2229\Desktop\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmNewUsers.resources
+C:\Users\vul2229\Desktop\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmOpenRequests.resources
+C:\Users\vul2229\Desktop\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmOptionsDialog.resources
+C:\Users\vul2229\Desktop\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmReferrals.resources
+C:\Users\vul2229\Desktop\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmRemedyBySurname.resources
+C:\Users\vul2229\Desktop\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmRequestTracking.resources
+C:\Users\vul2229\Desktop\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmResetPassword.resources
+C:\Users\vul2229\Desktop\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmEnvironment.resources
+C:\Users\vul2229\Desktop\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmStats.resources
+C:\Users\vul2229\Desktop\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmTempCFOList.resources
+C:\Users\vul2229\Desktop\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmUsersNotOnEstab.resources
+C:\Users\vul2229\Desktop\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmVariationList.resources
+C:\Users\vul2229\Desktop\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmVPNadmins.resources
+C:\Users\vul2229\Desktop\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmVulExceptions.resources
+C:\Users\vul2229\Desktop\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmWebBrowser.resources
+C:\Users\vul2229\Desktop\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmWebRequest.resources
+C:\Users\vul2229\Desktop\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.SplashScreen.resources
+C:\Users\vul2229\Desktop\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.Resources.resources
+C:\Users\vul2229\Desktop\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminConsole.vbproj.GenerateResource.Cache
+C:\Users\vul2229\Desktop\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminConsole.exe
+C:\Users\vul2229\Desktop\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminConsole.pdb
+C:\Users\vul2229\Desktop\Stuff\Work\AD\Console\ad urls\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\activeds.tlb
+C:\Users\vul2229\Desktop\Stuff\Work\AD\Console\ad urls\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\ADAdminConsole.exe.config
+C:\Users\vul2229\Desktop\Stuff\Work\AD\Console\ad urls\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\ADAdminConsole.exe
+C:\Users\vul2229\Desktop\Stuff\Work\AD\Console\ad urls\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\ADAdminConsole.pdb
+C:\Users\vul2229\Desktop\Stuff\Work\AD\Console\ad urls\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\Interop.ActiveDs.dll
+C:\Users\vul2229\Desktop\Stuff\Work\AD\Console\ad urls\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\Invoker.dll
+C:\Users\vul2229\Desktop\Stuff\Work\AD\Console\ad urls\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\vul2229\Desktop\Stuff\Work\AD\Console\ad urls\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\vul2229\Desktop\Stuff\Work\AD\Console\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminConsole.vbprojResolveAssemblyReference.cache
+C:\Users\vul2229\Desktop\Stuff\Work\AD\Console\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmAD_create_new_shortcode.resources
+C:\Users\vul2229\Desktop\Stuff\Work\AD\Console\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmCFOTable.resources
+C:\Users\vul2229\Desktop\Stuff\Work\AD\Console\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmConfigProblem.resources
+C:\Users\vul2229\Desktop\Stuff\Work\AD\Console\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmControllers.resources
+C:\Users\vul2229\Desktop\Stuff\Work\AD\Console\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmDeptDiffers.resources
+C:\Users\vul2229\Desktop\Stuff\Work\AD\Console\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmEstablishment.resources
+C:\Users\vul2229\Desktop\Stuff\Work\AD\Console\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmInfoRequired.resources
+C:\Users\vul2229\Desktop\Stuff\Work\AD\Console\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmKodeer.resources
+C:\Users\vul2229\Desktop\Stuff\Work\AD\Console\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmMain.resources
+C:\Users\vul2229\Desktop\Stuff\Work\AD\Console\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmNewUsers.resources
+C:\Users\vul2229\Desktop\Stuff\Work\AD\Console\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmOpenRequests.resources
+C:\Users\vul2229\Desktop\Stuff\Work\AD\Console\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmOptionsDialog.resources
+C:\Users\vul2229\Desktop\Stuff\Work\AD\Console\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmReferrals.resources
+C:\Users\vul2229\Desktop\Stuff\Work\AD\Console\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmRemedyBySurname.resources
+C:\Users\vul2229\Desktop\Stuff\Work\AD\Console\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmRequestTracking.resources
+C:\Users\vul2229\Desktop\Stuff\Work\AD\Console\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmResetPassword.resources
+C:\Users\vul2229\Desktop\Stuff\Work\AD\Console\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmEnvironment.resources
+C:\Users\vul2229\Desktop\Stuff\Work\AD\Console\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmStats.resources
+C:\Users\vul2229\Desktop\Stuff\Work\AD\Console\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmTempCFOList.resources
+C:\Users\vul2229\Desktop\Stuff\Work\AD\Console\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmUsersNotOnEstab.resources
+C:\Users\vul2229\Desktop\Stuff\Work\AD\Console\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmVariationList.resources
+C:\Users\vul2229\Desktop\Stuff\Work\AD\Console\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmVPNadmins.resources
+C:\Users\vul2229\Desktop\Stuff\Work\AD\Console\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmVulExceptions.resources
+C:\Users\vul2229\Desktop\Stuff\Work\AD\Console\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmWebBrowser.resources
+C:\Users\vul2229\Desktop\Stuff\Work\AD\Console\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmWebRequest.resources
+C:\Users\vul2229\Desktop\Stuff\Work\AD\Console\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.SplashScreen.resources
+C:\Users\vul2229\Desktop\Stuff\Work\AD\Console\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.Resources.resources
+C:\Users\vul2229\Desktop\Stuff\Work\AD\Console\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminConsole.vbproj.GenerateResource.Cache
+C:\Users\vul2229\Desktop\Stuff\Work\AD\Console\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminConsole.exe
+C:\Users\vul2229\Desktop\Stuff\Work\AD\Console\ad urls\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminConsole.pdb
+C:\Users\vul2229\Desktop\test\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\activeds.tlb
+C:\Users\vul2229\Desktop\test\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\ADAdminConsole.exe.config
+C:\Users\vul2229\Desktop\test\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\ADAdminConsole.exe
+C:\Users\vul2229\Desktop\test\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\ADAdminConsole.pdb
+C:\Users\vul2229\Desktop\test\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\Interop.ActiveDs.dll
+C:\Users\vul2229\Desktop\test\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\Invoker.dll
+C:\Users\vul2229\Desktop\test\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\vul2229\Desktop\test\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\vul2229\Desktop\test\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminConsole.vbprojResolveAssemblyReference.cache
+C:\Users\vul2229\Desktop\test\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmAD_create_new_shortcode.resources
+C:\Users\vul2229\Desktop\test\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmCFOTable.resources
+C:\Users\vul2229\Desktop\test\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmConfigProblem.resources
+C:\Users\vul2229\Desktop\test\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmControllers.resources
+C:\Users\vul2229\Desktop\test\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmDeptDiffers.resources
+C:\Users\vul2229\Desktop\test\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmEstablishment.resources
+C:\Users\vul2229\Desktop\test\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmInfoRequired.resources
+C:\Users\vul2229\Desktop\test\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmKodeer.resources
+C:\Users\vul2229\Desktop\test\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmMain.resources
+C:\Users\vul2229\Desktop\test\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmNewUsers.resources
+C:\Users\vul2229\Desktop\test\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmOpenRequests.resources
+C:\Users\vul2229\Desktop\test\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmOptionsDialog.resources
+C:\Users\vul2229\Desktop\test\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmReferrals.resources
+C:\Users\vul2229\Desktop\test\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmRemedyBySurname.resources
+C:\Users\vul2229\Desktop\test\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmRequestTracking.resources
+C:\Users\vul2229\Desktop\test\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmResetPassword.resources
+C:\Users\vul2229\Desktop\test\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmEnvironment.resources
+C:\Users\vul2229\Desktop\test\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmStats.resources
+C:\Users\vul2229\Desktop\test\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmTempCFOList.resources
+C:\Users\vul2229\Desktop\test\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmUsersNotOnEstab.resources
+C:\Users\vul2229\Desktop\test\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmVariationList.resources
+C:\Users\vul2229\Desktop\test\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmVPNadmins.resources
+C:\Users\vul2229\Desktop\test\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmVulExceptions.resources
+C:\Users\vul2229\Desktop\test\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmWebBrowser.resources
+C:\Users\vul2229\Desktop\test\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmWebRequest.resources
+C:\Users\vul2229\Desktop\test\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.SplashScreen.resources
+C:\Users\vul2229\Desktop\test\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.Resources.resources
+C:\Users\vul2229\Desktop\test\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminConsole.vbproj.GenerateResource.Cache
+C:\Users\vul2229\Desktop\test\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminConsole.exe
+C:\Users\vul2229\Desktop\test\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminConsole.pdb
+C:\Users\vul2229\Desktop\final\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\ADAdminConsole.exe
+C:\Users\vul2229\Desktop\final\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\activeds.tlb
+C:\Users\vul2229\Desktop\final\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\ADAdminConsole.exe.config
+C:\Users\vul2229\Desktop\final\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\Interop.ActiveDs.dll
+C:\Users\vul2229\Desktop\final\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\Invoker.dll
+C:\Users\vul2229\Desktop\final\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\vul2229\Desktop\final\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\vul2229\Desktop\final\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmAD_create_new_shortcode.resources
+C:\Users\vul2229\Desktop\final\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmCFOTable.resources
+C:\Users\vul2229\Desktop\final\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmConfigProblem.resources
+C:\Users\vul2229\Desktop\final\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmControllers.resources
+C:\Users\vul2229\Desktop\final\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmDeptDiffers.resources
+C:\Users\vul2229\Desktop\final\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmEstablishment.resources
+C:\Users\vul2229\Desktop\final\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmInfoRequired.resources
+C:\Users\vul2229\Desktop\final\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmKodeer.resources
+C:\Users\vul2229\Desktop\final\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmMain.resources
+C:\Users\vul2229\Desktop\final\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmNewUsers.resources
+C:\Users\vul2229\Desktop\final\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmOpenRequests.resources
+C:\Users\vul2229\Desktop\final\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmOptionsDialog.resources
+C:\Users\vul2229\Desktop\final\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmReferrals.resources
+C:\Users\vul2229\Desktop\final\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmRemedyBySurname.resources
+C:\Users\vul2229\Desktop\final\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmRequestTracking.resources
+C:\Users\vul2229\Desktop\final\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmResetPassword.resources
+C:\Users\vul2229\Desktop\final\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmEnvironment.resources
+C:\Users\vul2229\Desktop\final\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmStats.resources
+C:\Users\vul2229\Desktop\final\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmTempCFOList.resources
+C:\Users\vul2229\Desktop\final\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmUsersNotOnEstab.resources
+C:\Users\vul2229\Desktop\final\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmVariationList.resources
+C:\Users\vul2229\Desktop\final\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmVPNadmins.resources
+C:\Users\vul2229\Desktop\final\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmVulExceptions.resources
+C:\Users\vul2229\Desktop\final\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmWebBrowser.resources
+C:\Users\vul2229\Desktop\final\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmWebRequest.resources
+C:\Users\vul2229\Desktop\final\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.SplashScreen.resources
+C:\Users\vul2229\Desktop\final\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.Resources.resources
+C:\Users\vul2229\Desktop\final\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminConsole.vbproj.GenerateResource.Cache
+C:\Users\vul2229\Desktop\final\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminConsole.exe
+C:\Users\vul2229\Desktop\final\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminConsole.pdb
+C:\Users\vul2229\Desktop\final\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\ADAdminConsole.pdb
+C:\Users\vul2229\Desktop\final\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminConsole.vbprojResolveAssemblyReference.cache
+C:\Users\vul2229\Desktop\Rollback\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\activeds.tlb
+C:\Users\vul2229\Desktop\Rollback\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\ADAdminConsole.exe.config
+C:\Users\vul2229\Desktop\Rollback\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\ADAdminConsole.exe
+C:\Users\vul2229\Desktop\Rollback\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\ADAdminConsole.pdb
+C:\Users\vul2229\Desktop\Rollback\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\Interop.ActiveDs.dll
+C:\Users\vul2229\Desktop\Rollback\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\Invoker.dll
+C:\Users\vul2229\Desktop\Rollback\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\vul2229\Desktop\Rollback\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\vul2229\Desktop\Rollback\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminConsole.vbprojResolveAssemblyReference.cache
+C:\Users\vul2229\Desktop\Rollback\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmAD_create_new_shortcode.resources
+C:\Users\vul2229\Desktop\Rollback\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmCFOTable.resources
+C:\Users\vul2229\Desktop\Rollback\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmConfigProblem.resources
+C:\Users\vul2229\Desktop\Rollback\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmControllers.resources
+C:\Users\vul2229\Desktop\Rollback\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmDeptDiffers.resources
+C:\Users\vul2229\Desktop\Rollback\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmEstablishment.resources
+C:\Users\vul2229\Desktop\Rollback\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmInfoRequired.resources
+C:\Users\vul2229\Desktop\Rollback\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmKodeer.resources
+C:\Users\vul2229\Desktop\Rollback\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmMain.resources
+C:\Users\vul2229\Desktop\Rollback\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmNewUsers.resources
+C:\Users\vul2229\Desktop\Rollback\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmOpenRequests.resources
+C:\Users\vul2229\Desktop\Rollback\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmOptionsDialog.resources
+C:\Users\vul2229\Desktop\Rollback\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmReferrals.resources
+C:\Users\vul2229\Desktop\Rollback\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmRemedyBySurname.resources
+C:\Users\vul2229\Desktop\Rollback\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmRequestTracking.resources
+C:\Users\vul2229\Desktop\Rollback\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmResetPassword.resources
+C:\Users\vul2229\Desktop\Rollback\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmEnvironment.resources
+C:\Users\vul2229\Desktop\Rollback\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmStats.resources
+C:\Users\vul2229\Desktop\Rollback\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmTempCFOList.resources
+C:\Users\vul2229\Desktop\Rollback\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmUsersNotOnEstab.resources
+C:\Users\vul2229\Desktop\Rollback\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmVariationList.resources
+C:\Users\vul2229\Desktop\Rollback\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmVPNadmins.resources
+C:\Users\vul2229\Desktop\Rollback\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmVulExceptions.resources
+C:\Users\vul2229\Desktop\Rollback\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmWebBrowser.resources
+C:\Users\vul2229\Desktop\Rollback\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmWebRequest.resources
+C:\Users\vul2229\Desktop\Rollback\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.SplashScreen.resources
+C:\Users\vul2229\Desktop\Rollback\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.Resources.resources
+C:\Users\vul2229\Desktop\Rollback\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminConsole.vbproj.GenerateResource.Cache
+C:\Users\vul2229\Desktop\Rollback\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminConsole.exe
+C:\Users\vul2229\Desktop\Rollback\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminConsole.pdb
+C:\Users\vul2229\Desktop\dev\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\activeds.tlb
+C:\Users\vul2229\Desktop\dev\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\ADAdminConsole.exe.config
+C:\Users\vul2229\Desktop\dev\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\ADAdminConsole.exe
+C:\Users\vul2229\Desktop\dev\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\ADAdminConsole.pdb
+C:\Users\vul2229\Desktop\dev\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\Interop.ActiveDs.dll
+C:\Users\vul2229\Desktop\dev\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\Invoker.dll
+C:\Users\vul2229\Desktop\dev\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\vul2229\Desktop\dev\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\vul2229\Desktop\dev\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmAD_create_new_shortcode.resources
+C:\Users\vul2229\Desktop\dev\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmCFOTable.resources
+C:\Users\vul2229\Desktop\dev\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmConfigProblem.resources
+C:\Users\vul2229\Desktop\dev\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmControllers.resources
+C:\Users\vul2229\Desktop\dev\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmDeptDiffers.resources
+C:\Users\vul2229\Desktop\dev\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmEstablishment.resources
+C:\Users\vul2229\Desktop\dev\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmInfoRequired.resources
+C:\Users\vul2229\Desktop\dev\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmKodeer.resources
+C:\Users\vul2229\Desktop\dev\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmMain.resources
+C:\Users\vul2229\Desktop\dev\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmNewUsers.resources
+C:\Users\vul2229\Desktop\dev\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmOpenRequests.resources
+C:\Users\vul2229\Desktop\dev\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmOptionsDialog.resources
+C:\Users\vul2229\Desktop\dev\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmReferrals.resources
+C:\Users\vul2229\Desktop\dev\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmRemedyBySurname.resources
+C:\Users\vul2229\Desktop\dev\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmRequestTracking.resources
+C:\Users\vul2229\Desktop\dev\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmResetPassword.resources
+C:\Users\vul2229\Desktop\dev\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmEnvironment.resources
+C:\Users\vul2229\Desktop\dev\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmStats.resources
+C:\Users\vul2229\Desktop\dev\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmTempCFOList.resources
+C:\Users\vul2229\Desktop\dev\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmUsersNotOnEstab.resources
+C:\Users\vul2229\Desktop\dev\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmVariationList.resources
+C:\Users\vul2229\Desktop\dev\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmVPNadmins.resources
+C:\Users\vul2229\Desktop\dev\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmVulExceptions.resources
+C:\Users\vul2229\Desktop\dev\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmWebBrowser.resources
+C:\Users\vul2229\Desktop\dev\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmWebRequest.resources
+C:\Users\vul2229\Desktop\dev\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.SplashScreen.resources
+C:\Users\vul2229\Desktop\dev\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.Resources.resources
+C:\Users\vul2229\Desktop\dev\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminConsole.vbproj.GenerateResource.Cache
+C:\Users\vul2229\Desktop\dev\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminConsole.exe
+C:\Users\vul2229\Desktop\dev\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminConsole.pdb
+C:\Users\vul2229\Desktop\vas\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\activeds.tlb
+C:\Users\vul2229\Desktop\vas\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\ADAdminConsole.exe.config
+C:\Users\vul2229\Desktop\vas\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\ADAdminConsole.exe
+C:\Users\vul2229\Desktop\vas\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\ADAdminConsole.pdb
+C:\Users\vul2229\Desktop\vas\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\Interop.ActiveDs.dll
+C:\Users\vul2229\Desktop\vas\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\Invoker.dll
+C:\Users\vul2229\Desktop\vas\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\vul2229\Desktop\vas\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\vul2229\Desktop\vas\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmAD_create_new_shortcode.resources
+C:\Users\vul2229\Desktop\vas\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmCFOTable.resources
+C:\Users\vul2229\Desktop\vas\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmConfigProblem.resources
+C:\Users\vul2229\Desktop\vas\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmControllers.resources
+C:\Users\vul2229\Desktop\vas\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmDeptDiffers.resources
+C:\Users\vul2229\Desktop\vas\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmEstablishment.resources
+C:\Users\vul2229\Desktop\vas\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmInfoRequired.resources
+C:\Users\vul2229\Desktop\vas\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmKodeer.resources
+C:\Users\vul2229\Desktop\vas\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmMain.resources
+C:\Users\vul2229\Desktop\vas\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmNewUsers.resources
+C:\Users\vul2229\Desktop\vas\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmOpenRequests.resources
+C:\Users\vul2229\Desktop\vas\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmOptionsDialog.resources
+C:\Users\vul2229\Desktop\vas\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmReferrals.resources
+C:\Users\vul2229\Desktop\vas\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmRemedyBySurname.resources
+C:\Users\vul2229\Desktop\vas\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmRequestTracking.resources
+C:\Users\vul2229\Desktop\vas\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmResetPassword.resources
+C:\Users\vul2229\Desktop\vas\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmEnvironment.resources
+C:\Users\vul2229\Desktop\vas\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmStats.resources
+C:\Users\vul2229\Desktop\vas\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmTempCFOList.resources
+C:\Users\vul2229\Desktop\vas\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmUsersNotOnEstab.resources
+C:\Users\vul2229\Desktop\vas\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmVariationList.resources
+C:\Users\vul2229\Desktop\vas\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmVPNadmins.resources
+C:\Users\vul2229\Desktop\vas\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmVulExceptions.resources
+C:\Users\vul2229\Desktop\vas\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmWebBrowser.resources
+C:\Users\vul2229\Desktop\vas\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmWebRequest.resources
+C:\Users\vul2229\Desktop\vas\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.SplashScreen.resources
+C:\Users\vul2229\Desktop\vas\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.Resources.resources
+C:\Users\vul2229\Desktop\vas\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminConsole.vbproj.GenerateResource.Cache
+C:\Users\vul2229\Desktop\vas\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminConsole.exe
+C:\Users\vul2229\Desktop\vas\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminConsole.pdb
+\\cencommon\vul_common\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\activeds.tlb
+\\cencommon\vul_common\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\ADAdminConsole.exe.config
+\\cencommon\vul_common\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\ADAdminConsole.exe
+\\cencommon\vul_common\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\ADAdminConsole.pdb
+\\cencommon\vul_common\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\Interop.ActiveDs.dll
+\\cencommon\vul_common\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\Invoker.dll
+\\cencommon\vul_common\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\Newtonsoft.Json.dll
+\\cencommon\vul_common\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\Newtonsoft.Json.xml
+\\cencommon\vul_common\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminConsole.vbprojResolveAssemblyReference.cache
+\\cencommon\vul_common\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmAD_create_new_shortcode.resources
+\\cencommon\vul_common\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmCFOTable.resources
+\\cencommon\vul_common\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmConfigProblem.resources
+\\cencommon\vul_common\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmControllers.resources
+\\cencommon\vul_common\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmDeptDiffers.resources
+\\cencommon\vul_common\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmEstablishment.resources
+\\cencommon\vul_common\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmInfoRequired.resources
+\\cencommon\vul_common\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmKodeer.resources
+\\cencommon\vul_common\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmMain.resources
+\\cencommon\vul_common\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmNewUsers.resources
+\\cencommon\vul_common\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmOpenRequests.resources
+\\cencommon\vul_common\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmOptionsDialog.resources
+\\cencommon\vul_common\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmReferrals.resources
+\\cencommon\vul_common\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmRemedyBySurname.resources
+\\cencommon\vul_common\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmRequestTracking.resources
+\\cencommon\vul_common\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmResetPassword.resources
+\\cencommon\vul_common\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmEnvironment.resources
+\\cencommon\vul_common\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmStats.resources
+\\cencommon\vul_common\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmTempCFOList.resources
+\\cencommon\vul_common\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmUsersNotOnEstab.resources
+\\cencommon\vul_common\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmVariationList.resources
+\\cencommon\vul_common\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmVPNadmins.resources
+\\cencommon\vul_common\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmVulExceptions.resources
+\\cencommon\vul_common\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmWebBrowser.resources
+\\cencommon\vul_common\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmWebRequest.resources
+\\cencommon\vul_common\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.SplashScreen.resources
+\\cencommon\vul_common\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.Resources.resources
+\\cencommon\vul_common\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminConsole.vbproj.GenerateResource.Cache
+\\cencommon\vul_common\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminConsole.exe
+\\cencommon\vul_common\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminConsole.pdb
+V:\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\activeds.tlb
+V:\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\ADAdminConsole.exe.config
+V:\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\ADAdminConsole.exe
+V:\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\ADAdminConsole.pdb
+V:\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\Interop.ActiveDs.dll
+V:\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\Invoker.dll
+V:\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\Newtonsoft.Json.dll
+V:\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\Newtonsoft.Json.xml
+V:\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminConsole.vbprojResolveAssemblyReference.cache
+V:\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmAD_create_new_shortcode.resources
+V:\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmCFOTable.resources
+V:\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmConfigProblem.resources
+V:\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmControllers.resources
+V:\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmDeptDiffers.resources
+V:\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmEstablishment.resources
+V:\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmInfoRequired.resources
+V:\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmKodeer.resources
+V:\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmMain.resources
+V:\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmNewUsers.resources
+V:\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmOpenRequests.resources
+V:\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmOptionsDialog.resources
+V:\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmReferrals.resources
+V:\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmRemedyBySurname.resources
+V:\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmRequestTracking.resources
+V:\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmResetPassword.resources
+V:\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmEnvironment.resources
+V:\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmStats.resources
+V:\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmTempCFOList.resources
+V:\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmUsersNotOnEstab.resources
+V:\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmVariationList.resources
+V:\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmVPNadmins.resources
+V:\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmVulExceptions.resources
+V:\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmWebBrowser.resources
+V:\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmWebRequest.resources
+V:\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.SplashScreen.resources
+V:\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.Resources.resources
+V:\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminConsole.vbproj.GenerateResource.Cache
+V:\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminConsole.exe
+V:\Project_Team\Xolo\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminConsole.pdb
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\activeds.tlb
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\ADAdminConsole.exe.config
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\ADAdminConsole.exe
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\ADAdminConsole.pdb
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\Interop.ActiveDs.dll
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\Invoker.dll
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2010\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminConsole.vbprojResolveAssemblyReference.cache
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmAD_create_new_shortcode.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmCFOTable.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmConfigProblem.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmControllers.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmDeptDiffers.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmEstablishment.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmInfoRequired.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmKodeer.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmMain.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmNewUsers.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmOpenRequests.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmOptionsDialog.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmReferrals.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmRemedyBySurname.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmRequestTracking.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmResetPassword.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmEnvironment.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmStats.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmTempCFOList.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmUsersNotOnEstab.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmVariationList.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmVPNadmins.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmVulExceptions.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmWebBrowser.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.frmWebRequest.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.SplashScreen.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminDotNet.Resources.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminConsole.vbproj.GenerateResource.Cache
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminConsole.exe
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2010\obj\Debug\ADAdminConsole.pdb
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2015\obj\Debug\ADAdminDotNet.frmAD_create_new_shortcode.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2015\obj\Debug\ADAdminDotNet.frmCFOTable.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2015\obj\Debug\ADAdminDotNet.frmConfigProblem.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2015\obj\Debug\ADAdminDotNet.frmControllers.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2015\obj\Debug\ADAdminDotNet.frmDeptDiffers.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2015\obj\Debug\ADAdminDotNet.frmEstablishment.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2015\obj\Debug\ADAdminDotNet.frmInfoRequired.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2015\obj\Debug\ADAdminDotNet.frmKodeer.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2015\obj\Debug\ADAdminDotNet.frmMain.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2015\obj\Debug\ADAdminDotNet.frmNewUsers.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2015\obj\Debug\ADAdminDotNet.frmOpenRequests.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2015\obj\Debug\ADAdminDotNet.frmOptionsDialog.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2015\obj\Debug\ADAdminDotNet.frmReferrals.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2015\obj\Debug\ADAdminDotNet.frmRemedyBySurname.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2015\obj\Debug\ADAdminDotNet.frmRequestTracking.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2015\obj\Debug\ADAdminDotNet.frmResetPassword.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2015\obj\Debug\ADAdminDotNet.frmEnvironment.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2015\obj\Debug\ADAdminDotNet.frmStats.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2015\obj\Debug\ADAdminDotNet.frmTempCFOList.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2015\obj\Debug\ADAdminDotNet.frmUsersNotOnEstab.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2015\obj\Debug\ADAdminDotNet.frmVariationList.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2015\obj\Debug\ADAdminDotNet.frmVPNadmins.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2015\obj\Debug\ADAdminDotNet.frmVulExceptions.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2015\obj\Debug\ADAdminDotNet.frmWebBrowser.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2015\obj\Debug\ADAdminDotNet.frmWebRequest.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2015\obj\Debug\ADAdminDotNet.SplashScreen.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2015\obj\Debug\ADAdminDotNet.Resources.resources
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2015\obj\Debug\ADAdminConsole.vbproj.GenerateResource.Cache
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2015\obj\Debug\ADAdminConsole.exe
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2015\obj\Debug\ADAdminConsole.pdb
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2015\bin\x86\Debug\activeds.tlb
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2015\bin\x86\Debug\ADAdminConsole.exe.config
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2015\bin\x86\Debug\ADAdminConsole.exe
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2015\bin\x86\Debug\ADAdminConsole.pdb
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2015\bin\x86\Debug\Interop.ActiveDs.dll
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2015\bin\x86\Debug\Invoker.dll
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2015\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2015\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\vul2214\Desktop\Images\AD Console\ADAdmin.NET3.5 - VS2015\bin\x86\Debug\stdole.dll

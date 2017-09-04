@@ -1,0 +1,1560 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D50D4A1A-96E6-4B80-92C2-8022F5B5FF90}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>ADAdminDotNet.My.MyApplication</StartupObject>
+    <RootNamespace>ADAdminDotNet</RootNamespace>
+    <AssemblyName>ADAdminConsole</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <ApplicationIcon>Images\Shield-32.ico</ApplicationIcon>
+    <TargetZone>Custom</TargetZone>
+    <GenerateManifests>false</GenerateManifests>
+    <ExcludedPermissions>
+    </ExcludedPermissions>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionStrict>Off</OptionStrict>
+    <OptionExplicit>On</OptionExplicit>
+    <SignManifests>false</SignManifests>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>ADAdminConsole.snk</AssemblyOriginatorKeyFile>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <TargetFrameworkProfile />
+    <NoWin32Manifest>False</NoWin32Manifest>
+    <OptionCompare>Binary</OptionCompare>
+    <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
+    <PublishUrl>http://localhost/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <TargetCulture>en-ZA</TargetCulture>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>false</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42353,42354,42355</NoWarn>
+    <WarningLevel>0</WarningLevel>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <Optimize>false</Optimize>
+    <PlatformTarget>x86</PlatformTarget>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>None</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>false</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42353,42354,42355</NoWarn>
+    <WarningLevel>0</WarningLevel>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>6933F04D22256BE75C0EB33CF67485CB2F1AFD4B</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <WarningLevel>0</WarningLevel>
+    <Optimize>True</Optimize>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <DebugType>Full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>0</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42353,42354,42355</NoWarn>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <CodeAnalysisRules>
+    </CodeAnalysisRules>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>Off</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <BaseAddress>4194304</BaseAddress>
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <FileAlignment>4096</FileAlignment>
+    <NoWarn>42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <BaseIntermediateOutputPath>obj\</BaseIntermediateOutputPath>
+    <NoWarn>42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <WarningLevel>0</WarningLevel>
+    <NoWarn>42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <Optimize>true</Optimize>
+    <WarningLevel>0</WarningLevel>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42353,42354,42355</NoWarn>
+    <DebugType>None</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Interop.ActiveDs, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>.\Interop.ActiveDs.dll</HintPath>
+    </Reference>
+    <Reference Include="Invoker, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Invoker.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.mshtml, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\Microsoft.NET\Primary Interop Assemblies\Microsoft.mshtml.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\Microsoft Visual Studio 11.0\Visual Studio Tools for Office\PIA\Office14\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.DirectoryServices.AccountManagement, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\System.DirectoryServices.AccountManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="ActiveDs" />
+    <Import Include="ARUSER" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ADAminIssues\My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ADAminIssues\My Project\Settings1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\clsAppSettings.vb">
+    </Compile>
+    <Compile Include="Classes\clsRegistry.vb" />
+    <Compile Include="Classes\clsWebservices.vb" />
+    <Compile Include="Classes\Environment.vb" />
+    <Compile Include="Classes\ExampleClasses.vb" />
+    <Compile Include="Classes\List.vb" />
+    <Compile Include="Classes\MoveSplitter.vb" />
+    <Compile Include="Datasets\ADSDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ADSDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\ADSDataSet.vb">
+      <DependentUpon>ADSDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Classes\clsColumnSorter.vb" />
+    <Compile Include="Classes\clsSingleInstance.vb" />
+    <Compile Include="Datasets\CFODataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CFODataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\CFODataSet.vb">
+      <DependentUpon>CFODataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\Component.vb" />
+    <Compile Include="Datasets\DepartmentsVotes.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DepartmentsVotes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\Departmen_Info.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Departmen_Info.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\Departmen_Info.vb">
+      <DependentUpon>Departmen_Info.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\Dept.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Dept.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\Dept.vb">
+      <DependentUpon>Dept.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\DsADS.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsADS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\DsADS.vb">
+      <DependentUpon>DsADS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\dsARSystemDataSet.Designer.vb">
+      <DependentUpon>dsARSystemDataSet.xsd</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Datasets\dsARSystemDataSet.vb">
+      <DependentUpon>dsARSystemDataSet.xsd</DependentUpon>
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="Datasets\dsHR_MIS.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsHR_MIS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\dsShared.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsShared.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\dsVIP_EXPANDED.vb">
+      <DependentUpon>dsVIP_EXPANDED.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\dsVIP_EXPANDED1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsVIP_EXPANDED.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\HRDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HRDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\HRDataSet.vb">
+      <DependentUpon>HRDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmOptionsDialog.Designer.vb">
+      <DependentUpon>frmOptionsDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmOptionsDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmReferrals.Designer.vb">
+      <DependentUpon>frmReferrals.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmReferrals.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmRequestTracking.Designer.vb">
+      <DependentUpon>frmRequestTracking.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmRequestTracking.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmAD_create_new_shortcode.Designer.vb">
+      <DependentUpon>frmAD_create_new_shortcode.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmAD_create_new_shortcode.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmCFOTable.Designer.vb">
+      <DependentUpon>frmCFOTable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmCFOTable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmConfigProblem.Designer.vb">
+      <DependentUpon>frmConfigProblem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmConfigProblem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmControllers.Designer.vb">
+      <DependentUpon>frmControllers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmControllers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmDeptDiffers.Designer.vb">
+      <DependentUpon>frmDeptDiffers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmDeptDiffers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmTempCFOList.Designer.vb">
+      <DependentUpon>frmTempCFOList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmTempCFOList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmVariationList.Designer.vb">
+      <DependentUpon>frmVariationList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmVariationList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmVPNadmins.Designer.vb">
+      <DependentUpon>frmVPNadmins.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmVPNadmins.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmVulExceptions.Designer.vb">
+      <DependentUpon>frmVulExceptions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmVulExceptions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmWebbrowser.Designer.vb">
+      <DependentUpon>frmWebbrowser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmWebbrowser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SplashScreen.Designer.vb">
+      <DependentUpon>SplashScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SplashScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\clsDataComparison.vb" />
+    <Compile Include="Modules\clsMXLookup.vb" />
+    <Compile Include="Modules\clsSoapHeaderService.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Modules\IADsContainer.vb" />
+    <Compile Include="Modules\IADsOpenDSObject.vb" />
+    <Compile Include="Modules\IADsUser.vb" />
+    <Compile Include="Modules\modAccessControl.vb" />
+    <Compile Include="Modules\modExportModule.vb" />
+    <Compile Include="Forms\frmEstablishment.Designer.vb">
+      <DependentUpon>frmEstablishment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmEstablishment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmInfoRequired.Designer.vb">
+      <DependentUpon>frmInfoRequired.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmInfoRequired.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmOpenRequests.Designer.vb">
+      <DependentUpon>frmOpenRequests.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmOpenRequests.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmRemedyBySurname.Designer.vb">
+      <DependentUpon>frmRemedyBySurname.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmRemedyBySurname.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmStats.Designer.vb">
+      <DependentUpon>frmStats.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmStats.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmUsersNotOnEstab.Designer.vb">
+      <DependentUpon>frmUsersNotOnEstab.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmUsersNotOnEstab.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmWebRequest.Designer.vb">
+      <DependentUpon>frmWebRequest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmWebRequest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\modADSExport.vb" />
+    <Compile Include="Modules\modMailMerge.vb" />
+    <Compile Include="Modules\clsCrypto.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\clsLwSorter.vb" />
+    <Compile Include="Forms\frmKodeer.designer.vb">
+      <DependentUpon>frmKodeer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmKodeer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmMain.designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmNewUsers.Designer.vb">
+      <DependentUpon>frmNewUsers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmNewUsers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmResetPassword.Designer.vb">
+      <DependentUpon>frmResetPassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmResetPassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmEnvironment.Designer.vb">
+      <DependentUpon>frmEnvironment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmEnvironment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\modJoinView.vb" />
+    <Compile Include="Modules\modADS.vb">
+    </Compile>
+    <Compile Include="Modules\modFunctions.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Application1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="My Project\Settings1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.vb" />
+    <Compile Include="Settings1.vb" />
+    <Compile Include="Web References\devlgremv1_old\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\LOG_DM_Department_BasicWS__c\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\Request\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\WS_CI__c1\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\devlgremv1\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="WS_CI__cService.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\frmAD_create_new_shortcode.resx">
+      <DependentUpon>frmAD_create_new_shortcode.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmCFOTable.resx">
+      <DependentUpon>frmCFOTable.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmConfigProblem.resx">
+      <DependentUpon>frmConfigProblem.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmControllers.resx">
+      <DependentUpon>frmControllers.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmDeptDiffers.resx">
+      <DependentUpon>frmDeptDiffers.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmEstablishment.resx">
+      <DependentUpon>frmEstablishment.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmInfoRequired.resx">
+      <DependentUpon>frmInfoRequired.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmKodeer.resx">
+      <DependentUpon>frmKodeer.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmMain.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmNewUsers.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmNewUsers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmOpenRequests.resx">
+      <DependentUpon>frmOpenRequests.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmOptionsDialog.resx">
+      <DependentUpon>frmOptionsDialog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmReferrals.resx">
+      <DependentUpon>frmReferrals.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmRemedyBySurname.resx">
+      <DependentUpon>frmRemedyBySurname.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmRequestTracking.resx">
+      <DependentUpon>frmRequestTracking.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmResetPassword.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmResetPassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmEnvironment.resx">
+      <DependentUpon>frmEnvironment.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmStats.resx">
+      <DependentUpon>frmStats.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmTempCFOList.resx">
+      <DependentUpon>frmTempCFOList.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmUsersNotOnEstab.resx">
+      <DependentUpon>frmUsersNotOnEstab.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmVariationList.resx">
+      <DependentUpon>frmVariationList.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmVPNadmins.resx">
+      <DependentUpon>frmVPNadmins.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmVulExceptions.resx">
+      <DependentUpon>frmVulExceptions.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmWebbrowser.resx">
+      <DependentUpon>frmWebbrowser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmWebRequest.resx">
+      <DependentUpon>frmWebRequest.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SplashScreen.resx">
+      <DependentUpon>SplashScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ADAdminConsole.snk" />
+    <None Include="ADAdminConsole_TemporaryKey.pfx" />
+    <None Include="bin\ADAdminDotNet.vshost.exe.config" />
+    <None Include="bin\ADAdminDotNet.vshost.exe.manifest" />
+    <None Include="bin\CFO Approval Request.htt" />
+    <None Include="bin\CFO Approval Request2.htt" />
+    <None Include="bin\Copy Template.cmd" />
+    <None Include="bin\Customer Notification.htt" />
+    <None Include="bin\Debug\activeds.tlb" />
+    <None Include="bin\Debug\AD Snapshot.xls" />
+    <None Include="bin\Debug\ADAdminConsole.exe.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bin\Debug\ADAdminConsole.exe.lastcodeanalysissucceeded" />
+    <None Include="bin\Debug\ADAdminConsole.vshost.exe.config" />
+    <None Include="bin\Debug\ADAdminDotNet.exe.config" />
+    <None Include="bin\Debug\ADAdminDotNet.exe.lastcodeanalysissucceeded" />
+    <None Include="bin\Debug\ADAdminDotNet.exe.manifest" />
+    <None Include="bin\Debug\ADAdminDotNet.vshost.exe.config" />
+    <None Include="bin\Debug\ADAdminDotNet.vshost.exe.manifest" />
+    <None Include="bin\Debug\AD_Snapshot.csv" />
+    <None Include="bin\Debug\AD_Snapshot.xls" />
+    <None Include="bin\Debug\AD_Snapshot.xlsx" />
+    <None Include="bin\Debug\CFO Approval Request.htt" />
+    <None Include="bin\Debug\CFO Approval Request2.htt" />
+    <None Include="bin\Debug\CFO_Approvals_Outstanding.csv" />
+    <None Include="bin\Debug\CFO_List.csv" />
+    <None Include="bin\Debug\Copy %282%29 of Vulindlela User Account Reset.htt" />
+    <None Include="bin\Debug\Copy of Request Closure Notification.htt" />
+    <None Include="bin\Debug\Copy of Vulindlela User Account Reset.htt" />
+    <None Include="bin\Debug\Customer Notification.htt" />
+    <None Include="bin\Debug\Customer Notification_files\themedata.thmx" />
+    <None Include="bin\Debug\Department_Differs.csv" />
+    <None Include="bin\Debug\E0xportedEstabQuery.csv" />
+    <None Include="bin\Debug\EMail To Verify Against Establishment.htt" />
+    <None Include="bin\Debug\Flagged 3.csv" />
+    <None Include="bin\Debug\InfoRequired.csv" />
+    <None Include="bin\Debug\InfoRequired.xls" />
+    <None Include="bin\Debug\No CFO letter received in time.htt" />
+    <None Include="bin\Debug\Old HTT\CFO Approval Request.htt" />
+    <None Include="bin\Debug\Old HTT\CFO Approval Request2.htt" />
+    <None Include="bin\Debug\Old HTT\Copy of Request Closure Notification.htt" />
+    <None Include="bin\Debug\Old HTT\Customer Notification.htt" />
+    <None Include="bin\Debug\Old HTT\EMail To Verify Against Establishment.htt" />
+    <None Include="bin\Debug\Old HTT\No CFO letter received in time.htt" />
+    <None Include="bin\Debug\Old HTT\Procceed once approval letter received.htt" />
+    <None Include="bin\Debug\Old HTT\Refer To NT Financial Functions.htt" />
+    <None Include="bin\Debug\Old HTT\Refer To NT Financial Functions2.htt" />
+    <None Include="bin\Debug\Old HTT\Request a CFO Letter.htt" />
+    <None Include="bin\Debug\Old HTT\Request Closure Notification.htt" />
+    <None Include="bin\Debug\Old HTT\Vulindlela User Account Reset.htt" />
+    <None Include="bin\Debug\Old HTT\Vulindlela User Created or Updated as Follows.htt" />
+    <None Include="bin\Debug\OpenRemedyRequests.csv" />
+    <None Include="bin\Debug\OpenRemedyRequests.xls" />
+    <None Include="bin\Debug\Procceed once approval letter received.htt" />
+    <None Include="bin\Debug\Refer To NT Financial Functions.htt" />
+    <None Include="bin\Debug\Refer To NT Financial Functions2.htt" />
+    <None Include="bin\Debug\Refer To NT Financial Functions2.httt" />
+    <None Include="bin\Debug\Referrals.csv" />
+    <None Include="bin\Debug\Referrals.xls" />
+    <None Include="bin\Debug\Release\activeds.tlb" />
+    <None Include="bin\Debug\Release\ADAdminDotNet.exe.config" />
+    <None Include="bin\Debug\Release\ADAdminDotNet.exe.manifest" />
+    <None Include="bin\Debug\Release\ADAdminDotNet.vshost.exe.config" />
+    <None Include="bin\Debug\Release\ADAdminDotNet.vshost.exe.manifest" />
+    <None Include="bin\Debug\Release\AD_Snapshot.csv" />
+    <None Include="bin\Debug\Release\CFO Approval Request.htt" />
+    <None Include="bin\Debug\Release\CFO Approval Request2.htt" />
+    <None Include="bin\Debug\Release\CFO_List.csv" />
+    <None Include="bin\Debug\Release\CFO_List_Duplicates.csv" />
+    <None Include="bin\Debug\Release\Copy %282%29 of Vulindlela User Account Reset.htt" />
+    <None Include="bin\Debug\Release\Copy of Request Closure Notification.htt" />
+    <None Include="bin\Debug\Release\Copy of Vulindlela User Account Reset.htt" />
+    <None Include="bin\Debug\Release\Customer Notification.htt" />
+    <None Include="bin\Debug\Release\EMail To Verify Against Establishment.htt" />
+    <None Include="bin\Debug\Release\Establishment_All.csv" />
+    <None Include="bin\Debug\Release\Flagged 3.csv" />
+    <None Include="bin\Debug\Release\InfoRequired.xls" />
+    <None Include="bin\Debug\Release\New Microsoft Office Excel Worksheet %282%29.xlsx" />
+    <None Include="bin\Debug\Release\New Microsoft Office Excel Worksheet.xlsx" />
+    <None Include="bin\Debug\Release\NewAccountRequests.csv" />
+    <None Include="bin\Debug\Release\NewAccountRequests.xls" />
+    <None Include="bin\Debug\Release\No CFO letter received in time.htt" />
+    <None Include="bin\Debug\Release\Old HTT\CFO Approval Request2.htt" />
+    <None Include="bin\Debug\Release\Old HTT\Copy of Customer Notification.htt" />
+    <None Include="bin\Debug\Release\Old HTT\Copy of Refer To NT Financial Functions2.htt" />
+    <None Include="bin\Debug\Release\Old HTT\Copy of Request Closure Notification.htt" />
+    <None Include="bin\Debug\Release\Old HTT\Customer Notification.htt" />
+    <None Include="bin\Debug\Release\Old HTT\EMail To Verify Against Establishment.htt" />
+    <None Include="bin\Debug\Release\Old HTT\No CFO letter received in time.htt" />
+    <None Include="bin\Debug\Release\Old HTT\Procceed once approval letter received.htt" />
+    <None Include="bin\Debug\Release\Old HTT\Refer To NT Financial Functions.htt" />
+    <None Include="bin\Debug\Release\Old HTT\Refer To NT Financial Functions2.htt" />
+    <None Include="bin\Debug\Release\Old HTT\Request a CFO Letter.htt" />
+    <None Include="bin\Debug\Release\Old HTT\Request Closure Notification.htt" />
+    <None Include="bin\Debug\Release\Old HTT\Vulindlela User Account Reset.htt" />
+    <None Include="bin\Debug\Release\Old HTT\Vulindlela User Created or Updated as Follows.htt" />
+    <None Include="bin\Debug\Release\OpenRemedyRequests.xls" />
+    <None Include="bin\Debug\Release\Output\Errors.log" />
+    <None Include="bin\Debug\Release\Procceed once approval letter received.htt" />
+    <None Include="bin\Debug\Release\Refer To NT Financial Functions.htt" />
+    <None Include="bin\Debug\Release\Refer To NT Financial Functions2.htt" />
+    <None Include="bin\Debug\Release\Remedy_ M.csv" />
+    <None Include="bin\Debug\Release\Remedy_ N.csv" />
+    <None Include="bin\Debug\Release\Remedy_ALL.csv" />
+    <None Include="bin\Debug\Release\Request a CFO Letter.htt" />
+    <None Include="bin\Debug\Release\Request Closure Notification.htt" />
+    <None Include="bin\Debug\Release\requests\001202355.artask" />
+    <None Include="bin\Debug\Release\requests\001312463.artask" />
+    <None Include="bin\Debug\Release\requests\001328842.artask" />
+    <None Include="bin\Debug\Release\requests\001329083.artask" />
+    <None Include="bin\Debug\Release\request\000899070.artask" />
+    <None Include="bin\Debug\Release\request\001054989.artask" />
+    <None Include="bin\Debug\Release\request\001078486.artask" />
+    <None Include="bin\Debug\Release\request\001170749.artask" />
+    <None Include="bin\Debug\Release\request\001258621.artask" />
+    <None Include="bin\Debug\Release\request\001261604.artask" />
+    <None Include="bin\Debug\Release\request\001306490.artask" />
+    <None Include="bin\Debug\Release\VPN_Admins.csv" />
+    <None Include="bin\Debug\Release\Vulindlela User Account Reset.htt" />
+    <None Include="bin\Debug\Release\Vulindlela User Created or Updated as Follows.htt" />
+    <None Include="bin\Debug\Remedy_ A.csv" />
+    <None Include="bin\Debug\Remedy_ D.csv" />
+    <None Include="bin\Debug\Remedy_ E.csv" />
+    <None Include="bin\Debug\Remedy_A.csv" />
+    <None Include="bin\Debug\Remedy_ALL.csv" />
+    <None Include="bin\Debug\Remedy_C.csv" />
+    <None Include="bin\Debug\Remedy_F.csv" />
+    <None Include="bin\Debug\Remedy_H.csv" />
+    <None Include="bin\Debug\Request a CFO Letter.htt" />
+    <None Include="bin\Debug\Request Closure Notification.htt" />
+    <None Include="bin\Debug\requests\001310376.artask" />
+    <None Include="bin\Debug\requests\New Microsoft Office Project Document.mpp" />
+    <None Include="bin\Debug\Vulindlela User Account Reset.htt" />
+    <None Include="bin\Debug\Vulindlela User Created or Updated as Follows.htt" />
+    <None Include="bin\Debug\VulindlelaExceptions.csv" />
+    <None Include="bin\EMail To Verify Against Establishment.htt" />
+    <None Include="bin\No CFO letter received in time.htt" />
+    <None Include="bin\Procceed once approval letter received.htt" />
+    <None Include="bin\Refer To NT Financial Functions.htt" />
+    <None Include="bin\Refer To NT Financial Functions2.htt" />
+    <None Include="bin\Release\activeds.tlb" />
+    <None Include="bin\Release\AD Snapshot.xls" />
+    <None Include="bin\Release\ADAdminConsole.exe.config" />
+    <None Include="bin\Release\ADAdminDotNet.exe %282%29.config" />
+    <None Include="bin\Release\ADAdminDotNet.exe.config" />
+    <None Include="bin\Release\ADAdminDotNet.exe.lastcodeanalysissucceeded" />
+    <None Include="bin\Release\ADAdminDotNet.exe.manifest" />
+    <None Include="bin\Release\ADAdminDotNet.vshost.exe %282%29.config" />
+    <None Include="bin\Release\ADAdminDotNet.vshost.exe %282%29.manifest" />
+    <None Include="bin\Release\ADAdminDotNet.vshost.exe.config" />
+    <None Include="bin\Release\ADAdminDotNet.vshost.exe.manifest" />
+    <None Include="bin\Release\AD_Snapshot.csv" />
+    <None Include="bin\Release\AD_Snapshot.xls" />
+    <None Include="bin\Release\CFO Approval Request.htt" />
+    <None Include="bin\Release\CFO Approval Request2.htt" />
+    <None Include="bin\Release\CFO_Approvals_Outstanding.csv" />
+    <None Include="bin\Release\CFO_List.csv" />
+    <None Include="bin\Release\CFO_List_Duplicates.csv" />
+    <None Include="bin\Release\Copy %282%29 of Vulindlela User Account Reset.htt" />
+    <None Include="bin\Release\Copy of Request Closure Notification.htt" />
+    <None Include="bin\Release\Copy of Vulindlela User Account Reset.htt" />
+    <None Include="bin\Release\Customer Notification.htt" />
+    <None Include="bin\Release\Customer Notification_files\themedata.thmx" />
+    <None Include="bin\Release\Department_Differs.csv" />
+    <None Include="bin\Release\E0xportedEstabQuery.csv" />
+    <None Include="bin\Release\EMail To Verify Against Establishment.htt" />
+    <None Include="bin\Release\Establishment_All.csv" />
+    <None Include="bin\Release\Flagged 3.csv" />
+    <None Include="bin\Release\InfoRequired.csv" />
+    <None Include="bin\Release\InfoRequired.xls" />
+    <None Include="bin\Release\LOG_IN_Request_Tracking.csv" />
+    <None Include="bin\Release\LOG_IN_Request_Tracking.xlsx" />
+    <None Include="bin\Release\New Microsoft Office Excel Worksheet %282%29.xlsx" />
+    <None Include="bin\Release\New Microsoft Office Excel Worksheet.xlsx" />
+    <None Include="bin\Release\NewAccountRequests.csv" />
+    <None Include="bin\Release\NewAccountRequests.xls" />
+    <None Include="bin\Release\No CFO letter received in time.htt" />
+    <None Include="bin\Release\Old HTT\CFO Approval Request.htt" />
+    <None Include="bin\Release\Old HTT\CFO Approval Request2.htt" />
+    <None Include="bin\Release\Old HTT\Copy of Customer Notification.htt" />
+    <None Include="bin\Release\Old HTT\Copy of Refer To NT Financial Functions2.htt" />
+    <None Include="bin\Release\Old HTT\Copy of Request Closure Notification.htt" />
+    <None Include="bin\Release\Old HTT\Customer Notification.htt" />
+    <None Include="bin\Release\Old HTT\EMail To Verify Against Establishment.htt" />
+    <None Include="bin\Release\Old HTT\No CFO letter received in time.htt" />
+    <None Include="bin\Release\Old HTT\Procceed once approval letter received.htt" />
+    <None Include="bin\Release\Old HTT\Refer To NT Financial Functions.htt" />
+    <None Include="bin\Release\Old HTT\Refer To NT Financial Functions2.htt" />
+    <None Include="bin\Release\Old HTT\Request a CFO Letter.htt" />
+    <None Include="bin\Release\Old HTT\Request Closure Notification.htt" />
+    <None Include="bin\Release\Old HTT\Vulindlela User Account Reset.htt" />
+    <None Include="bin\Release\Old HTT\Vulindlela User Created or Updated as Follows.htt" />
+    <None Include="bin\Release\OpenRemedyRequests.csv" />
+    <None Include="bin\Release\OpenRemedyRequests.xls" />
+    <None Include="bin\Release\Output\Errors.log" />
+    <None Include="bin\Release\Procceed once approval letter received.htt" />
+    <None Include="bin\Release\Refer To NT Financial Functions.htt" />
+    <None Include="bin\Release\Refer To NT Financial Functions2.htt" />
+    <None Include="bin\Release\Refer To NT Financial Functions2.httt" />
+    <None Include="bin\Release\Referrals.csv" />
+    <None Include="bin\Release\Referrals.xls" />
+    <None Include="bin\Release\Release\activeds.tlb" />
+    <None Include="bin\Release\Release\ADAdminDotNet.exe.config" />
+    <None Include="bin\Release\Release\ADAdminDotNet.exe.manifest" />
+    <None Include="bin\Release\Release\ADAdminDotNet.vshost.exe.config" />
+    <None Include="bin\Release\Release\ADAdminDotNet.vshost.exe.manifest" />
+    <None Include="bin\Release\Release\AD_Snapshot.csv" />
+    <None Include="bin\Release\Release\CFO Approval Request.htt" />
+    <None Include="bin\Release\Release\CFO Approval Request2.htt" />
+    <None Include="bin\Release\Release\CFO_List.csv" />
+    <None Include="bin\Release\Release\CFO_List_Duplicates.csv" />
+    <None Include="bin\Release\Release\Copy %282%29 of Vulindlela User Account Reset.htt" />
+    <None Include="bin\Release\Release\Copy of Request Closure Notification.htt" />
+    <None Include="bin\Release\Release\Copy of Vulindlela User Account Reset.htt" />
+    <None Include="bin\Release\Release\Customer Notification.htt" />
+    <None Include="bin\Release\Release\EMail To Verify Against Establishment.htt" />
+    <None Include="bin\Release\Release\Establishment_All.csv" />
+    <None Include="bin\Release\Release\Flagged 3.csv" />
+    <None Include="bin\Release\Release\InfoRequired.xls" />
+    <None Include="bin\Release\Release\New Microsoft Office Excel Worksheet %282%29.xlsx" />
+    <None Include="bin\Release\Release\New Microsoft Office Excel Worksheet.xlsx" />
+    <None Include="bin\Release\Release\NewAccountRequests.csv" />
+    <None Include="bin\Release\Release\NewAccountRequests.xls" />
+    <None Include="bin\Release\Release\No CFO letter received in time.htt" />
+    <None Include="bin\Release\Release\Old HTT\CFO Approval Request2.htt" />
+    <None Include="bin\Release\Release\Old HTT\Copy of Customer Notification.htt" />
+    <None Include="bin\Release\Release\Old HTT\Copy of Refer To NT Financial Functions2.htt" />
+    <None Include="bin\Release\Release\Old HTT\Copy of Request Closure Notification.htt" />
+    <None Include="bin\Release\Release\Old HTT\Customer Notification.htt" />
+    <None Include="bin\Release\Release\Old HTT\EMail To Verify Against Establishment.htt" />
+    <None Include="bin\Release\Release\Old HTT\No CFO letter received in time.htt" />
+    <None Include="bin\Release\Release\Old HTT\Procceed once approval letter received.htt" />
+    <None Include="bin\Release\Release\Old HTT\Refer To NT Financial Functions.htt" />
+    <None Include="bin\Release\Release\Old HTT\Refer To NT Financial Functions2.htt" />
+    <None Include="bin\Release\Release\Old HTT\Request a CFO Letter.htt" />
+    <None Include="bin\Release\Release\Old HTT\Request Closure Notification.htt" />
+    <None Include="bin\Release\Release\Old HTT\Vulindlela User Account Reset.htt" />
+    <None Include="bin\Release\Release\Old HTT\Vulindlela User Created or Updated as Follows.htt" />
+    <None Include="bin\Release\Release\OpenRemedyRequests.xls" />
+    <None Include="bin\Release\Release\Output\Errors.log" />
+    <None Include="bin\Release\Release\Procceed once approval letter received.htt" />
+    <None Include="bin\Release\Release\Refer To NT Financial Functions.htt" />
+    <None Include="bin\Release\Release\Refer To NT Financial Functions2.htt" />
+    <None Include="bin\Release\Release\Remedy_ M.csv" />
+    <None Include="bin\Release\Release\Remedy_ N.csv" />
+    <None Include="bin\Release\Release\Remedy_ALL.csv" />
+    <None Include="bin\Release\Release\Request a CFO Letter.htt" />
+    <None Include="bin\Release\Release\Request Closure Notification.htt" />
+    <None Include="bin\Release\Release\requests\001202355.artask" />
+    <None Include="bin\Release\Release\requests\001312463.artask" />
+    <None Include="bin\Release\Release\requests\001328842.artask" />
+    <None Include="bin\Release\Release\requests\001329083.artask" />
+    <None Include="bin\Release\Release\request\000899070.artask" />
+    <None Include="bin\Release\Release\request\001054989.artask" />
+    <None Include="bin\Release\Release\request\001078486.artask" />
+    <None Include="bin\Release\Release\request\001170749.artask" />
+    <None Include="bin\Release\Release\request\001258621.artask" />
+    <None Include="bin\Release\Release\request\001261604.artask" />
+    <None Include="bin\Release\Release\request\001306490.artask" />
+    <None Include="bin\Release\Release\VPN_Admins.csv" />
+    <None Include="bin\Release\Release\Vulindlela User Account Reset.htt" />
+    <None Include="bin\Release\Release\Vulindlela User Created or Updated as Follows.htt" />
+    <None Include="bin\Release\Remedy_ A.csv" />
+    <None Include="bin\Release\Remedy_ D.csv" />
+    <None Include="bin\Release\Remedy_ E.csv" />
+    <None Include="bin\Release\Remedy_ M.csv" />
+    <None Include="bin\Release\Remedy_ N.csv" />
+    <None Include="bin\Release\Remedy_A.csv" />
+    <None Include="bin\Release\Remedy_ALL.csv" />
+    <None Include="bin\Release\Remedy_C.csv" />
+    <None Include="bin\Release\Remedy_F.csv" />
+    <None Include="bin\Release\Remedy_H.csv" />
+    <None Include="bin\Release\Request a CFO Letter.htt" />
+    <None Include="bin\Release\Request Closure Notification.htt" />
+    <None Include="bin\Release\requests\001202355.artask" />
+    <None Include="bin\Release\requests\001310376.artask" />
+    <None Include="bin\Release\requests\001312463.artask" />
+    <None Include="bin\Release\requests\001328842.artask" />
+    <None Include="bin\Release\requests\001329083.artask" />
+    <None Include="bin\Release\requests\New Microsoft Office Project Document.mpp" />
+    <None Include="bin\Release\request\000899070.artask" />
+    <None Include="bin\Release\request\001054989.artask" />
+    <None Include="bin\Release\request\001078486.artask" />
+    <None Include="bin\Release\request\001170749.artask" />
+    <None Include="bin\Release\request\001258621.artask" />
+    <None Include="bin\Release\request\001261604.artask" />
+    <None Include="bin\Release\request\001306490.artask" />
+    <None Include="bin\Release\VPN_Admins.csv" />
+    <None Include="bin\Release\Vulindlela User Account Reset.htt" />
+    <None Include="bin\Release\Vulindlela User Created or Updated as Follows.htt" />
+    <None Include="bin\Release\VulindlelaExceptions.csv" />
+    <None Include="bin\Request a CFO Letter.htt" />
+    <None Include="bin\Request Closure Notification.htt" />
+    <None Include="bin\Vulindlela User Account Reset.htt" />
+    <None Include="bin\Vulindlela User Created or Updated as Follows.htt" />
+    <None Include="bin\x86\Debug\ADAdminConsole.exe.config" />
+    <None Include="bin\x86\Release\activeds.tlb" />
+    <None Include="bin\x86\Release\ADAdminConsole.exe.config" />
+    <None Include="bin\x86\Release\ADAdminDotNet.exe.config" />
+    <None Include="bin\x86\Release\ADAdminDotNet.vshost.exe.config" />
+    <None Include="bin\x86\Release\ADAdminDotNet.vshost.exe.manifest" />
+    <None Include="bin\x86\Release\AD_Snapshot.csv" />
+    <None Include="bin\x86\Release\CFO Approval Request.htt" />
+    <None Include="bin\x86\Release\CFO Approval Request2.htt" />
+    <None Include="bin\x86\Release\Chief_Financial_Officers.csv" />
+    <None Include="bin\x86\Release\Copy %282%29 of Vulindlela User Account Reset.htt" />
+    <None Include="bin\x86\Release\Copy of Request Closure Notification.htt" />
+    <None Include="bin\x86\Release\Copy of Vulindlela User Account Reset.htt" />
+    <None Include="bin\x86\Release\Customer Notification.htt" />
+    <None Include="bin\x86\Release\EMail To Verify Against Establishment.htt" />
+    <None Include="bin\x86\Release\Johan.ADAdminConsole.exe.config" />
+    <None Include="bin\x86\Release\NewAccountRequests.csv" />
+    <None Include="bin\x86\Release\No CFO letter received in time.htt" />
+    <None Include="bin\x86\Release\Open_Remedy_Requests.csv" />
+    <None Include="bin\x86\Release\Procceed once approval letter received.htt" />
+    <None Include="bin\x86\Release\Profiling_Variation_List.csv" />
+    <None Include="bin\x86\Release\Refer To NT Financial Functions.htt" />
+    <None Include="bin\x86\Release\Refer To NT Financial Functions2.htt" />
+    <None Include="bin\x86\Release\Refer To NT Financial Functions2.httt" />
+    <None Include="bin\x86\Release\Remedy_E.csv" />
+    <None Include="bin\x86\Release\Request a CFO Letter.htt" />
+    <None Include="bin\x86\Release\Request Closure Notification.htt" />
+    <None Include="bin\x86\Release\requests\001074563.artask" />
+    <None Include="bin\x86\Release\requests\001386053.artask" />
+    <None Include="bin\x86\Release\requests\001405977.artask" />
+    <None Include="bin\x86\Release\requests\001425297.artask" />
+    <None Include="bin\x86\Release\Vulindlela User Account Reset.htt" />
+    <None Include="bin\x86\Release\Vulindlela User Created or Updated as Follows.htt" />
+    <None Include="bin\x86\Release\Vulindlela_Remedy_Clients.csv" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Datasets\CFODataSet.xsc">
+      <DependentUpon>CFODataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\CFODataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CFODataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Datasets\CFODataSet.xss">
+      <DependentUpon>CFODataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\DepartmentsVotes.xsc">
+      <DependentUpon>DepartmentsVotes.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\DepartmentsVotes.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DepartmentsVotes.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Datasets\DepartmentsVotes.xss">
+      <DependentUpon>DepartmentsVotes.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\Departmen_Info.xsc">
+      <DependentUpon>Departmen_Info.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\Departmen_Info.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Departmen_Info.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Datasets\Departmen_Info.xss">
+      <DependentUpon>Departmen_Info.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\Dept.xsc">
+      <DependentUpon>Dept.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\Dept.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Dept.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Datasets\Dept.xss">
+      <DependentUpon>Dept.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\DsADS.xsc">
+      <DependentUpon>DsADS.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\DsADS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsADS.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Datasets\DsADS.xss">
+      <DependentUpon>DsADS.xsd</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Datasets\dsARSystemDataSet.xsc">
+      <DependentUpon>dsARSystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsARSystemDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsARSystemDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Datasets\dsARSystemDataSet.xss">
+      <DependentUpon>dsARSystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsHR_MIS.xsc">
+      <DependentUpon>dsHR_MIS.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsHR_MIS.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsHR_MIS.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Datasets\dsHR_MIS.xss">
+      <DependentUpon>dsHR_MIS.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsShared.xsc">
+      <DependentUpon>dsShared.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsShared.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsShared.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Datasets\dsShared.xss">
+      <DependentUpon>dsShared.xsd</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Datasets\dsVIP_EXPANDED.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsVIP_EXPANDED1.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Datasets\HRDataSet.xsc">
+      <DependentUpon>HRDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\HRDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HRDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Datasets\HRDataSet.xss">
+      <DependentUpon>HRDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Migrated rules for ADAdminConsole.ruleset" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application1.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings2.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\devlgremv1\OutputMapping4GetListValues1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\devlgremv1\Record_StatusType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\devlgremv1_old\LOG_DM_Customer_Information_BasicWS__c.wsdl" />
+    <None Include="Web References\devlgremv1_old\OutputMapping5GetListValues1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\devlgremv1_old\Record_StatusType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\devlgremv1_old\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\LOG_DM_Department_BasicWS__c\LOG_DM_Department_BasicWS__c.wsdl" />
+    <None Include="Web References\LOG_DM_Department_BasicWS__c\OutputMapping5GetListValues.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\LOG_DM_Department_BasicWS__c\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\LOG_DM_Department_BasicWS__c\StatusType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\Request\LOG_IN_Request_Tracking_BasicWS__c.wsdl" />
+    <None Include="Web References\Request\OutputMapping5GetListValues.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\Request\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\Request\StatusType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_CI__c1\OutputMapping5GetListValues.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_CI__c1\Record_StatusType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_CI__c1\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\WS_CI__c1\WS_CI__c1.wsdl" />
+    <None Include="Web References\devlgremv1\CustomerInformationWebService.wsdl" />
+    <None Include="Web References\devlgremv1\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="activeds.tlb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Datasets\ADSDataSet.xsc">
+      <DependentUpon>ADSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\ADSDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ADSDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Datasets\ADSDataSet.xss">
+      <DependentUpon>ADSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="app.config" />
+    <Content Include="bin\Debug\ADAdminConsole.exe.CodeAnalysisLog.xml" />
+    <Content Include="bin\Debug\ADAdminConsole.pdb" />
+    <Content Include="bin\Debug\ADAdminConsole.vshost.exe" />
+    <Content Include="bin\Debug\ADAdminDotNet.exe.CodeAnalysisLog.xml" />
+    <Content Include="bin\Debug\ADAdminDotNet.pdb" />
+    <Content Include="bin\Debug\ADAdminDotNet.vshost.exe" />
+    <Content Include="bin\Debug\ADAdminDotNet.xml" />
+    <Content Include="bin\Debug\ad_snapshot.xml" />
+    <Content Include="bin\Debug\Alphabetize.Plugin.dll" />
+    <Content Include="bin\Debug\AssemblyVisualizer.Plugin.dll" />
+    <Content Include="bin\Debug\Customer Notification_files\colorschememapping.xml" />
+    <Content Include="bin\Debug\Customer Notification_files\filelist.xml" />
+    <Content Include="bin\Debug\excelcnv_257.ico" />
+    <Content Include="bin\Debug\Interop.ActiveDs.dll" />
+    <Content Include="bin\Debug\LABELS.txt" />
+    <Content Include="bin\Debug\MSTORE_203.ico" />
+    <Content Include="bin\Debug\ntlogo.JPG" />
+    <Content Include="bin\Debug\OLKFSTUB_1001.ico" />
+    <Content Include="bin\Debug\OUTLLIBR_9409.ico" />
+    <Content Include="bin\Debug\OUTLLIBR_9502.ico" />
+    <Content Include="bin\Debug\OUTLLIBR_9703.ico" />
+    <Content Include="bin\Debug\OUTLLIBR_9720.ico" />
+    <Content Include="bin\Debug\OUTLLIBR_9767.ico" />
+    <Content Include="bin\Debug\Release\activeds.dll" />
+    <Content Include="bin\Debug\Release\ADAdminDotNet.exe" />
+    <Content Include="bin\Debug\Release\ADAdminDotNet.vshost.exe" />
+    <Content Include="bin\Debug\Release\AssemblyVisualizer.Plugin.dll" />
+    <Content Include="bin\Debug\Release\BMC.arnettoc.dll" />
+    <Content Include="bin\Debug\Release\BMC.ARSystem.dll" />
+    <Content Include="bin\Debug\Release\BMC.ARSystem.xml" />
+    <Content Include="bin\Debug\Release\CFO Approval Request2.htm" />
+    <Content Include="bin\Debug\Release\ComponentFactory.Krypton.Toolkit.dll" />
+    <Content Include="bin\Debug\Release\excelcnv_257.ico" />
+    <Content Include="bin\Debug\Release\Interop.ActiveDs.dll" />
+    <Content Include="bin\Debug\Release\Interop.ARUSER.dll" />
+    <Content Include="bin\Debug\Release\MSTORE_203.ico" />
+    <Content Include="bin\Debug\Release\ntlogo.JPG" />
+    <Content Include="bin\Debug\Release\OLKFSTUB_1001.ico" />
+    <Content Include="bin\Debug\Release\OUTLLIBR_9409.ico" />
+    <Content Include="bin\Debug\Release\OUTLLIBR_9502.ico" />
+    <Content Include="bin\Debug\Release\OUTLLIBR_9703.ico" />
+    <Content Include="bin\Debug\Release\OUTLLIBR_9720.ico" />
+    <Content Include="bin\Debug\Release\OUTLLIBR_9767.ico" />
+    <Content Include="bin\Debug\Release\Output\frmAD_create_new_shortcode.jpg" />
+    <Content Include="bin\Debug\Release\Output\frmCFOTable.jpg" />
+    <Content Include="bin\Debug\Release\Output\frmDeptDiffers.jpg" />
+    <Content Include="bin\Debug\Release\Output\frmEnvironment.jpg" />
+    <Content Include="bin\Debug\Release\request\new  2.txt" />
+    <Content Include="bin\Debug\Release\ResetPassAnnotate.jpg" />
+    <Content Include="bin\Debug\Release\ResetPassword.JPG" />
+    <Content Include="bin\Debug\Release\shell32_1_23.ico" />
+    <Content Include="bin\Debug\Release\shell32_23.ico" />
+    <Content Include="bin\Debug\Release\shell32_28.ico" />
+    <Content Include="bin\Debug\Release\Shield-16.ico" />
+    <Content Include="bin\Debug\Release\Shield-32.ico" />
+    <Content Include="bin\Debug\Release\Shield-48.ico" />
+    <Content Include="bin\Debug\Release\TemplateParser.dll" />
+    <Content Include="bin\Debug\Release\TemplateParser.pdb" />
+    <Content Include="bin\Debug\Release\TemplateParser.xml" />
+    <Content Include="bin\Debug\Release\Wordcnv_17.ico" />
+    <Content Include="bin\Debug\Remedy_ID.txt" />
+    <Content Include="bin\Debug\Remedy_LABELS.txt" />
+    <Content Include="bin\Debug\Remedy_Label_ID.txt" />
+    <Content Include="bin\Debug\Remedy_Label_Innertext.txt" />
+    <Content Include="bin\Debug\Remedy_TEXTAREA.txt" />
+    <Content Include="bin\Debug\ResetPassAnnotate.jpg" />
+    <Content Include="bin\Debug\shell32_1_23.ico" />
+    <Content Include="bin\Debug\shell32_23.ico" />
+    <Content Include="bin\Debug\shell32_28.ico" />
+    <Content Include="bin\Debug\Shield-16.ico" />
+    <Content Include="bin\Debug\Shield-32.ico" />
+    <Content Include="bin\Debug\Shield-48.ico" />
+    <Content Include="bin\Debug\TemplateParser.dll" />
+    <Content Include="bin\Debug\TemplateParser.pdb" />
+    <Content Include="bin\Debug\TemplateParser.xml" />
+    <Content Include="bin\Debug\TEXTAREA.txt" />
+    <Content Include="bin\Debug\VPN Administrator Email.htm" />
+    <Content Include="bin\Debug\Wordcnv_17.ico" />
+    <Content Include="bin\EMail To Verify Against Establishment.htm" />
+    <Content Include="bin\Release\activeds.dll" />
+    <Content Include="bin\Release\ADAdminConsole.exe" />
+    <Content Include="bin\Release\ADAdminDotNet.exe.CodeAnalysisLog.xml" />
+    <Content Include="bin\Release\ADAdminDotNet.pdb" />
+    <Content Include="bin\Release\ADAdminDotNet.vshost %282%29.exe" />
+    <Content Include="bin\Release\ADAdminDotNet.vshost.exe" />
+    <Content Include="bin\Release\ADAdminDotNet.xml" />
+    <Content Include="bin\Release\Alphabetize.Plugin.dll" />
+    <Content Include="bin\Release\AssemblyVisualizer.Plugin.dll" />
+    <Content Include="bin\Release\CFO Approval Request2.htm" />
+    <Content Include="bin\Release\ComponentFactory.Krypton.Toolkit.dll" />
+    <Content Include="bin\Release\Customer Notification_files\colorschememapping.xml" />
+    <Content Include="bin\Release\Customer Notification_files\filelist.xml" />
+    <Content Include="bin\Release\excelcnv_257.ico" />
+    <Content Include="bin\Release\Interop.ActiveDs.dll" />
+    <Content Include="bin\Release\Invoker.dll" />
+    <Content Include="bin\Release\MSTORE_203.ico" />
+    <Content Include="bin\Release\Newtonsoft.Json.dll" />
+    <Content Include="bin\Release\Newtonsoft.Json.xml" />
+    <Content Include="bin\Release\ntlogo.JPG" />
+    <Content Include="bin\Release\OLKFSTUB_1001.ico" />
+    <Content Include="bin\Release\OUTLLIBR_9409.ico" />
+    <Content Include="bin\Release\OUTLLIBR_9502.ico" />
+    <Content Include="bin\Release\OUTLLIBR_9703.ico" />
+    <Content Include="bin\Release\OUTLLIBR_9720.ico" />
+    <Content Include="bin\Release\OUTLLIBR_9767.ico" />
+    <Content Include="bin\Release\Output\frmAD_create_new_shortcode.jpg" />
+    <Content Include="bin\Release\Output\frmCFOTable.jpg" />
+    <Content Include="bin\Release\Output\frmDeptDiffers.jpg" />
+    <Content Include="bin\Release\Output\frmEnvironment.jpg" />
+    <Content Include="bin\Release\Release\activeds.dll" />
+    <Content Include="bin\Release\Release\ADAdminDotNet.exe" />
+    <Content Include="bin\Release\Release\ADAdminDotNet.vshost.exe" />
+    <Content Include="bin\Release\Release\AssemblyVisualizer.Plugin.dll" />
+    <Content Include="bin\Release\Release\BMC.arnettoc.dll" />
+    <Content Include="bin\Release\Release\BMC.ARSystem.dll" />
+    <Content Include="bin\Release\Release\BMC.ARSystem.xml" />
+    <Content Include="bin\Release\Release\CFO Approval Request2.htm" />
+    <Content Include="bin\Release\Release\ComponentFactory.Krypton.Toolkit.dll" />
+    <Content Include="bin\Release\Release\excelcnv_257.ico" />
+    <Content Include="bin\Release\Release\Interop.ActiveDs.dll" />
+    <Content Include="bin\Release\Release\Interop.ARUSER.dll" />
+    <Content Include="bin\Release\Release\MSTORE_203.ico" />
+    <Content Include="bin\Release\Release\ntlogo.JPG" />
+    <Content Include="bin\Release\Release\OLKFSTUB_1001.ico" />
+    <Content Include="bin\Release\Release\OUTLLIBR_9409.ico" />
+    <Content Include="bin\Release\Release\OUTLLIBR_9502.ico" />
+    <Content Include="bin\Release\Release\OUTLLIBR_9703.ico" />
+    <Content Include="bin\Release\Release\OUTLLIBR_9720.ico" />
+    <Content Include="bin\Release\Release\OUTLLIBR_9767.ico" />
+    <Content Include="bin\Release\Release\Output\frmAD_create_new_shortcode.jpg" />
+    <Content Include="bin\Release\Release\Output\frmCFOTable.jpg" />
+    <Content Include="bin\Release\Release\Output\frmDeptDiffers.jpg" />
+    <Content Include="bin\Release\Release\Output\frmEnvironment.jpg" />
+    <Content Include="bin\Release\Release\request\new  2.txt" />
+    <Content Include="bin\Release\Release\ResetPassAnnotate.jpg" />
+    <Content Include="bin\Release\Release\ResetPassword.JPG" />
+    <Content Include="bin\Release\Release\shell32_1_23.ico" />
+    <Content Include="bin\Release\Release\shell32_23.ico" />
+    <Content Include="bin\Release\Release\shell32_28.ico" />
+    <Content Include="bin\Release\Release\Shield-16.ico" />
+    <Content Include="bin\Release\Release\Shield-32.ico" />
+    <Content Include="bin\Release\Release\Shield-48.ico" />
+    <Content Include="bin\Release\Release\TemplateParser.dll" />
+    <Content Include="bin\Release\Release\TemplateParser.pdb" />
+    <Content Include="bin\Release\Release\TemplateParser.xml" />
+    <Content Include="bin\Release\Release\Wordcnv_17.ico" />
+    <Content Include="bin\Release\request\new  2.txt" />
+    <Content Include="bin\Release\ResetPassAnnotate.jpg" />
+    <Content Include="bin\Release\ResetPassword.JPG" />
+    <Content Include="bin\Release\shell32_1_23.ico" />
+    <Content Include="bin\Release\shell32_23.ico" />
+    <Content Include="bin\Release\shell32_28.ico" />
+    <Content Include="bin\Release\Shield-16.ico" />
+    <Content Include="bin\Release\Shield-32.ico" />
+    <Content Include="bin\Release\Shield-48.ico" />
+    <Content Include="bin\Release\TemplateParser.dll" />
+    <Content Include="bin\Release\TemplateParser.pdb" />
+    <Content Include="bin\Release\TemplateParser.xml" />
+    <Content Include="bin\Release\VPN Administrator Email.htm" />
+    <Content Include="bin\Release\Wordcnv_17.ico" />
+    <Content Include="bin\x86\Debug\ADAdminConsole.exe" />
+    <Content Include="bin\x86\Debug\ADAdminConsole.pdb" />
+    <Content Include="bin\x86\Release\activeds.dll" />
+    <Content Include="bin\x86\Release\ADAdminConsole.exe" />
+    <Content Include="bin\x86\Release\ADAdminConsole.exe.config.Elaine.txt" />
+    <Content Include="bin\x86\Release\ADAdminConsole.exe.config.Masaila.txt" />
+    <Content Include="bin\x86\Release\ADAdminConsole.exe.config.ronel.txt" />
+    <Content Include="bin\x86\Release\ADAdminConsole.pdb" />
+    <Content Include="bin\x86\Release\ADAdminDotNet.vshost.exe" />
+    <Content Include="bin\x86\Release\Interop.ActiveDs.dll" />
+    <Content Include="bin\x86\Release\Invoker.dll" />
+    <Content Include="bin\x86\Release\ntlogo.JPG" />
+    <Content Include="bin\x86\Release\PropertyGridEx.dll" />
+    <Content Include="bin\x86\Release\PropertyGridEx.pdb" />
+    <Content Include="bin\x86\Release\PropertyGridEx.xml" />
+    <Content Include="bin\x86\Release\ResetPassAnnotate.jpg" />
+    <Content Include="icudt32.dll" />
+    <Content Include="icuinbmc32.dll" />
+    <Content Include="icuucbmc32.dll" />
+    <Content Include="Images\23.ico" />
+    <Content Include="Images\Actions\Find.bmp" />
+    <Content Include="Images\Actions\gopher-find.gif" />
+    <Content Include="Images\BALL3.ico" />
+    <Content Include="Images\ENTIRNET.ICO" />
+    <Content Include="Images\ico_blox.ico" />
+    <Content Include="Images\ie6.ico" />
+    <Content Include="Images\ie7.ico" />
+    <Content Include="Images\IEXPLORE.EXE, 0.bmp" />
+    <Content Include="Images\IEXPLORE.EXE, 1.bmp" />
+    <Content Include="Images\imgADS.ico" />
+    <Content Include="Images\imgExcel.bmp" />
+    <Content Include="Images\imgexcel1.bmp" />
+    <Content Include="Images\imgExcelcnv.ico" />
+    <Content Include="Images\imgICO_shell320022.bmp" />
+    <Content Include="Images\imgICO_shell320023.bmp" />
+    <Content Include="Images\imgICO_shell320044.bmp" />
+    <Content Include="Images\imgShell32_28.ico" />
+    <Content Include="Images\LOCK.ico" />
+    <Content Include="Images\nav_exit.bmp" />
+    <Content Include="Images\Security\ico_blox.ico" />
+    <Content Include="Images\Shield-16.ico" />
+    <Content Include="Images\Shield-32.ico" />
+    <Content Include="Images\Shield-48.ico" />
+    <Content Include="Images\WEBPAGES.BMP" />
+    <Content Include="Images\WEBPAGES.ico" />
+    <Content Include="Interop.ActiveDs.dll" />
+    <Content Include="My Project\Images\23.ico" />
+    <Content Include="My Project\Images\Actions\Find.bmp" />
+    <Content Include="My Project\Images\Actions\gopher-find.gif" />
+    <Content Include="My Project\Images\BALL3.ico" />
+    <Content Include="My Project\Images\ENTIRNET.ICO" />
+    <Content Include="My Project\Images\ico_blox.ico" />
+    <Content Include="My Project\Images\ie6.ico" />
+    <Content Include="My Project\Images\ie7.ico" />
+    <Content Include="My Project\Images\IEXPLORE.EXE, 0.bmp" />
+    <Content Include="My Project\Images\IEXPLORE.EXE, 1.bmp" />
+    <Content Include="My Project\Images\imgADS.ico" />
+    <Content Include="My Project\Images\imgExcel.bmp" />
+    <Content Include="My Project\Images\imgexcel1.bmp" />
+    <Content Include="My Project\Images\imgExcelcnv.ico" />
+    <Content Include="My Project\Images\imgICO_shell320022.bmp" />
+    <Content Include="My Project\Images\imgICO_shell320023.bmp" />
+    <Content Include="My Project\Images\imgICO_shell320044.bmp" />
+    <Content Include="My Project\Images\imgShell32_28.ico" />
+    <Content Include="My Project\Images\LOCK.ico" />
+    <Content Include="My Project\Images\nav_exit.bmp" />
+    <Content Include="My Project\Images\Security\ico_blox.ico" />
+    <Content Include="My Project\Images\Shield-16.ico" />
+    <Content Include="My Project\Images\Shield-32.ico" />
+    <Content Include="My Project\Images\Shield-48.ico" />
+    <Content Include="My Project\Images\WEBPAGES.BMP" />
+    <Content Include="My Project\Images\WEBPAGES.ico" />
+    <None Include="My Project\DataSources\ADAdminDotNet.My.MySettings.datasource" />
+    <None Include="Resources\PlusCyan.bmp" />
+    <None Include="Resources\nav_next.bmp" />
+    <None Include="Resources\nav_new.bmp" />
+    <None Include="Resources\nav_delete.bmp" />
+    <None Include="Resources\MinusCyan.bmp" />
+    <None Include="Resources\ADDALL.BMP" />
+    <None Include="Resources\ADD.BMP" />
+    <None Include="Resources\_save.bmp" />
+    <None Include="Resources\_cancel.bmp" />
+    <None Include="Datasets\dsVIP_EXPANDED.xsc">
+      <DependentUpon>dsVIP_EXPANDED.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\dsVIP_EXPANDED.xss">
+      <DependentUpon>dsVIP_EXPANDED.xsd</DependentUpon>
+    </None>
+    <None Include="Images\cancel.msk" />
+    <None Include="Images\help.msk" />
+    <None Include="Images\ok.msk" />
+    <None Include="My Project\Images\cancel.msk" />
+    <None Include="My Project\Images\help.msk" />
+    <None Include="My Project\Images\ok.msk" />
+    <None Include="Resources\imgExcel.bmp.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <BaseApplicationManifest Include="My Project\app.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\CFO Lists\" />
+    <Folder Include="bin\Debug\Release\CFO Lists\" />
+    <Folder Include="bin\Release\CFO Lists\" />
+    <Folder Include="bin\Release\Release\CFO Lists\" />
+    <Folder Include="Images\Shell\" />
+    <Folder Include="My Project\Images\Shell\" />
+    <Folder Include="NewFolder1\" />
+    <Folder Include="PropertyGrids\Rick Strahl - Propery  grids\Json60r3\Source\Src\Newtonsoft.Json.Tests\Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://devlgremv1.logis.gov.za/arsys/WSDL/public/devLGRemV1/CustomerInformationWebService">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\devlgremv1\</RelPath>
+      <UpdateFromURL>http://devlgremv1.logis.gov.za/arsys/WSDL/public/devLGRemV1/CustomerInformationWebService</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>ADAdminConsole_za_gov_logis_devlgremv1_CustomerInformationWebServiceService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://devlgremv1/arsys/WSDL/public/devLGRemV1/LOG_DM_Customer_Information_BasicWS__c">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\devlgremv1_old\</RelPath>
+      <UpdateFromURL>http://devlgremv1/arsys/WSDL/public/devLGRemV1/LOG_DM_Customer_Information_BasicWS__c</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>ADAdminConsole_devlgremv1_LOG_DM_Customer_Information_BasicWS__cService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://prodlgremv1/arsys/WSDL/public/ProdLGRemV1/LOG_DM_Department_BasicWS__c">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\LOG_DM_Department_BasicWS__c\</RelPath>
+      <UpdateFromURL>http://prodlgremv1/arsys/WSDL/public/ProdLGRemV1/LOG_DM_Department_BasicWS__c</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>ADAdminConsole_LOG_DM_Department_BasicWS__c_LOG_DM_Department_BasicWS__cService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://prodlgremv1/arsys/WSDL/public/ProdLGRemV1/LOG_IN_Request_Tracking_BasicWS__c">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\Request\</RelPath>
+      <UpdateFromURL>http://prodlgremv1/arsys/WSDL/public/ProdLGRemV1/LOG_IN_Request_Tracking_BasicWS__c</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>ADAdminConsole_Request_LOG_IN_Request_Tracking_BasicWS__cService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="we">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\WS_CI__c1\</RelPath>
+      <UpdateFromURL>we</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>ADAdminConsole_WS_CI__c1_WS_CI__c1Service</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

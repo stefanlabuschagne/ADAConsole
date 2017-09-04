@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<title>Dear Client</title>
+		<META http-equiv="Content-Type" content="text/html; charset=windows-1252">
+		<meta name='GENERATOR' content='Microsoft FrontPage 12.0'>
+		<meta name='ProgId' content='FrontPage.Editor.Document'>
+	    <style type="text/css">
+            .style2
+            {
+                font-family: Calibri, sans-serif;
+                color: red;
+                font-size: small;
+                font-weight: bold;
+            }
+        </style>
+	</head>
+	<body>
+		<div><font face='Verdana' size='2'><p><font face="Verdana" size="2">Your password for access to 
+						the Vulindlela Web Reports has been reset.<BR>
+						<BR>
+						The Username is :<font color="#0000cc">[[username]]</font> and the password is <font color="#0000cc">
+							password</font><BR>
+						Please take note that the Password must be entered in lowercase.<BR>
+						<BR>
+						In addition <I>the application will ask you to change this password the first time 
+							you log on.</I></font><p 
+                class="style2">
+                Please note that your new password must be 8 characters or longer and something 
+                that you have never used on Vulindlela before.</p>
+            <p>For your convenience this link to the <A href="http://www.vulindlela.gov.za/index.asp?USERNAME=[[username]]" target="_blank">
+							<font color="#0000cc">Vulindlela Web Application Web Application</font></A> is provided. 
+						This will launch the application directly in a new window.<p>It is a requirement of the application to be launched through Internet Explorer 
+						6 or higher to enable the web application's functionality. If you get an 
+						'Unsupported Browser' error when you try to open the site, please contact your 
+						local IT department and request them to upgrade your Web Browser to Internet 
+						Explorer 6 or higher.<BR>
+						<BR>
+						Please contact <font color="#3300cc"><b>Vulindlela </b>
+                <span lang="en-za"><b>User Support</b> </span></font>at <font color="#0000cc">[[helpdesk_phoneno]]</font>
+						for more information, or if you experience <U>any</U> difficulties.<BR>
+						<BR>
+           <p><font color="#000000" face="Verdana" size="2">Kind regards,</p>
+            <P><font face="Arial" size="2">
+			    <b>The Vulindlela Team</b><br />
+			       Tel: (012) 657-4444<br />
+                   Fax: (012) 657-4555<br /><br />
+                    <img height="79" alt="Fax: (012) 657-4555<br /><br />
+                    <img height="79" alt="" src="cid:ntlogo" width="226" /></font></p>	
+				<P style="font-SIZE: 8pt; COLOR: #000099; font-FAMILY: verdana; TEXT-DECORATION: none"><font color="#ff3300" face="Verdana" size="2"><STRONG>
+                    Important!! Never share your username and password with anyone...</P>
+				<P>&nbsp;</P>
+				<P>&nbsp;</P>
+				<P>&nbsp;</P>
+				<P>&nbsp;</P>
+				<P>&nbsp;</P>
+				<P>&nbsp;</P>
+				<P>&nbsp;</P>
+				<P>
+			</font>&nbsp;</P></font></div>
+	</body>
+</html>

@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Dept" targetNamespace="http://tempuri.org/Dept.xsd" xmlns:mstns="http://tempuri.org/Dept.xsd" xmlns="http://tempuri.org/Dept.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="1" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="HR_MIS_STAGINGConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="HR_MIS_STAGINGConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.ADAdminDotNet.My.MySettings.GlobalReference.Default.HR_MIS_STAGINGConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="VIP_EXPANDEDConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="VIP_EXPANDEDConnectionString1 (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.ADAdminDotNet.My.MySettings.GlobalReference.Default.VIP_EXPANDEDConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Nat_All_Discr_VoteTableAdapter" GeneratorDataComponentClassName="Nat_All_Discr_VoteTableAdapter" Name="Nat_All_Discr_Vote" UserDataComponentName="Nat_All_Discr_VoteTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="HR_MIS_STAGINGConnectionString (MySettings)" DbObjectName="HR_MIS_STAGING.dbo.Nat_All_Discr_Vote" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT calyear, finyear, votedes, description FROM dbo.Nat_All_Discr_Vote</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="calyear" DataSetColumn="calyear" />
+              <Mapping SourceColumn="finyear" DataSetColumn="finyear" />
+              <Mapping SourceColumn="votedes" DataSetColumn="votedes" />
+              <Mapping SourceColumn="description" DataSetColumn="description" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="HR_MIS_STAGINGConnectionString (MySettings)" DbObjectName="HR_MIS_STAGING.dbo.Nat_All_Discr_Vote" DbObjectType="View" GenerateShortCommands="true" GeneratorSourceName="GetDataByVotedes" Modifier="Public" Name="GetDataByVotedes" QueryType="Scalar" ScalarCallRetval="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="GetDataByVotedes">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        description
+FROM            Nat_All_Discr_Vote
+WHERE        (votedes = '@paramvotedes') AND (finyear = '@paramfinyear')</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="HR_MIS_STAGINGConnectionString (MySettings)" DbObjectName="HR_MIS_STAGING.dbo.Nat_All_Discr_Vote" DbObjectType="View" GenerateShortCommands="true" GeneratorSourceName="GetDataByVotes" Modifier="Public" Name="GetDataByVotes" QueryType="Scalar" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy1" UserSourceName="GetDataByVotes">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        description
+FROM            Nat_All_Discr_Vote
+WHERE        (votedes = @paramvotedes) AND (finyear = @parafinyear)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="paramvotedes" ColumnName="votedes" DataSourceName="HR_MIS_STAGING.dbo.Nat_All_Discr_Vote" DataTypeServer="nvarchar(255)" DbType="String" Direction="Input" ParameterName="@paramvotedes" Precision="0" ProviderType="NVarChar" Scale="0" Size="255" SourceColumn="votedes" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="parafinyear" ColumnName="finyear" DataSourceName="HR_MIS_STAGING.dbo.Nat_All_Discr_Vote" DataTypeServer="nvarchar(255)" DbType="String" Direction="Input" ParameterName="@parafinyear" Precision="0" ProviderType="NVarChar" Scale="0" Size="255" SourceColumn="finyear" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="View_Nat_All_Discr_VoteTableAdapter" GeneratorDataComponentClassName="View_Nat_All_Discr_VoteTableAdapter" Name="View_Nat_All_Discr_Vote" UserDataComponentName="View_Nat_All_Discr_VoteTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="VIP_EXPANDEDConnectionString1 (MySettings)" DbObjectName="VIP_EXPANDED.dbo.View_Nat_All_Discr_Vote" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT calyear, finyear, votedes, description FROM dbo.View_Nat_All_Discr_Vote</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="calyear" DataSetColumn="calyear" />
+              <Mapping SourceColumn="finyear" DataSetColumn="finyear" />
+              <Mapping SourceColumn="votedes" DataSetColumn="votedes" />
+              <Mapping SourceColumn="description" DataSetColumn="description" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="VIP_EXPANDEDConnectionString1 (MySettings)" DbObjectName="VIP_EXPANDED.dbo.View_Nat_All_Discr_Vote" DbObjectType="View" GenerateShortCommands="true" GeneratorSourceName="GetDatabyVotes" Modifier="Public" Name="GetDatabyVotes" QueryType="Scalar" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="GetDatabyVotes">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        description
+FROM            View_Nat_All_Discr_Vote
+WHERE        (votedes = @paramvotedes) AND (finyear = @parafinyear)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="paramvotedes" ColumnName="votedes" DataSourceName="VIP_EXPANDED.dbo.View_Nat_All_Discr_Vote" DataTypeServer="nvarchar(255)" DbType="String" Direction="Input" ParameterName="@paramvotedes" Precision="0" ProviderType="NVarChar" Scale="0" Size="255" SourceColumn="votedes" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="parafinyear" ColumnName="finyear" DataSourceName="VIP_EXPANDED.dbo.View_Nat_All_Discr_Vote" DataTypeServer="nvarchar(255)" DbType="String" Direction="Input" ParameterName="@parafinyear" Precision="0" ProviderType="NVarChar" Scale="0" Size="255" SourceColumn="finyear" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Dept" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="Dept" msprop:Generator_UserDSName="Dept">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Nat_All_Discr_Vote" msprop:Generator_TableClassName="Nat_All_Discr_VoteDataTable" msprop:Generator_TableVarName="tableNat_All_Discr_Vote" msprop:Generator_TablePropName="Nat_All_Discr_Vote" msprop:Generator_RowDeletingName="Nat_All_Discr_VoteRowDeleting" msprop:Generator_RowChangingName="Nat_All_Discr_VoteRowChanging" msprop:Generator_RowEvHandlerName="Nat_All_Discr_VoteRowChangeEventHandler" msprop:Generator_RowDeletedName="Nat_All_Discr_VoteRowDeleted" msprop:Generator_UserTableName="Nat_All_Discr_Vote" msprop:Generator_RowChangedName="Nat_All_Discr_VoteRowChanged" msprop:Generator_RowEvArgName="Nat_All_Discr_VoteRowChangeEvent" msprop:Generator_RowClassName="Nat_All_Discr_VoteRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="calyear" msprop:Generator_ColumnVarNameInTable="columncalyear" msprop:Generator_ColumnPropNameInRow="calyear" msprop:Generator_ColumnPropNameInTable="calyearColumn" msprop:Generator_UserColumnName="calyear" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="finyear" msprop:Generator_ColumnVarNameInTable="columnfinyear" msprop:Generator_ColumnPropNameInRow="finyear" msprop:Generator_ColumnPropNameInTable="finyearColumn" msprop:Generator_UserColumnName="finyear" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="votedes" msprop:Generator_ColumnVarNameInTable="columnvotedes" msprop:Generator_ColumnPropNameInRow="votedes" msprop:Generator_ColumnPropNameInTable="votedesColumn" msprop:Generator_UserColumnName="votedes" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="description" msprop:Generator_ColumnVarNameInTable="columndescription" msprop:Generator_ColumnPropNameInRow="description" msprop:Generator_ColumnPropNameInTable="descriptionColumn" msprop:Generator_UserColumnName="description" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="View_Nat_All_Discr_Vote" msprop:Generator_TableClassName="View_Nat_All_Discr_VoteDataTable" msprop:Generator_TableVarName="tableView_Nat_All_Discr_Vote" msprop:Generator_TablePropName="View_Nat_All_Discr_Vote" msprop:Generator_RowDeletingName="View_Nat_All_Discr_VoteRowDeleting" msprop:Generator_RowChangingName="View_Nat_All_Discr_VoteRowChanging" msprop:Generator_RowEvHandlerName="View_Nat_All_Discr_VoteRowChangeEventHandler" msprop:Generator_RowDeletedName="View_Nat_All_Discr_VoteRowDeleted" msprop:Generator_UserTableName="View_Nat_All_Discr_Vote" msprop:Generator_RowChangedName="View_Nat_All_Discr_VoteRowChanged" msprop:Generator_RowEvArgName="View_Nat_All_Discr_VoteRowChangeEvent" msprop:Generator_RowClassName="View_Nat_All_Discr_VoteRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="calyear" msprop:Generator_ColumnVarNameInTable="columncalyear" msprop:Generator_ColumnPropNameInRow="calyear" msprop:Generator_ColumnPropNameInTable="calyearColumn" msprop:Generator_UserColumnName="calyear" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="finyear" msprop:Generator_ColumnVarNameInTable="columnfinyear" msprop:Generator_ColumnPropNameInRow="finyear" msprop:Generator_ColumnPropNameInTable="finyearColumn" msprop:Generator_UserColumnName="finyear" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="votedes" msprop:Generator_ColumnVarNameInTable="columnvotedes" msprop:Generator_ColumnPropNameInRow="votedes" msprop:Generator_ColumnPropNameInTable="votedesColumn" msprop:Generator_UserColumnName="votedes" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="description" msprop:Generator_ColumnVarNameInTable="columndescription" msprop:Generator_ColumnPropNameInRow="description" msprop:Generator_ColumnPropNameInTable="descriptionColumn" msprop:Generator_UserColumnName="description" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

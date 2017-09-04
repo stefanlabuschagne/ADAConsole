@@ -1,0 +1,9 @@
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\PropertyGrids\UserPreferencesExample\UserPreferencesExample\UserPreferencesExample\bin\Debug\UserPreferencesExample.exe.config
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\PropertyGrids\UserPreferencesExample\UserPreferencesExample\UserPreferencesExample\bin\Debug\UserPreferencesExample.exe
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\PropertyGrids\UserPreferencesExample\UserPreferencesExample\UserPreferencesExample\bin\Debug\UserPreferencesExample.pdb
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\PropertyGrids\UserPreferencesExample\UserPreferencesExample\UserPreferencesExample\obj\Debug\ResolveAssemblyReference.cache
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\PropertyGrids\UserPreferencesExample\UserPreferencesExample\UserPreferencesExample\obj\Debug\UserPreferencesExample.Properties.Resources.resources
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\PropertyGrids\UserPreferencesExample\UserPreferencesExample\UserPreferencesExample\obj\Debug\UserPreferencesExample.UserPreferenceSample.resources
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\PropertyGrids\UserPreferencesExample\UserPreferencesExample\UserPreferencesExample\obj\Debug\UserPreferencesExample.csproj.GenerateResource.Cache
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\PropertyGrids\UserPreferencesExample\UserPreferencesExample\UserPreferencesExample\obj\Debug\UserPreferencesExample.exe
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\PropertyGrids\UserPreferencesExample\UserPreferencesExample\UserPreferencesExample\obj\Debug\UserPreferencesExample.pdb

@@ -1,0 +1,15 @@
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\FTP_Source\AdvancedFTPServer\Build\FTPServer.exe
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\FTP_Source\AdvancedFTPServer\Build\FTPServer.pdb
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\FTP_Source\AdvancedFTPServer\Server\obj\Debug\ResolveAssemblyReference.cache
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\FTP_Source\AdvancedFTPServer\Server\obj\Debug\AdvancedFTPServer.About.resources
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\FTP_Source\AdvancedFTPServer\Server\obj\Debug\AdvancedFTPServer.frmCommonSettings.resources
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\FTP_Source\AdvancedFTPServer\Server\obj\Debug\AdvancedFTPServer.frmErrorLogs.resources
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\FTP_Source\AdvancedFTPServer\Server\obj\Debug\AdvancedFTPServer.frmMain.resources
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\FTP_Source\AdvancedFTPServer\Server\obj\Debug\AdvancedFTPServer.frmOnlineUsers.resources
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\FTP_Source\AdvancedFTPServer\Server\obj\Debug\AdvancedFTPServer.frmUser.resources
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\FTP_Source\AdvancedFTPServer\Server\obj\Debug\AdvancedFTPServer.frmUserAccount.resources
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\FTP_Source\AdvancedFTPServer\Server\obj\Debug\AdvancedFTPServer.frmViewService.resources
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\FTP_Source\AdvancedFTPServer\Server\obj\Debug\AdvancedFTPServer.Properties.Resources.resources
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\FTP_Source\AdvancedFTPServer\Server\obj\Debug\Server.csproj.GenerateResource.Cache
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\FTP_Source\AdvancedFTPServer\Server\obj\Debug\FTPServer.exe
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\FTP_Source\AdvancedFTPServer\Server\obj\Debug\FTPServer.pdb

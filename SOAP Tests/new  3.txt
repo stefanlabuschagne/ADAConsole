@@ -1,0 +1,4 @@
+AuthenticationInfo.userName = ARUser
+AuthenticationInfo.password = ARPassword
+AuthenticationInfo_Query.userName = ARUser
+AuthenticationInfo_Query.password = ARPassword

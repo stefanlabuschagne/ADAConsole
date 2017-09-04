@@ -1,0 +1,122 @@
+<HTML>
+	<HEAD>
+		<TITLE></TITLE>
+	</HEAD>
+	<BODY>
+		<P><font face="Verdana" size="2"> Please advise what rights may be granted for the 
+				following person.&nbsp;</font><font face="Verdana" size="2">The&nbsp;Remedy 
+				request&nbsp;description reads as follow:</font></P>
+		<P><font face="Verdana" size="2"><font face="Verdana" size="2"><font color="#cc0066"><font color="#0000ff">[[remedy_req]]</font>
+					</font></font></font>
+		</P>
+		<P><font face="Verdana" size="2">Details as found on Remedy are as follows:</font></P>
+		<font face="Verdana" size="2">
+			<P>
+				<TABLE id="Table1" height="175" cellSpacing="1" cellPadding="1" width="297" border="1">
+					<TR>
+						<TD noWrap width="104"><font face="Verdana" size="2">Username&nbsp;:</font>
+						</TD>
+						<TD noWrap><font face="Verdana" size="2" color="#0000cc">[[persal_no]]</font>
+						</TD>
+					</TR>
+					<TR>
+						<TD noWrap width="104"><font face="Verdana" size="2">Firstnames&nbsp;: </font>
+						</TD>
+						<TD noWrap><font size="2"><font face="Verdana" size="2" color="#0000cc">[[firstnames]]</font>
+							</font>
+						</TD>
+					</TR>
+					<TR>
+						<TD noWrap width="104"><font face="Verdana" size="2">Lastname&nbsp;:</font>
+						</TD>
+						<TD noWrap><font face="Verdana" size="2" color="#0000cc">[[lastname]]</font>
+						</TD>
+					</TR>
+					<TR>
+						<TD noWrap width="104"><font face="Verdana" size="2">Cellphone&nbsp;: </font>
+						</TD>
+						<TD noWrap><font size="2"><font face="Verdana" size="2" color="#0000cc">[[cellphone]]</font>
+							</font>
+						</TD>
+					</TR>
+					<TR>
+						<TD noWrap width="104"><font face="Verdana" size="2">Telephone: </font>
+						</TD>
+						<TD noWrap><font size="2"><font face="Verdana" size="2" color="#0000cc">[[telephone]]</font>
+							</font>
+						</TD>
+					</TR>
+					<TR>
+						<TD noWrap width="104"><font face="Verdana" size="2">Dept Name&nbsp;:</font></TD>
+						<TD noWrap><font size="2"><font face="Verdana" size="2" color="#0000cc">[[deptname]]</font>
+							</font>
+						</TD>
+					</TR>
+					<TR>
+						<TD noWrap width="104"><font face="Verdana" size="2">Dept Type&nbsp;: </font>
+						</TD>
+						<TD noWrap><font size="2"><font face="Verdana" size="2" color="#0000cc">[[depttype]]</font>
+							</font>
+						</TD>
+					</TR>
+					<TR>
+						<TD noWrap width="104"><font face="Verdana" size="2">Rank&nbsp;: </font>
+						</TD>
+						<TD noWrap><font size="2"><font face="Verdana" size="2" color="#0000cc">[[rank]]</font> </font>
+						</TD>
+					</TR>
+				</TABLE>
+			</P>
+			<P>
+		</font><font face="Verdana" size="2">According to the <b>Establishment</b> this person is 
+			:</font></P>
+		<P><font face="Verdana" size="2"><font face="Verdana" size="2"><font color="#0000cc">[[establishment]]</font></font></font></P>
+        <P><b><font face="Verdana" size="2">Current Profile Details 
+			:</font></b></P>
+		<P><font color="#0000cc" face="Verdana" size="2">[[accessnow]]</font></P>
+        <P><font face="Verdana" size="2"> Thanks<BR>
+					<BR>
+					The Vulindlela Team<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+				</font>
+		</P>
+		<P><font face="Verdana" size="2"><font face="Verdana" size="2"></font></font>&nbsp;</P>
+		<P><font face="Verdana" size="2"><font face="Verdana" size="2"></font></font>&nbsp;</P>
+		<P><font face="Verdana" size="2"><font face="Verdana" size="2"></font></font>&nbsp;</P>
+		<P><font face="Verdana" size="2"><font face="Verdana" size="2"></font></font>&nbsp;</P>
+		<P><font face="Verdana" size="2"><font face="Verdana" size="2"></font></font>&nbsp;</P>
+		<P><font face="Verdana" size="2"><font face="Verdana" size="2"></font></font>&nbsp;</P>
+		<P><font face="Verdana" size="2"><font face="Verdana" size="2"></font></font>&nbsp;</P>
+		<P><font face="Verdana" size="2"><font face="Verdana" size="2">&nbsp;</P>
+		<P>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+		</P>
+		</font></font>
+	</BODY>
+</HTML>

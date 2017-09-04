@@ -1,0 +1,5 @@
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\MiniFTPServer\LibFTPServ.ConvertedToVBNet\obj\Debug\ResolveAssemblyReference.cache
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\MiniFTPServer\LibFTPServ.ConvertedToVBNet\bin\Debug\LibFTPServ.dll
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\MiniFTPServer\LibFTPServ.ConvertedToVBNet\bin\Debug\LibFTPServ.pdb
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\MiniFTPServer\LibFTPServ.ConvertedToVBNet\obj\Debug\LibFTPServ.dll
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\MiniFTPServer\LibFTPServ.ConvertedToVBNet\obj\Debug\LibFTPServ.pdb

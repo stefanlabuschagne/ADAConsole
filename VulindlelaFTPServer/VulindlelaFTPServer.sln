@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{6A272B6E-C3A9-42D9-9317-A54286BAB1FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{F58B2EF6-F0A3-44AB-B1EE-69873235F81D}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "VulindlelaFTPServer_Setup", "VulindlelaFTPServer_Setup\VulindlelaFTPServer_Setup.vdproj", "{F6B7C0B1-7180-482D-9845-A39E612C47EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A272B6E-C3A9-42D9-9317-A54286BAB1FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A272B6E-C3A9-42D9-9317-A54286BAB1FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A272B6E-C3A9-42D9-9317-A54286BAB1FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A272B6E-C3A9-42D9-9317-A54286BAB1FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F58B2EF6-F0A3-44AB-B1EE-69873235F81D}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{F58B2EF6-F0A3-44AB-B1EE-69873235F81D}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{F58B2EF6-F0A3-44AB-B1EE-69873235F81D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F58B2EF6-F0A3-44AB-B1EE-69873235F81D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6B7C0B1-7180-482D-9845-A39E612C47EC}.Debug|Any CPU.ActiveCfg = Debug
+		{F6B7C0B1-7180-482D-9845-A39E612C47EC}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

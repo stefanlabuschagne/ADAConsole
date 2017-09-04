@@ -1,0 +1,13 @@
+"ID","PersalNr","Province","Dept","Title","Firstname","Surname","Responsibility","Rank","TelB","Fax","Cell","EMail","HR","FIN","LOGIS","GFS","DPSA","Notes","Done","Reset","Created","Exported","DownloadedBy"
+"27610","13038010","gau","gau_din","Ms","Johan","Vermeulen","Financials","","(012) 6574316","(012) 6574316","(082) 7810415","No","No","No","No","No","TESTING CFO APPLICATION","3","True",2011-11-01T09:45:22,1900-01-01T00:00:00,""
+"27876","P63225875","","","Mr","Calvin Dumisani","Zuma","Financials","07","(031) 9057871","","(078) 2907605","zumad@webmail.co.za","No","No","No","No","No","","3","True",2011-11-17T12:42:44,1900-01-01T00:00:00,""
+"9192","13038010","","","Ms","elmari","de Witt","Other","12","(012) 6574045","(012) 6574020","(082) 8090763","elmari.dewitt@treasury.gov.za","No","No","No","No","No","Forgot password, please reset","3","False",2008-04-10T14:30:22,2008-04-10T14:39:58,"Thompson Mojalefa"
+"9243","13038010","","","Ms","elmari","de witt","Other","12","(012) 6574045","(012) 6574020","(082) 8090673","elmari.dewitt@treasury.gov.za","No","No","No","No","No","RSA level access - password forgotten sorry!","3","False",2008-04-15T14:57:26,2008-04-15T15:11:05,"Tasneem Omarjee"
+"17718","13038010","wcp","wcp_fin","Ms","Elmari","de witt","Human Resource","","(012) 6574334","(012) 6574555","(082) 7745698","ronel.ilsley@treasury.gov.za","No","No","No","No","No","Test CFO Application. Approve this one please Ralton.","3","False",2009-09-09T14:41:55,1900-01-01T00:00:00,""
+"17764","13038010","nat","ntrea","Ms","Elmari","de Witt","Financials","","(012) 6574444","","(082) 8090673","elmari.dewitt@treasury.gov.za","No","No","No","No","No","TEST
+Want access to aal","3","False",2009-09-11T14:01:55,1900-01-01T00:00:00,""
+"17926","13038010","nat","ntrea","Ms","Elmari","de Witt","Financials","","(012) 6574334","(012) 6574444","(082) 3569853","ronel.ilsley@treasury.gov.za","No","No","No","No","No","Test CFO Application","3","False",2009-09-21T13:29:31,1900-01-01T00:00:00,""
+"17956","13038010","nat","ntrea","Ms","Elmari","de Witt","Financials","","(012) 6574444","(012) 6574444","(082) 1145698","ronel.ilsley@treasury.gov.za","No","No","No","No","No","Test CFO","3","False",2009-09-22T10:05:40,1900-01-01T00:00:00,""
+"19056","13038010","nat","ntrea","Ms","Elmari","De Witt","Financials","","(012) 6574046","(012) 5574555","(082) 8090673","elmari.dewitt@treasury.gov.za","No","No","No","No","No","THIS IS A TEST.
+
+","3","False",2010-01-04T10:08:57,1900-01-01T00:00:00,""

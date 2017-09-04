@@ -1,0 +1,11 @@
+C:\Users\Nathan\AppData\Local\Temporary Projects\BrowserExtras\bin\Debug\BrowserExtras.exe
+C:\Users\Nathan\AppData\Local\Temporary Projects\BrowserExtras\bin\Debug\BrowserExtras.pdb
+C:\Users\Nathan\AppData\Local\Temporary Projects\BrowserExtras\bin\Debug\BrowserExtras.xml
+C:\Users\Nathan\AppData\Local\Temporary Projects\BrowserExtras\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Nathan\AppData\Local\Temporary Projects\BrowserExtras\obj\x86\Debug\BrowserExtras.Form1.resources
+C:\Users\Nathan\AppData\Local\Temporary Projects\BrowserExtras\obj\x86\Debug\BrowserExtras.Resources.resources
+C:\Users\Nathan\AppData\Local\Temporary Projects\BrowserExtras\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Nathan\AppData\Local\Temporary Projects\BrowserExtras\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Nathan\AppData\Local\Temporary Projects\BrowserExtras\obj\x86\Debug\BrowserExtras.exe
+C:\Users\Nathan\AppData\Local\Temporary Projects\BrowserExtras\obj\x86\Debug\BrowserExtras.xml
+C:\Users\Nathan\AppData\Local\Temporary Projects\BrowserExtras\obj\x86\Debug\BrowserExtras.pdb

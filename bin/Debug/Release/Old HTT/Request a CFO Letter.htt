@@ -1,0 +1,96 @@
+<html>
+	
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+<title>Dear Client</title>
+    <style type="text/css">
+        .style1
+        {
+            color: #0000FF;
+        }
+        .style2
+        {
+            font-weight: bold;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body style="font-family: Verdana; font-size: x-small">
+<div>
+<p>Name:<span class="style1"> [[fullname]]</span> </p>
+
+<p>Persal no: <span class="style1">[[persal_no]] </span></p>
+
+<p>Telephone number: <span class="style1">[[BUS_TEL]]</span> </p>
+
+<p>Cellular number: <span class="style1">[[CEL_TEL]]</span> </p>
+
+<p>Department: <span class="style1">[[department]]</span> </p>
+
+<p>Responsibility area: <span class="style1">[[responsibility]]</span> </p>
+    <p>Role on Establishment: <span class="style1">[[jobdescription]]</span> </p>
+    <p class="style2">Current Access:</p>
+    <p><span class="style1">[[accessnow]]</span>
+    </p>
+
+<p class="style2">Access Required:</p>
+
+<p><span class="style1">[[accessrequired]]</span>
+</p>
+
+<p class="style2">Notes: </p>
+
+<p class="style1">[[notes]]</p>
+
+<p>If you&nbsp;apply for access over more than one application (Human Resources, 
+    Financial and Supply Chain Management), a letter of motivation is required from 
+    the Chief Financial Officer in order for us to grant access. </p>
+
+<p>Please help us process your application as soon as possible by 
+    acquiring the letter of motivation.&nbsp;
+  The letter can be faxed to LOGIK at <span class="style1">fax no: 012-6574555</span>.&nbsp;</p>
+
+<p>Please note: The letter of motivation must please reach us within 10 
+    working days after your application on the web; thereafter your request will not 
+    be processed and will be taken of the queue.<span>&nbsp; </span>Alternative arrangements can be made by 
+    replying to this email.&nbsp;&nbsp; </p>
+
+<p>Kind regards </p>
+
+<p><span>The Vulindlela Team</span></p>
+
+<p>&nbsp;</p>
+<p>&nbsp; </p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+</div>
+
+</body>
+
+</html>

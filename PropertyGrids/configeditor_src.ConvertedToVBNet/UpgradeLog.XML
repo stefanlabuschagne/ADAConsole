@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Configuration.Converted">
+</Property><Property Name="Solution File" Value="C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\PropertyGrids\configeditor_src.ConvertedToVBNet\Configuration.Converted.sln">
+</Property><Property Name="Date" Value="06 May 2014">
+</Property><Property Name="Time" Value="10:21:23 AM">
+</Property></Properties><Event ErrorLevel="0" Project="Configuration.Converted" Source="Configuration.Converted.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Configuration.Converted" Source="Configuration.Converted.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Configuration.Converted" Source="Configuration.Converted.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

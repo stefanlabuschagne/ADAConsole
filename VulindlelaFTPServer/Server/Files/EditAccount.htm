@@ -1,0 +1,194 @@
+<head>
+    <style type="text/css">
+        .tblBrowser
+        {
+        	border:1px Solid #B5C7DE;
+        	background-color:#EEEECC;
+        	border-collapse:collapse;
+        	position: absolute; 
+            left:491px; 
+            top:87px; 
+            width:355px; 
+            height:226px;
+            display:none;
+        	font: Verdana ;
+            font-style:normal;
+            font-size:x-small;
+            font-weight:bold;
+            color:#000000;
+        }
+        .trCLeft
+        {
+            align=center;
+        	}
+        .tdColor
+        {
+            height: 26px;
+            font: Verdana ;
+            font-style:normal;
+            font-size:x-small;
+            font-weight:bold;
+            color:#000000;
+        }
+        .tdBackcolor
+        {
+            height: 26px;
+            background-color:#EEEECC;
+            color:#00000;
+        }
+        .style1
+        {
+        }
+        .style2
+        {
+            width: 109px;
+        }
+        #chkDelFiles
+        {}
+        .style3
+        {
+            font-size: small;
+        }
+    </style>
+</head>
+<div>
+	<table id="tblBrowser" cellspacing="0" cellpadding="4" border="0" style="border:1px Solid #B5C7DE; background-color:#EEEECC;border-collapse:collapse; position: absolute; left:491px; top:87px; width:355px; height:226px;display:none;">
+		<tr>
+			<td id="tdDirectory">
+			
+			</td>
+		</tr>
+	</table>
+	<table cellspacing="0" cellpadding="4" border="0" 
+        style="border:1px Solid #B5C7DE; background-color:#FFFFFF; border-collapse:collapse; position: absolute; left:205px; top:87px; width:194px" 
+        width="268">
+		<tr>
+			<td class=".tdBackcolor" 
+                style="font-family: Verdana; font-size: 13px; color: #000000">
+			<table cellpadding="0" border="0" height:91px; width:275px;" 
+                    style="border: 1px solid #000000; width: 286px">
+				<tr>
+					<td class="style3" 
+                        style="font-family: Verdana; color: #000000" colspan="2">
+					    <br />
+&nbsp;Add/Edit User Account<br />
+                    </td>
+				</tr>
+				<tr>
+					<td align="right" 
+                        style="font-family: Arial, Helvetica, sans-serif; font-size: x-small" 
+                        class="style1">User Name:</td>
+					<td width="163" colspan="2">
+					<input id="txtOldLoginId" type="hidden" value="--UName--">
+					<input size="23" id="txtLoginId" value="--UName--" 
+                            style="font-family: Arial, Helvetica, sans-serif; font-size: x-small"></td>
+				</tr>
+				<tr>
+					<td align="right" height="25" 
+                        style="font-family: Arial, Helvetica, sans-serif; font-size: x-small" 
+                        class="style1">Password:</td>
+					<td width="163" height="25" colspan="2">
+					<input id="txtPassword" size="23" value="--PWD--" 
+                            style="font-family: Arial, Helvetica, sans-serif; font-size: x-small"></td>
+				</tr>
+				<tr>
+					<td align="right" height="25" 
+                        style="font-family: Arial, Helvetica, sans-serif; font-size: x-small" 
+                        class="style1">Startup Path:</td>
+					<td width="163" height="25" colspan="2">
+					<input id="txtStartupPath" size="23" 
+                            onfocus="JavaScript:if(tblBrowser.style.display!='block')RequestAsync('LIST&', escape(this.value), tdDirectory, 'Searching. Please wait...');this.blur();tblBrowser.style.display='block';" 
+                            value="--StartUp--" 
+                            style="font-family: Arial, Helvetica, sans-serif; font-size: x-small"></td>
+				</tr>
+				<tr>
+					<td class="style1">&nbsp;</td>
+				</tr>
+				<tr align="center" style="font-weight:bold;background-color:#999966;">
+					<td height="23" 
+                        style="background-color: #D9ECFF; color: #000000; font-family: Verdana; font-size: 13px;" 
+                        class="style1">Permissions</td>
+					<td height="23" 
+                        
+                        style="background-color: #D9ECFF; color: #000000; font-family: Verdana; font-size: 13px;" 
+                        class="style2">Files</td>
+					<td height="23" width="88" 
+                        style="background-color: #D9ECFF; color: #000000; font-family: Verdana; font-size: 13px;">Folders</td>
+				</tr>
+				<tr align="center">
+					<td height="21" align="right" class="style1" 
+                        style="font-family: Verdana; font-size: 13px; color: #000000">Add / Store:</td>
+					<td height="21" 
+                        style="font-family: Verdana; font-size: 13px; color: #000000" 
+                        class="style2">
+					<input id="chkAddFiles" type="checkbox" addfiles></td>
+					<td height="21" width="88" 
+                        style="font-family: Verdana; font-size: 13px; color: #000000">
+					<input id="chkAddFolders" type="checkbox" addfolders></td>
+				</tr>
+				<tr align="center">
+					<td height="21" align="right" class="style1" 
+                        style="font-family: Verdana; font-size: 13px; color: #000000">Rename:</td>
+					<td height="21" 
+                        style="font-family: Verdana; font-size: 13px; color: #000000" 
+                        class="style2">
+					<input id="chkRenFiles" type="checkbox" renfiles></td>
+					<td height="21" width="88" 
+                        style="font-family: Verdana; font-size: 13px; color: #000000">
+					<input id="chkRenFiles" type="checkbox" renfolders></td>
+				</tr>
+				<tr align="center">
+					<td height="21" align="right" class="style1" 
+                        style="font-family: Verdana; font-size: 13px; color: #000000">Delete:</td>
+					<td height="21" 
+                        style="font-family: Verdana; font-size: 13px; color: #000000" 
+                        class="style2">
+					<input id="chkDelFiles" type="checkbox" delfiles></td>
+					<td height="21" width="88" 
+                        style="font-family: Verdana; font-size: 13px; color: #000000">
+					<input id="chkDelFolders" type="checkbox" delfolders></td>
+				</tr>
+				<tr>
+					<td height="21" align="right" class="style1" 
+                        style="font-family: Verdana; font-size: 13px; color: #000000">Copy:</td>
+					<td height="21" 
+                        style="font-family: Verdana; font-size: 13px; color: #000000" 
+                        class="style2">
+					<input id="chkDelFiles" type="checkbox" copyfiles 
+                            style="background-color: White; border-color: #FFFFFF; border-width: 1px; border-style: Solid; font-family: Verdana; font-size: 0.8em; vertical-align: middle; text-align: right;"></td>
+					<td height="21" width="88" 
+                        style="font-family: Verdana; font-size: 13px; color: #000000">&nbsp;</td>
+				</tr>
+				<tr align="center">
+					<td height="21" align="right" class="style1" 
+                        style="font-family: Verdana; font-size: 13px; color: #000000">View Hidden</td>
+					<td height="21" 
+                        style="font-family: Verdana; font-size: 13px; color: #000000" 
+                        class="style2">
+					<input id="chkDelFiles" type="checkbox" viewhiddenfiles></td>
+					<td height="21" width="88" 
+                        style="font-family: Verdana; font-size: 13px; color: #000000">
+					<input id="chkDelFolders" type="checkbox" viewhiddenfolders></td>
+				</tr>
+				<tr>
+					<td colspan="3"><hr></td>
+				</tr>
+				<tr>
+					<td align="center" colspan="3" height="21" 
+                        style="font-family: Verdana; font-size: 13px; color: #000000">
+					<input type=checkbox value="1" id="chkEnableUser" enableuser> Enabled &nbsp;
+					<input type="button" value="Save Changes" 
+                            style="color:#284E98;background-color:White;border-color:#507CD1;border-width:1px;border-style:Solid;font-family:Verdana;font-size:0.8em; vertical-align: middle; text-align: center;" 
+                            onclick="SubmitValues();">
+					<input type="button" value="Cancel" 
+                            style="color:#284E98;background-color:White;border-color:#507CD1;border-width:1px;border-style:Solid;font-family:Verdana;font-size:0.8em; vertical-align: middle; text-align: center;" 
+                            onclick="RequestAsync('UA', '', div_Render, 'Loading. Please wait...');"></td>
+				</tr>
+				<tr>
+					<td id="txtErrorMessages" class="style1"></td>
+				</tr>
+			</table>
+			</td>
+		</tr>
+	</table>
+</div>

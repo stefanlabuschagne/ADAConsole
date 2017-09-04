@@ -1,0 +1,5 @@
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\AdvancedFTPServer\AdvancedFTPServer\Build\FTPService.exe
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\AdvancedFTPServer\AdvancedFTPServer\Build\FTPService.pdb
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\AdvancedFTPServer\AdvancedFTPServer\Service\obj\Release\ResolveAssemblyReference.cache
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\AdvancedFTPServer\AdvancedFTPServer\Service\obj\Release\FTPService.exe
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\AdvancedFTPServer\AdvancedFTPServer\Service\obj\Release\FTPService.pdb

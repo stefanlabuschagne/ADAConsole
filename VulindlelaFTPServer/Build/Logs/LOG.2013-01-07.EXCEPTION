@@ -1,0 +1,26 @@
+﻿<ERRORLOG>
+  <LOG TIME="11:38:55" SOURCE="FTP">
+    <EXCEPTION>System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at VulindlelaFTPServer.ApplicationSettings.ReadSettings() in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\Settings.cs:line 292</EXCEPTION>
+    <MESSAGE>Data at the root level is invalid. Line 1, position 1.</MESSAGE>
+    <SOURCE>System.Xml</SOURCE>
+    <STACK>   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at VulindlelaFTPServer.ApplicationSettings.ReadSettings() in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\Settings.cs:line 292</STACK>
+    <TARGETSITE>Throw</TARGETSITE>
+  </LOG>
+</ERRORLOG>

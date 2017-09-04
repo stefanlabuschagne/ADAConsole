@@ -1,0 +1,16 @@
+#
+#
+#   Hosts File
+#
+#
+
+10.131.12.111 ProdLGApr01
+10.123..216.105 ProdLGCimB5
+10.131.12.112 DevLGApr01
+10.131.30.0.113 Logis.gov.za
+10.131.0.113 Logis
+10.131.0.113 TreeNTDcP1
+10.131.0.112 TreeNTDcV1
+10.123.216.106 ProdLGSqlv1
+10.123.216.99 ProdLgRemV1
+10.123.216.99 Remedy.Treasury.gov.za

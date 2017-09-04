@@ -1,0 +1,30 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="UserPreferencesExample.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="FirstFormHeader" Type="System.String" Scope="User">
+      <Value Profile="(Default)">My First Form</Value>
+    </Setting>
+    <Setting Name="SaveButtonText" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&amp;Save</Value>
+    </Setting>
+    <Setting Name="FormWindowState" Type="System.Windows.Forms.FormWindowState" Scope="User">
+      <Value Profile="(Default)">Normal</Value>
+    </Setting>
+    <Setting Name="FormForeColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">ControlText</Value>
+    </Setting>
+    <Setting Name="FormOpacity" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="FormBackColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Control</Value>
+    </Setting>
+    <Setting Name="ButtonBackColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Control</Value>
+    </Setting>
+    <Setting Name="Koos" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Koos se waarde</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

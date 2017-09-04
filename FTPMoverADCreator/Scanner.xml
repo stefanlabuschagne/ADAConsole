@@ -1,0 +1,166 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Scanner
+</name>
+</assembly>
+<members>
+<member name="M:VirtualSoftware.AboutDialog.AboutForm_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ When user presses the escape key close this form.
+ </summary>
+</member><member name="M:VirtualSoftware.AboutDialog.AboutForm_Load(System.Object,System.EventArgs)">
+	<summary>
+ Form Load Event - assign form level variables, fill out labels on form
+ </summary>
+</member><member name="M:VirtualSoftware.AboutDialog.linkLabelEULA_LinkClicked(System.Object,System.Windows.Forms.LinkLabelLinkClickedEventArgs)">
+	<summary>
+ Display EULA if user clicks on link label. Note that this is a PDF file and an
+ error will occur if  Adobe Reader is not installed on the user's computer.
+ </summary>
+</member><member name="M:VirtualSoftware.AboutDialog.linkLabelEmail_LinkClicked(System.Object,System.Windows.Forms.LinkLabelLinkClickedEventArgs)">
+	<summary>
+ Invoke an email message for support. If no email application is installed or running
+ on the user's computer, then an error message will be displayed.
+ </summary>
+</member><member name="M:VirtualSoftware.AboutDialog.GetFrameworkShortVersion">
+	<summary>
+ Framework short version, ie: 2.0
+ </summary>
+	<returns> Returns a string with the version number, if there is an error an
+ empty string is returned. </returns>
+</member><member name="M:VirtualSoftware.AboutDialog.GetFrameworkServicePack">
+	<summary>
+ A special section of the registry has to be querried to find out the service pack
+ of the .NET Framework. A different location was used for 1.0 and 1.1, but since this
+ application only runs on version 2.0, we won't worry about that.
+ </summary>
+	<returns> A string containing the version number, for example: "2.0" </returns>
+</member><member name="M:VirtualSoftware.AboutDialog.ReturnHighestFrameworkVersion">
+	<summary>
+ Queries the Registry and returns the highest .NET Framework version found or 0 if none is found.
+ </summary>
+	<returns>A string indicating the major and minor version of the .NET Framework and service pack (if any).</returns>
+	<remarks>
+ This code is confirmed for versions 2.0, 3.0, 3.5 and 4.0.
+ </remarks>
+</member><member name="M:VirtualSoftware.AboutDialog.GetUserCustomerOrganization">
+	<summary>
+ Query registry for information.
+ </summary>
+	<returns> Returns customer name as string. </returns>
+</member><member name="M:VirtualSoftware.AboutDialog.GetUserCustomerName">
+	<summary>
+ Query registry for information.
+ </summary>
+	<returns> Returns customer organizationn as string. </returns>
+</member><member name="M:VirtualSoftware.AboutDialog.GetOSUptime">
+	<summary>
+ This method gets the system up time by Imports the system clock. Most of this
+ code is used to format the output of the system timer (in milliseconds) to
+ a more useful format:  DD:HH:MM:SS.
+ 
+ Note since the system timer rolls over every 47 days, this method will return
+ an incorrect value on a system that has been up for more than 47 days.
+ 
+ This method is called by the timer.
+ </summary>
+	<returns> A formatted string containing the system up time in the format DD:HH:MM:SS </returns>
+</member><member name="M:VirtualSoftware.AboutDialog.TimerTickCount_Tick(System.Object,System.EventArgs)">
+	<summary>
+ This timer is used to update the display of system up time and the date and time
+ displayed in the StatusStrip at the bottom of the form.
+ </summary>
+</member><member name="M:VirtualSoftware.AboutDialog.ButtonOK_Click(System.Object,System.EventArgs)">
+	<summary>
+ This button will close the form if the form was called with ShowDialog
+ </summary>
+</member><member name="M:VirtualSoftware.AboutDialog.ButtonSysInfo_Click(System.Object,System.EventArgs)">
+	<summary>
+ This button open Microsoft System Information.
+ </summary>
+</member><member name="T:VirtualSoftware.AboutDialog">
+	<summary>
+ Generic About Box for use with my projects. Provides basic system information as well as
+ system up time and the current date and time. The header is a panel which my contain a
+ background image or color. A picture box (48x48 pixels) can display a custom image.
+ 
+ There are two buttons on the form, "Microsoft System Information," which starts msinfo32.exe
+ and "OK," which dismisses the form. Typing Escape on the keyboard will also dismiss the form.
+ 
+ There are two link labels. The first opens a file called "EULA.pdf" Imports the Adobe Reader that
+ is installed on the computer. The "EULA.pdf" file must reside in the application folder. The other
+ link label initiates an email to me. This is normally not visible for non-commercial applications.
+ the application folder.
+ </summary>
+	<remarks>The application will produce an error dialog if msinfo32.exe or EULA.pdf is not found.</remarks>
+	<copyright>Copyright © 2006 Herbert N Swearengen III</copyright>
+</member><member name="T:VirtualSoftware.AdsDataSet.DownloadFilesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:VirtualSoftware.AdsDataSet.DownloadFilesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:VirtualSoftware.AdsDataSet.DownloadFilesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:VirtualSoftware.AdsDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:VirtualSoftware.AdsDataSetTableAdapters.DownloadFilesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:VirtualSoftware.AdsDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(VirtualSoftware.AdsDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:VirtualSoftware.AdsDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(VirtualSoftware.AdsDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:VirtualSoftware.AdsDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(VirtualSoftware.AdsDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:VirtualSoftware.AdsDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:VirtualSoftware.AdsDataSetTableAdapters.TableAdapterManager.UpdateAll(VirtualSoftware.AdsDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:VirtualSoftware.AdsDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:VirtualSoftware.AdsDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:VirtualSoftware.AdsDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:VirtualSoftware.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:VirtualSoftware.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:VirtualSoftware.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

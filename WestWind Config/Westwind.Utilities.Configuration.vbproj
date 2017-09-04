@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>0ADF7B10-6E4F-4B66-B284-C5AE1238AFC9</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Westwind.Utilities.Configuration</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\PropertyGrids\Rick Strahl - Propery  grids\Json60r3\Bin\Net35\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Westwind.Utilities.Configuration.Properties\Resources.vb" />
+    <Compile Include="Westwind.Utilities.Configuration\AppConfiguration.vb" />
+    <Compile Include="Westwind.Utilities.Configuration\ConfigurationFileConfigurationProvider.vb" />
+    <Compile Include="Westwind.Utilities.Configuration\ConfigurationProviderBase.vb" />
+    <Compile Include="Westwind.Utilities.Configuration\IConfigurationProvider.vb" />
+    <Compile Include="Westwind.Utilities.Configuration\JsonFileConfigurationProvider.vb" />
+    <Compile Include="Westwind.Utilities.Configuration\MyAppConfiguration.vb" />
+    <Compile Include="Westwind.Utilities.Configuration\SqlServerConfigurationProvider.vb" />
+    <Compile Include="Westwind.Utilities.Configuration\StringConfigurationProvider.vb" />
+    <Compile Include="Westwind.Utilities.Configuration\XmlFileConfigurationProvider.vb" />
+    <Compile Include="Westwind.Utilities.Data\DataAccessBase.vb" />
+    <Compile Include="Westwind.Utilities.Data\SqlDataAccess.vb" />
+    <Compile Include="Westwind.Utilities\DataUtils.vb" />
+    <Compile Include="Westwind.Utilities\Encryption.vb" />
+    <Compile Include="Westwind.Utilities\JsonSerializationUtils.vb" />
+    <Compile Include="Westwind.Utilities\ObjectToStringTypes.vb" />
+    <Compile Include="Westwind.Utilities\ReflectionUtils.vb" />
+    <Compile Include="Westwind.Utilities\SerializationUtils.vb" />
+    <Compile Include="Westwind.Utilities\StringSerializer.vb" />
+    <Compile Include="Westwind.Utilities\StringUtils.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Westwind.Utilities.Configuration.Properties\Resources.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Diagnostics" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

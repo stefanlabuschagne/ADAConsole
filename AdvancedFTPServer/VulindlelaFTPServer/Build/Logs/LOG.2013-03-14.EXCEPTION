@@ -1,0 +1,10 @@
+﻿<ERRORLOG>
+  <LOG TIME="09:06:55" SOURCE="HTTP">
+    <EXCEPTION>System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdvancedFTPServer.HTTPServer.NewHTTPClientArrived(IAsyncResult arg)</EXCEPTION>
+    <MESSAGE>Object reference not set to an instance of an object.</MESSAGE>
+    <SOURCE>FTPServer</SOURCE>
+    <STACK>   at AdvancedFTPServer.HTTPServer.NewHTTPClientArrived(IAsyncResult arg)</STACK>
+    <TARGETSITE>NewHTTPClientArrived</TARGETSITE>
+  </LOG>
+</ERRORLOG>

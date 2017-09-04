@@ -1,0 +1,9 @@
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\PropertyGrid\PropertyGridEx\bin\Release\PropertyGridEx.dll
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\PropertyGrid\PropertyGridEx\bin\Release\PropertyGridEx.pdb
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\PropertyGrid\PropertyGridEx\bin\Release\PropertyGridEx.xml
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\PropertyGrid\PropertyGridEx\obj\Release\ResolveAssemblyReference.cache
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\PropertyGrid\PropertyGridEx\obj\Release\Resources.resources
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\PropertyGrid\PropertyGridEx\obj\Release\PropertyGridEx.vbproj.GenerateResource.Cache
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\PropertyGrid\PropertyGridEx\obj\Release\PropertyGridEx.dll
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\PropertyGrid\PropertyGridEx\obj\Release\PropertyGridEx.xml
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\PropertyGrid\PropertyGridEx\obj\Release\PropertyGridEx.pdb

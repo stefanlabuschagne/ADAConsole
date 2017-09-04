@@ -1,0 +1,65 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" xmlns:Conversion="urn:Conversion">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A019C93F-683D-41D6-B779-CE9FA2DE90D5}</ProjectGuid>
+    <RootNamespace>DotBits.Configuration</RootNamespace>
+    <AssemblyName>DotBits.Configuration</AssemblyName>
+    <OutputType>WinExe</OutputType>
+    <ApplicationIcon>App.ico</ApplicationIcon>
+    <RunPostBuildEvent>OnSuccessfulBuild</RunPostBuildEvent>
+    <PreBuildEvent />
+    <PostBuildEvent />
+    <StartupObject />
+    <NoConfig>false</NoConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <NoStdLib>false</NoStdLib>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn />
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <OutputPath>bin\Debug\</OutputPath>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <NoStdLib>false</NoStdLib>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn />
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+    <OutputPath>bin\Release\</OutputPath>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <Content Include="App.ico" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="ConfigEditor.cs" />
+    <EmbeddedResource Include="ConfigEditor.resx">
+      <DependentUpon>ConfigEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Configuration.snk" />
+    <Compile Include="CustomClass.cs" />
+    <EmbeddedResource Include="CustomClass.resx">
+      <DependentUpon>CustomClass.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+</Project>

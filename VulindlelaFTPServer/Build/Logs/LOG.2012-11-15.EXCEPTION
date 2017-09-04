@@ -1,0 +1,36 @@
+﻿<ERRORLOG>
+  <LOG TIME="11:46:06" SOURCE="FTP">
+    <EXCEPTION>System.NullReferenceException: Object reference not set to an instance of an object.
+   at VulindlelaFTPServer.FTPServer.NewFTPClientArrived(IAsyncResult arg)</EXCEPTION>
+    <MESSAGE>Object reference not set to an instance of an object.</MESSAGE>
+    <SOURCE>FTPServer</SOURCE>
+    <STACK>   at VulindlelaFTPServer.FTPServer.NewFTPClientArrived(IAsyncResult arg)</STACK>
+    <TARGETSITE>NewFTPClientArrived</TARGETSITE>
+  </LOG>
+</ERRORLOG>
+﻿<ERRORLOG>
+  <LOG TIME="11:46:06" SOURCE="FTP">
+    <EXCEPTION>System.NullReferenceException: Object reference not set to an instance of an object.
+   at VulindlelaFTPServer.FTPServer.NewFTPClientArrived(IAsyncResult arg)</EXCEPTION>
+    <MESSAGE>Object reference not set to an instance of an object.</MESSAGE>
+    <SOURCE>FTPServer</SOURCE>
+    <STACK>   at VulindlelaFTPServer.FTPServer.NewFTPClientArrived(IAsyncResult arg)</STACK>
+    <TARGETSITE>NewFTPClientArrived</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="16:55:36" SOURCE="FTP">
+    <EXCEPTION>System.NullReferenceException: Object reference not set to an instance of an object.
+   at VulindlelaFTPServer.FTPServer.NewFTPClientArrived(IAsyncResult arg) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPServer.cs:line 53</EXCEPTION>
+    <MESSAGE>Object reference not set to an instance of an object.</MESSAGE>
+    <SOURCE>FTPServer</SOURCE>
+    <STACK>   at VulindlelaFTPServer.FTPServer.NewFTPClientArrived(IAsyncResult arg) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPServer.cs:line 53</STACK>
+    <TARGETSITE>NewFTPClientArrived</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="16:55:36" SOURCE="FTP">
+    <EXCEPTION>System.NullReferenceException: Object reference not set to an instance of an object.
+   at VulindlelaFTPServer.FTPServer.NewFTPClientArrived(IAsyncResult arg) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPServer.cs:line 63</EXCEPTION>
+    <MESSAGE>Object reference not set to an instance of an object.</MESSAGE>
+    <SOURCE>FTPServer</SOURCE>
+    <STACK>   at VulindlelaFTPServer.FTPServer.NewFTPClientArrived(IAsyncResult arg) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPServer.cs:line 63</STACK>
+    <TARGETSITE>NewFTPClientArrived</TARGETSITE>
+  </LOG>
+</ERRORLOG>

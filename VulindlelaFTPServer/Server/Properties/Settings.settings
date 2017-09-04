@@ -1,0 +1,90 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="VulindlelaFTPServer.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="VulDC" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DC=vulprd,DC=pwv,DC=gov,DC=za</Value>
+    </Setting>
+    <Setting Name="VulIP" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">10.123.45.180</Value>
+    </Setting>
+    <Setting Name="VulCTXApp" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">OU=APPLICATION_RIGHTS,OU=Vulindlela3,DC=vulindlelaprd,DC=gov,DC=za</Value>
+    </Setting>
+    <Setting Name="VulCTXGovt" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">OU=GOVERNMENT_STRUCTURE,OU=Vulindlela3,DC=vulindlelaprd,DC=gov,DC=za</Value>
+    </Setting>
+    <Setting Name="VulCTXUsers" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">OU=USERS,OU=Vulindlela3,DC=vulindlelaprd,DC=gov,DC=za</Value>
+    </Setting>
+    <Setting Name="VulRootContext" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">OU=Vulindlela3,DC=vulindlelaprd,DC=gov,DC=za</Value>
+    </Setting>
+    <Setting Name="VulMasterPassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Qsadoh!Qsadoh</Value>
+    </Setting>
+    <Setting Name="VulMasterUser" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">vulsystem</Value>
+    </Setting>
+    <Setting Name="AdsPRDConnectionString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=10.123.45.180;Initial Catalog=Ads;Persist Security Info=True;User ID=sa;Password=M33Q1Serv!ce09</Value>
+    </Setting>
+    <Setting Name="AD_USERS_PRD" Type="System.String" Scope="User">
+      <Value Profile="(Default)">OU=USERS,OU=Vulindlela3,DC=vulindlelaprd,DC=gov,DC=za</Value>
+    </Setting>
+    <Setting Name="AD_APPL_PRD" Type="System.String" Scope="User">
+      <Value Profile="(Default)">OU=APPLICATION_RIGHTS,OU=Vulindlela3,DC=vulindlelaprd,DC=gov,DC=za</Value>
+    </Setting>
+    <Setting Name="FTPRoot" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\_  FTPServerFiles</Value>
+    </Setting>
+    <Setting Name="pwd" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Qsadoh!Qsadoh</Value>
+    </Setting>
+    <Setting Name="usr" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">vulsystem</Value>
+    </Setting>
+    <Setting Name="MIN_PASSV_PORT" Type="System.String" Scope="User">
+      <Value Profile="(Default)">7000</Value>
+    </Setting>
+    <Setting Name="MAX_PASSV_PORT" Type="System.String" Scope="User">
+      <Value Profile="(Default)">7100</Value>
+    </Setting>
+    <Setting Name="FTP_PORT" Type="System.String" Scope="User">
+      <Value Profile="(Default)">21</Value>
+    </Setting>
+    <Setting Name="AUTO_START_FTP" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ENABLE_FTP_LOGGING" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ENABLE_NOTIFY_ICON" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ENABLE_FTPFOLDER_ICON" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ENABLE_QUICK_CONFIG_MENU" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="AUTO_SEND_ERROR_REPORT" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ENABLE_APD" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="DATE_TIME_FORMAT" Type="System.String" Scope="User">
+      <Value Profile="(Default)">dd/MM/yyyy hh:mm:sstt</Value>
+    </Setting>
+    <Setting Name="AD_APPLICATION_PRD" Type="System.String" Scope="User">
+      <Value Profile="(Default)">OU=APPLICATION_RIGHTS,OU=Vulindlela3,DC=vulindlelaprd,DC=gov,DC=za</Value>
+    </Setting>
+    <Setting Name="HostName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">127.0.0.1</Value>
+    </Setting>
+    <Setting Name="HstPortNumber" Type="System.String" Scope="User">
+      <Value Profile="(Default)">21</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

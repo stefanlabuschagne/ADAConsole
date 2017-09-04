@@ -1,0 +1,16 @@
+﻿<ERRORLOG>
+  <LOG TIME="15:50:29" SOURCE="FTP">
+    <EXCEPTION>System.DirectoryServices.Protocols.LdapException: The LDAP server is unavailable.
+   at System.DirectoryServices.Protocols.LdapConnection.Connect()
+   at System.DirectoryServices.Protocols.LdapConnection.SendRequestHelper(DirectoryRequest request, Int32& messageID)
+   at System.DirectoryServices.Protocols.LdapConnection.SendRequest(DirectoryRequest request, TimeSpan requestTimeout)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.ReadServerConfig(String serverName, ServerProperties& properties)</EXCEPTION>
+    <MESSAGE>The LDAP server is unavailable.</MESSAGE>
+    <SOURCE>System.DirectoryServices.Protocols</SOURCE>
+    <STACK>   at System.DirectoryServices.Protocols.LdapConnection.Connect()
+   at System.DirectoryServices.Protocols.LdapConnection.SendRequestHelper(DirectoryRequest request, Int32& messageID)
+   at System.DirectoryServices.Protocols.LdapConnection.SendRequest(DirectoryRequest request, TimeSpan requestTimeout)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.ReadServerConfig(String serverName, ServerProperties& properties)</STACK>
+    <TARGETSITE>Connect</TARGETSITE>
+  </LOG>
+</ERRORLOG>

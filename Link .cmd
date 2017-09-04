@@ -1,0 +1,1 @@
+link /dump /exports c:\windows\system32\user32.dll > Links.txt

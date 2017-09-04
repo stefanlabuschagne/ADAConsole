@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><html><head><meta http-equiv="CONTENT-TYPE" content="text/html; charset=windows-1252" /><title>CFO Approval Request</title><style type="text/css">
+        TD P { color: #000000;height: 10px;}
+		P { color: #000000 }
+		.style1 {text-align: center;}
+	    .style10 {
+            width: 87px;
+            height: 27px;
+            border-bottom: 1px outset #808080;
+            text-align: center;
+            vertical-align: middle;
+            border-left: 1px ridge #808080;
+            border-right: 1px outset #808080;
+            border-top: 1px ridge #808080;
+            background-color: #CCCCCC;
+            }
+        .style11
+        {
+            border: 1px outset #808080;
+            width: 94px;
+            height: 27px;
+            text-align: center;
+            vertical-align: middle;
+            background-color: #CCCCCC;
+         }
+        .style12 {font-family: Verdana;font-size: x-small;}
+        .style13 { color: #0066FF;font-weight: bold;}
+	    .style15
+        {
+            width: 402px;
+        }
+	</style>
+</head><body text="#000000" dir="ltr"><table cellpadding='5' cellspacing='5' 
+        
+        style="border-color: #000000 #000000 #000000 #000000; border: thin #000000 solid; border: thin solid #000000; " 
+        align="center" width="98%"><tr><td align="center"><font size="5" face="Verdana, sans-serif">Approval for<br />access to Vulindlela</font></td></tr><tr><td  align="center"  style="text-align: center; vertical-align: middle;"><hr style="text-align: center; border-bottom-color: #000000; border-bottom-width: thin; border-bottom-style: solid;" /></TD></tr><tr><td valign="top"><p style="font-family: Verdana; font-size: x-small">Please <font size='2' face="Verdana, sans-serif" style="font-family: Verdana; font-size: 12px; font-weight: bold; color: #009933">&quot;Accept&quot; </font>or <font size='2' face="Verdana, sans-serif" style="font-family: Verdana; font-size: 12px; font-weight: bold; color: #FF0000">&quot;Decline&quot;</font> the rights requested by the following person. The description as received on our request&nbsp;management system reads as follow:</font></p></td></tr><tr><td width="100%" valign="top" align="center"><p style="border: none; padding: 0cm" class="style1"><font face="Verdana, sans-serif" size='2' color="#0000ff">[[remedy_req]]</p><p style="border: none; padding: 0cm"><font face="Verdana, sans-serif" size='2'><b>Details as recorded on National Treasury's Request Management System are as follows:</b></font></p></td></tr><tr><td width='100%' valign='top'><table dir='ltr' align='center' BORDER='1' CELLPADDING='1' CELLSPACING='2' style="width: 380px"><col width='102'><col width='235'><tr><td width='102' HEIGHT='18'><P><font size=2 face="Verdana">Username:</font> </P></td><td width=235><P><font size=2 COLOR="#0000cc" face="Verdana">[[persal_no]]</font> </P></td></tr><tr><td width=102><P><font size=2 face="Verdana">Firstnames: </font></P></td><td width=235><P><font size=2 COLOR="#0000cc" face="Verdana">[[firstnames]]</font> </P></td></tr><tr><td width=102><P><font size=2 face="Verdana">Lastname:</font> </P></td><td width=235><P><font size=2 COLOR="#0000cc" face="Verdana">[[lastname]]</font> </P></td></tr><tr><td width=102><P><font size=2 face="Verdana">Cellphone: </font></P></td><td width=235><P><font size=2 COLOR="#0000cc" face="Verdana">[[cellphone]]</font> </P></td></tr><tr><td width=102><P><font size=2 face="Verdana">Telephone: </font></P></td><td width=235><P><font size=2 COLOR="#0000cc" face="Verdana">[[telephone]]</font> </P></td></tr><tr><td width=102><P><font size=2 face="Verdana">Dept Name:</font></P></td><td width=235><P><font size=2 COLOR="#0000cc" face="Verdana">[[deptname]]</font> </P></td></tr><tr><td width=102><P><font size=2 face="Verdana">Dept Type: </font></P></td><td width=235><P><font size=2 COLOR="#0000cc" face="Verdana">[[depttype]]</font> </P></td></tr><tr><td width=102><P><font size=2 face="Verdana">Rank: </font></P></td><td width=235><P><font size=2 COLOR="#0000cc" face="Verdana">[[rank]]</font> </P></td></tr></table></td></tr><tr><td width='100%' valign='top'><p style="border-style: none; border-color: inherit; border-width: medium; padding: 0cm; text-align: center;" align="center"><font face='Verdana, sans-serif' size='2'><b>According to the Persal Establishment database this person is:</b> </font></p></td></tr><tr><td width='100%' valign='top' ><P STYLE="border: none; padding: 0cm" class="style1"><font size=2 color="#0000cc" 
+                    face="Verdana, sans-serif">[[establishment]]</font></P></TD></tr><tr><td width='100%' VALIGN='top'><P STYLE="border: none; padding: 0cm" class="style1"><font size=2 
+                    face="Verdana, sans-serif"><B>Current Profile details as found on Vulindlela :</B></font></P></TD></tr><br /><br /><tr><td width='100%' VALIGN='top'><P STYLE="border: none; padding: 0cm" class="style1"><font size=2 color="#0000cc" 
+                    face="Verdana, sans-serif">[[accessnow]]</font></P></TD></tr><tr><td ><span class="style12">I <span class="style13">[[cfoname]]</span>, herewith acknowledge that I have considered this application for access to the Vulindlela Information Portal and by clicking on one of the following links provided here, either <font size='2' face="Verdana, sans-serif" style="font-family: Verdana; font-size: 12px; font-weight: bold; color: #009933">&quot;Accept&quot;</font> or <font size='2' face="Verdana, sans-serif" style="font-family: Verdana; font-size: 12px; font-weight: bold; color: #FF0000">&quot;Decline&quot; </font>this request.<br /></span><br /><table align="center" cellpadding="3" cellspacing="3"><tr><td class="style15"><table cellpadding="2" cellspacing="4" align="center"><tr><td align="center"></td><td class="style10"><a href="http://www.vulindlela.gov.za/screens/x.asp?r=[[r]]&Eventflag=21&amp;u=[[u]]" 
+                
+                            style="font-family: Verdana; font-size: medium; font-weight: bold; color: green; color: #009933; font-size: small; font-weight: bolder; color: #009933; font-family: Verdana; font-style: normal; font-variant: normal; text-transform: capitalize;">Accepted</a></td><td></td><td class="style11">&nbsp;<a href="http://www.vulindlela.gov.za/screens/x.asp?r=[[r]]&amp;Eventflag=22&amp;u=[[u]]" 
+   
+                
+                            style="font-family: Verdana; font-size: medium; font-weight: bold; color: #FF5050; font-size: small; font-weight: bold; font-family: Verdana, Helvetica, sans-serif; font-style: normal; font-variant: normal; text-transform: capitalize;">Declined</a></td><td></td></tr></table></td></tr></table></td></tr></table><P><font face="Arial" size="2"><b>The Vulindlela Team</b><br />Tel: (012) 657-4444<br />Fax: (012) 657-4555<br /><br /><img height="79" src="cid:ntlogo" width="226" /></font></p><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /></body></html>

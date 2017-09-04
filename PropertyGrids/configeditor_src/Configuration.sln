@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+# SharpDevelop 2.2.1.2648
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Configuration", "Configuration.csproj", "{A019C93F-683D-41D6-B779-CE9FA2DE90D5}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Configuration.Converted", "..\configeditor_src.ConvertedToVBNet\Configuration.Converted.vbproj", "{51812007-BE87-4D65-A07A-A7722B39F232}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A019C93F-683D-41D6-B779-CE9FA2DE90D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A019C93F-683D-41D6-B779-CE9FA2DE90D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A019C93F-683D-41D6-B779-CE9FA2DE90D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A019C93F-683D-41D6-B779-CE9FA2DE90D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51812007-BE87-4D65-A07A-A7722B39F232}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51812007-BE87-4D65-A07A-A7722B39F232}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51812007-BE87-4D65-A07A-A7722B39F232}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51812007-BE87-4D65-A07A-A7722B39F232}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal

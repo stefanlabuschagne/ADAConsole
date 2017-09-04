@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:s0="urn:CustomerInformationWebService" targetNamespace="urn:CustomerInformationWebService" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema elementFormDefault="qualified" targetNamespace="urn:CustomerInformationWebService">
+      <xsd:element name="New_Get_Operation_0" type="s0:InputMapping1" />
+      <xsd:complexType name="InputMapping1">
+        <xsd:sequence>
+          <xsd:element name="Entry_ID" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="New_Get_Operation_0Response" type="s0:OutputMapping1" />
+      <xsd:complexType name="OutputMapping1">
+        <xsd:sequence>
+          <xsd:element name="Entry_ID" type="xsd:string" />
+          <xsd:element name="Submitter" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Create_Date" type="xsd:dateTime" />
+          <xsd:element name="Department_Name" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Last_Modified_By" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Modified_Date" type="xsd:dateTime" />
+          <xsd:element name="Record_Status" type="s0:Record_StatusType" />
+          <xsd:element name="Persal_Number" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Status_History" type="xsd:string" />
+          <xsd:element name="First_Name" type="xsd:string" />
+          <xsd:element name="Last_Name" type="xsd:string" />
+          <xsd:element name="Telephone" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Fax_Number" type="xsd:string" />
+          <xsd:element minOccurs="0" default="None" name="E-Mail" type="xsd:string" />
+          <xsd:element name="Title" type="xsd:string" />
+          <xsd:element name="Department_Type" type="xsd:string" />
+          <xsd:element minOccurs="0" name="VULINDLELA_Role" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Initial" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Comments" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Nickname" type="xsd:string" />
+          <xsd:element name="Remote_Access_Availability" nillable="true" type="s0:Remote_Access_AvailabilityType" />
+          <xsd:element minOccurs="0" name="LOGIS_Store_Number" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Rank" type="xsd:string" />
+          <xsd:element minOccurs="0" name="LOGIS_Role" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispPersalNo" type="xsd:int" />
+          <xsd:element minOccurs="0" name="zDispChangeStoreNo" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispUserResponse" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispDefaultDateForNew" type="xsd:dateTime" />
+          <xsd:element minOccurs="0" name="Postal_Address" type="xsd:string" />
+          <xsd:element minOccurs="0" name="City" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Province" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Postal_Code" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispCheckDuplicate" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispClose" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispCallsOpen" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispRe-AssignCallsOpen" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispOldPersalNo" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispWrongDept" type="xsd:string" />
+          <xsd:element minOccurs="0" name="BAS_Store_Number" type="xsd:string" />
+          <xsd:element minOccurs="0" name="VULIN_Store_Number" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispStoreNo" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispSystemGroup" type="xsd:string" />
+          <xsd:element minOccurs="0" name="BAS_Role" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispNoStoreNumber" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispRole" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Region" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Cellphone" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Extension" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Billing_Code" type="xsd:string" />
+          <xsd:element minOccurs="0" name="PERSAL_Store_Number" type="xsd:string" />
+          <xsd:element minOccurs="0" name="FMS_Store_Number" type="xsd:string" />
+          <xsd:element minOccurs="0" name="PERSAL_Role" type="xsd:string" />
+          <xsd:element minOccurs="0" name="FMS_Role" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispReAssignPersalNo" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Database" type="xsd:string" />
+          <xsd:element minOccurs="0" name="User_Code" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Pre-FMS" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Pre-EFT" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Pre-PER" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispInternal_" nillable="true" type="s0:zDispInternal_Type" />
+          <xsd:element minOccurs="0" name="zValidPersalNumber" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Temp_Postal_Address" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Temp_Postal_Code" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Character_Field" type="xsd:string" />
+          <xsd:element minOccurs="0" name="NMCustomer_Status" nillable="true" type="s0:Remote_Access_AvailabilityType" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:simpleType name="Record_StatusType">
+        <xsd:restriction base="xsd:string">
+          <xsd:enumeration value="Incomplete" />
+          <xsd:enumeration value="Complete" />
+          <xsd:enumeration value="Inactive" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="Remote_Access_AvailabilityType">
+        <xsd:restriction base="xsd:string">
+          <xsd:enumeration value="Active" />
+          <xsd:enumeration value="Inactive" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="zDispInternal_Type">
+        <xsd:restriction base="xsd:string">
+          <xsd:enumeration value="Yes" />
+          <xsd:enumeration value="No" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:element name="New_GetList_Operation_3" type="s0:InputMapping4" />
+      <xsd:complexType name="InputMapping4">
+        <xsd:sequence>
+          <xsd:element name="Qualification" type="xsd:string" />
+          <xsd:element name="startRecord" type="xsd:string" />
+          <xsd:element name="maxLimit" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="New_GetList_Operation_3Response" type="s0:OutputMapping4" />
+      <xsd:complexType name="OutputMapping4">
+        <xsd:sequence>
+          <xsd:element maxOccurs="unbounded" name="getListValues">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="Entry_ID" type="xsd:string" />
+                <xsd:element name="Submitter" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Create_Date" type="xsd:dateTime" />
+                <xsd:element name="Department_Name" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Last_Modified_By" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Modified_Date" type="xsd:dateTime" />
+                <xsd:element name="Record_Status" type="s0:Record_StatusType" />
+                <xsd:element name="Persal_Number" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Status_History" type="xsd:string" />
+                <xsd:element name="First_Name" type="xsd:string" />
+                <xsd:element name="Last_Name" type="xsd:string" />
+                <xsd:element name="Telephone" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Fax_Number" type="xsd:string" />
+                <xsd:element minOccurs="0" default="None" name="E-Mail" type="xsd:string" />
+                <xsd:element name="Title" type="xsd:string" />
+                <xsd:element name="Department_Type" type="xsd:string" />
+                <xsd:element minOccurs="0" name="VULINDLELA_Role" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Initial" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Comments" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Nickname" type="xsd:string" />
+                <xsd:element name="Remote_Access_Availability" nillable="true" type="s0:Remote_Access_AvailabilityType" />
+                <xsd:element minOccurs="0" name="LOGIS_Store_Number" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Rank" type="xsd:string" />
+                <xsd:element minOccurs="0" name="LOGIS_Role" type="xsd:string" />
+                <xsd:element minOccurs="0" name="zDispPersalNo" type="xsd:int" />
+                <xsd:element minOccurs="0" name="zDispChangeStoreNo" type="xsd:string" />
+                <xsd:element minOccurs="0" name="zDispUserResponse" type="xsd:string" />
+                <xsd:element minOccurs="0" name="zDispDefaultDateForNew" type="xsd:dateTime" />
+                <xsd:element minOccurs="0" name="Postal_Address" type="xsd:string" />
+                <xsd:element minOccurs="0" name="City" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Province" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Postal_Code" type="xsd:string" />
+                <xsd:element minOccurs="0" name="zDispCheckDuplicate" type="xsd:string" />
+                <xsd:element minOccurs="0" name="zDispClose" type="xsd:string" />
+                <xsd:element minOccurs="0" name="zDispCallsOpen" type="xsd:string" />
+                <xsd:element minOccurs="0" name="zDispRe-AssignCallsOpen" type="xsd:string" />
+                <xsd:element minOccurs="0" name="zDispOldPersalNo" type="xsd:string" />
+                <xsd:element minOccurs="0" name="zDispWrongDept" type="xsd:string" />
+                <xsd:element minOccurs="0" name="BAS_Store_Number" type="xsd:string" />
+                <xsd:element minOccurs="0" name="VULIN_Store_Number" type="xsd:string" />
+                <xsd:element minOccurs="0" name="zDispStoreNo" type="xsd:string" />
+                <xsd:element minOccurs="0" name="zDispSystemGroup" type="xsd:string" />
+                <xsd:element minOccurs="0" name="BAS_Role" type="xsd:string" />
+                <xsd:element minOccurs="0" name="zDispNoStoreNumber" type="xsd:string" />
+                <xsd:element minOccurs="0" name="zDispRole" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Region" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Cellphone" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Extension" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Billing_Code" type="xsd:string" />
+                <xsd:element minOccurs="0" name="PERSAL_Store_Number" type="xsd:string" />
+                <xsd:element minOccurs="0" name="FMS_Store_Number" type="xsd:string" />
+                <xsd:element minOccurs="0" name="PERSAL_Role" type="xsd:string" />
+                <xsd:element minOccurs="0" name="FMS_Role" type="xsd:string" />
+                <xsd:element minOccurs="0" name="zDispReAssignPersalNo" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Database" type="xsd:string" />
+                <xsd:element minOccurs="0" name="User_Code" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Pre-FMS" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Pre-EFT" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Pre-PER" type="xsd:string" />
+                <xsd:element minOccurs="0" name="zDispInternal_" nillable="true" type="s0:zDispInternal_Type" />
+                <xsd:element minOccurs="0" name="zValidPersalNumber" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Temp_Postal_Address" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Temp_Postal_Code" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Character_Field" type="xsd:string" />
+                <xsd:element minOccurs="0" name="NMCustomer_Status" nillable="true" type="s0:Remote_Access_AvailabilityType" />
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="New_Set_Operation_1" type="s0:InputMapping2" />
+      <xsd:complexType name="InputMapping2">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" default="$USER$" name="Submitter" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Department_Name" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Record_Status" nillable="true" type="s0:Record_StatusType" />
+          <xsd:element minOccurs="0" name="Persal_Number" type="xsd:string" />
+          <xsd:element minOccurs="0" name="First_Name" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Last_Name" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Telephone" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Fax_Number" type="xsd:string" />
+          <xsd:element minOccurs="0" default="None" name="E-Mail" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Title" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Department_Type" type="xsd:string" />
+          <xsd:element minOccurs="0" name="VULINDLELA_Role" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Initial" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Comments" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Nickname" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Remote_Access_Availability" nillable="true" type="s0:Remote_Access_AvailabilityType" />
+          <xsd:element minOccurs="0" name="LOGIS_Store_Number" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Rank" type="xsd:string" />
+          <xsd:element minOccurs="0" name="LOGIS_Role" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispPersalNo" type="xsd:int" />
+          <xsd:element minOccurs="0" name="zDispChangeStoreNo" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispUserResponse" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispDefaultDateForNew" type="xsd:dateTime" />
+          <xsd:element minOccurs="0" name="Postal_Address" type="xsd:string" />
+          <xsd:element minOccurs="0" name="City" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Province" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Postal_Code" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispCheckDuplicate" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispClose" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispCallsOpen" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispRe-AssignCallsOpen" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispOldPersalNo" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispWrongDept" type="xsd:string" />
+          <xsd:element minOccurs="0" name="BAS_Store_Number" type="xsd:string" />
+          <xsd:element minOccurs="0" name="VULIN_Store_Number" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispStoreNo" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispSystemGroup" type="xsd:string" />
+          <xsd:element minOccurs="0" name="BAS_Role" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispNoStoreNumber" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispRole" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Region" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Cellphone" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Extension" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Billing_Code" type="xsd:string" />
+          <xsd:element minOccurs="0" name="PERSAL_Store_Number" type="xsd:string" />
+          <xsd:element minOccurs="0" name="FMS_Store_Number" type="xsd:string" />
+          <xsd:element minOccurs="0" name="PERSAL_Role" type="xsd:string" />
+          <xsd:element minOccurs="0" name="FMS_Role" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispReAssignPersalNo" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Database" type="xsd:string" />
+          <xsd:element minOccurs="0" name="User_Code" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Pre-FMS" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Pre-EFT" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Pre-PER" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispInternal_" nillable="true" type="s0:zDispInternal_Type" />
+          <xsd:element minOccurs="0" name="zValidPersalNumber" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Temp_Postal_Address" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Temp_Postal_Code" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Character_Field" type="xsd:string" />
+          <xsd:element minOccurs="0" name="NMCustomer_Status" nillable="true" type="s0:Remote_Access_AvailabilityType" />
+          <xsd:element name="Entry_ID" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="New_Set_Operation_1Response" type="s0:OutputMapping2" />
+      <xsd:complexType name="OutputMapping2">
+        <xsd:sequence>
+          <xsd:element name="Entry_ID" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="New_Create_Operation_2" type="s0:InputMapping3" />
+      <xsd:complexType name="InputMapping3">
+        <xsd:sequence>
+          <xsd:element name="Submitter" type="xsd:string" />
+          <xsd:element name="Department_Name" type="xsd:string" />
+          <xsd:element name="Record_Status" type="s0:Record_StatusType" />
+          <xsd:element name="Persal_Number" type="xsd:string" />
+          <xsd:element name="First_Name" type="xsd:string" />
+          <xsd:element name="Last_Name" type="xsd:string" />
+          <xsd:element name="Telephone" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Fax_Number" type="xsd:string" />
+          <xsd:element minOccurs="0" default="None" name="E-Mail" type="xsd:string" />
+          <xsd:element name="Title" type="xsd:string" />
+          <xsd:element name="Department_Type" type="xsd:string" />
+          <xsd:element minOccurs="0" name="VULINDLELA_Role" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Initial" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Comments" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Nickname" type="xsd:string" />
+          <xsd:element name="Remote_Access_Availability" nillable="true" type="s0:Remote_Access_AvailabilityType" />
+          <xsd:element minOccurs="0" name="LOGIS_Store_Number" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Rank" type="xsd:string" />
+          <xsd:element minOccurs="0" name="LOGIS_Role" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispPersalNo" type="xsd:int" />
+          <xsd:element minOccurs="0" name="zDispChangeStoreNo" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispUserResponse" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispDefaultDateForNew" type="xsd:dateTime" />
+          <xsd:element minOccurs="0" name="Postal_Address" type="xsd:string" />
+          <xsd:element minOccurs="0" name="City" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Province" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Postal_Code" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispCheckDuplicate" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispClose" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispCallsOpen" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispRe-AssignCallsOpen" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispOldPersalNo" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispWrongDept" type="xsd:string" />
+          <xsd:element minOccurs="0" name="BAS_Store_Number" type="xsd:string" />
+          <xsd:element minOccurs="0" name="VULIN_Store_Number" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispStoreNo" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispSystemGroup" type="xsd:string" />
+          <xsd:element minOccurs="0" name="BAS_Role" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispNoStoreNumber" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispRole" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Region" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Cellphone" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Extension" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Billing_Code" type="xsd:string" />
+          <xsd:element minOccurs="0" name="PERSAL_Store_Number" type="xsd:string" />
+          <xsd:element minOccurs="0" name="FMS_Store_Number" type="xsd:string" />
+          <xsd:element minOccurs="0" name="PERSAL_Role" type="xsd:string" />
+          <xsd:element minOccurs="0" name="FMS_Role" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispReAssignPersalNo" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Database" type="xsd:string" />
+          <xsd:element minOccurs="0" name="User_Code" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Pre-FMS" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Pre-EFT" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Pre-PER" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispInternal_" nillable="true" type="s0:zDispInternal_Type" />
+          <xsd:element minOccurs="0" name="zValidPersalNumber" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Temp_Postal_Address" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Temp_Postal_Code" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Character_Field" type="xsd:string" />
+          <xsd:element minOccurs="0" name="NMCustomer_Status" nillable="true" type="s0:Remote_Access_AvailabilityType" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="New_Create_Operation_2Response" type="s0:OutputMapping3" />
+      <xsd:complexType name="OutputMapping3">
+        <xsd:sequence>
+          <xsd:element name="Entry_ID" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="AuthenticationInfo" type="s0:AuthenticationInfo" />
+      <xsd:complexType name="AuthenticationInfo">
+        <xsd:sequence>
+          <xsd:element name="userName" type="xsd:string" />
+          <xsd:element name="password" type="xsd:string" />
+          <xsd:element minOccurs="0" name="authentication" type="xsd:string" />
+          <xsd:element minOccurs="0" name="locale" type="xsd:string" />
+          <xsd:element minOccurs="0" name="timeZone" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ARAuthenticate">
+    <wsdl:part name="parameters" element="s0:AuthenticationInfo" />
+  </wsdl:message>
+  <wsdl:message name="New_Set_Operation_1SoapOut">
+    <wsdl:part name="parameters" element="s0:New_Set_Operation_1Response" />
+  </wsdl:message>
+  <wsdl:message name="New_GetList_Operation_3SoapIn">
+    <wsdl:part name="parameters" element="s0:New_GetList_Operation_3" />
+  </wsdl:message>
+  <wsdl:message name="New_Get_Operation_0SoapIn">
+    <wsdl:part name="parameters" element="s0:New_Get_Operation_0" />
+  </wsdl:message>
+  <wsdl:message name="New_Create_Operation_2SoapOut">
+    <wsdl:part name="parameters" element="s0:New_Create_Operation_2Response" />
+  </wsdl:message>
+  <wsdl:message name="New_Set_Operation_1SoapIn">
+    <wsdl:part name="parameters" element="s0:New_Set_Operation_1" />
+  </wsdl:message>
+  <wsdl:message name="New_Get_Operation_0SoapOut">
+    <wsdl:part name="parameters" element="s0:New_Get_Operation_0Response" />
+  </wsdl:message>
+  <wsdl:message name="New_GetList_Operation_3SoapOut">
+    <wsdl:part name="parameters" element="s0:New_GetList_Operation_3Response" />
+  </wsdl:message>
+  <wsdl:message name="New_Create_Operation_2SoapIn">
+    <wsdl:part name="parameters" element="s0:New_Create_Operation_2" />
+  </wsdl:message>
+  <wsdl:portType name="New_Port_0PortType">
+    <wsdl:operation name="New_Get_Operation_0">
+      <wsdl:input message="s0:New_Get_Operation_0SoapIn" />
+      <wsdl:output message="s0:New_Get_Operation_0SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="New_GetList_Operation_3">
+      <wsdl:input message="s0:New_GetList_Operation_3SoapIn" />
+      <wsdl:output message="s0:New_GetList_Operation_3SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="New_Set_Operation_1">
+      <wsdl:input message="s0:New_Set_Operation_1SoapIn" />
+      <wsdl:output message="s0:New_Set_Operation_1SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="New_Create_Operation_2">
+      <wsdl:input message="s0:New_Create_Operation_2SoapIn" />
+      <wsdl:output message="s0:New_Create_Operation_2SoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="New_Port_0SoapBinding" type="s0:New_Port_0PortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="New_Get_Operation_0">
+      <soap:operation soapAction="urn:CustomerInformationWebService/New_Get_Operation_0" style="document" />
+      <wsdl:input>
+        <soap:header message="s0:ARAuthenticate" part="parameters" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="New_GetList_Operation_3">
+      <soap:operation soapAction="urn:CustomerInformationWebService/New_GetList_Operation_3" style="document" />
+      <wsdl:input>
+        <soap:header message="s0:ARAuthenticate" part="parameters" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="New_Set_Operation_1">
+      <soap:operation soapAction="urn:CustomerInformationWebService/New_Set_Operation_1" style="document" />
+      <wsdl:input>
+        <soap:header message="s0:ARAuthenticate" part="parameters" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="New_Create_Operation_2">
+      <soap:operation soapAction="urn:CustomerInformationWebService/New_Create_Operation_2" style="document" />
+      <wsdl:input>
+        <soap:header message="s0:ARAuthenticate" part="parameters" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CustomerInformationWebServiceService">
+    <wsdl:port name="New_Port_0Soap" binding="s0:New_Port_0SoapBinding">
+      <soap:address location="http://devlgremv1.logis.gov.za/arsys/services/ARService?server=devLGRemV1&amp;webService=CustomerInformationWebService" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

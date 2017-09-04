@@ -1,0 +1,706 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="HRDataSet" targetNamespace="http://tempuri.org/HRDataSet.xsd" xmlns:mstns="http://tempuri.org/HRDataSet.xsd" xmlns="http://tempuri.org/HRDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="7" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="HR_MISEstabConnectionString" IsAppSettingsProperty="true" Modifier="Assembly" Name="HR_MISEstabConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.ADAdminDotNet.My.MySettings.GlobalReference.Default.HR_MISEstabConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="HR_MISConnectionStringDev" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="HR_MISConnectionStringDev (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.ADAdminDotNet.My.MySettings.GlobalReference.Default.HR_MISConnectionStringDev" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="HR_MISConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="HR_MISConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.ADAdminDotNet.My.MySettings.GlobalReference.Default.HR_MISConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ARSystemConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ARSystemConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.ADAdminDotNet.My.MySettings.GlobalReference.Default.ARSystemConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="SHARED_TABLESConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="SHARED_TABLESConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.ADAdminDotNet.My.MySettings.GlobalReference.Default.SHARED_TABLESConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="HR_MISConnectionString1" IsAppSettingsProperty="true" Modifier="Assembly" Name="HR_MISConnectionString1 (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.ADAdminDotNet.My.MySettings.GlobalReference.Default.HR_MISConnectionString1" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="HR_MIS_STAGINGConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="HR_MIS_STAGINGConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.ADAdminDotNet.My.MySettings.GlobalReference.Default.HR_MIS_STAGINGConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="VIP_EXPANDEDConnectionString2008QA" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="VIP_EXPANDEDConnectionString2008QA (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.ADAdminDotNet.My.MySettings.GlobalReference.Default.VIP_EXPANDEDConnectionString2008QA" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="HR_DataTableAdapter" GeneratorDataComponentClassName="HR_DataTableAdapter" Name="HR_Data" UserDataComponentName="HR_DataTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="HR_MISConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT        misdata.Data_PersonnelAndAppointment002.PersalNumber AS PERSALNR, derivedtbl_4.SNAME, 
+                         misdata.Data_PersonnelAndAppointment002.Surname + ' ' + misdata.Data_PersonnelAndAppointment002.Initials AS SUR_INI, 
+                         derivedtbl_4.NAT_PRL_DESC_LONG AS PROVDESC, derivedtbl_4.DEPT_DES AS DEPTDESC, derivedtbl_5.RANKDESC, derivedtbl_1.JOBTITLE, 
+                         derivedtbl_6.PAYDIST, derivedtbl_2.PAYPOINT, derivedtbl_3.APPTNAT
+FROM            misdata.Data_PersonnelAndAppointment002 LEFT OUTER JOIN
+                             (SELECT        NAT_PRL_DESC_LONG, DEPT_DES, ORG, SHRT_NAME_2 AS SNAME
+                               FROM            SHARED_TABLES.dbo.DIMENSION_BUSINESS_UNIT
+                               WHERE        (FIN_YEAR IN
+                                                             (SELECT        Financial_Year
+                                                               FROM            SHARED_TABLES.dbo.LOOKUP_TIME
+                                                               WHERE        (Actual_Date = CAST(GETDATE() AS date))))) AS derivedtbl_4 ON 
+                         misdata.Data_PersonnelAndAppointment002.Organisation = derivedtbl_4.ORG LEFT OUTER JOIN
+                             (SELECT        TOP (100) PERCENT Organisation, CAST(Code AS numeric(5, 0)) AS PAYDISTCode, EnglishShortDescription AS PAYDIST, UpdateEndDate
+                               FROM            misdata.Code_Department002 AS Code_Department002_2
+                               WHERE        (TableNumber = 817) AND (UpdateEndDate IS NULL)
+                               ORDER BY Organisation, PAYDISTCode) AS derivedtbl_6 ON misdata.Data_PersonnelAndAppointment002.Organisation = derivedtbl_6.Organisation AND 
+                         misdata.Data_PersonnelAndAppointment002.Region = derivedtbl_6.PAYDISTCode LEFT OUTER JOIN
+                             (SELECT        TOP (100) PERCENT CAST(Code AS numeric(2, 0)) AS NatureOfAppointmentCode, EnglishShortDescription AS APPTNAT, UpdateEndDate
+                               FROM            misdata.Code_Central002
+                               WHERE        (TableNumber = 041) AND (UpdateEndDate IS NULL)
+                               ORDER BY NatureOfAppointmentCode, APPTNAT) AS derivedtbl_3 ON 
+                         misdata.Data_PersonnelAndAppointment002.NatureOfAppointment = derivedtbl_3.NatureOfAppointmentCode LEFT OUTER JOIN
+                             (SELECT        TOP (100) PERCENT Organisation, CAST(Code AS numeric(6, 0)) AS JobTitleCode, EnglishShortDescription AS JOBTITLE, UpdateEndDate
+                               FROM            misdata.Code_Department002
+                               WHERE        (TableNumber = 824) AND (UpdateEndDate IS NULL)
+                               ORDER BY Organisation, JobTitleCode) AS derivedtbl_1 ON misdata.Data_PersonnelAndAppointment002.Organisation = derivedtbl_1.Organisation AND 
+                         misdata.Data_PersonnelAndAppointment002.JobTitle = derivedtbl_1.JobTitleCode LEFT OUTER JOIN
+                             (SELECT        TOP (100) PERCENT Organisation, CAST(Code AS numeric(6, 0)) AS PayPointCode, EnglishShortDescription AS PAYPOINT, UpdateEndDate
+                               FROM            misdata.Code_Department002 AS Code_Department002_1
+                               WHERE        (TableNumber = 800) AND (UpdateEndDate IS NULL)
+                               ORDER BY Organisation, PayPointCode) AS derivedtbl_2 ON misdata.Data_PersonnelAndAppointment002.Organisation = derivedtbl_2.Organisation AND 
+                         misdata.Data_PersonnelAndAppointment002.PayPoint = derivedtbl_2.PayPointCode LEFT OUTER JOIN
+                             (SELECT        TOP (100) PERCENT CAST(Code AS nvarchar(100)) AS RankDescCode, EnglishShortDescription AS RANKDESC, UpdateEndDate
+                               FROM            misdata.Code_Central002 AS Code_Central002_1
+                               WHERE        (TableNumber = 38) AND (UpdateEndDate IS NULL)
+                               ORDER BY RankDescCode, RANKDESC) AS derivedtbl_5 ON misdata.Data_PersonnelAndAppointment002.RankCode = derivedtbl_5.RankDescCode
+WHERE        (misdata.Data_PersonnelAndAppointment002.PersalNumber = @paramPersal) AND (misdata.Data_PersonnelAndAppointment002.EndDate IS NULL)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="paramPersal" ColumnName="PersalNumber" DataSourceName="HR_MIS.misdata.Data_PersonnelAndAppointment002" DataTypeServer="numeric(8, 0)" DbType="Decimal" Direction="Input" ParameterName="@paramPersal" Precision="8" ProviderType="Decimal" Scale="0" Size="5" SourceColumn="PERSALNR" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="PERSALNR" DataSetColumn="PERSALNR" />
+              <Mapping SourceColumn="SNAME" DataSetColumn="SNAME" />
+              <Mapping SourceColumn="SUR_INI" DataSetColumn="SUR_INI" />
+              <Mapping SourceColumn="PROVDESC" DataSetColumn="PROVDESC" />
+              <Mapping SourceColumn="DEPTDESC" DataSetColumn="DEPTDESC" />
+              <Mapping SourceColumn="RANKDESC" DataSetColumn="RANKDESC" />
+              <Mapping SourceColumn="JOBTITLE" DataSetColumn="JOBTITLE" />
+              <Mapping SourceColumn="PAYDIST" DataSetColumn="PAYDIST" />
+              <Mapping SourceColumn="PAYPOINT" DataSetColumn="PAYPOINT" />
+              <Mapping SourceColumn="APPTNAT" DataSetColumn="APPTNAT" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="HR_MISConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="FillBy" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy" GeneratorSourceName="FillBy" GetMethodModifier="Public" GetMethodName="GetDataBy" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="FillBy">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        misdata.Data_PersonnelAndAppointment002.PersalNumber AS PERSALNR, derivedtbl_4.SNAME, 
+                         misdata.Data_PersonnelAndAppointment002.Surname + ' ' + misdata.Data_PersonnelAndAppointment002.Initials AS SUR_INI, 
+                         derivedtbl_4.NAT_PRL_DESC_LONG AS PROVDESC, derivedtbl_4.DEPT_DES AS DEPTDESC, derivedtbl_5.RANKDESC, derivedtbl_1.JOBTITLE, 
+                         derivedtbl_6.PAYDIST, derivedtbl_2.PAYPOINT, derivedtbl_3.APPTNAT
+FROM            misdata.Data_PersonnelAndAppointment002 INNER JOIN
+                             (SELECT        TOP (100) PERCENT Organisation, CAST(Code AS numeric(6, 0)) AS JobTitleCode, EnglishShortDescription AS JOBTITLE, UpdateEndDate
+                               FROM            misdata.Code_Department002
+                               WHERE        (TableNumber = 824) AND (UpdateEndDate IS NULL)
+                               ORDER BY Organisation, JobTitleCode) AS derivedtbl_1 ON misdata.Data_PersonnelAndAppointment002.Organisation = derivedtbl_1.Organisation AND 
+                         misdata.Data_PersonnelAndAppointment002.JobTitle = derivedtbl_1.JobTitleCode INNER JOIN
+                             (SELECT        TOP (100) PERCENT Organisation, CAST(Code AS numeric(6, 0)) AS PayPointCode, EnglishShortDescription AS PAYPOINT, UpdateEndDate
+                               FROM            misdata.Code_Department002 AS Code_Department002_1
+                               WHERE        (TableNumber = 800) AND (UpdateEndDate IS NULL)
+                               ORDER BY Organisation, PayPointCode) AS derivedtbl_2 ON misdata.Data_PersonnelAndAppointment002.Organisation = derivedtbl_2.Organisation AND 
+                         misdata.Data_PersonnelAndAppointment002.PayPoint = derivedtbl_2.PayPointCode INNER JOIN
+                             (SELECT        TOP (100) PERCENT CAST(Code AS numeric(2, 0)) AS NatureOfAppointmentCode, EnglishShortDescription AS APPTNAT, UpdateEndDate
+                               FROM            misdata.Code_Central002
+                               WHERE        (TableNumber = 041) AND (UpdateEndDate IS NULL)
+                               ORDER BY NatureOfAppointmentCode, APPTNAT) AS derivedtbl_3 ON 
+                         misdata.Data_PersonnelAndAppointment002.NatureOfAppointment = derivedtbl_3.NatureOfAppointmentCode INNER JOIN
+                             (SELECT        NAT_PRL_DESC_LONG, DEPT_DES, ORG, SHRT_NAME_2 AS SNAME
+                               FROM            SHARED_TABLES.dbo.DIMENSION_BUSINESS_UNIT
+                               WHERE        (FIN_YEAR IN
+                                                             (SELECT        Financial_Year
+                                                               FROM            SHARED_TABLES.dbo.LOOKUP_TIME
+                                                               WHERE        (Actual_Date = CAST(GETDATE() AS date))))) AS derivedtbl_4 ON 
+                         misdata.Data_PersonnelAndAppointment002.Organisation = derivedtbl_4.ORG INNER JOIN
+                             (SELECT        TOP (100) PERCENT CAST(Code AS nvarchar(100)) AS RankDescCode, EnglishShortDescription AS RANKDESC, UpdateEndDate
+                               FROM            misdata.Code_Central002 AS Code_Central002_1
+                               WHERE        (TableNumber = 38) AND (UpdateEndDate IS NULL)
+                               ORDER BY RankDescCode, RANKDESC) AS derivedtbl_5 ON misdata.Data_PersonnelAndAppointment002.RankCode = derivedtbl_5.RankDescCode INNER JOIN
+                             (SELECT        TOP (100) PERCENT Organisation, CAST(Code AS numeric(5, 0)) AS PAYDISTCode, EnglishShortDescription AS PAYDIST, UpdateEndDate
+                               FROM            misdata.Code_Department002 AS Code_Department002_2
+                               WHERE        (TableNumber = 817) AND (UpdateEndDate IS NULL)
+                               ORDER BY Organisation, PAYDISTCode) AS derivedtbl_6 ON misdata.Data_PersonnelAndAppointment002.Organisation = derivedtbl_6.Organisation AND 
+                         misdata.Data_PersonnelAndAppointment002.Region = derivedtbl_6.PAYDISTCode
+WHERE        (misdata.Data_PersonnelAndAppointment002.EndDate IS NULL) AND (derivedtbl_1.JOBTITLE LIKE @JOBTITLE)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="JOBTITLE" ColumnName="JOBTITLE" DataSourceName="SELECT TOP (100) PERCENT Organisation, CAST(Code AS numeric(6, 0)) AS JobTitleCode, EnglishShortDescription AS JOBTITLE, UpdateEndDate FROM misdata.Code_Department002 WHERE (TableNumber = 824) AND (UpdateEndDate IS NULL) ORDER BY Organisation, JobTitleCode" DataTypeServer="varchar(20)" DbType="AnsiString" Direction="Input" ParameterName="@JOBTITLE" Precision="0" Scale="0" Size="20" SourceColumn="JOBTITLE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="HR_MISConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="FillBy_jobdescription" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy_jobdescription" GeneratorSourceName="FillBy_jobdescription" GetMethodModifier="Public" GetMethodName="GetDataBy_jobdescription" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy_jobdescription" UserSourceName="FillBy_jobdescription">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT DISTINCT A.PersalNumber AS PERSALNR, B_5.RANKDESC, B_1.JOBTITLE, B_3.APPTNAT
+FROM            misdata.Data_PersonnelAndAppointment002 AS A INNER JOIN
+                             (SELECT        TOP (100) PERCENT Organisation, CAST(Code AS numeric(100)) AS JobTitleCode, EnglishShortDescription AS JOBTITLE, UpdateEndDate
+                               FROM            misdata.Code_Department002
+                               WHERE        (TableNumber = 824) AND (UpdateEndDate IS NULL)
+                               ORDER BY Organisation, JobTitleCode) AS B_1 ON A.Organisation = B_1.Organisation AND A.JobTitle = B_1.JobTitleCode INNER JOIN
+                             (SELECT        TOP (100) PERCENT CAST(Code AS numeric(100)) AS NatureOfAppointmentCode, EnglishShortDescription AS APPTNAT, UpdateEndDate
+                               FROM            misdata.Code_Central002
+                               WHERE        (TableNumber = 041) AND (UpdateEndDate IS NULL)
+                               ORDER BY NatureOfAppointmentCode, APPTNAT) AS B_3 ON A.NatureOfAppointment = B_3.NatureOfAppointmentCode INNER JOIN
+                             (SELECT        NAT_PRL_DESC_LONG, DEPT_DES, ORG, SHRT_NAME_2 AS SNAME
+                               FROM            SHARED_TABLES.dbo.DIMENSION_BUSINESS_UNIT
+                               WHERE        (FIN_YEAR IN
+                                                             (SELECT        Financial_Year
+                                                               FROM            SHARED_TABLES.dbo.LOOKUP_TIME
+                                                               WHERE        (Actual_Date = CAST(GETDATE() AS date))))) AS B_4 ON A.Organisation = B_4.ORG INNER JOIN
+                             (SELECT        TOP (100) PERCENT CAST(Code AS numeric(100)) AS RankDescCode, EnglishShortDescription AS RANKDESC, UpdateEndDate
+                               FROM            misdata.Code_Central002 AS Code_Central002_1
+                               WHERE        (TableNumber = 38) AND (UpdateEndDate IS NULL)
+                               ORDER BY RankDescCode, RANKDESC) AS B_5 ON A.RankCode = B_5.RankDescCode
+WHERE        (A.PersalNumber = @paramPersal) AND (A.EndDate IS NULL)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="paramPersal" ColumnName="PersalNumber" DataSourceName="HR_MIS.misdata.Data_PersonnelAndAppointment002" DataTypeServer="numeric(8, 0)" DbType="Decimal" Direction="Input" ParameterName="@paramPersal" Precision="8" ProviderType="Decimal" Scale="0" Size="5" SourceColumn="PERSALNR" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="HR_MISConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="FillBy_JOBTITLE" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy_JOBTITLE" GeneratorSourceName="FillBy_JOBTITLE" GetMethodModifier="Public" GetMethodName="GetDataBy_JOBTITLE" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy_JOBTITLE" UserSourceName="FillBy_JOBTITLE">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        misdata.Data_PersonnelAndAppointment002.PersalNumber AS PERSALNR, derivedtbl_4.SNAME, 
+                         misdata.Data_PersonnelAndAppointment002.Surname + ' ' + misdata.Data_PersonnelAndAppointment002.Initials AS SUR_INI, 
+                         derivedtbl_4.NAT_PRL_DESC_LONG AS PROVDESC, derivedtbl_4.DEPT_DES AS DEPTDESC, derivedtbl_5.RANKDESC, derivedtbl_1.JOBTITLE, 
+                         derivedtbl_6.PAYDIST, derivedtbl_2.PAYPOINT, derivedtbl_3.APPTNAT
+FROM            misdata.Data_PersonnelAndAppointment002 INNER JOIN
+                             (SELECT        TOP (100) PERCENT Organisation, CAST(Code AS numeric(6, 0)) AS JobTitleCode, EnglishShortDescription AS JOBTITLE, UpdateEndDate
+                               FROM            misdata.Code_Department002
+                               WHERE        (TableNumber = 824) AND (UpdateEndDate IS NULL)
+                               ORDER BY Organisation, JobTitleCode) AS derivedtbl_1 ON misdata.Data_PersonnelAndAppointment002.Organisation = derivedtbl_1.Organisation AND 
+                         misdata.Data_PersonnelAndAppointment002.JobTitle = derivedtbl_1.JobTitleCode INNER JOIN
+                             (SELECT        TOP (100) PERCENT Organisation, CAST(Code AS numeric(6, 0)) AS PayPointCode, EnglishShortDescription AS PAYPOINT, UpdateEndDate
+                               FROM            misdata.Code_Department002 AS Code_Department002_1
+                               WHERE        (TableNumber = 800) AND (UpdateEndDate IS NULL)
+                               ORDER BY Organisation, PayPointCode) AS derivedtbl_2 ON misdata.Data_PersonnelAndAppointment002.Organisation = derivedtbl_2.Organisation AND 
+                         misdata.Data_PersonnelAndAppointment002.PayPoint = derivedtbl_2.PayPointCode INNER JOIN
+                             (SELECT        TOP (100) PERCENT CAST(Code AS numeric(2, 0)) AS NatureOfAppointmentCode, EnglishShortDescription AS APPTNAT, UpdateEndDate
+                               FROM            misdata.Code_Central002
+                               WHERE        (TableNumber = 041) AND (UpdateEndDate IS NULL)
+                               ORDER BY NatureOfAppointmentCode, APPTNAT) AS derivedtbl_3 ON 
+                         misdata.Data_PersonnelAndAppointment002.NatureOfAppointment = derivedtbl_3.NatureOfAppointmentCode INNER JOIN
+                             (SELECT        NAT_PRL_DESC_LONG, DEPT_DES, ORG, SHRT_NAME_2 AS SNAME
+                               FROM            SHARED_TABLES.dbo.DIMENSION_BUSINESS_UNIT
+                               WHERE        (FIN_YEAR IN
+                                                             (SELECT        Financial_Year
+                                                               FROM            SHARED_TABLES.dbo.LOOKUP_TIME
+                                                               WHERE        (Actual_Date = CAST(GETDATE() AS date))))) AS derivedtbl_4 ON 
+                         misdata.Data_PersonnelAndAppointment002.Organisation = derivedtbl_4.ORG INNER JOIN
+                             (SELECT        TOP (100) PERCENT CAST(Code AS nvarchar(100)) AS RankDescCode, EnglishShortDescription AS RANKDESC, UpdateEndDate
+                               FROM            misdata.Code_Central002 AS Code_Central002_1
+                               WHERE        (TableNumber = 38) AND (UpdateEndDate IS NULL)
+                               ORDER BY RankDescCode, RANKDESC) AS derivedtbl_5 ON misdata.Data_PersonnelAndAppointment002.RankCode = derivedtbl_5.RankDescCode INNER JOIN
+                             (SELECT        TOP (100) PERCENT Organisation, CAST(Code AS numeric(5, 0)) AS PAYDISTCode, EnglishShortDescription AS PAYDIST, UpdateEndDate
+                               FROM            misdata.Code_Department002 AS Code_Department002_2
+                               WHERE        (TableNumber = 817) AND (UpdateEndDate IS NULL)
+                               ORDER BY Organisation, PAYDISTCode) AS derivedtbl_6 ON misdata.Data_PersonnelAndAppointment002.Organisation = derivedtbl_6.Organisation AND 
+                         misdata.Data_PersonnelAndAppointment002.Region = derivedtbl_6.PAYDISTCode
+WHERE        (misdata.Data_PersonnelAndAppointment002.EndDate IS NULL) AND (derivedtbl_1.JOBTITLE LIKE @JOBTITLE)
+ORDER BY derivedtbl_1.JOBTITLE</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="JOBTITLE" ColumnName="JOBTITLE" DataSourceName="SELECT TOP (100) PERCENT Organisation, CAST(Code AS numeric(6, 0)) AS JobTitleCode, EnglishShortDescription AS JOBTITLE, UpdateEndDate FROM misdata.Code_Department002 WHERE (TableNumber = 824) AND (UpdateEndDate IS NULL) ORDER BY Organisation, JobTitleCode" DataTypeServer="varchar(20)" DbType="AnsiString" Direction="Input" ParameterName="@JOBTITLE" Precision="0" Scale="0" Size="20" SourceColumn="JOBTITLE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="HR_MISConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="FillBy_SName" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy_Sname" GeneratorSourceName="FillBy_SName" GetMethodModifier="Public" GetMethodName="GetDataBy_Sname" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy_Sname" UserSourceName="FillBy_SName">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        misdata.Data_PersonnelAndAppointment002.PersalNumber AS PERSALNR, derivedtbl_4.SNAME, 
+                         misdata.Data_PersonnelAndAppointment002.Surname + ' ' + misdata.Data_PersonnelAndAppointment002.Initials AS SUR_INI, 
+                         derivedtbl_4.NAT_PRL_DESC_LONG AS PROVDESC, derivedtbl_4.DEPT_DES AS DEPTDESC, derivedtbl_5.RANKDESC, derivedtbl_1.JOBTITLE, 
+                         derivedtbl_6.PAYDIST, derivedtbl_2.PAYPOINT, derivedtbl_3.APPTNAT
+FROM            misdata.Data_PersonnelAndAppointment002 INNER JOIN
+                             (SELECT        TOP (100) PERCENT Organisation, CAST(Code AS numeric(6, 0)) AS JobTitleCode, EnglishShortDescription AS JOBTITLE, UpdateEndDate
+                               FROM            misdata.Code_Department002
+                               WHERE        (TableNumber = 824) AND (UpdateEndDate IS NULL)
+                               ORDER BY Organisation, JobTitleCode) AS derivedtbl_1 ON misdata.Data_PersonnelAndAppointment002.Organisation = derivedtbl_1.Organisation AND 
+                         misdata.Data_PersonnelAndAppointment002.JobTitle = derivedtbl_1.JobTitleCode INNER JOIN
+                             (SELECT        TOP (100) PERCENT Organisation, CAST(Code AS numeric(6, 0)) AS PayPointCode, EnglishShortDescription AS PAYPOINT, UpdateEndDate
+                               FROM            misdata.Code_Department002 AS Code_Department002_1
+                               WHERE        (TableNumber = 800) AND (UpdateEndDate IS NULL)
+                               ORDER BY Organisation, PayPointCode) AS derivedtbl_2 ON misdata.Data_PersonnelAndAppointment002.Organisation = derivedtbl_2.Organisation AND 
+                         misdata.Data_PersonnelAndAppointment002.PayPoint = derivedtbl_2.PayPointCode INNER JOIN
+                             (SELECT        TOP (100) PERCENT CAST(Code AS numeric(2, 0)) AS NatureOfAppointmentCode, EnglishShortDescription AS APPTNAT, UpdateEndDate
+                               FROM            misdata.Code_Central002
+                               WHERE        (TableNumber = 041) AND (UpdateEndDate IS NULL)
+                               ORDER BY NatureOfAppointmentCode, APPTNAT) AS derivedtbl_3 ON 
+                         misdata.Data_PersonnelAndAppointment002.NatureOfAppointment = derivedtbl_3.NatureOfAppointmentCode INNER JOIN
+                             (SELECT        NAT_PRL_DESC_LONG, DEPT_DES, ORG, SHRT_NAME_2 AS SNAME
+                               FROM            SHARED_TABLES.dbo.DIMENSION_BUSINESS_UNIT
+                               WHERE        (FIN_YEAR IN
+                                                             (SELECT        Financial_Year
+                                                               FROM            SHARED_TABLES.dbo.LOOKUP_TIME
+                                                               WHERE        (Actual_Date = CAST(GETDATE() AS date))))) AS derivedtbl_4 ON 
+                         misdata.Data_PersonnelAndAppointment002.Organisation = derivedtbl_4.ORG INNER JOIN
+                             (SELECT        TOP (100) PERCENT CAST(Code AS nvarchar(100)) AS RankDescCode, EnglishShortDescription AS RANKDESC, UpdateEndDate
+                               FROM            misdata.Code_Central002 AS Code_Central002_1
+                               WHERE        (TableNumber = 38) AND (UpdateEndDate IS NULL)
+                               ORDER BY RankDescCode, RANKDESC) AS derivedtbl_5 ON misdata.Data_PersonnelAndAppointment002.RankCode = derivedtbl_5.RankDescCode INNER JOIN
+                             (SELECT        TOP (100) PERCENT Organisation, CAST(Code AS numeric(5, 0)) AS PAYDISTCode, EnglishShortDescription AS PAYDIST, UpdateEndDate
+                               FROM            misdata.Code_Department002 AS Code_Department002_2
+                               WHERE        (TableNumber = 817) AND (UpdateEndDate IS NULL)
+                               ORDER BY Organisation, PAYDISTCode) AS derivedtbl_6 ON misdata.Data_PersonnelAndAppointment002.Organisation = derivedtbl_6.Organisation AND 
+                         misdata.Data_PersonnelAndAppointment002.Region = derivedtbl_6.PAYDISTCode
+WHERE        (misdata.Data_PersonnelAndAppointment002.EndDate IS NULL) AND (derivedtbl_4.SNAME = @sname)
+ORDER BY derivedtbl_4.SNAME</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="sname" ColumnName="SNAME" DataSourceName="SELECT NAT_PRL_DESC_LONG, DEPT_DES, ORG, SHRT_NAME_2 AS SNAME FROM SHARED_TABLES.dbo.DIMENSION_BUSINESS_UNIT WHERE (FIN_YEAR IN (SELECT Financial_Year FROM SHARED_TABLES.dbo.LOOKUP_TIME WHERE (Actual_Date = CAST(GETDATE() AS date))))" DataTypeServer="varchar(11)" DbType="AnsiString" Direction="Input" ParameterName="@sname" Precision="0" Scale="0" Size="11" SourceColumn="SNAME" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="HR_MISConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="FillBy_SUR_INI" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy_SUR_INI" GeneratorSourceName="FillBy_SUR_INI" GetMethodModifier="Public" GetMethodName="GetDataBy_SUR_INI" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy_SUR_INI" UserSourceName="FillBy_SUR_INI">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        misdata.Data_PersonnelAndAppointment002.PersalNumber AS PERSALNR, derivedtbl_4.SNAME, 
+                         misdata.Data_PersonnelAndAppointment002.Surname + ' ' + misdata.Data_PersonnelAndAppointment002.Initials AS SUR_INI, 
+                         derivedtbl_4.NAT_PRL_DESC_LONG AS PROVDESC, derivedtbl_4.DEPT_DES AS DEPTDESC, derivedtbl_5.RANKDESC, derivedtbl_1.JOBTITLE, 
+                         derivedtbl_6.PAYDIST, derivedtbl_2.PAYPOINT, derivedtbl_3.APPTNAT
+FROM            misdata.Data_PersonnelAndAppointment002 INNER JOIN
+                             (SELECT        TOP (100) PERCENT Organisation, CAST(Code AS numeric(6, 0)) AS JobTitleCode, EnglishShortDescription AS JOBTITLE, UpdateEndDate
+                               FROM            misdata.Code_Department002
+                               WHERE        (TableNumber = 824) AND (UpdateEndDate IS NULL)
+                               ORDER BY Organisation, JobTitleCode) AS derivedtbl_1 ON misdata.Data_PersonnelAndAppointment002.Organisation = derivedtbl_1.Organisation AND 
+                         misdata.Data_PersonnelAndAppointment002.JobTitle = derivedtbl_1.JobTitleCode INNER JOIN
+                             (SELECT        TOP (100) PERCENT Organisation, CAST(Code AS numeric(6, 0)) AS PayPointCode, EnglishShortDescription AS PAYPOINT, UpdateEndDate
+                               FROM            misdata.Code_Department002 AS Code_Department002_1
+                               WHERE        (TableNumber = 800) AND (UpdateEndDate IS NULL)
+                               ORDER BY Organisation, PayPointCode) AS derivedtbl_2 ON misdata.Data_PersonnelAndAppointment002.Organisation = derivedtbl_2.Organisation AND 
+                         misdata.Data_PersonnelAndAppointment002.PayPoint = derivedtbl_2.PayPointCode INNER JOIN
+                             (SELECT        TOP (100) PERCENT CAST(Code AS numeric(2, 0)) AS NatureOfAppointmentCode, EnglishShortDescription AS APPTNAT, UpdateEndDate
+                               FROM            misdata.Code_Central002
+                               WHERE        (TableNumber = 041) AND (UpdateEndDate IS NULL)
+                               ORDER BY NatureOfAppointmentCode, APPTNAT) AS derivedtbl_3 ON 
+                         misdata.Data_PersonnelAndAppointment002.NatureOfAppointment = derivedtbl_3.NatureOfAppointmentCode INNER JOIN
+                             (SELECT        NAT_PRL_DESC_LONG, DEPT_DES, ORG, SHRT_NAME_2 AS SNAME
+                               FROM            SHARED_TABLES.dbo.DIMENSION_BUSINESS_UNIT
+                               WHERE        (FIN_YEAR IN
+                                                             (SELECT        Financial_Year
+                                                               FROM            SHARED_TABLES.dbo.LOOKUP_TIME
+                                                               WHERE        (Actual_Date = CAST(GETDATE() AS date))))) AS derivedtbl_4 ON 
+                         misdata.Data_PersonnelAndAppointment002.Organisation = derivedtbl_4.ORG INNER JOIN
+                             (SELECT        TOP (100) PERCENT CAST(Code AS nvarchar(100)) AS RankDescCode, EnglishShortDescription AS RANKDESC, UpdateEndDate
+                               FROM            misdata.Code_Central002 AS Code_Central002_1
+                               WHERE        (TableNumber = 38) AND (UpdateEndDate IS NULL)
+                               ORDER BY RankDescCode, RANKDESC) AS derivedtbl_5 ON misdata.Data_PersonnelAndAppointment002.RankCode = derivedtbl_5.RankDescCode INNER JOIN
+                             (SELECT        TOP (100) PERCENT Organisation, CAST(Code AS numeric(5, 0)) AS PAYDISTCode, EnglishShortDescription AS PAYDIST, UpdateEndDate
+                               FROM            misdata.Code_Department002 AS Code_Department002_2
+                               WHERE        (TableNumber = 817) AND (UpdateEndDate IS NULL)
+                               ORDER BY Organisation, PAYDISTCode) AS derivedtbl_6 ON misdata.Data_PersonnelAndAppointment002.Organisation = derivedtbl_6.Organisation AND 
+                         misdata.Data_PersonnelAndAppointment002.Region = derivedtbl_6.PAYDISTCode
+WHERE        (misdata.Data_PersonnelAndAppointment002.EndDate IS NULL) AND 
+                         (misdata.Data_PersonnelAndAppointment002.Surname + ' ' + misdata.Data_PersonnelAndAppointment002.Initials = @SUR_INI)
+ORDER BY SUR_INI</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="SUR_INI" ColumnName="" DataSourceName="" DataTypeServer="unknown" DbType="AnsiString" Direction="Input" ParameterName="@SUR_INI" Precision="0" Scale="0" Size="1024" SourceColumn="" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="HR_MISConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="FillByAll" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataByAll" GeneratorSourceName="FillByAll" GetMethodModifier="Public" GetMethodName="GetDataByAll" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataByAll" UserSourceName="FillByAll">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        misdata.Data_PersonnelAndAppointment002.PersalNumber AS PERSALNR, derivedtbl_4.SNAME, 
+                         misdata.Data_PersonnelAndAppointment002.Surname + ' ' + misdata.Data_PersonnelAndAppointment002.Initials AS SUR_INI, 
+                         derivedtbl_4.NAT_PRL_DESC_LONG AS PROVDESC, derivedtbl_4.DEPT_DES AS DEPTDESC, derivedtbl_5.RANKDESC, derivedtbl_1.JOBTITLE, 
+                         derivedtbl_6.PAYDIST, derivedtbl_2.PAYPOINT, derivedtbl_3.APPTNAT
+FROM            misdata.Data_PersonnelAndAppointment002 INNER JOIN
+                             (SELECT        TOP (100) PERCENT Organisation, CAST(Code AS numeric(6, 0)) AS JobTitleCode, EnglishShortDescription AS JOBTITLE, UpdateEndDate
+                               FROM            misdata.Code_Department002
+                               WHERE        (TableNumber = 824) AND (UpdateEndDate IS NULL)
+                               ORDER BY Organisation, JobTitleCode) AS derivedtbl_1 ON misdata.Data_PersonnelAndAppointment002.Organisation = derivedtbl_1.Organisation AND 
+                         misdata.Data_PersonnelAndAppointment002.JobTitle = derivedtbl_1.JobTitleCode INNER JOIN
+                             (SELECT        TOP (100) PERCENT Organisation, CAST(Code AS numeric(6, 0)) AS PayPointCode, EnglishShortDescription AS PAYPOINT, UpdateEndDate
+                               FROM            misdata.Code_Department002 AS Code_Department002_1
+                               WHERE        (TableNumber = 800) AND (UpdateEndDate IS NULL)
+                               ORDER BY Organisation, PayPointCode) AS derivedtbl_2 ON misdata.Data_PersonnelAndAppointment002.Organisation = derivedtbl_2.Organisation AND 
+                         misdata.Data_PersonnelAndAppointment002.PayPoint = derivedtbl_2.PayPointCode INNER JOIN
+                             (SELECT        TOP (100) PERCENT CAST(Code AS numeric(2, 0)) AS NatureOfAppointmentCode, EnglishShortDescription AS APPTNAT, UpdateEndDate
+                               FROM            misdata.Code_Central002
+                               WHERE        (TableNumber = 041) AND (UpdateEndDate IS NULL)
+                               ORDER BY NatureOfAppointmentCode, APPTNAT) AS derivedtbl_3 ON 
+                         misdata.Data_PersonnelAndAppointment002.NatureOfAppointment = derivedtbl_3.NatureOfAppointmentCode INNER JOIN
+                             (SELECT        NAT_PRL_DESC_LONG, DEPT_DES, ORG, SHRT_NAME_2 AS SNAME
+                               FROM            SHARED_TABLES.dbo.DIMENSION_BUSINESS_UNIT
+                               WHERE        (FIN_YEAR IN
+                                                             (SELECT        Financial_Year
+                                                               FROM            SHARED_TABLES.dbo.LOOKUP_TIME
+                                                               WHERE        (Actual_Date = CAST(GETDATE() AS date))))) AS derivedtbl_4 ON 
+                         misdata.Data_PersonnelAndAppointment002.Organisation = derivedtbl_4.ORG INNER JOIN
+                             (SELECT        TOP (100) PERCENT CAST(Code AS nvarchar(100)) AS RankDescCode, EnglishShortDescription AS RANKDESC, UpdateEndDate
+                               FROM            misdata.Code_Central002 AS Code_Central002_1
+                               WHERE        (TableNumber = 38) AND (UpdateEndDate IS NULL)
+                               ORDER BY RankDescCode, RANKDESC) AS derivedtbl_5 ON misdata.Data_PersonnelAndAppointment002.RankCode = derivedtbl_5.RankDescCode INNER JOIN
+                             (SELECT        TOP (100) PERCENT Organisation, CAST(Code AS numeric(5, 0)) AS PAYDISTCode, EnglishShortDescription AS PAYDIST, UpdateEndDate
+                               FROM            misdata.Code_Department002 AS Code_Department002_2
+                               WHERE        (TableNumber = 817) AND (UpdateEndDate IS NULL)
+                               ORDER BY Organisation, PAYDISTCode) AS derivedtbl_6 ON misdata.Data_PersonnelAndAppointment002.Organisation = derivedtbl_6.Organisation AND 
+                         misdata.Data_PersonnelAndAppointment002.Region = derivedtbl_6.PAYDISTCode
+WHERE        (misdata.Data_PersonnelAndAppointment002.EndDate IS NULL)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="HR_MISConnectionString (MySettings)" DbObjectType="Unknown" GenerateMethods="Get" GenerateShortCommands="true" GeneratorGetMethodName="GetUserDepartCode" GetMethodModifier="Public" GetMethodName="GetUserDepartCode" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetUserDepartCode" UserSourceName="GetUserDepartCode">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        misdata.Data_PersonnelAndAppointment002.PersalNumber AS PERSALNR, derivedtbl_4.SNAME, 
+                         misdata.Data_PersonnelAndAppointment002.Surname + ' ' + misdata.Data_PersonnelAndAppointment002.Initials AS SUR_INI, 
+                         derivedtbl_4.DEPT_DES AS DEPTDESC, derivedtbl_5.RANKDESC, derivedtbl_1.JOBTITTLE, derivedtbl_3.APPTNAT
+FROM            misdata.Data_PersonnelAndAppointment002 INNER JOIN
+                             (SELECT        TOP (100) PERCENT Organisation, CAST(Code AS numeric(6, 0)) AS JobTitleCode, EnglishShortDescription AS JOBTITTLE, UpdateEndDate
+                               FROM            misdata.Code_Department002
+                               WHERE        (TableNumber = 824) AND (UpdateEndDate IS NULL)
+                               ORDER BY Organisation, JobTitleCode) AS derivedtbl_1 ON misdata.Data_PersonnelAndAppointment002.Organisation = derivedtbl_1.Organisation AND 
+                         misdata.Data_PersonnelAndAppointment002.JobTitle = derivedtbl_1.JobTitleCode INNER JOIN
+                             (SELECT        TOP (100) PERCENT CAST(Code AS numeric(2, 0)) AS NatureOfAppointmentCode, EnglishShortDescription AS APPTNAT, UpdateEndDate
+                               FROM            misdata.Code_Central002
+                               WHERE        (TableNumber = 041) AND (UpdateEndDate IS NULL)
+                               ORDER BY NatureOfAppointmentCode, APPTNAT) AS derivedtbl_3 ON 
+                         misdata.Data_PersonnelAndAppointment002.NatureOfAppointment = derivedtbl_3.NatureOfAppointmentCode INNER JOIN
+                             (SELECT        NAT_PRL_DESC_LONG, DEPT_DES, ORG, SHRT_NAME_2 AS SNAME
+                               FROM            SHARED_TABLES.dbo.DIMENSION_BUSINESS_UNIT
+                               WHERE        (FIN_YEAR IN
+                                                             (SELECT        Financial_Year
+                                                               FROM            SHARED_TABLES.dbo.LOOKUP_TIME
+                                                               WHERE        (Actual_Date = CAST(GETDATE() AS date))))) AS derivedtbl_4 ON 
+                         misdata.Data_PersonnelAndAppointment002.Organisation = derivedtbl_4.ORG INNER JOIN
+                             (SELECT        TOP (100) PERCENT CAST(Code AS nvarchar(100)) AS RankDescCode, EnglishShortDescription AS RANKDESC, UpdateEndDate
+                               FROM            misdata.Code_Central002 AS Code_Central002_1
+                               WHERE        (TableNumber = 38) AND (UpdateEndDate IS NULL)
+                               ORDER BY RankDescCode, RANKDESC) AS derivedtbl_5 ON misdata.Data_PersonnelAndAppointment002.RankCode = derivedtbl_5.RankDescCode
+WHERE        (misdata.Data_PersonnelAndAppointment002.PersalNumber = @paramPersal) AND (misdata.Data_PersonnelAndAppointment002.EndDate IS NULL)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="paramPersal" ColumnName="PersalNumber" DataSourceName="HR_MIS.misdata.Data_PersonnelAndAppointment002" DataTypeServer="numeric(8, 0)" DbType="Decimal" Direction="Input" ParameterName="@paramPersal" Precision="8" ProviderType="Decimal" Scale="0" Size="5" SourceColumn="PERSALNR" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Data_PersonnelAndAppointment002TableAdapter" GeneratorDataComponentClassName="Data_PersonnelAndAppointment002TableAdapter" Name="Data_PersonnelAndAppointment002" UserDataComponentName="Data_PersonnelAndAppointment002TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="HR_MISConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        A.PersalNumber AS PERSALNR, B_4.SNAME, A.Surname + ' ' + A.Initials AS SUR_INI, B_4.NAT_PRL_DESC_LONG AS PROVDESC, B_4.DEPT_DES AS DEPTDESC, 
+                         B_5.RANKDESC, B_1.JOBTITLE, B_6.PAYDIST, B_2.PAYPOINT, B_3.APPTNAT
+FROM            misdata.Data_PersonnelAndAppointment002 AS A INNER JOIN
+                             (SELECT        TOP (100) PERCENT Organisation, CAST(Code AS numeric(6, 0)) AS JobTitleCode, EnglishShortDescription AS JOBTITLE, UpdateEndDate
+                               FROM            misdata.Code_Department002
+                               WHERE        (TableNumber = 824) AND (UpdateEndDate IS NULL)
+                               ORDER BY Organisation, JobTitleCode) AS B_1 ON A.Organisation = B_1.Organisation AND A.JobTitle = B_1.JobTitleCode INNER JOIN
+                             (SELECT        TOP (100) PERCENT Organisation, CAST(Code AS numeric(6, 0)) AS PayPointCode, EnglishShortDescription AS PAYPOINT, UpdateEndDate
+                               FROM            misdata.Code_Department002 AS Code_Department002_1
+                               WHERE        (TableNumber = 800) AND (UpdateEndDate IS NULL)
+                               ORDER BY Organisation, PayPointCode) AS B_2 ON A.Organisation = B_2.Organisation AND A.PayPoint = B_2.PayPointCode INNER JOIN
+                             (SELECT        TOP (100) PERCENT CAST(Code AS numeric(2, 0)) AS NatureOfAppointmentCode, EnglishShortDescription AS APPTNAT, UpdateEndDate
+                               FROM            misdata.Code_Central002
+                               WHERE        (TableNumber = 041) AND (UpdateEndDate IS NULL)
+                               ORDER BY NatureOfAppointmentCode, APPTNAT) AS B_3 ON A.NatureOfAppointment = B_3.NatureOfAppointmentCode INNER JOIN
+                             (SELECT        NAT_PRL_DESC_LONG, DEPT_DES, ORG, SHRT_NAME_2 AS SNAME
+                               FROM            SHARED_TABLES.dbo.DIMENSION_BUSINESS_UNIT
+                               WHERE        (FIN_YEAR IN
+                                                             (SELECT        Financial_Year
+                                                               FROM            SHARED_TABLES.dbo.LOOKUP_TIME
+                                                               WHERE        (Actual_Date = CAST(GETDATE() AS date))))) AS B_4 ON A.Organisation = B_4.ORG INNER JOIN
+                             (SELECT        TOP (100) PERCENT CAST(Code AS nvarchar(100)) AS RankDescCode, EnglishShortDescription AS RANKDESC, UpdateEndDate
+                               FROM            misdata.Code_Central002 AS Code_Central002_1
+                               WHERE        (TableNumber = 38) AND (UpdateEndDate IS NULL)
+                               ORDER BY RankDescCode, RANKDESC) AS B_5 ON A.RankCode = B_5.RankDescCode INNER JOIN
+                             (SELECT        TOP (100) PERCENT Organisation, CAST(Code AS numeric(5, 0)) AS PAYDISTCode, EnglishShortDescription AS PAYDIST, UpdateEndDate
+                               FROM            misdata.Code_Department002 AS Code_Department002_2
+                               WHERE        (TableNumber = 817) AND (UpdateEndDate IS NULL)
+                               ORDER BY Organisation, PAYDISTCode) AS B_6 ON A.Organisation = B_6.Organisation AND A.Region = B_6.PAYDISTCode
+WHERE        (A.PersalNumber = @parampersalNr) AND (A.EndDate IS NULL)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="parampersalNr" ColumnName="PersalNumber" DataSourceName="HR_MIS.misdata.Data_PersonnelAndAppointment002" DataTypeServer="numeric(8, 0)" DbType="Decimal" Direction="Input" ParameterName="@parampersalNr" Precision="8" ProviderType="Decimal" Scale="0" Size="5" SourceColumn="PERSALNR" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="PERSALNR" DataSetColumn="PERSALNR" />
+              <Mapping SourceColumn="SNAME" DataSetColumn="SNAME" />
+              <Mapping SourceColumn="SUR_INI" DataSetColumn="SUR_INI" />
+              <Mapping SourceColumn="PROVDESC" DataSetColumn="PROVDESC" />
+              <Mapping SourceColumn="DEPTDESC" DataSetColumn="DEPTDESC" />
+              <Mapping SourceColumn="RANKDESC" DataSetColumn="RANKDESC" />
+              <Mapping SourceColumn="JOBTITLE" DataSetColumn="JOBTITLE" />
+              <Mapping SourceColumn="PAYDIST" DataSetColumn="PAYDIST" />
+              <Mapping SourceColumn="PAYPOINT" DataSetColumn="PAYPOINT" />
+              <Mapping SourceColumn="APPTNAT" DataSetColumn="APPTNAT" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="HR_MISConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="FillBy_JOBTITLE" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy_JOBTITLE" GeneratorSourceName="FillBy_JOBTITLE" GetMethodModifier="Public" GetMethodName="GetDataBy_JOBTITLE" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy_JOBTITLE" UserSourceName="FillBy_JOBTITLE">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        A.PersalNumber AS PERSALNR, B_4.SNAME, A.Surname + ' ' + A.Initials AS SUR_INI, B_4.NAT_PRL_DESC_LONG AS PROVDESC, B_4.DEPT_DES AS DEPTDESC, 
+                         B_5.RANKDESC, B_1.JOBTITLE, B_6.PAYDIST, B_2.PAYPOINT, B_3.APPTNAT
+FROM            misdata.Data_PersonnelAndAppointment002 AS A INNER JOIN
+                             (SELECT        TOP (100) PERCENT Organisation, CAST(Code AS numeric(6, 0)) AS JobTitleCode, EnglishShortDescription AS JOBTITLE, UpdateEndDate
+                               FROM            misdata.Code_Department002
+                               WHERE        (TableNumber = 824) AND (UpdateEndDate IS NULL)
+                               ORDER BY Organisation, JobTitleCode) AS B_1 ON A.Organisation = B_1.Organisation AND A.JobTitle = B_1.JobTitleCode INNER JOIN
+                             (SELECT        TOP (100) PERCENT Organisation, CAST(Code AS numeric(6, 0)) AS PayPointCode, EnglishShortDescription AS PAYPOINT, UpdateEndDate
+                               FROM            misdata.Code_Department002 AS Code_Department002_1
+                               WHERE        (TableNumber = 800) AND (UpdateEndDate IS NULL)
+                               ORDER BY Organisation, PayPointCode) AS B_2 ON A.Organisation = B_2.Organisation AND A.PayPoint = B_2.PayPointCode INNER JOIN
+                             (SELECT        TOP (100) PERCENT CAST(Code AS numeric(2, 0)) AS NatureOfAppointmentCode, EnglishShortDescription AS APPTNAT, UpdateEndDate
+                               FROM            misdata.Code_Central002
+                               WHERE        (TableNumber = 041) AND (UpdateEndDate IS NULL)
+                               ORDER BY NatureOfAppointmentCode, APPTNAT) AS B_3 ON A.NatureOfAppointment = B_3.NatureOfAppointmentCode INNER JOIN
+                             (SELECT        NAT_PRL_DESC_LONG, DEPT_DES, ORG, SHRT_NAME_2 AS SNAME
+                               FROM            SHARED_TABLES.dbo.DIMENSION_BUSINESS_UNIT
+                               WHERE        (FIN_YEAR IN
+                                                             (SELECT        Financial_Year
+                                                               FROM            SHARED_TABLES.dbo.LOOKUP_TIME
+                                                               WHERE        (Actual_Date = CAST(GETDATE() AS date))))) AS B_4 ON A.Organisation = B_4.ORG INNER JOIN
+                             (SELECT        TOP (100) PERCENT CAST(Code AS nvarchar(100)) AS RankDescCode, EnglishShortDescription AS RANKDESC, UpdateEndDate
+                               FROM            misdata.Code_Central002 AS Code_Central002_1
+                               WHERE        (TableNumber = 38) AND (UpdateEndDate IS NULL)
+                               ORDER BY RankDescCode, RANKDESC) AS B_5 ON A.RankCode = B_5.RankDescCode INNER JOIN
+                             (SELECT        TOP (100) PERCENT Organisation, CAST(Code AS numeric(5, 0)) AS PAYDISTCode, EnglishShortDescription AS PAYDIST, UpdateEndDate
+                               FROM            misdata.Code_Department002 AS Code_Department002_2
+                               WHERE        (TableNumber = 817) AND (UpdateEndDate IS NULL)
+                               ORDER BY Organisation, PAYDISTCode) AS B_6 ON A.Organisation = B_6.Organisation AND A.Region = B_6.PAYDISTCode
+WHERE        (A.EndDate IS NULL) AND (B_1.JOBTITLE = @paramJobtitle)
+ORDER BY B_1.JOBTITLE</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="paramJobtitle" ColumnName="JOBTITLE" DataSourceName="SELECT TOP (100) PERCENT Organisation, CAST(Code AS numeric(6, 0)) AS JobTitleCode, EnglishShortDescription AS JOBTITLE, UpdateEndDate FROM misdata.Code_Department002 WHERE (TableNumber = 824) AND (UpdateEndDate IS NULL) ORDER BY Organisation, JobTitleCode" DataTypeServer="varchar(20)" DbType="AnsiString" Direction="Input" ParameterName="@paramJobtitle" Precision="0" Scale="0" Size="20" SourceColumn="JOBTITLE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="HR_MISConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="FillBy_SName" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy_Sname" GeneratorSourceName="FillBy_SName" GetMethodModifier="Public" GetMethodName="GetDataBy_Sname" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy_Sname" UserSourceName="FillBy_SName">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        A.PersalNumber AS PERSALNR, B_4.SNAME, A.Surname + ' ' + A.Initials AS SUR_INI, B_4.NAT_PRL_DESC_LONG AS PROVDESC, B_4.DEPT_DES AS DEPTDESC, 
+                         B_5.RANKDESC, B_1.JOBTITLE, B_6.PAYDIST, B_2.PAYPOINT, B_3.APPTNAT
+FROM            misdata.Data_PersonnelAndAppointment002 AS A INNER JOIN
+                             (SELECT        TOP (100) PERCENT Organisation, CAST(Code AS numeric(6, 0)) AS JobTitleCode, EnglishShortDescription AS JOBTITLE, UpdateEndDate
+                               FROM            misdata.Code_Department002
+                               WHERE        (TableNumber = 824) AND (UpdateEndDate IS NULL)
+                               ORDER BY Organisation, JobTitleCode) AS B_1 ON A.Organisation = B_1.Organisation AND A.JobTitle = B_1.JobTitleCode INNER JOIN
+                             (SELECT        TOP (100) PERCENT Organisation, CAST(Code AS numeric(6, 0)) AS PayPointCode, EnglishShortDescription AS PAYPOINT, UpdateEndDate
+                               FROM            misdata.Code_Department002 AS Code_Department002_1
+                               WHERE        (TableNumber = 800) AND (UpdateEndDate IS NULL)
+                               ORDER BY Organisation, PayPointCode) AS B_2 ON A.Organisation = B_2.Organisation AND A.PayPoint = B_2.PayPointCode INNER JOIN
+                             (SELECT        TOP (100) PERCENT CAST(Code AS numeric(2, 0)) AS NatureOfAppointmentCode, EnglishShortDescription AS APPTNAT, UpdateEndDate
+                               FROM            misdata.Code_Central002
+                               WHERE        (TableNumber = 041) AND (UpdateEndDate IS NULL)
+                               ORDER BY NatureOfAppointmentCode, APPTNAT) AS B_3 ON A.NatureOfAppointment = B_3.NatureOfAppointmentCode INNER JOIN
+                             (SELECT        NAT_PRL_DESC_LONG, DEPT_DES, ORG, SHRT_NAME_2 AS SNAME
+                               FROM            SHARED_TABLES.dbo.DIMENSION_BUSINESS_UNIT
+                               WHERE        (FIN_YEAR IN
+                                                             (SELECT        Financial_Year
+                                                               FROM            SHARED_TABLES.dbo.LOOKUP_TIME
+                                                               WHERE        (Actual_Date = CAST(GETDATE() AS date))))) AS B_4 ON A.Organisation = B_4.ORG INNER JOIN
+                             (SELECT        TOP (100) PERCENT CAST(Code AS nvarchar(100)) AS RankDescCode, EnglishShortDescription AS RANKDESC, UpdateEndDate
+                               FROM            misdata.Code_Central002 AS Code_Central002_1
+                               WHERE        (TableNumber = 38) AND (UpdateEndDate IS NULL)
+                               ORDER BY RankDescCode, RANKDESC) AS B_5 ON A.RankCode = B_5.RankDescCode INNER JOIN
+                             (SELECT        TOP (100) PERCENT Organisation, CAST(Code AS numeric(5, 0)) AS PAYDISTCode, EnglishShortDescription AS PAYDIST, UpdateEndDate
+                               FROM            misdata.Code_Department002 AS Code_Department002_2
+                               WHERE        (TableNumber = 817) AND (UpdateEndDate IS NULL)
+                               ORDER BY Organisation, PAYDISTCode) AS B_6 ON A.Organisation = B_6.Organisation AND A.Region = B_6.PAYDISTCode
+WHERE        (A.EndDate IS NULL) AND (B_4.SNAME = @paramSname)
+ORDER BY B_4.SNAME</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="paramSname" ColumnName="SNAME" DataSourceName="SELECT NAT_PRL_DESC_LONG, DEPT_DES, ORG, SHRT_NAME_2 AS SNAME FROM SHARED_TABLES.dbo.DIMENSION_BUSINESS_UNIT WHERE (FIN_YEAR IN (SELECT Financial_Year FROM SHARED_TABLES.dbo.LOOKUP_TIME WHERE (Actual_Date = CAST(GETDATE() AS date))))" DataTypeServer="varchar(11)" DbType="AnsiString" Direction="Input" ParameterName="@paramSname" Precision="0" Scale="0" Size="11" SourceColumn="SNAME" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="HR_MISConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="FillBy_SUR_INI" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy_SUR_INI" GeneratorSourceName="FillBy_SUR_INI" GetMethodModifier="Public" GetMethodName="GetDataBy_SUR_INI" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy_SUR_INI" UserSourceName="FillBy_SUR_INI">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        A.PersalNumber AS PERSALNR, B_4.SNAME, A.Surname + ' ' + A.Initials AS SUR_INI, B_4.NAT_PRL_DESC_LONG AS PROVDESC, B_4.DEPT_DES AS DEPTDESC, 
+                         B_5.RANKDESC, B_1.JOBTITLE, B_6.PAYDIST, B_2.PAYPOINT, B_3.APPTNAT
+FROM            misdata.Data_PersonnelAndAppointment002 AS A INNER JOIN
+                             (SELECT        TOP (100) PERCENT Organisation, CAST(Code AS numeric(6, 0)) AS JobTitleCode, EnglishShortDescription AS JOBTITLE, UpdateEndDate
+                               FROM            misdata.Code_Department002
+                               WHERE        (TableNumber = 824) AND (UpdateEndDate IS NULL)
+                               ORDER BY Organisation, JobTitleCode) AS B_1 ON A.Organisation = B_1.Organisation AND A.JobTitle = B_1.JobTitleCode INNER JOIN
+                             (SELECT        TOP (100) PERCENT Organisation, CAST(Code AS numeric(6, 0)) AS PayPointCode, EnglishShortDescription AS PAYPOINT, UpdateEndDate
+                               FROM            misdata.Code_Department002 AS Code_Department002_1
+                               WHERE        (TableNumber = 800) AND (UpdateEndDate IS NULL)
+                               ORDER BY Organisation, PayPointCode) AS B_2 ON A.Organisation = B_2.Organisation AND A.PayPoint = B_2.PayPointCode INNER JOIN
+                             (SELECT        TOP (100) PERCENT CAST(Code AS numeric(2, 0)) AS NatureOfAppointmentCode, EnglishShortDescription AS APPTNAT, UpdateEndDate
+                               FROM            misdata.Code_Central002
+                               WHERE        (TableNumber = 041) AND (UpdateEndDate IS NULL)
+                               ORDER BY NatureOfAppointmentCode, APPTNAT) AS B_3 ON A.NatureOfAppointment = B_3.NatureOfAppointmentCode INNER JOIN
+                             (SELECT        NAT_PRL_DESC_LONG, DEPT_DES, ORG, SHRT_NAME_2 AS SNAME
+                               FROM            SHARED_TABLES.dbo.DIMENSION_BUSINESS_UNIT
+                               WHERE        (FIN_YEAR IN
+                                                             (SELECT        Financial_Year
+                                                               FROM            SHARED_TABLES.dbo.LOOKUP_TIME
+                                                               WHERE        (Actual_Date = CAST(GETDATE() AS date))))) AS B_4 ON A.Organisation = B_4.ORG INNER JOIN
+                             (SELECT        TOP (100) PERCENT CAST(Code AS nvarchar(100)) AS RankDescCode, EnglishShortDescription AS RANKDESC, UpdateEndDate
+                               FROM            misdata.Code_Central002 AS Code_Central002_1
+                               WHERE        (TableNumber = 38) AND (UpdateEndDate IS NULL)
+                               ORDER BY RankDescCode, RANKDESC) AS B_5 ON A.RankCode = B_5.RankDescCode INNER JOIN
+                             (SELECT        TOP (100) PERCENT Organisation, CAST(Code AS numeric(5, 0)) AS PAYDISTCode, EnglishShortDescription AS PAYDIST, UpdateEndDate
+                               FROM            misdata.Code_Department002 AS Code_Department002_2
+                               WHERE        (TableNumber = 817) AND (UpdateEndDate IS NULL)
+                               ORDER BY Organisation, PAYDISTCode) AS B_6 ON A.Organisation = B_6.Organisation AND A.Region = B_6.PAYDISTCode
+WHERE        (A.EndDate IS NULL) AND (A.Surname + ' ' + A.Initials = @paramSur_Ini)
+ORDER BY SUR_INI</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="paramSur_Ini" ColumnName="" DataSourceName="" DataTypeServer="unknown" DbType="AnsiString" Direction="Input" ParameterName="@paramSur_Ini" Precision="0" Scale="0" Size="1024" SourceColumn="" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="HRDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="HRDataSet" msprop:Generator_UserDSName="HRDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="HR_Data" msprop:Generator_TableClassName="HR_DataDataTable" msprop:Generator_TableVarName="tableHR_Data" msprop:Generator_TablePropName="HR_Data" msprop:Generator_RowDeletingName="HR_DataRowDeleting" msprop:Generator_RowChangingName="HR_DataRowChanging" msprop:Generator_RowEvHandlerName="HR_DataRowChangeEventHandler" msprop:Generator_RowDeletedName="HR_DataRowDeleted" msprop:Generator_UserTableName="HR_Data" msprop:Generator_RowChangedName="HR_DataRowChanged" msprop:Generator_RowEvArgName="HR_DataRowChangeEvent" msprop:Generator_RowClassName="HR_DataRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PERSALNR" msprop:Generator_ColumnVarNameInTable="columnPERSALNR" msprop:Generator_ColumnPropNameInRow="PERSALNR" msprop:Generator_ColumnPropNameInTable="PERSALNRColumn" msprop:Generator_UserColumnName="PERSALNR" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SNAME" msprop:Generator_ColumnVarNameInTable="columnSNAME" msprop:Generator_ColumnPropNameInRow="SNAME" msprop:Generator_ColumnPropNameInTable="SNAMEColumn" msprop:Generator_UserColumnName="SNAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="11" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SUR_INI" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnSUR_INI" msprop:Generator_ColumnPropNameInRow="SUR_INI" msprop:Generator_ColumnPropNameInTable="SUR_INIColumn" msprop:Generator_UserColumnName="SUR_INI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="34" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PROVDESC" msprop:Generator_ColumnVarNameInTable="columnPROVDESC" msprop:Generator_ColumnPropNameInRow="PROVDESC" msprop:Generator_ColumnPropNameInTable="PROVDESCColumn" msprop:Generator_UserColumnName="PROVDESC" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DEPTDESC" msprop:Generator_ColumnVarNameInTable="columnDEPTDESC" msprop:Generator_ColumnPropNameInRow="DEPTDESC" msprop:Generator_ColumnPropNameInTable="DEPTDESCColumn" msprop:Generator_UserColumnName="DEPTDESC" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="75" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RANKDESC" msprop:Generator_ColumnVarNameInTable="columnRANKDESC" msprop:Generator_ColumnPropNameInRow="RANKDESC" msprop:Generator_ColumnPropNameInTable="RANKDESCColumn" msprop:Generator_UserColumnName="RANKDESC" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JOBTITLE" msprop:Generator_ColumnVarNameInTable="columnJOBTITLE" msprop:Generator_ColumnPropNameInRow="JOBTITLE" msprop:Generator_ColumnPropNameInTable="JOBTITLEColumn" msprop:Generator_UserColumnName="JOBTITLE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PAYDIST" msprop:Generator_ColumnVarNameInTable="columnPAYDIST" msprop:Generator_ColumnPropNameInRow="PAYDIST" msprop:Generator_ColumnPropNameInTable="PAYDISTColumn" msprop:Generator_UserColumnName="PAYDIST" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PAYPOINT" msprop:Generator_ColumnVarNameInTable="columnPAYPOINT" msprop:Generator_ColumnPropNameInRow="PAYPOINT" msprop:Generator_ColumnPropNameInTable="PAYPOINTColumn" msprop:Generator_UserColumnName="PAYPOINT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="APPTNAT" msprop:Generator_ColumnVarNameInTable="columnAPPTNAT" msprop:Generator_ColumnPropNameInRow="APPTNAT" msprop:Generator_ColumnPropNameInTable="APPTNATColumn" msprop:Generator_UserColumnName="APPTNAT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Data_PersonnelAndAppointment002" msprop:Generator_TableClassName="Data_PersonnelAndAppointment002DataTable" msprop:Generator_TableVarName="tableData_PersonnelAndAppointment002" msprop:Generator_RowChangedName="Data_PersonnelAndAppointment002RowChanged" msprop:Generator_TablePropName="Data_PersonnelAndAppointment002" msprop:Generator_RowDeletingName="Data_PersonnelAndAppointment002RowDeleting" msprop:Generator_RowChangingName="Data_PersonnelAndAppointment002RowChanging" msprop:Generator_RowEvHandlerName="Data_PersonnelAndAppointment002RowChangeEventHandler" msprop:Generator_RowDeletedName="Data_PersonnelAndAppointment002RowDeleted" msprop:Generator_RowClassName="Data_PersonnelAndAppointment002Row" msprop:Generator_UserTableName="Data_PersonnelAndAppointment002" msprop:Generator_RowEvArgName="Data_PersonnelAndAppointment002RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PERSALNR" msprop:Generator_ColumnVarNameInTable="columnPERSALNR" msprop:Generator_ColumnPropNameInRow="PERSALNR" msprop:Generator_ColumnPropNameInTable="PERSALNRColumn" msprop:Generator_UserColumnName="PERSALNR" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SNAME" msprop:Generator_ColumnVarNameInTable="columnSNAME" msprop:Generator_ColumnPropNameInRow="SNAME" msprop:Generator_ColumnPropNameInTable="SNAMEColumn" msprop:Generator_UserColumnName="SNAME">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="11" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SUR_INI" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnSUR_INI" msprop:Generator_ColumnPropNameInRow="SUR_INI" msprop:Generator_ColumnPropNameInTable="SUR_INIColumn" msprop:Generator_UserColumnName="SUR_INI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="34" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PROVDESC" msprop:Generator_ColumnVarNameInTable="columnPROVDESC" msprop:Generator_ColumnPropNameInRow="PROVDESC" msprop:Generator_ColumnPropNameInTable="PROVDESCColumn" msprop:Generator_UserColumnName="PROVDESC">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DEPTDESC" msprop:Generator_ColumnVarNameInTable="columnDEPTDESC" msprop:Generator_ColumnPropNameInRow="DEPTDESC" msprop:Generator_ColumnPropNameInTable="DEPTDESCColumn" msprop:Generator_UserColumnName="DEPTDESC">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="75" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RANKDESC" msprop:Generator_ColumnVarNameInTable="columnRANKDESC" msprop:Generator_ColumnPropNameInRow="RANKDESC" msprop:Generator_ColumnPropNameInTable="RANKDESCColumn" msprop:Generator_UserColumnName="RANKDESC" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JOBTITLE" msprop:Generator_ColumnVarNameInTable="columnJOBTITLE" msprop:Generator_ColumnPropNameInRow="JOBTITLE" msprop:Generator_ColumnPropNameInTable="JOBTITLEColumn" msprop:Generator_UserColumnName="JOBTITLE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PAYDIST" msprop:Generator_ColumnVarNameInTable="columnPAYDIST" msprop:Generator_ColumnPropNameInRow="PAYDIST" msprop:Generator_ColumnPropNameInTable="PAYDISTColumn" msprop:Generator_UserColumnName="PAYDIST" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PAYPOINT" msprop:Generator_ColumnVarNameInTable="columnPAYPOINT" msprop:Generator_ColumnPropNameInRow="PAYPOINT" msprop:Generator_ColumnPropNameInTable="PAYPOINTColumn" msprop:Generator_UserColumnName="PAYPOINT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="APPTNAT" msprop:Generator_ColumnVarNameInTable="columnAPPTNAT" msprop:Generator_ColumnPropNameInRow="APPTNAT" msprop:Generator_ColumnPropNameInTable="APPTNATColumn" msprop:Generator_UserColumnName="APPTNAT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

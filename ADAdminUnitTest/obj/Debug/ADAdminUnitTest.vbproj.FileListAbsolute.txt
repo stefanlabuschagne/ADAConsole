@@ -1,0 +1,1 @@
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\ADAdminUnitTest\obj\Debug\ResolveAssemblyReference.cache

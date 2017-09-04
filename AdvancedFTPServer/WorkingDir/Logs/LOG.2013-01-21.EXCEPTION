@@ -1,0 +1,222 @@
+﻿<ERRORLOG>
+  <LOG TIME="09:57:17" SOURCE="FTP">
+    <EXCEPTION>System.Runtime.InteropServices.COMException (0x80005000): Unknown error (0x80005000)
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</EXCEPTION>
+    <MESSAGE>Unknown error (0x80005000)</MESSAGE>
+    <SOURCE>System.DirectoryServices</SOURCE>
+    <STACK>   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</STACK>
+    <TARGETSITE>Bind</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="09:57:44" SOURCE="FTP">
+    <EXCEPTION>System.Runtime.InteropServices.COMException (0x80005000): Unknown error (0x80005000)
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</EXCEPTION>
+    <MESSAGE>Unknown error (0x80005000)</MESSAGE>
+    <SOURCE>System.DirectoryServices</SOURCE>
+    <STACK>   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</STACK>
+    <TARGETSITE>Bind</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="09:58:46" SOURCE="FTP">
+    <EXCEPTION>System.Runtime.InteropServices.COMException (0x80005000): Unknown error (0x80005000)
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</EXCEPTION>
+    <MESSAGE>Unknown error (0x80005000)</MESSAGE>
+    <SOURCE>System.DirectoryServices</SOURCE>
+    <STACK>   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</STACK>
+    <TARGETSITE>Bind</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="10:01:33" SOURCE="FTP">
+    <EXCEPTION>System.Runtime.InteropServices.COMException (0x80005000): Unknown error (0x80005000)
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</EXCEPTION>
+    <MESSAGE>Unknown error (0x80005000)</MESSAGE>
+    <SOURCE>System.DirectoryServices</SOURCE>
+    <STACK>   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</STACK>
+    <TARGETSITE>Bind</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="10:01:44" SOURCE="FTP">
+    <EXCEPTION>System.Runtime.InteropServices.COMException (0x80005000): Unknown error (0x80005000)
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</EXCEPTION>
+    <MESSAGE>Unknown error (0x80005000)</MESSAGE>
+    <SOURCE>System.DirectoryServices</SOURCE>
+    <STACK>   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</STACK>
+    <TARGETSITE>Bind</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="10:01:52" SOURCE="FTP">
+    <EXCEPTION>System.Runtime.InteropServices.COMException (0x80005000): Unknown error (0x80005000)
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</EXCEPTION>
+    <MESSAGE>Unknown error (0x80005000)</MESSAGE>
+    <SOURCE>System.DirectoryServices</SOURCE>
+    <STACK>   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</STACK>
+    <TARGETSITE>Bind</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="10:23:24" SOURCE="FTP">
+    <EXCEPTION>System.Runtime.InteropServices.COMException (0x80005000): Unknown error (0x80005000)
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</EXCEPTION>
+    <MESSAGE>Unknown error (0x80005000)</MESSAGE>
+    <SOURCE>System.DirectoryServices</SOURCE>
+    <STACK>   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</STACK>
+    <TARGETSITE>Bind</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="10:23:38" SOURCE="FTP">
+    <EXCEPTION>System.Runtime.InteropServices.COMException (0x80005000): Unknown error (0x80005000)
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</EXCEPTION>
+    <MESSAGE>Unknown error (0x80005000)</MESSAGE>
+    <SOURCE>System.DirectoryServices</SOURCE>
+    <STACK>   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</STACK>
+    <TARGETSITE>Bind</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="10:24:02" SOURCE="FTP">
+    <EXCEPTION>System.Runtime.InteropServices.COMException (0x80005000): Unknown error (0x80005000)
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</EXCEPTION>
+    <MESSAGE>Unknown error (0x80005000)</MESSAGE>
+    <SOURCE>System.DirectoryServices</SOURCE>
+    <STACK>   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</STACK>
+    <TARGETSITE>Bind</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="10:24:23" SOURCE="FTP">
+    <EXCEPTION>System.Runtime.InteropServices.COMException (0x80005000): Unknown error (0x80005000)
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</EXCEPTION>
+    <MESSAGE>Unknown error (0x80005000)</MESSAGE>
+    <SOURCE>System.DirectoryServices</SOURCE>
+    <STACK>   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</STACK>
+    <TARGETSITE>Bind</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="10:24:36" SOURCE="FTP">
+    <EXCEPTION>System.Runtime.InteropServices.COMException (0x80005000): Unknown error (0x80005000)
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</EXCEPTION>
+    <MESSAGE>Unknown error (0x80005000)</MESSAGE>
+    <SOURCE>System.DirectoryServices</SOURCE>
+    <STACK>   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_SchemaEntry()
+   at System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(DirectoryEntry de)
+   at System.DirectoryServices.AccountManagement.ADStoreCtx..ctor(DirectoryEntry ctxBase, Boolean ownCtxBase, String username, String password, ContextOptions options)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(DirectoryEntry entry)
+   at System.DirectoryServices.AccountManagement.PrincipalContext.DoLDAPDirectoryInit()</STACK>
+    <TARGETSITE>Bind</TARGETSITE>
+  </LOG>
+</ERRORLOG>

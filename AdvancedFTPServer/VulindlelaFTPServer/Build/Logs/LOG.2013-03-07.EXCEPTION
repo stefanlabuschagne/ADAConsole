@@ -1,0 +1,18 @@
+﻿<ERRORLOG>
+  <LOG TIME="15:12:59" SOURCE="HTTP">
+    <EXCEPTION>System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdvancedFTPServer.HTTPServer.NewHTTPClientArrived(IAsyncResult arg) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\AdvancedFTPServer\AdvancedFTPServer\Server\Classes\HTTPServer.cs:line 45</EXCEPTION>
+    <MESSAGE>Object reference not set to an instance of an object.</MESSAGE>
+    <SOURCE>FTPServer</SOURCE>
+    <STACK>   at AdvancedFTPServer.HTTPServer.NewHTTPClientArrived(IAsyncResult arg) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\AdvancedFTPServer\AdvancedFTPServer\Server\Classes\HTTPServer.cs:line 45</STACK>
+    <TARGETSITE>NewHTTPClientArrived</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="15:12:59" SOURCE="HTTP">
+    <EXCEPTION>System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdvancedFTPServer.HTTPServer.NewHTTPClientArrived(IAsyncResult arg) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\AdvancedFTPServer\AdvancedFTPServer\Server\Classes\HTTPServer.cs:line 59</EXCEPTION>
+    <MESSAGE>Object reference not set to an instance of an object.</MESSAGE>
+    <SOURCE>FTPServer</SOURCE>
+    <STACK>   at AdvancedFTPServer.HTTPServer.NewHTTPClientArrived(IAsyncResult arg) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\AdvancedFTPServer\AdvancedFTPServer\Server\Classes\HTTPServer.cs:line 59</STACK>
+    <TARGETSITE>NewHTTPClientArrived</TARGETSITE>
+  </LOG>
+</ERRORLOG>

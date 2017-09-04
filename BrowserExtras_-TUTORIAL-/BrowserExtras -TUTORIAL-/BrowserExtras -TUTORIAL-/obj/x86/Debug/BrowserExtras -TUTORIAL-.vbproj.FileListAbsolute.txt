@@ -1,0 +1,20 @@
+C:\Users\Nathan\documents\visual studio 2010\Projects\BrowserExtras -TUTORIAL-\BrowserExtras -TUTORIAL-\bin\Debug\BrowserExtras -TUTORIAL-.exe
+C:\Users\Nathan\documents\visual studio 2010\Projects\BrowserExtras -TUTORIAL-\BrowserExtras -TUTORIAL-\bin\Debug\BrowserExtras -TUTORIAL-.pdb
+C:\Users\Nathan\documents\visual studio 2010\Projects\BrowserExtras -TUTORIAL-\BrowserExtras -TUTORIAL-\bin\Debug\BrowserExtras -TUTORIAL-.xml
+C:\Users\Nathan\documents\visual studio 2010\Projects\BrowserExtras -TUTORIAL-\BrowserExtras -TUTORIAL-\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Nathan\documents\visual studio 2010\Projects\BrowserExtras -TUTORIAL-\BrowserExtras -TUTORIAL-\obj\x86\Debug\BrowserExtras.Form1.resources
+C:\Users\Nathan\documents\visual studio 2010\Projects\BrowserExtras -TUTORIAL-\BrowserExtras -TUTORIAL-\obj\x86\Debug\BrowserExtras.Resources.resources
+C:\Users\Nathan\documents\visual studio 2010\Projects\BrowserExtras -TUTORIAL-\BrowserExtras -TUTORIAL-\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Nathan\documents\visual studio 2010\Projects\BrowserExtras -TUTORIAL-\BrowserExtras -TUTORIAL-\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Nathan\documents\visual studio 2010\Projects\BrowserExtras -TUTORIAL-\BrowserExtras -TUTORIAL-\obj\x86\Debug\BrowserExtras -TUTORIAL-.exe
+C:\Users\Nathan\documents\visual studio 2010\Projects\BrowserExtras -TUTORIAL-\BrowserExtras -TUTORIAL-\obj\x86\Debug\BrowserExtras -TUTORIAL-.xml
+C:\Users\Nathan\documents\visual studio 2010\Projects\BrowserExtras -TUTORIAL-\BrowserExtras -TUTORIAL-\obj\x86\Debug\BrowserExtras -TUTORIAL-.pdb
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\BrowserExtras_-TUTORIAL-\BrowserExtras -TUTORIAL-\BrowserExtras -TUTORIAL-\obj\x86\Debug\BrowserExtras -TUTORIAL-.exe
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\BrowserExtras_-TUTORIAL-\BrowserExtras -TUTORIAL-\BrowserExtras -TUTORIAL-\obj\x86\Debug\BrowserExtras -TUTORIAL-.xml
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\BrowserExtras_-TUTORIAL-\BrowserExtras -TUTORIAL-\BrowserExtras -TUTORIAL-\bin\Debug\BrowserExtras -TUTORIAL-.exe
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\BrowserExtras_-TUTORIAL-\BrowserExtras -TUTORIAL-\BrowserExtras -TUTORIAL-\bin\Debug\BrowserExtras -TUTORIAL-.pdb
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\BrowserExtras_-TUTORIAL-\BrowserExtras -TUTORIAL-\BrowserExtras -TUTORIAL-\bin\Debug\BrowserExtras -TUTORIAL-.xml
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\BrowserExtras_-TUTORIAL-\BrowserExtras -TUTORIAL-\BrowserExtras -TUTORIAL-\obj\x86\Debug\BrowserExtras.Form1.resources
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\BrowserExtras_-TUTORIAL-\BrowserExtras -TUTORIAL-\BrowserExtras -TUTORIAL-\obj\x86\Debug\BrowserExtras.Resources.resources
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\BrowserExtras_-TUTORIAL-\BrowserExtras -TUTORIAL-\BrowserExtras -TUTORIAL-\obj\x86\Debug\BrowserExtras -TUTORIAL-.vbproj.GenerateResource.Cache
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\BrowserExtras_-TUTORIAL-\BrowserExtras -TUTORIAL-\BrowserExtras -TUTORIAL-\obj\x86\Debug\BrowserExtras -TUTORIAL-.pdb

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LibFTPServ.VFS.VFSDynamicScriptFile">
+    <Position X="2.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAQQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VFS\VFSDynamicScriptFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibFTPServ.VFS.VFSManager">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAIAIAAoAAAAIAgBAABAAEEAAAAAAAAAA=</HashCode>
+      <FileName>VFS\VFSManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibFTPServ.VFS.VFSDirectory">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAABAAAAQAAAAQAAAAAAAAIAAAAAAEMA=</HashCode>
+      <FileName>VFS\VFSTree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibFTPServ.VFS.ParserPaths">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>VFS\VfsSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibFTPServ.VFS.VFSVirtualItem">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAgAAABAAAAAQAAAAAAAABAAAAAAIAAAA=</HashCode>
+      <FileName>VFS\VFSVirtualItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibFTPServ.VFS.VFSVirtualFile">
+    <Position X="3.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VFS\VFSVirtualFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibFTPServ.VFS.VFSLinkFile">
+    <Position X="4.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VFS\VFSLinkFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="LibFTPServ.VFS.ScriptType">
+    <Position X="5.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAEAAAAAAAAAAAAAAAAAAAAAABIAAAAAAA=</HashCode>
+      <FileName>VFS\VfsSystem.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

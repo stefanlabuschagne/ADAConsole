@@ -1,0 +1,9 @@
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\propertygridex_demo\PropertyGridEx\PropertyGridEx\bin\Debug\PropertyGridEx.dll
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\propertygridex_demo\PropertyGridEx\PropertyGridEx\bin\Debug\PropertyGridEx.pdb
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\propertygridex_demo\PropertyGridEx\PropertyGridEx\bin\Debug\PropertyGridEx.xml
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\propertygridex_demo\PropertyGridEx\PropertyGridEx\obj\Debug\ResolveAssemblyReference.cache
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\propertygridex_demo\PropertyGridEx\PropertyGridEx\obj\Debug\Resources.resources
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\propertygridex_demo\PropertyGridEx\PropertyGridEx\obj\Debug\PropertyGridEx.vbproj.GenerateResource.Cache
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\propertygridex_demo\PropertyGridEx\PropertyGridEx\obj\Debug\PropertyGridEx.dll
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\propertygridex_demo\PropertyGridEx\PropertyGridEx\obj\Debug\PropertyGridEx.xml
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\propertygridex_demo\PropertyGridEx\PropertyGridEx\obj\Debug\PropertyGridEx.pdb

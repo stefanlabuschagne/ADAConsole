@@ -1,0 +1,305 @@
+<HTML>
+	<HEAD>
+		<TITLE></TITLE>
+	    <style type="text/css">
+            #Button1 {
+                width: 90px;
+            }
+            #Submit1
+            {
+                width: 114px;
+            }
+            #Submit2
+            {
+                width: 114px;
+            }
+            #Table1
+            {
+                width: 596px;
+            }
+            .style1
+            {
+                width: 602px;
+            }
+            .style3
+            {}
+            span.style11
+	{color:blue;
+            }
+            .style4
+            {
+                font-size: x-small;
+            }
+            a:link
+	{color:blue;
+	text-decoration:underline;
+            }
+            .style7
+            {
+                text-decoration: underline;
+                color: #009933;
+                font-weight: bold;
+            }
+            .style8
+            {
+                text-decoration: underline;
+                color: #FF0000;
+                font-weight: bold;
+            }
+            #TextArea1
+            {
+                width: 595px;
+                height: 36px;
+            }
+            .style10
+            {
+                font-family: Verdana;
+                font-size: 12px;
+                font-weight: normal;
+                color: #0000FF;
+                width: 598px;
+            }
+            .style11
+            {
+                color: #FF0000;
+            }
+            #Text1
+            {
+                width: 329px;
+            }
+            #txtComment
+            {
+                width: 413px;
+            }
+            </style>
+	
+
+        <script language="javascript" type="text/javascript">
+
+// <!CDATA[
+
+            function Acceptance() {
+                var xmlHttp = new ActiveXObject("MsXml2.XmlHttp");
+                window.txtComment.value = "12345678901234567890123456789012345678901234567890"
+                xmlHttp.open("GET", "http://www.vulindlela.gov.za/screens/x.asp?RequestNo=123456&Eventflag=21&comments=" + "", false);
+                xmlHttp.send(null)
+                alert(xmlHttp.responseText);
+            }
+            function Declined() 
+            {
+                var xmlHttp = new ActiveXObject("MsXml2.XmlHttp");
+                if (window.txtComment.value == "")
+                    alert("Please provide a reason why you decine this application");
+                else
+                    xmlHttp.open("GET", "http://www.vulindlela.gov.za/screens/x.asp?RequestNo=8888888&Eventflag=22&comments=" + window.txtComment.value, false);
+                    xmlHttp.send(null);
+                    alert(xmlHttp.responseText);
+            }
+
+
+// ]]>
+
+        </script>
+</HEAD>
+	<BODY>
+	 <table align="center" style="width: 73%;">
+            <tr>
+                <td>
+		<P style="width: 591px"><font face="Verdana" size="2">We have received a web request to grant access to 
+            the person mentioned&nbsp;below. </font></P>
+                    <P style="width: 591px"><font face="Verdana" size="2" class="">Please be so kind and either &quot;<span 
+                            class="style7">Approve</span>&quot; or &quot;<span class="style8">Decline</span>&quot; 
+                        this person&#39;s request for a Vulindlela user profile :</font></P>
+		<P><font face="Verdana" size="2" class="">Remedy request description:</font></P>
+                    <P><font color="#cc0066" face="Verdana" size="2"><font color="#0000ff">[[remedy_req]]</font>
+					</font>
+		</P>
+		<P><font face="Verdana" size="2" class="">Applications Access Remedy request 
+            description:</font></P>
+                    <P><font color="#cc0066" face="Verdana" size="2"><font color="#0000ff">[[access_wishlist]]</font>
+					</font>
+		</P>
+		<P><font face="Verdana" size="2">The undermentioned user has requested access as follows:</font></P>
+		<font face="Verdana" size="2">
+			<P>
+				<TABLE id="Table1" height="175" cellSpacing="1" cellPadding="1" border="1">
+					<TR>
+						<TD noWrap width="104"><font face="Verdana" size="2">Username:</font>
+						</TD>
+						<TD noWrap><font face="Verdana" size="2" color="#0000cc">[[persal_no]]</font>
+						</TD>
+					</TR>
+					<TR>
+						<TD noWrap width="104"><font face="Verdana" size="2">Firstnames: </font>
+						</TD>
+						<TD noWrap><font size="2"><font face="Verdana" size="2" color="#0000cc">[[firstnames]]</font>
+							</font>
+						</TD>
+					</TR>
+					<TR>
+						<TD noWrap width="104"><font face="Verdana" size="2">Lastname:</font>
+						</TD>
+						<TD noWrap><font face="Verdana" size="2" color="#0000cc">[[lastname]]</font>
+						</TD>
+					</TR>
+					<TR>
+						<TD noWrap width="104"><font face="Verdana" size="2">Cellphone: </font>
+						</TD>
+						<TD noWrap><font size="2"><font face="Verdana" size="2" color="#0000cc">[[cellphone]]</font>
+							</font>
+						</TD>
+					</TR>
+					<TR>
+						<TD noWrap width="104"><font face="Verdana" size="2">Telephone: </font>
+						</TD>
+						<TD noWrap><font size="2"><font face="Verdana" size="2" color="#0000cc">[[telephone]]</font>
+							</font>
+						</TD>
+					</TR>
+					<TR>
+						<TD noWrap width="104"><font face="Verdana" size="2">Dept Name:</font></TD>
+						<TD noWrap><font size="2"><font face="Verdana" size="2" color="#0000cc">[[deptname]]</font>
+							</font>
+						</TD>
+					</TR>
+					<TR>
+						<TD noWrap width="104"><font face="Verdana" size="2">Dept Type: </font>
+						</TD>
+						<TD noWrap><font size="2"><font face="Verdana" size="2" color="#0000cc">[[depttype]]</font>
+							</font>
+						</TD>
+					</TR>
+					<TR>
+						<TD noWrap width="104"><font face="Verdana" size="2">Rank: </font>
+						</TD>
+						<TD noWrap><font size="2"><font face="Verdana" size="2" color="#0000cc">[[rank]]</font> </font>
+						</TD>
+					</TR>
+					<TR>
+						<TD noWrap width="104"><font face="Verdana" size="2">Dept Type: </font>
+						</TD>
+						<TD noWrap><font color="#0000cc" face="Verdana" size="2">[[establishment]]</font></TD>
+					</TR>
+					<TR>
+						<TD noWrap width="104"><font face="Verdana" size="2">Dept Type: </font>
+						</TD>
+						<TD noWrap><font color="#0000cc" face="Verdana" size="2" style="text-align: center">[[accessnow]]</font></TD>
+					</TR>
+				</TABLE>
+			</P>
+		</font>
+        <P title="Approved" 
+            style="color: #0000FF; font-size: 12px; font-family: Verdana; font-weight: bold">
+            &nbsp;
+            <table class="style1">
+                <tr>
+                    <td>
+        <hr style="width: 598px" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+        <P title="Approved" 
+                            style="font-family: Verdana; font-size: 12px; font-weight: normal; color: #000000; width: 598px;">
+            I <font face="Verdana" size="2" color="#0000cc">[[cfoname]]</font>, by clicking 
+            on one of the buttons provided below either approve or decline the request as 
+            received by Vulindlela from <font size="2" face="Verdana"><font face="Verdana" size="2" color="#0000cc">[[firstnames]]</font>
+							<font face="Verdana" size="2" color="Black"><font face="Verdana" size="2" color="#0000cc">[[lastname]]</font>&nbsp;<span 
+                class="style4">and 
+            outlined above.</span>&nbsp;&nbsp;</font></font></P>
+                        <P title="Approved" 
+                            style="font-weight: normal; color: #000000; " class="style10" align="center">
+                            <b>COMMENTS:</b> <span class="style11" style="color: #000000">(If you plan to 
+                            decline this request - 50 chars max)</span></P>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="style3" align="center">
+                        <input id="txtComment" name="txtComment" value="" size="50" /></td>
+                </tr>
+                <tr>
+                    <td class="style3" align=center >
+                        <input  title="Click here to Approve" id="btnApproved" 
+                            style="color: #009933; font-weight: bold; font-family: verdana; font-size: 12px; height: 27px;" 
+                            type="submit" value="Approved" onclick="return Acceptance()" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input  title="Click here to Decline" id="btnDeclined" 
+                            style="color: #FF0000; font-weight: bold; font-family: verdana; font-size: 12px; width: 101px; height: 27px;" 
+                            type="submit" value="Declined" onclick="return Declined()" /></td>
+                </tr>
+                <tr>
+                    <td class="style3" align="center" >
+        <hr style="width: 595px" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="style3" align=left >
+                        <p>
+                            <span lang="EN-US" 
+                                style="font-size:x-small; font-family:verdana; color: #000000; font-weight: normal;">You are responsible for your departmental information and thus the 
+                            information that can be accessed on Vulindlela by this user, if you approve the 
+                            requested profile.<span 
+                                style="mso-spacerun:yes">&nbsp; </span>&nbsp;</span></p>
+                        <p>
+                            <span lang="EN-US" style="font-size:10.0pt;font-family:Verdana;mso-ansi-language:
+EN-US">Changes can be faxed to LOGIK at <span class="style11">fax no: 012-6574555
+                            <span style="color:windowtext">or</span> e-mailed to 
+                            Maneesha.Ratanjee@Treasury.gov.za </span><o:p></o:p></span>
+                        </p>
+                        <p>
+                            <span lang="EN-US" style="font-size:10.0pt;font-family:Verdana;mso-ansi-language:
+EN-US">Kind regards <o:p></o:p></span>
+                        </p>
+                        <p>
+                            <span lang="EN-US" style="font-size:10.0pt;font-family:Verdana;mso-ansi-language:
+EN-US">The Vulindlela Team<o:p></o:p></span></p>
+                    </td>
+                </tr>
+            </table>
+                    </P>
+                </td>
+            </tr>
+        </table>
+		<P>&nbsp;</P>
+        <P>&nbsp;</P>
+        <P>&nbsp;</P>
+        <P>&nbsp;</P>
+        <P>&nbsp;</P>
+        <P>&nbsp;</P>
+        <P>&nbsp;</P>
+        <P>&nbsp;</P>
+        <P>&nbsp;</P>
+		<P><font face="Verdana" size="2"><font face="Verdana" size="2"></font></font>&nbsp;</P>
+		<P><font face="Verdana" size="2"><font face="Verdana" size="2"></font></font>&nbsp;</P>
+		<P><font face="Verdana" size="2"><font face="Verdana" size="2"></font></font>&nbsp;</P>
+		<P><font face="Verdana" size="2"><font face="Verdana" size="2"></font></font>&nbsp;</P>
+		<P><font face="Verdana" size="2"><font face="Verdana" size="2"></font></font>&nbsp;</P>
+		<P><font face="Verdana" size="2"><font face="Verdana" size="2"></font></font>&nbsp;</P>
+		<P><font face="Verdana" size="2"><font face="Verdana" size="2">&nbsp;</P>
+		<P>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+		</P>
+		</font></font>
+	</BODY>
+</HTML>

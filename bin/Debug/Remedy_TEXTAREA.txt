@@ -1,0 +1,58 @@
+<textarea class="text sr " id="arid_WIN_0_8" style="left: 0px; top: 14px; width: 107px; height: 21px;" rows="1" cols="20" wrap="off" arautoctt="400" arautocak="0" maxlen="8"></textarea>
+<textarea class="text sr " id="arid_WIN_0_4" style="left: 0px; top: 14px; width: 200px; height: 21px;" rows="1" cols="20" wrap="off" arautoctt="400" arautocak="0" maxlen="254" mstyle="2" armenu="LOG-D-Department"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536870926" style="left: 0px; top: 14px; width: 44px; height: 21px;" rows="1" cols="20" wrap="off" arautoctt="400" arautocak="0" maxlen="5" mstyle="2" armenu="LOG-CT-Customer Title"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536870930" style="left: 0px; top: 14px; width: 27px; height: 21px;" rows="1" cols="20" wrap="off" arautoctt="400" arautocak="0" maxlen="3"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536870917" style="left: 0px; top: 14px; width: 171px; height: 21px;" rows="1" cols="20" wrap="off" arautoctt="400" arautocak="0" maxlen="25"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536870918" style="left: 0px; top: 14px; width: 197px; height: 21px;" rows="1" cols="20" wrap="off" arautoctt="400" arautocak="0" maxlen="25" mstyle="2" armenu="LOG-CI-Last NameNoDept"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536870932" style="left: 0px; top: 14px; width: 110px; height: 21px;" rows="1" cols="20" wrap="off" arautoctt="400" arautocak="0" maxlen="15"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536870937" style="left: 0px; top: 14px; width: 197px; height: 21px;" rows="1" cols="20" wrap="off" arautoctt="400" arautocak="0" maxlen="30" mstyle="2" armenu="LOG-CT-Rank"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536870923" style="left: 0px; top: 14px; width: 80px; height: 21px;" rows="1" cols="20" wrap="off" arautoctt="400" arautocak="0" maxlen="15"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536870924" style="left: 0px; top: 14px; width: 80px; height: 21px;" rows="1" cols="20" wrap="off" arautoctt="400" arautocak="0" maxlen="15"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536870979" style="left: 0px; top: 14px; width: 80px; height: 21px;" rows="1" cols="20" wrap="off" arautoctt="400" arautocak="0" maxlen="15"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536870980" style="left: 0px; top: 14px; width: 50px; height: 21px;" rows="1" cols="20" wrap="off" arautoctt="400" arautocak="0" maxlen="6"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536870925" style="left: 0px; top: 14px; width: 220px; height: 21px;" rows="1" cols="20" wrap="off" arautoctt="400" arautocak="0" maxlen="60"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536870931" style="left: 0px; top: 14px; width: 525px; height: 21px;" rows="1" cols="20" wrap="off" arautoctt="400" arautocak="0" maxlen="200"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536870928" style="left: 0px; top: 14px; width: 171px; height: 21px;" rows="1" cols="20" wrap="off" arautoctt="400" arautocak="0" maxlen="30" mstyle="2" armenu="LOG-CT-Department Type"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536870967" style="left: 0px; top: 14px; width: 172px; height: 21px;" rows="1" cols="20" wrap="off" arautoctt="400" arautocak="0" maxlen="30" mstyle="2" armenu="LOG-CT-Customer Role"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536871010" style="left: 0px; top: 14px; width: 106px; height: 21px;" rows="1" cols="20" wrap="off" arautoctt="400" arautocak="0" maxlen="255"></textarea>
+<textarea class="text sr " id="arid_WIN_0_2" style="left: 0px; top: 14px; width: 167px; height: 21px;" rows="1" cols="20" wrap="off" arautoctt="400" arautocak="0" maxlen="254"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536870935" style="left: 0px; top: 14px; width: 158px; height: 21px;" rows="1" cols="20" wrap="off" readonly="" arautoctt="400" arautocak="0" maxlen="10"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536870961" style="left: 0px; top: 14px; width: 158px; height: 21px;" rows="1" cols="20" wrap="off" readonly="" arautoctt="400" arautocak="0" maxlen="10"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536870962" style="left: 0px; top: 14px; width: 158px; height: 21px;" rows="1" cols="20" wrap="off" readonly="" arautoctt="400" arautocak="0" maxlen="10"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536870982" style="left: 0px; top: 14px; width: 158px; height: 21px;" rows="1" cols="20" wrap="off" readonly="" arautoctt="400" arautocak="0" maxlen="10"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536870983" style="left: 0px; top: 14px; width: 158px; height: 21px;" rows="1" cols="20" wrap="off" readonly="" arautoctt="400" arautocak="0" maxlen="10"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536870965" style="left: 0px; top: 14px; width: 158px; height: 21px;" rows="1" cols="20" wrap="off" readonly="" arautoctt="400" arautocak="0" maxlen="30"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536870938" style="left: 0px; top: 14px; width: 158px; height: 21px;" rows="1" cols="20" wrap="off" readonly="" arautoctt="400" arautocak="0" maxlen="30"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536870929" style="left: 0px; top: 14px; width: 158px; height: 21px;" rows="1" cols="20" wrap="off" readonly="" arautoctt="400" arautocak="0" maxlen="30"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536870984" style="left: 0px; top: 14px; width: 158px; height: 21px;" rows="1" cols="20" wrap="off" readonly="" arautoctt="400" arautocak="0" maxlen="30"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536870985" style="left: 0px; top: 14px; width: 158px; height: 21px;" rows="1" cols="20" wrap="off" readonly="" arautoctt="400" arautocak="0" maxlen="30"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536870946" style="left: 0px; top: 14px; width: 311px; height: 21px;" rows="1" cols="20" wrap="off" readonly="" arautoctt="400" arautocak="0" maxlen="60"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536870947" style="left: 0px; top: 14px; width: 118px; height: 21px;" rows="1" cols="20" wrap="off" readonly="" arautoctt="400" arautocak="0" maxlen="20"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536870970" style="left: 0px; top: 14px; width: 187px; height: 21px;" rows="1" cols="20" wrap="off" readonly="" arautoctt="400" arautocak="0" maxlen="30"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536870948" style="left: 0px; top: 14px; width: 115px; height: 21px;" rows="1" cols="20" wrap="off" readonly="" arautoctt="400" arautocak="0" maxlen="20"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536870981" style="left: 0px; top: 14px; width: 57px; height: 21px;" rows="1" cols="20" wrap="off" readonly="" arautoctt="400" arautocak="0" maxlen="4"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536870996" style="left: 0px; top: 14px; width: 57px; height: 21px;" rows="1" cols="20" wrap="off" readonly="" arautoctt="400" arautocak="0" maxlen="6"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536870997" style="left: 0px; top: 14px; width: 57px; height: 21px;" rows="1" cols="20" wrap="off" readonly="" arautoctt="400" arautocak="0" maxlen="6"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536870949" style="left: 0px; top: 14px; width: 61px; height: 21px;" rows="1" cols="20" wrap="off" readonly="" arautoctt="400" arautocak="0" maxlen="4"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536870998" style="left: 0px; top: 14px; width: 57px; height: 21px;" rows="1" cols="20" wrap="off" readonly="" arautoctt="400" arautocak="0" maxlen="2"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536870999" style="left: 0px; top: 14px; width: 60px; height: 21px;" rows="1" cols="20" wrap="off" readonly="" arautoctt="400" arautocak="0" maxlen="2"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536871000" style="left: 0px; top: 14px; width: 57px; height: 21px;" rows="1" cols="20" wrap="off" readonly="" arautoctt="400" arautocak="0" maxlen="2"></textarea>
+<textarea class="text sr " id="arid_WIN_0_5" style="left: 0px; top: 14px; width: 160px; height: 21px;" rows="1" cols="20" wrap="off" arautoctt="400" arautocak="0" maxlen="254"></textarea>
+<textarea class="text sr " id="arid_WIN_0_1" style="left: 0px; top: 14px; width: 88px; height: 21px;" rows="1" cols="20" wrap="off" arautoctt="400" arautocak="0" maxlen="7"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536870944" style="left: 0px; top: 14px; width: 133px; height: 21px;" rows="1" cols="20" wrap="off" arautoctt="400" arautocak="0" maxlen="20"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536870963" style="left: 0px; top: 14px; width: 112px; height: 21px;" rows="1" cols="20" wrap="off" arautoctt="400" arautocak="0" maxlen="15"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536871002" style="left: 0px; top: 14px; width: 112px; height: 21px;" rows="1" cols="20" wrap="off" arautoctt="400" arautocak="0" maxlen="15"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536870956" style="left: 0px; top: 14px; width: 104px; height: 21px;" rows="1" cols="20" wrap="off" arautoctt="400" arautocak="0" maxlen="10"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536870966" style="left: 0px; top: 14px; width: 112px; height: 21px;" rows="1" cols="20" wrap="off" arautoctt="400" arautocak="0" maxlen="15"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536870964" style="left: 0px; top: 14px; width: 113px; height: 21px;" rows="1" cols="20" wrap="off" readonly="" arautoctt="400" arautocak="0" maxlen="15">VULINDLELA</textarea>
+<textarea class="text sr " id="arid_WIN_0_536870950" style="left: 0px; top: 14px; width: 104px; height: 21px;" rows="1" cols="20" wrap="off" arautoctt="400" arautocak="0" maxlen="10"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536870942" style="left: 0px; top: 14px; width: 140px; height: 21px;" rows="1" cols="20" wrap="off" arautoctt="400" arautocak="0" maxlen="5"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536870957" style="left: 0px; top: 14px; width: 104px; height: 21px;" rows="1" cols="20" wrap="off" arautoctt="400" arautocak="0" maxlen="10"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536870960" style="left: 0px; top: 14px; width: 104px; height: 21px;" rows="1" cols="20" wrap="off" arautoctt="400" arautocak="0" maxlen="10"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536870959" style="left: 0px; top: 14px; width: 104px; height: 21px;" rows="1" cols="20" wrap="off" arautoctt="400" arautocak="0" maxlen="10"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536870958" style="left: 0px; top: 14px; width: 133px; height: 21px;" rows="1" cols="20" wrap="off" arautoctt="400" arautocak="0" maxlen="10"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536870986" style="left: 0px; top: 14px; width: 126px; height: 21px;" rows="1" cols="20" wrap="off" arautoctt="400" arautocak="0" maxlen="10"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536871004" style="left: 0px; top: 14px; width: 135px; height: 21px;" rows="1" cols="20" wrap="off" arautoctt="400" arautocak="0" maxlen="5"></textarea>
+<textarea class="text sr " id="arid_WIN_0_536871003" style="left: 0px; top: 14px; width: 135px; height: 21px;" rows="1" cols="20" wrap="off" arautoctt="400" arautocak="0" maxlen="255"></textarea>
+<textarea class="sr" id="arid1005" style="width: 99%; height: 21px;" rows="1" cols="20" wrap="off"></textarea>
+<textarea id="rtf_editor" style="left: -9999px; top: -9999px; visibility: hidden; position: absolute; z-index: 1;"></textarea>

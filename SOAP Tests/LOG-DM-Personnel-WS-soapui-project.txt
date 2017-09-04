@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project activeEnvironment="Default" name="LOG_DM_Personnel_WS" resourceRoot="${projectDir}" soapui-version="4.6.1" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:WsdlInterface" wsaVersion="NONE" name="New_Port_0SoapBinding" type="wsdl" bindingName="{urn:LOG_DM_Personnel_WS}New_Port_0SoapBinding" soapVersion="1_1" anonymous="optional" definition="http://prodlgremv1:8080/arsys/WSDL/public/ProdLGRemV1/LOG_DM_Personnel_WS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="http://prodlgremv1:8080/arsys/WSDL/public/ProdLGRemV1/LOG_DM_Personnel_WS"><con:part><con:url>http://prodlgremv1:8080/arsys/WSDL/public/ProdLGRemV1/LOG_DM_Personnel_WS</con:url><con:content><![CDATA[<wsdl:definitions targetNamespace="urn:LOG_DM_Personnel_WS" xmlns:s0="urn:LOG_DM_Personnel_WS" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <wsdl:types>
+    <xsd:schema elementFormDefault="qualified" targetNamespace="urn:LOG_DM_Personnel_WS">
+      <xsd:element name="New_Set_Operation_0" type="s0:InputMapping1"/>
+      <xsd:complexType name="InputMapping1">
+        <xsd:sequence>
+          <xsd:element default="$USER$" minOccurs="0" name="Submitter" type="xsd:string"/>
+          <xsd:element minOccurs="0" name="Username" type="xsd:string"/>
+          <xsd:element minOccurs="0" name="Status" nillable="true" type="s0:StatusType"/>
+          <xsd:element minOccurs="0" name="Agent_Name" type="xsd:string"/>
+          <xsd:element minOccurs="0" name="Assignee_Group" type="xsd:string"/>
+          <xsd:element minOccurs="0" name="zDispDuplicate" type="xsd:string"/>
+          <xsd:element minOccurs="0" name="zDispCheckLogin" type="xsd:string"/>
+          <xsd:element minOccurs="0" name="Group" type="xsd:string"/>
+          <xsd:element minOccurs="0" name="Tier" type="xsd:string"/>
+          <xsd:element minOccurs="0" name="System_Group" type="xsd:string"/>
+          <xsd:element minOccurs="0" name="Email" type="xsd:string"/>
+          <xsd:element minOccurs="0" name="Internal_" nillable="true" type="s0:Internal_Type"/>
+          <xsd:element minOccurs="0" name="Fax_Number" type="xsd:string"/>
+          <xsd:element minOccurs="0" name="Telephone" type="xsd:string"/>
+          <xsd:element minOccurs="0" name="Cell_Phone" type="xsd:string"/>
+          <xsd:element minOccurs="0" name="Persal_Number" type="xsd:string"/>
+          <xsd:element minOccurs="0" name="zDependancy" type="xsd:string"/>
+          <xsd:element minOccurs="0" name="Comments_about_Trainer" type="xsd:string"/>
+          <xsd:element name="Agent_ID" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:simpleType name="StatusType">
+        <xsd:restriction base="xsd:string">
+          <xsd:enumeration value="Active"/>
+          <xsd:enumeration value="Inactive"/>
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="Internal_Type">
+        <xsd:restriction base="xsd:string">
+          <xsd:enumeration value="Yes"/>
+          <xsd:enumeration value="No"/>
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:element name="New_Set_Operation_0Response" type="s0:OutputMapping1"/>
+      <xsd:complexType name="OutputMapping1">
+        <xsd:sequence>
+          <xsd:element name="Agent_ID" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="AuthenticationInfo" type="s0:AuthenticationInfo"/>
+      <xsd:complexType name="AuthenticationInfo">
+        <xsd:sequence>
+          <xsd:element name="userName" type="xsd:string"/>
+          <xsd:element name="password" type="xsd:string"/>
+          <xsd:element minOccurs="0" name="authentication" type="xsd:string"/>
+          <xsd:element minOccurs="0" name="locale" type="xsd:string"/>
+          <xsd:element minOccurs="0" name="timeZone" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="New_Set_Operation_0SoapOut">
+    <wsdl:part element="s0:New_Set_Operation_0Response" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="New_Set_Operation_0SoapIn">
+    <wsdl:part element="s0:New_Set_Operation_0" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ARAuthenticate">
+    <wsdl:part element="s0:AuthenticationInfo" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="New_Port_0PortType">
+    <wsdl:operation name="New_Set_Operation_0">
+      <wsdl:input message="s0:New_Set_Operation_0SoapIn"></wsdl:input>
+      <wsdl:output message="s0:New_Set_Operation_0SoapOut"></wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="New_Port_0SoapBinding" type="s0:New_Port_0PortType">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="New_Set_Operation_0">
+      <soap:operation soapAction="urn:LOG_DM_Personnel_WS/New_Set_Operation_0" style="document"/>
+      <wsdl:input>
+        <soap:header message="s0:ARAuthenticate" part="parameters" use="literal"></soap:header>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="LOG_DM_Personnel_WSService">
+    <wsdl:port binding="s0:New_Port_0SoapBinding" name="New_Port_0Soap">
+      <soap:address location="http://prodlgremv1:8080/arsys/services/ARService?server=ProdLGRemV1&amp;webService=LOG_DM_Personnel_WS"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>http://prodlgremv1:8080/arsys/services/ARService?server=ProdLGRemV1&amp;webService=LOG_DM_Personnel_WS</con:endpoint></con:endpoints><con:operation isOneWay="false" action="urn:LOG_DM_Personnel_WS/New_Set_Operation_0" name="New_Set_Operation_0" bindingOperationName="New_Set_Operation_0" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://prodlgremv1:8080/arsys/services/ARService?server=ProdLGRemV1&amp;webService=LOG_DM_Personnel_WS</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:LOG_DM_Personnel_WS">
+   <soapenv:Header>
+      <urn:AuthenticationInfo>
+         <urn:userName>?</urn:userName>
+         <urn:password>?</urn:password>
+         <!--Optional:-->
+         <urn:authentication>?</urn:authentication>
+         <!--Optional:-->
+         <urn:locale>?</urn:locale>
+         <!--Optional:-->
+         <urn:timeZone>?</urn:timeZone>
+      </urn:AuthenticationInfo>
+   </soapenv:Header>
+   <soapenv:Body>
+      <urn:New_Set_Operation_0>
+         <!--Optional:-->
+         <urn:Submitter>$USER$</urn:Submitter>
+         <!--Optional:-->
+         <urn:Username>?</urn:Username>
+         <!--Optional:-->
+         <urn:Status>?</urn:Status>
+         <!--Optional:-->
+         <urn:Agent_Name>?</urn:Agent_Name>
+         <!--Optional:-->
+         <urn:Assignee_Group>?</urn:Assignee_Group>
+         <!--Optional:-->
+         <urn:zDispDuplicate>?</urn:zDispDuplicate>
+         <!--Optional:-->
+         <urn:zDispCheckLogin>?</urn:zDispCheckLogin>
+         <!--Optional:-->
+         <urn:Group>?</urn:Group>
+         <!--Optional:-->
+         <urn:Tier>?</urn:Tier>
+         <!--Optional:-->
+         <urn:System_Group>?</urn:System_Group>
+         <!--Optional:-->
+         <urn:Email>?</urn:Email>
+         <!--Optional:-->
+         <urn:Internal_>?</urn:Internal_>
+         <!--Optional:-->
+         <urn:Fax_Number>?</urn:Fax_Number>
+         <!--Optional:-->
+         <urn:Telephone>?</urn:Telephone>
+         <!--Optional:-->
+         <urn:Cell_Phone>?</urn:Cell_Phone>
+         <!--Optional:-->
+         <urn:Persal_Number>?</urn:Persal_Number>
+         <!--Optional:-->
+         <urn:zDependancy>?</urn:zDependancy>
+         <!--Optional:-->
+         <urn:Comments_about_Trainer>?</urn:Comments_about_Trainer>
+         <urn:Agent_ID>?</urn:Agent_ID>
+      </urn:New_Set_Operation_0>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:username/><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:LOG_DM_Personnel_WS/New_Set_Operation_0"/><con:wsrmConfig version="1.2"/></con:call></con:operation></con:interface><con:properties/><con:wssContainer/><con:sensitiveInformation/></con:soapui-project>

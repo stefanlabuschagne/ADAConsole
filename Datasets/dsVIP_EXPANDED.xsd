@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsVIP_EXPANDED" targetNamespace="http://tempuri.org/VIP_EXPANDED.xsd" xmlns:mstns="http://tempuri.org/VIP_EXPANDED.xsd" xmlns="http://tempuri.org/VIP_EXPANDED.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="3" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="VIP_EXPANDEDConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="VIP_EXPANDEDConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.ADAdminDotNet.My.MySettings.GlobalReference.Default.VIP_EXPANDEDConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="AdsPRDConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="AdsPRDConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.ADAdminDotNet.My.MySettings.GlobalReference.Default.AdsPRDConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="VIP_EXPANDEDConnectionString2008QA" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="VIP_EXPANDEDConnectionString2008QA (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.ADAdminDotNet.My.MySettings.GlobalReference.Default.VIP_EXPANDEDConnectionString2008QA" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="VIP_EXPANDEDQAConnectionString2014" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="VIP_EXPANDEDQAConnectionString2014 (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.ADAdminDotNet.My.MySettings.GlobalReference.Default.VIP_EXPANDEDQAConnectionString2014" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ta_VIEW_GOVERNMENT_STRUCTURE" GeneratorDataComponentClassName="ta_VIEW_GOVERNMENT_STRUCTURE" Name="VIEW_GOVERNMENT_STRUCTURE" UserDataComponentName="ta_VIEW_GOVERNMENT_STRUCTURE">
+            <MainSource>
+              <DbSource ConnectionRef="VIP_EXPANDEDConnectionString (MySettings)" DbObjectName="VIP_EXPANDED.dbo.VIEW_GOVERNMENT_STRUCTURE_FYEAR" DbObjectType="View" FillMethodModifier="Public" FillMethodName="FillNatProf" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetDataNatProf" GeneratorSourceName="FillNatProf" GetMethodModifier="Public" GetMethodName="GetDataNatProf" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetDataNatProf" UserSourceName="FillNatProf">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT DISTINCT NATPROV_SHORT_NAME, NATPROV_DESCRIPTION
+FROM         VIEW_GOVERNMENT_STRUCTURE_FYEAR</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="NATPROV_SHORT_NAME" DataSetColumn="NATPROV_SHORT_NAME" />
+              <Mapping SourceColumn="NATPROV_DESCRIPTION" DataSetColumn="NATPROV_DESCRIPTION" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="Sysem.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="VIEW_departmentsTableAdapter" GeneratorDataComponentClassName="VIEW_departmentsTableAdapter" Name="VIEW_departments" UserDataComponentName="VIEW_departmentsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="VIP_EXPANDEDConnectionString (MySettings)" DbObjectName="VIP_EXPANDED.dbo.VIEW_GOVERNMENT_STRUCTURE_FYEAR" DbObjectType="View" FillMethodModifier="Public" FillMethodName="FillNatProf" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetDataNatProf" GeneratorSourceName="FillNatProf" GetMethodModifier="Public" GetMethodName="GetDataNatProf" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetDataNatProf" UserSourceName="FillNatProf">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT DISTINCT NATPROV_SHORT_NAME, DEPT_SHORT_NAME, DEPT_DESCRIPTION, FINYEAR
+FROM         VIEW_GOVERNMENT_STRUCTURE_FYEAR</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="NATPROV_SHORT_NAME" DataSetColumn="NATPROV_SHORT_NAME" />
+              <Mapping SourceColumn="DEPT_SHORT_NAME" DataSetColumn="DEPT_SHORT_NAME" />
+              <Mapping SourceColumn="DEPT_DESCRIPTION" DataSetColumn="DEPT_DESCRIPTION" />
+              <Mapping SourceColumn="FINYEAR" DataSetColumn="FINYEAR" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="VIP_EXPANDEDConnectionString (MySettings)" DbObjectName="VIP_EXPANDED.dbo.VIEW_GOVERNMENT_STRUCTURE_FYEAR" DbObjectType="View" FillMethodModifier="Public" FillMethodName="FillByDept" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataByDept" GeneratorSourceName="FillByDept" GetMethodModifier="Public" GetMethodName="GetDataByDept" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataByDept" UserSourceName="FillByDept">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT DISTINCT NATPROV_SHORT_NAME, NATPROV_DESCRIPTION, DEPT_SHORT_NAME, DEPT_DESCRIPTION, FINYEAR
+FROM         VIEW_GOVERNMENT_STRUCTURE_FYEAR
+WHERE     (NATPROV_SHORT_NAME = @NatProvShort)
+ORDER BY NATPROV_SHORT_NAME</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="NatProvShort" ColumnName="NATPROV_SHORT_NAME" DataSourceName="VIP_EXPANDED.dbo.VIEW_GOVERNMENT_STRUCTURE_FYEAR" DataTypeServer="varchar(50)" DbType="AnsiString" Direction="Input" ParameterName="@NatProvShort" Precision="0" ProviderType="VarChar" Scale="0" Size="50" SourceColumn="NATPROV_SHORT_NAME" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ta_VIEW_Assigned_Departments" GeneratorDataComponentClassName="ta_VIEW_Assigned_Departments" Name="VIEW_Assigned_Departments" UserDataComponentName="ta_VIEW_Assigned_Departments">
+            <MainSource>
+              <DbSource ConnectionRef="VIP_EXPANDEDConnectionString (MySettings)" DbObjectName="VIP_EXPANDED.dbo.VIEW_ADADMIN_DEPT_HISTORY" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT DISTINCT DEPT_SHORT_NAME, DEPT_DESCRIPTION, FINYEAR
+FROM         VIEW_ADADMIN_DEPT_HISTORY
+ORDER BY FINYEAR DESC, DEPT_SHORT_NAME</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="DEPT_SHORT_NAME" DataSetColumn="DEPT_SHORT_NAME" />
+              <Mapping SourceColumn="DEPT_DESCRIPTION" DataSetColumn="DEPT_DESCRIPTION" />
+              <Mapping SourceColumn="FINYEAR" DataSetColumn="FINYEAR" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ta_VIEW_APPLICATION_RIGHTS" GeneratorDataComponentClassName="ta_VIEW_APPLICATION_RIGHTS" Name="VIEW_APPLICATION_RIGHTS" UserDataComponentName="ta_VIEW_APPLICATION_RIGHTS">
+            <MainSource>
+              <DbSource ConnectionRef="VIP_EXPANDEDConnectionString (MySettings)" DbObjectName="VIP_EXPANDED.dbo.VIEW_APPLICATION_RIGHTS" DbObjectType="View" FillMethodModifier="Public" FillMethodName="FillGetApplicationEnums" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetApplicationEnums" GeneratorSourceName="FillGetApplicationEnums" GetMethodModifier="Public" GetMethodName="GetApplicationEnums" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetApplicationEnums" UserSourceName="FillGetApplicationEnums">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT     RTRIM(LTRIM(GROUP_SHORT_NAME)) + '.' + RTRIM(LTRIM(SECLEVEL_NAME)) AS GROUP_SEC, SECLEVEL_DESCRIPTION
+FROM         VIEW_APPLICATION_RIGHTS</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="SECLEVEL_DESCRIPTION" DataSetColumn="SECLEVEL_DESCRIPTION" />
+              <Mapping SourceColumn="GROUP_SEC" DataSetColumn="GROUP_SEC" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ta_GetLastLoggedOnForPersalNumber" GeneratorDataComponentClassName="ta_GetLastLoggedOnForPersalNumber" Name="GetLastLoggedOnForPersalNumber" UserDataComponentName="ta_GetLastLoggedOnForPersalNumber">
+            <MainSource>
+              <DbSource ConnectionRef="VIP_EXPANDEDConnectionString (MySettings)" DbObjectName="VIP_EXPANDED.dbo.GetLastLoggedOnForPersalNumber" DbObjectType="StoredProcedure" GenerateMethods="Get" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="GetData">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.GetLastLoggedOnForPersalNumber</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Object" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="0" Scale="0" Size="0" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="persalnumber" ColumnName="USERNAME" DataSourceName="VIP_EXPANDED.dbo.SYSTEM_STATISTICS" DataTypeServer="varchar(50)" DbType="AnsiString" Direction="Input" ParameterName="@persalnumber" Precision="0" ProviderType="VarChar" Scale="0" Size="50" SourceColumn="USERNAME" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="date_stamp" DataSetColumn="date_stamp" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="VUL_REM_DEPT_MAPTableAdapter" GeneratorDataComponentClassName="VUL_REM_DEPT_MAPTableAdapter" Name="VUL_REM_DEPT_MAP" UserDataComponentName="VUL_REM_DEPT_MAPTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="VIP_EXPANDEDConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [dbo].[VUL_REM_DEPT_MAP] ([Nat_Prov_ID], [Short_Name], [Vulindlela_Depart_Name], [Remedy_Depart_Name], [Store_Number]) VALUES (@Nat_Prov_ID, @Short_Name, @Vulindlela_Depart_Name, @Remedy_Depart_Name, @Store_Number)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Nat_Prov_ID" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Nat_Prov_ID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Short_Name" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Short_Name" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Vulindlela_Depart_Name" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Vulindlela_Depart_Name" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Remedy_Depart_Name" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Remedy_Depart_Name" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Store_Number" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Store_Number" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Nat_Prov_ID, Short_Name, Vulindlela_Depart_Name, Remedy_Depart_Name, Store_Number FROM dbo.VUL_REM_DEPT_MAP</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Nat_Prov_ID" DataSetColumn="Nat_Prov_ID" />
+              <Mapping SourceColumn="Short_Name" DataSetColumn="Short_Name" />
+              <Mapping SourceColumn="Vulindlela_Depart_Name" DataSetColumn="Vulindlela_Depart_Name" />
+              <Mapping SourceColumn="Remedy_Depart_Name" DataSetColumn="Remedy_Depart_Name" />
+              <Mapping SourceColumn="Store_Number" DataSetColumn="Store_Number" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="VIP_EXPANDEDConnectionString (MySettings)" DbObjectType="Unknown" GenerateShortCommands="true" GeneratorSourceName="GetARDepartmentName" Modifier="Public" Name="GetARDepartmentName" QueryType="Scalar" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="GetARDepartmentName">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        Remedy_Depart_Name, Department_Type
+FROM            VUL_REM_DEPT_MAP
+WHERE        (Store_Number = @paramStoreNo) AND (Department_Type = @paramProvince)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="paramStoreNo" ColumnName="Store_Number" DataSourceName="VIP_EXPANDED.dbo.VUL_REM_DEPT_MAP" DataTypeServer="nvarchar(255)" DbType="String" Direction="Input" ParameterName="@paramStoreNo" Precision="0" ProviderType="NVarChar" Scale="0" Size="255" SourceColumn="Store_Number" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="paramProvince" ColumnName="Department_Type" DataSourceName="VIP_EXPANDED.dbo.VUL_REM_DEPT_MAP" DataTypeServer="nvarchar(255)" DbType="String" Direction="Input" ParameterName="@paramProvince" Precision="0" ProviderType="NVarChar" Scale="0" Size="255" SourceColumn="Department_Type" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="VIP_EXPANDEDConnectionString (MySettings)" DbObjectType="Unknown" GenerateShortCommands="true" GeneratorSourceName="GetRem_Dept_Name" Modifier="Public" Name="GetRem_Dept_Name" QueryType="Scalar" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy1" UserSourceName="GetRem_Dept_Name">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        Rem_Department_Type
+FROM            VUL_REM_DEPT_MAP
+WHERE        (Store_Number = @paramStoreNo) AND (Department_Type = @paramProvince)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="paramStoreNo" ColumnName="Store_Number" DataSourceName="VIP_EXPANDED.dbo.VUL_REM_DEPT_MAP" DataTypeServer="nvarchar(255)" DbType="String" Direction="Input" ParameterName="@paramStoreNo" Precision="0" ProviderType="NVarChar" Scale="0" Size="255" SourceColumn="Store_Number" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="paramProvince" ColumnName="Department_Type" DataSourceName="VIP_EXPANDED.dbo.VUL_REM_DEPT_MAP" DataTypeServer="nvarchar(255)" DbType="String" Direction="Input" ParameterName="@paramProvince" Precision="0" ProviderType="NVarChar" Scale="0" Size="255" SourceColumn="Department_Type" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="VIP_EXPANDEDConnectionString (MySettings)" DbObjectType="Unknown" GenerateShortCommands="true" GeneratorSourceName="GetStoreNo" Modifier="Public" Name="GetStoreNo" QueryType="Scalar" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy2" UserSourceName="GetStoreNo">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        Store_Number, Department_Type
+FROM            VUL_REM_DEPT_MAP
+WHERE        (Vulindlela_Depart_Name = @paramDeptName) AND (Department_Type = @paramProvince)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="paramDeptName" ColumnName="Vulindlela_Depart_Name" DataSourceName="VIP_EXPANDED.dbo.VUL_REM_DEPT_MAP" DataTypeServer="nvarchar(255)" DbType="String" Direction="Input" ParameterName="@paramDeptName" Precision="0" ProviderType="NVarChar" Scale="0" Size="255" SourceColumn="Vulindlela_Depart_Name" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="paramProvince" ColumnName="Department_Type" DataSourceName="VIP_EXPANDED.dbo.VUL_REM_DEPT_MAP" DataTypeServer="nvarchar(255)" DbType="String" Direction="Input" ParameterName="@paramProvince" Precision="0" ProviderType="NVarChar" Scale="0" Size="255" SourceColumn="Department_Type" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="VIP_EXPANDEDConnectionString (MySettings)" DbObjectType="Unknown" GenerateShortCommands="true" GeneratorSourceName="GetStoreNumber" Modifier="Public" Name="GetStoreNumber" QueryType="Scalar" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy3" UserSourceName="GetStoreNumber">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        Store_Number
+FROM            VUL_REM_DEPT_MAP
+WHERE        (Short_Name = @paraShort_Name)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="paraShort_Name" ColumnName="Short_Name" DataSourceName="VIP_EXPANDED.dbo.VUL_REM_DEPT_MAP" DataTypeServer="nvarchar(255)" DbType="String" Direction="Input" ParameterName="@paraShort_Name" Precision="0" ProviderType="NVarChar" Scale="0" Size="255" SourceColumn="Short_Name" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsVIP_EXPANDED" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="dsVIP_EXPANDED" msprop:Generator_UserDSName="dsVIP_EXPANDED">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="VIEW_GOVERNMENT_STRUCTURE" msprop:Generator_UserTableName="VIEW_GOVERNMENT_STRUCTURE" msprop:Generator_RowEvArgName="VIEW_GOVERNMENT_STRUCTURERowChangeEvent" msprop:Generator_TableVarName="tableVIEW_GOVERNMENT_STRUCTURE" msprop:Generator_TablePropName="VIEW_GOVERNMENT_STRUCTURE" msprop:Generator_RowDeletingName="VIEW_GOVERNMENT_STRUCTURERowDeleting" msprop:Generator_RowChangingName="VIEW_GOVERNMENT_STRUCTURERowChanging" msprop:Generator_RowDeletedName="VIEW_GOVERNMENT_STRUCTURERowDeleted" msprop:Generator_RowEvHandlerName="VIEW_GOVERNMENT_STRUCTURERowChangeEventHandler" msprop:Generator_TableClassName="VIEW_GOVERNMENT_STRUCTUREDataTable" msprop:Generator_RowChangedName="VIEW_GOVERNMENT_STRUCTURERowChanged" msprop:Generator_RowClassName="VIEW_GOVERNMENT_STRUCTURERow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NATPROV_SHORT_NAME" msprop:Generator_ColumnVarNameInTable="columnNATPROV_SHORT_NAME" msprop:Generator_ColumnPropNameInRow="NATPROV_SHORT_NAME" msprop:Generator_ColumnPropNameInTable="NATPROV_SHORT_NAMEColumn" msprop:Generator_UserColumnName="NATPROV_SHORT_NAME">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NATPROV_DESCRIPTION" msprop:Generator_ColumnVarNameInTable="columnNATPROV_DESCRIPTION" msprop:Generator_ColumnPropNameInRow="NATPROV_DESCRIPTION" msprop:Generator_ColumnPropNameInTable="NATPROV_DESCRIPTIONColumn" msprop:Generator_UserColumnName="NATPROV_DESCRIPTION">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="70" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="VIEW_departments" msprop:Generator_UserTableName="VIEW_departments" msprop:Generator_RowEvArgName="VIEW_departmentsRowChangeEvent" msprop:Generator_TableVarName="tableVIEW_departments" msprop:Generator_TablePropName="VIEW_departments" msprop:Generator_RowDeletingName="VIEW_departmentsRowDeleting" msprop:Generator_RowChangingName="VIEW_departmentsRowChanging" msprop:Generator_RowDeletedName="VIEW_departmentsRowDeleted" msprop:Generator_RowEvHandlerName="VIEW_departmentsRowChangeEventHandler" msprop:Generator_TableClassName="VIEW_departmentsDataTable" msprop:Generator_RowChangedName="VIEW_departmentsRowChanged" msprop:Generator_RowClassName="VIEW_departmentsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NATPROV_SHORT_NAME" msprop:Generator_ColumnVarNameInTable="columnNATPROV_SHORT_NAME" msprop:Generator_ColumnPropNameInRow="NATPROV_SHORT_NAME" msprop:Generator_ColumnPropNameInTable="NATPROV_SHORT_NAMEColumn" msprop:Generator_UserColumnName="NATPROV_SHORT_NAME">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DEPT_SHORT_NAME" msprop:Generator_ColumnVarNameInTable="columnDEPT_SHORT_NAME" msprop:Generator_ColumnPropNameInRow="DEPT_SHORT_NAME" msprop:Generator_ColumnPropNameInTable="DEPT_SHORT_NAMEColumn" msprop:Generator_UserColumnName="DEPT_SHORT_NAME">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DEPT_DESCRIPTION" msprop:Generator_ColumnVarNameInTable="columnDEPT_DESCRIPTION" msprop:Generator_ColumnPropNameInRow="DEPT_DESCRIPTION" msprop:Generator_ColumnPropNameInTable="DEPT_DESCRIPTIONColumn" msprop:Generator_UserColumnName="DEPT_DESCRIPTION">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="70" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FINYEAR" msprop:Generator_ColumnVarNameInTable="columnFINYEAR" msprop:Generator_ColumnPropNameInRow="FINYEAR" msprop:Generator_ColumnPropNameInTable="FINYEARColumn" msprop:Generator_UserColumnName="FINYEAR" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="VIEW_Assigned_Departments" msprop:Generator_UserTableName="VIEW_Assigned_Departments" msprop:Generator_RowEvArgName="VIEW_Assigned_DepartmentsRowChangeEvent" msprop:Generator_TableVarName="tableVIEW_Assigned_Departments" msprop:Generator_TablePropName="VIEW_Assigned_Departments" msprop:Generator_RowDeletingName="VIEW_Assigned_DepartmentsRowDeleting" msprop:Generator_RowChangingName="VIEW_Assigned_DepartmentsRowChanging" msprop:Generator_RowDeletedName="VIEW_Assigned_DepartmentsRowDeleted" msprop:Generator_RowEvHandlerName="VIEW_Assigned_DepartmentsRowChangeEventHandler" msprop:Generator_TableClassName="VIEW_Assigned_DepartmentsDataTable" msprop:Generator_RowChangedName="VIEW_Assigned_DepartmentsRowChanged" msprop:Generator_RowClassName="VIEW_Assigned_DepartmentsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DEPT_SHORT_NAME" msprop:Generator_ColumnVarNameInTable="columnDEPT_SHORT_NAME" msprop:Generator_ColumnPropNameInRow="DEPT_SHORT_NAME" msprop:Generator_ColumnPropNameInTable="DEPT_SHORT_NAMEColumn" msprop:Generator_UserColumnName="DEPT_SHORT_NAME">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DEPT_DESCRIPTION" msprop:Generator_ColumnVarNameInTable="columnDEPT_DESCRIPTION" msprop:Generator_ColumnPropNameInRow="DEPT_DESCRIPTION" msprop:Generator_ColumnPropNameInTable="DEPT_DESCRIPTIONColumn" msprop:Generator_UserColumnName="DEPT_DESCRIPTION" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="70" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FINYEAR" msprop:Generator_ColumnVarNameInTable="columnFINYEAR" msprop:Generator_ColumnPropNameInRow="FINYEAR" msprop:Generator_ColumnPropNameInTable="FINYEARColumn" msprop:Generator_UserColumnName="FINYEAR" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="VIEW_APPLICATION_RIGHTS" msprop:Generator_UserTableName="VIEW_APPLICATION_RIGHTS" msprop:Generator_RowEvArgName="VIEW_APPLICATION_RIGHTSRowChangeEvent" msprop:Generator_TableVarName="tableVIEW_APPLICATION_RIGHTS" msprop:Generator_TablePropName="VIEW_APPLICATION_RIGHTS" msprop:Generator_RowDeletingName="VIEW_APPLICATION_RIGHTSRowDeleting" msprop:Generator_RowChangingName="VIEW_APPLICATION_RIGHTSRowChanging" msprop:Generator_RowDeletedName="VIEW_APPLICATION_RIGHTSRowDeleted" msprop:Generator_RowEvHandlerName="VIEW_APPLICATION_RIGHTSRowChangeEventHandler" msprop:Generator_TableClassName="VIEW_APPLICATION_RIGHTSDataTable" msprop:Generator_RowChangedName="VIEW_APPLICATION_RIGHTSRowChanged" msprop:Generator_RowClassName="VIEW_APPLICATION_RIGHTSRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SECLEVEL_DESCRIPTION" msprop:Generator_ColumnVarNameInTable="columnSECLEVEL_DESCRIPTION" msprop:Generator_ColumnPropNameInRow="SECLEVEL_DESCRIPTION" msprop:Generator_ColumnPropNameInTable="SECLEVEL_DESCRIPTIONColumn" msprop:Generator_UserColumnName="SECLEVEL_DESCRIPTION">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="120" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GROUP_SEC" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnGROUP_SEC" msprop:Generator_ColumnPropNameInRow="GROUP_SEC" msprop:Generator_ColumnPropNameInTable="GROUP_SECColumn" msprop:Generator_UserColumnName="GROUP_SEC" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="101" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GetLastLoggedOnForPersalNumber" msprop:Generator_UserTableName="GetLastLoggedOnForPersalNumber" msprop:Generator_RowEvArgName="GetLastLoggedOnForPersalNumberRowChangeEvent" msprop:Generator_TableVarName="tableGetLastLoggedOnForPersalNumber" msprop:Generator_TablePropName="GetLastLoggedOnForPersalNumber" msprop:Generator_RowDeletingName="GetLastLoggedOnForPersalNumberRowDeleting" msprop:Generator_RowChangingName="GetLastLoggedOnForPersalNumberRowChanging" msprop:Generator_RowDeletedName="GetLastLoggedOnForPersalNumberRowDeleted" msprop:Generator_RowEvHandlerName="GetLastLoggedOnForPersalNumberRowChangeEventHandler" msprop:Generator_TableClassName="GetLastLoggedOnForPersalNumberDataTable" msprop:Generator_RowChangedName="GetLastLoggedOnForPersalNumberRowChanged" msprop:Generator_RowClassName="GetLastLoggedOnForPersalNumberRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="date_stamp" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columndate_stamp" msprop:Generator_ColumnPropNameInRow="date_stamp" msprop:Generator_ColumnPropNameInTable="date_stampColumn" msprop:Generator_UserColumnName="date_stamp" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="VUL_REM_DEPT_MAP" msprop:Generator_TableClassName="VUL_REM_DEPT_MAPDataTable" msprop:Generator_TableVarName="tableVUL_REM_DEPT_MAP" msprop:Generator_TablePropName="VUL_REM_DEPT_MAP" msprop:Generator_RowDeletingName="VUL_REM_DEPT_MAPRowDeleting" msprop:Generator_RowChangingName="VUL_REM_DEPT_MAPRowChanging" msprop:Generator_RowEvHandlerName="VUL_REM_DEPT_MAPRowChangeEventHandler" msprop:Generator_RowDeletedName="VUL_REM_DEPT_MAPRowDeleted" msprop:Generator_UserTableName="VUL_REM_DEPT_MAP" msprop:Generator_RowChangedName="VUL_REM_DEPT_MAPRowChanged" msprop:Generator_RowEvArgName="VUL_REM_DEPT_MAPRowChangeEvent" msprop:Generator_RowClassName="VUL_REM_DEPT_MAPRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Nat_Prov_ID" msprop:Generator_ColumnVarNameInTable="columnNat_Prov_ID" msprop:Generator_ColumnPropNameInRow="Nat_Prov_ID" msprop:Generator_ColumnPropNameInTable="Nat_Prov_IDColumn" msprop:Generator_UserColumnName="Nat_Prov_ID" type="xs:double" minOccurs="0" />
+              <xs:element name="Short_Name" msprop:Generator_ColumnVarNameInTable="columnShort_Name" msprop:Generator_ColumnPropNameInRow="Short_Name" msprop:Generator_ColumnPropNameInTable="Short_NameColumn" msprop:Generator_UserColumnName="Short_Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Vulindlela_Depart_Name" msprop:Generator_ColumnVarNameInTable="columnVulindlela_Depart_Name" msprop:Generator_ColumnPropNameInRow="Vulindlela_Depart_Name" msprop:Generator_ColumnPropNameInTable="Vulindlela_Depart_NameColumn" msprop:Generator_UserColumnName="Vulindlela_Depart_Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Remedy_Depart_Name" msprop:Generator_ColumnVarNameInTable="columnRemedy_Depart_Name" msprop:Generator_ColumnPropNameInRow="Remedy_Depart_Name" msprop:Generator_ColumnPropNameInTable="Remedy_Depart_NameColumn" msprop:Generator_UserColumnName="Remedy_Depart_Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Store_Number" msprop:Generator_ColumnVarNameInTable="columnStore_Number" msprop:Generator_ColumnPropNameInRow="Store_Number" msprop:Generator_ColumnPropNameInTable="Store_NumberColumn" msprop:Generator_UserColumnName="Store_Number" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

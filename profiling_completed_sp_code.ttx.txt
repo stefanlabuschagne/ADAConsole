@@ -1,0 +1,10 @@
+CREATE PROCEDURE dbo.Profiling_Completed
+(
+	@RequestNo varchar(9)
+)
+AS
+	SET NOCOUNT OFF;
+UPDATE    RULES_FLAGS
+SET              [Active] = 1,  [VULComments] = 'Profiling Completed'
+WHERE     ([RequestNo] = @RequestNo)
+GO

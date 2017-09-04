@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="PropertyGridEx">
+</Property><Property Name="Solution File" Value="C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\propertygridex_demo\PropertyGridEx\PropertyGridEx.sln">
+</Property><Property Name="Date" Value="06 May 2014">
+</Property><Property Name="Time" Value="07:57 AM">
+</Property></Properties><Event ErrorLevel="0" Project="PropertyGridEx" Source="PropertyGridEx\PropertyGridEx.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="PropertyGridEx" Source="PropertyGridEx\PropertyGridEx.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="TestApp" Source="TestApp\TestApp.vbproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="TestApp" Source="TestApp\TestApp.vbproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="" Source="PropertyGridEx.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="PropertyGridEx.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="PropertyGridEx" Source="PropertyGridEx\PropertyGridEx.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

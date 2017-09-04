@@ -1,0 +1,86 @@
+﻿<ERRORLOG>
+  <LOG TIME="17:58:28" SOURCE="FTP">
+    <EXCEPTION>System.ArgumentException: The user name and password must either both be null or both must be non-null.
+   at System.DirectoryServices.AccountManagement.PrincipalContext..ctor(ContextType contextType, String name, String container, ContextOptions options, String userName, String password)
+   at System.DirectoryServices.AccountManagement.PrincipalContext..ctor(ContextType contextType, String name, String container, String userName, String password)
+   at VulindlelaFTPServer.FTPUser.AuthenticateIt(String Username, String ADSPassword) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPUser.cs:line 120
+   at VulindlelaFTPServer.FTPUser.LoadProfile(String UserName) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPUser.cs:line 36</EXCEPTION>
+    <MESSAGE>The user name and password must either both be null or both must be non-null.</MESSAGE>
+    <SOURCE>System.DirectoryServices.AccountManagement</SOURCE>
+    <STACK>   at System.DirectoryServices.AccountManagement.PrincipalContext..ctor(ContextType contextType, String name, String container, ContextOptions options, String userName, String password)
+   at System.DirectoryServices.AccountManagement.PrincipalContext..ctor(ContextType contextType, String name, String container, String userName, String password)
+   at VulindlelaFTPServer.FTPUser.AuthenticateIt(String Username, String ADSPassword) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPUser.cs:line 120
+   at VulindlelaFTPServer.FTPUser.LoadProfile(String UserName) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPUser.cs:line 36</STACK>
+    <TARGETSITE>.ctor</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="17:58:41" SOURCE="FTP">
+    <EXCEPTION>System.ArgumentException: The user name and password must either both be null or both must be non-null.
+   at System.DirectoryServices.AccountManagement.PrincipalContext..ctor(ContextType contextType, String name, String container, ContextOptions options, String userName, String password)
+   at System.DirectoryServices.AccountManagement.PrincipalContext..ctor(ContextType contextType, String name, String container, String userName, String password)
+   at VulindlelaFTPServer.FTPUser.AuthenticateIt(String Username, String ADSPassword) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPUser.cs:line 120
+   at VulindlelaFTPServer.FTPUser.LoadProfile(String UserName) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPUser.cs:line 36</EXCEPTION>
+    <MESSAGE>The user name and password must either both be null or both must be non-null.</MESSAGE>
+    <SOURCE>System.DirectoryServices.AccountManagement</SOURCE>
+    <STACK>   at System.DirectoryServices.AccountManagement.PrincipalContext..ctor(ContextType contextType, String name, String container, ContextOptions options, String userName, String password)
+   at System.DirectoryServices.AccountManagement.PrincipalContext..ctor(ContextType contextType, String name, String container, String userName, String password)
+   at VulindlelaFTPServer.FTPUser.AuthenticateIt(String Username, String ADSPassword) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPUser.cs:line 120
+   at VulindlelaFTPServer.FTPUser.LoadProfile(String UserName) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPUser.cs:line 36</STACK>
+    <TARGETSITE>.ctor</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="17:58:48" SOURCE="FTP">
+    <EXCEPTION>System.ArgumentException: The user name and password must either both be null or both must be non-null.
+   at System.DirectoryServices.AccountManagement.PrincipalContext..ctor(ContextType contextType, String name, String container, ContextOptions options, String userName, String password)
+   at System.DirectoryServices.AccountManagement.PrincipalContext..ctor(ContextType contextType, String name, String container, String userName, String password)
+   at VulindlelaFTPServer.FTPUser.AuthenticateIt(String Username, String ADSPassword) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPUser.cs:line 120
+   at VulindlelaFTPServer.FTPUser.LoadProfile(String UserName) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPUser.cs:line 36</EXCEPTION>
+    <MESSAGE>The user name and password must either both be null or both must be non-null.</MESSAGE>
+    <SOURCE>System.DirectoryServices.AccountManagement</SOURCE>
+    <STACK>   at System.DirectoryServices.AccountManagement.PrincipalContext..ctor(ContextType contextType, String name, String container, ContextOptions options, String userName, String password)
+   at System.DirectoryServices.AccountManagement.PrincipalContext..ctor(ContextType contextType, String name, String container, String userName, String password)
+   at VulindlelaFTPServer.FTPUser.AuthenticateIt(String Username, String ADSPassword) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPUser.cs:line 120
+   at VulindlelaFTPServer.FTPUser.LoadProfile(String UserName) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPUser.cs:line 36</STACK>
+    <TARGETSITE>.ctor</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="18:01:49" SOURCE="FTP">
+    <EXCEPTION>System.ArgumentException: The user name and password must either both be null or both must be non-null.
+   at System.DirectoryServices.AccountManagement.PrincipalContext..ctor(ContextType contextType, String name, String container, ContextOptions options, String userName, String password)
+   at System.DirectoryServices.AccountManagement.PrincipalContext..ctor(ContextType contextType, String name, String container, String userName, String password)
+   at VulindlelaFTPServer.FTPUser.AuthenticateIt(String Username, String ADSPassword) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPUser.cs:line 120
+   at VulindlelaFTPServer.FTPUser.LoadProfile(String UserName) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPUser.cs:line 36</EXCEPTION>
+    <MESSAGE>The user name and password must either both be null or both must be non-null.</MESSAGE>
+    <SOURCE>System.DirectoryServices.AccountManagement</SOURCE>
+    <STACK>   at System.DirectoryServices.AccountManagement.PrincipalContext..ctor(ContextType contextType, String name, String container, ContextOptions options, String userName, String password)
+   at System.DirectoryServices.AccountManagement.PrincipalContext..ctor(ContextType contextType, String name, String container, String userName, String password)
+   at VulindlelaFTPServer.FTPUser.AuthenticateIt(String Username, String ADSPassword) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPUser.cs:line 120
+   at VulindlelaFTPServer.FTPUser.LoadProfile(String UserName) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPUser.cs:line 36</STACK>
+    <TARGETSITE>.ctor</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="18:01:53" SOURCE="FTP">
+    <EXCEPTION>System.ArgumentException: The user name and password must either both be null or both must be non-null.
+   at System.DirectoryServices.AccountManagement.PrincipalContext..ctor(ContextType contextType, String name, String container, ContextOptions options, String userName, String password)
+   at System.DirectoryServices.AccountManagement.PrincipalContext..ctor(ContextType contextType, String name, String container, String userName, String password)
+   at VulindlelaFTPServer.FTPUser.AuthenticateIt(String Username, String ADSPassword) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPUser.cs:line 120
+   at VulindlelaFTPServer.FTPUser.LoadProfile(String UserName) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPUser.cs:line 36</EXCEPTION>
+    <MESSAGE>The user name and password must either both be null or both must be non-null.</MESSAGE>
+    <SOURCE>System.DirectoryServices.AccountManagement</SOURCE>
+    <STACK>   at System.DirectoryServices.AccountManagement.PrincipalContext..ctor(ContextType contextType, String name, String container, ContextOptions options, String userName, String password)
+   at System.DirectoryServices.AccountManagement.PrincipalContext..ctor(ContextType contextType, String name, String container, String userName, String password)
+   at VulindlelaFTPServer.FTPUser.AuthenticateIt(String Username, String ADSPassword) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPUser.cs:line 120
+   at VulindlelaFTPServer.FTPUser.LoadProfile(String UserName) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPUser.cs:line 36</STACK>
+    <TARGETSITE>.ctor</TARGETSITE>
+  </LOG>
+﻿  <LOG TIME="18:01:59" SOURCE="FTP">
+    <EXCEPTION>System.ArgumentException: The user name and password must either both be null or both must be non-null.
+   at System.DirectoryServices.AccountManagement.PrincipalContext..ctor(ContextType contextType, String name, String container, ContextOptions options, String userName, String password)
+   at System.DirectoryServices.AccountManagement.PrincipalContext..ctor(ContextType contextType, String name, String container, String userName, String password)
+   at VulindlelaFTPServer.FTPUser.AuthenticateIt(String Username, String ADSPassword) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPUser.cs:line 120
+   at VulindlelaFTPServer.FTPUser.LoadProfile(String UserName) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPUser.cs:line 36</EXCEPTION>
+    <MESSAGE>The user name and password must either both be null or both must be non-null.</MESSAGE>
+    <SOURCE>System.DirectoryServices.AccountManagement</SOURCE>
+    <STACK>   at System.DirectoryServices.AccountManagement.PrincipalContext..ctor(ContextType contextType, String name, String container, ContextOptions options, String userName, String password)
+   at System.DirectoryServices.AccountManagement.PrincipalContext..ctor(ContextType contextType, String name, String container, String userName, String password)
+   at VulindlelaFTPServer.FTPUser.AuthenticateIt(String Username, String ADSPassword) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPUser.cs:line 120
+   at VulindlelaFTPServer.FTPUser.LoadProfile(String UserName) in C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\VulindlelaFTPServer\Server\Classes\FTPUser.cs:line 36</STACK>
+    <TARGETSITE>.ctor</TARGETSITE>
+  </LOG>
+</ERRORLOG>

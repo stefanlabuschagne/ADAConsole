@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ds" targetNamespace="http://tempuri.org/ds.xsd" xmlns:mstns="http://tempuri.org/ds.xsd" xmlns="http://tempuri.org/ds.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="VIP_EXPANDED" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="VIP_EXPANDED (MySettings)" PropertyReference="ApplicationSettings.WindowsApplication3.My.MySettings.GlobalReference.Default.VIP_EXPANDED" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="View_Stageable_ApplicationsTableAdapter" GeneratorDataComponentClassName="View_Stageable_ApplicationsTableAdapter" Name="View_Stageable_Applications" UserDataComponentName="View_Stageable_ApplicationsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="VIP_EXPANDED (MySettings)" DbObjectName="VIP_EXPANDED.dbo.View_Stageable_Applications" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT database_id, name FROM dbo.View_Stageable_Applications</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="database_id" DataSetColumn="database_id" />
+              <Mapping SourceColumn="name" DataSetColumn="name" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ds" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="ds" msprop:Generator_UserDSName="ds">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="View_Stageable_Applications" msprop:Generator_TableClassName="View_Stageable_ApplicationsDataTable" msprop:Generator_TableVarName="tableView_Stageable_Applications" msprop:Generator_TablePropName="View_Stageable_Applications" msprop:Generator_RowDeletingName="View_Stageable_ApplicationsRowDeleting" msprop:Generator_RowChangingName="View_Stageable_ApplicationsRowChanging" msprop:Generator_RowEvHandlerName="View_Stageable_ApplicationsRowChangeEventHandler" msprop:Generator_RowDeletedName="View_Stageable_ApplicationsRowDeleted" msprop:Generator_UserTableName="View_Stageable_Applications" msprop:Generator_RowChangedName="View_Stageable_ApplicationsRowChanged" msprop:Generator_RowEvArgName="View_Stageable_ApplicationsRowChangeEvent" msprop:Generator_RowClassName="View_Stageable_ApplicationsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="database_id" msprop:Generator_ColumnVarNameInTable="columndatabase_id" msprop:Generator_ColumnPropNameInRow="database_id" msprop:Generator_ColumnPropNameInTable="database_idColumn" msprop:Generator_UserColumnName="database_id" type="xs:int" />
+              <xs:element name="name" msprop:Generator_ColumnVarNameInTable="columnname" msprop:Generator_ColumnPropNameInRow="name" msprop:Generator_ColumnPropNameInTable="nameColumn" msprop:Generator_UserColumnName="name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="128" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,7 @@
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\DynamicTypeDescriptor_Src\DynamicTypeDescriptor\bin\Release\DynamicTypeDescriptor.dll
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\DynamicTypeDescriptor_Src\DynamicTypeDescriptor\bin\Release\DynamicTypeDescriptor.pdb
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\DynamicTypeDescriptor_Src\DynamicTypeDescriptor\obj\Release\ResolveAssemblyReference.cache
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\DynamicTypeDescriptor_Src\DynamicTypeDescriptor\obj\Release\DynamicTypeDescriptor.StandardValueEditorUI.resources
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\DynamicTypeDescriptor_Src\DynamicTypeDescriptor\obj\Release\DynamicTypeDescriptor.csproj.GenerateResource.Cache
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\DynamicTypeDescriptor_Src\DynamicTypeDescriptor\obj\Release\DynamicTypeDescriptor.dll
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\DynamicTypeDescriptor_Src\DynamicTypeDescriptor\obj\Release\DynamicTypeDescriptor.pdb

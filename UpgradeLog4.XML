@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ADAdminConsole">
+</Property><Property Name="Solution File" Value="C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5 - VS2010\ADAdminConsole.sln">
+</Property><Property Name="Date" Value="13 May 2014">
+</Property><Property Name="Time" Value="11:00 AM">
+</Property><Property Name="Log Number" Value="4">
+</Property></Properties><Event ErrorLevel="0" Project="ADAdminConsole" Source="ADAdminConsole.vbproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="ADAdminConsole" Source="ADAdminConsole.vbproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="" Source="ADAdminConsole.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ADAdminConsole.sln" Description="Converted">
+</Event></UpgradeLog>

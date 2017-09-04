@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"><html xmlns="http://www.w3.org/1999/xhtml" ><head><title>Untitled Page</title><style type="text/css">
+
+ p.MsoNormal
+	{margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Verdana";
+	        margin-left: 0cm;
+            margin-right: 0cm;
+            margin-top: 0cm;
+        }
+        .style1
+        {
+            font-weight: normal;
+        }
+    </style>
+</head><body><p class="MsoNormal"><strong><span lang="EN-ZA" 
+            style="font-size: 10.0pt; font-family: Verdana; ">Name: <FONT face="Verdana" size="2"><SPAN lang="EN-ZA" style="FONT-SIZE: 10pt; FONT-FAMILY: Verdana"><FONT color="#0000ff"><span class="style1">[[fullname]] </span><o:p></o:p></FONT></SPAN></FONT></span></strong></p><p class="MsoNormal" 
+         ><strong><span lang="EN-ZA" 
+            style="font-size: 10.0pt; font-family: Verdana; ">Persal no:</span></strong><span lang="EN-ZA" 
+            style="font-size: 10.0pt; font-family: Verdana; "> </span><FONT face="Verdana" size="2"><SPAN lang="EN-ZA" style="FONT-SIZE: 10pt; FONT-FAMILY: Verdana"><FONT color="#0000ff">[[persal_no]] <o:p></o:p></FONT></SPAN><o:p></o:p></SPAN></FONT></p><p class="MsoNormal" 
+         ><strong><span lang="EN-ZA" 
+            style="font-size: 10.0pt; font-family: Verdana; ">Telephone number:</span></strong><span lang="EN-ZA" 
+            style="font-size: 10.0pt; font-family: Verdana; "> </span><FONT face="Verdana" size="2"><SPAN lang="EN-ZA" style="FONT-SIZE: 10pt; FONT-FAMILY: Verdana"><FONT color="#0000ff">[[BUS_TEL]] <o:p></o:p></FONT></SPAN><o:p></o:p></SPAN></FONT></p><p class="MsoNormal" 
+         ><strong><span lang="EN-ZA" 
+            style="font-size: 10.0pt; font-family: Verdana; ">Cellular number:</span></strong><span lang="EN-ZA" 
+            style="font-size: 10.0pt; font-family: Verdana; "> </span><FONT face="Verdana" size="2"><SPAN lang="EN-ZA" style="FONT-SIZE: 10pt; FONT-FAMILY: Verdana"><FONT color="#0000ff">[[CEL_TEL]] <o:p></o:p></FONT></SPAN><o:p></o:p></SPAN></FONT></p><p class="MsoNormal" 
+         ><o:p>&nbsp;</o:p></p><p class="MsoNormal"><span class="style1"><b><span style="font-size: 10.0pt; font-family: Verdana">Date of web request:</span></b></span><span class="style2"> </span><span class="style3"><span style="font-size: 10.0pt; font-family: Verdana; color: blue">[[LETTER_DATE]]</span></span> <span class="style1"><o:p></o:p></span></p><p style="font-family: Verdana; font-size: small">If you apply for access over more than one application (Human Resources, Financial and Supply Chain Management), a letter of motivation is required from the Chief Financial Officer in order for us to grant access. </p><p style="font-family: Verdana; font-size: small">Unfortunately the letter of motivation for the access required did not reach us within 10 working days after your application on the web; therefore your request will be closed. </p><p style="font-family: Verdana; font-size: small">Please acquire the letter of motivation and log a new request. The letter can be faxed to LOGIK at <span class="style1">fax no: 012-6574555</span>. </p><p style="font-family: Verdana; font-size: small">Kind regards, </p><P><font face="Verdana" size="2"><br /></font><font face="Arial" size="2"><b>The Vulindlela Team</b><br />Tel: (012) 657-4444<br />Fax: (012) 657-4555<br /><br /><img height="79" src="cid:ntlogo" width="226" /></font></p><p style="font-family: Verdana; font-size: small">
+&nbsp;</p><p style="font-family: Verdana; font-size: small">&nbsp;</p>
+<p style="font-family: Verdana; font-size: small">&nbsp;</p>
+<p style="font-family: Verdana; font-size: small">&nbsp;</p>
+<p style="font-family: Verdana; font-size: small">&nbsp;</p>
+<p style="font-family: Verdana; font-size: small">&nbsp;</p>
+<p style="font-family: Verdana; font-size: small">&nbsp;</p>
+<p style="font-family: Verdana; font-size: small">&nbsp;</p>
+<p style="font-family: Verdana; font-size: small">&nbsp;</p>
+<p style="font-family: Verdana; font-size: small">&nbsp;</p>
+<p style="font-family: Verdana; font-size: small">&nbsp;</p>
+<p style="font-family: Verdana; font-size: small">&nbsp;</p>
+<p style="font-family: Verdana; font-size: small">&nbsp;</p>
+<p style="font-family: Verdana; font-size: small">&nbsp;</p>
+<p style="font-family: Verdana; font-size: small">&nbsp;</p>
+<p style="font-family: Verdana; font-size: small">&nbsp;</p>
+<p style="font-family: Verdana; font-size: small">&nbsp;</p>
+<p style="font-family: Verdana; font-size: small">&nbsp;</p>
+<p style="font-family: Verdana; font-size: small">&nbsp;</p>
+<p style="font-family: Verdana; font-size: small">&nbsp;</p>
+<p style="font-family: Verdana; font-size: small">&nbsp;</p>
+<p style="font-family: Verdana; font-size: small">&nbsp;</p>
+<p style="font-family: Verdana; font-size: small">&nbsp;</p>
+<p style="font-family: Verdana; font-size: small">&nbsp;</p>
+<p style="font-family: Verdana; font-size: small">&nbsp;</p>
+<p style="font-family: Verdana; font-size: small">&nbsp;</p>
+<p style="font-family: Verdana; font-size: small">&nbsp;</p>
+<p style="font-family: Verdana; font-size: small">&nbsp;</p>
+<p style="font-family: Verdana; font-size: small">&nbsp;</p>
+
+</body></html>

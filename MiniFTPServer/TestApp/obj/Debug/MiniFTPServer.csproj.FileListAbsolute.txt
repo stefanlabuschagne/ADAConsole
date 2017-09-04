@@ -1,0 +1,7 @@
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\MiniFTPServer\TestApp\bin\Debug\MiniFTPServer.exe.config
+C:\a_source\ADAdminDotNET\ADAdmin.NET3.5\MiniFTPServer\TestApp\obj\Debug\ResolveAssemblyReference.cache
+C:\a_source\ADAdminDotNET\ADAdmin.NET3.5\MiniFTPServer\TestApp\obj\Debug\TestApp.MainForm.resources
+C:\a_source\ADAdminDotNET\ADAdmin.NET3.5\MiniFTPServer\TestApp\obj\Debug\TestApp.Properties.Resources.resources
+C:\a_source\ADAdminDotNET\ADAdmin.NET3.5\MiniFTPServer\TestApp\obj\Debug\TestApp.UserManagerControl.resources
+C:\a_source\ADAdminDotNET\ADAdmin.NET3.5\MiniFTPServer\TestApp\obj\Debug\GenerateResource.read.1.tlog
+C:\a_source\ADAdminDotNET\ADAdmin.NET3.5\MiniFTPServer\TestApp\obj\Debug\GenerateResource.write.1.tlog

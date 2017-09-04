@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0910E06A-2929-4E10-AFC2-6DA719FEAF3B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ADAdminUnitTest</RootNamespace>
+    <AssemblyName>ADAdminUnitTest</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>ADAdminUnitTest.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ADAdminUnitTest.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ADODB, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\WINDOWS\assembly\GAC\ADODB\7.0.3300.0__b03f5f7f11d50a3a\ADODB.dll</HintPath>
+    </Reference>
+    <Reference Include="BMC.ARSystem, Version=7.1.3105.29886, Culture=neutral, PublicKeyToken=8cae4d61f13dc9bb">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\BMC.ARSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v12.1, Version=12.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v12.1.Core, Version=12.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v12.1, Version=12.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v12.1, Version=12.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Interop.ActiveDs, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\obj\Release\Interop.ActiveDs.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.ARUSER, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Release\Interop.ARUSER.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.DirectoryServices.AccountManagement">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions.Design">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="TemplateParser, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\_ EMail Parser\NET 2\VB\bin\Release\TemplateParser.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClsCryptoTest.vb" />
+    <Compile Include="dsADSTest.vb" />
+    <Compile Include="dsADS_ADCONSOLELOGDataTableTest.vb" />
+    <Compile Include="dsADS_ADCONSOLELOGRowChangeEventTest.vb" />
+    <Compile Include="dsADS_ADCONSOLELOGRowTest.vb" />
+    <Compile Include="dsADS_AD_Disabled_UsersDataTableTest.vb" />
+    <Compile Include="dsADS_AD_Disabled_UsersRowChangeEventTest.vb" />
+    <Compile Include="dsADS_AD_Disabled_UsersRowTest.vb" />
+    <Compile Include="dsADS_AD_SNAPSHOT_ALLDataTableTest.vb" />
+    <Compile Include="dsADS_AD_SNAPSHOT_ALLRowChangeEventTest.vb" />
+    <Compile Include="dsADS_AD_SNAPSHOT_ALLRowTest.vb" />
+    <Compile Include="dsADS_AD_SNAPSHOT_EXCEPTIONSDataTableTest.vb" />
+    <Compile Include="dsADS_AD_SNAPSHOT_EXCEPTIONSRowChangeEventTest.vb" />
+    <Compile Include="dsADS_AD_SNAPSHOT_EXCEPTIONSRowTest.vb" />
+    <Compile Include="dsADS_AD_SNAPSHOT_USER_COUNTDataTableTest.vb" />
+    <Compile Include="dsADS_AD_SNAPSHOT_USER_COUNTRowChangeEventTest.vb" />
+    <Compile Include="dsADS_AD_SNAPSHOT_USER_COUNTRowTest.vb" />
+    <Compile Include="dsADS_CFOApprovalDataTableTest.vb" />
+    <Compile Include="dsADS_CFOApprovalRowChangeEventTest.vb" />
+    <Compile Include="dsADS_CFOApprovalRowTest.vb" />
+    <Compile Include="dsADS_CFODataTableTest.vb" />
+    <Compile Include="dsADS_CFOListDataTableTest.vb" />
+    <Compile Include="dsADS_CFOListRowChangeEventTest.vb" />
+    <Compile Include="dsADS_CFOListRowTest.vb" />
+    <Compile Include="dsADS_CFORowChangeEventTest.vb" />
+    <Compile Include="dsADS_CFORowTest.vb" />
+    <Compile Include="dsADS_CFO_Letters_YearMonthDataTableTest.vb" />
+    <Compile Include="dsADS_CFO_Letters_YearMonthRowChangeEventTest.vb" />
+    <Compile Include="dsADS_CFO_Letters_YearMonthRowTest.vb" />
+    <Compile Include="dsADS_Config_ProblemDataTableTest.vb" />
+    <Compile Include="dsADS_Config_ProblemRowChangeEventTest.vb" />
+    <Compile Include="dsADS_Config_ProblemRowTest.vb" />
+    <Compile Include="dsADS_CountNewUsersDataTableTest.vb" />
+    <Compile Include="dsADS_CountNewUsersRowChangeEventTest.vb" />
+    <Compile Include="dsADS_CountNewUsersRowTest.vb" />
+    <Compile Include="dsADS_CustomerInfoDataTableTest.vb" />
+    <Compile Include="dsADS_CustomerInfoRowChangeEventTest.vb" />
+    <Compile Include="dsADS_CustomerInfoRowTest.vb" />
+    <Compile Include="dsADS_Department_DiffersDataTableTest.vb" />
+    <Compile Include="dsADS_Department_DiffersRowChangeEventTest.vb" />
+    <Compile Include="dsADS_Department_DiffersRowTest.vb" />
+    <Compile Include="dsADS_Estab2DataTableTest.vb" />
+    <Compile Include="dsADS_Estab2RowChangeEventTest.vb" />
+    <Compile Include="dsADS_Estab2RowTest.vb" />
+    <Compile Include="dsADS_EstablishmentDataTableTest.vb" />
+    <Compile Include="dsADS_EstablishmentRowChangeEventTest.vb" />
+    <Compile Include="dsADS_EstablishmentRowTest.vb" />
+    <Compile Include="dsADS_EXCLUSIONSDataTableTest.vb" />
+    <Compile Include="dsADS_EXCLUSIONSRowChangeEventTest.vb" />
+    <Compile Include="dsADS_EXCLUSIONSRowTest.vb" />
+    <Compile Include="dsADS_GetResetPasswordsDataTableTest.vb" />
+    <Compile Include="dsADS_GetResetPasswordsRowChangeEventTest.vb" />
+    <Compile Include="dsADS_GetResetPasswordsRowTest.vb" />
+    <Compile Include="dsADS_get_shortcodeDataTableTest.vb" />
+    <Compile Include="dsADS_get_shortcodeRowChangeEventTest.vb" />
+    <Compile Include="dsADS_get_shortcodeRowTest.vb" />
+    <Compile Include="dsADS_KICKOUTDataTableTest.vb" />
+    <Compile Include="dsADS_KICKOUTRowChangeEventTest.vb" />
+    <Compile Include="dsADS_KICKOUTRowTest.vb" />
+    <Compile Include="dsARSystemDataSetTest.vb" />
+    <Compile Include="dsARSystemDataSet_CFOClosureListDataTableTest.vb" />
+    <Compile Include="dsARSystemDataSet_CFOClosureListRowChangeEventTest.vb" />
+    <Compile Include="dsARSystemDataSet_CFOClosureListRowTest.vb" />
+    <Compile Include="dsARSystemDataSet_CustNotifyDataTableTest.vb" />
+    <Compile Include="dsARSystemDataSet_CustNotifyRowChangeEventTest.vb" />
+    <Compile Include="dsARSystemDataSet_CustNotifyRowTest.vb" />
+    <Compile Include="dsARSystemDataSet_LOG_DM_Customer_Information1DataTableTest.vb" />
+    <Compile Include="dsARSystemDataSet_LOG_DM_Customer_Information1RowChangeEventTest.vb" />
+    <Compile Include="dsARSystemDataSet_LOG_DM_Customer_Information1RowTest.vb" />
+    <Compile Include="dsARSystemDataSet_LOG_DM_Customer_InformationDataTableTest.vb" />
+    <Compile Include="dsARSystemDataSet_LOG_DM_Customer_InformationRowChangeEventTest.vb" />
+    <Compile Include="dsARSystemDataSet_LOG_DM_Customer_InformationRowTest.vb" />
+    <Compile Include="dsARSystemDataSet_LOG_DM_DepartmentDataTableTest.vb" />
+    <Compile Include="dsARSystemDataSet_LOG_DM_DepartmentRowChangeEventTest.vb" />
+    <Compile Include="dsARSystemDataSet_LOG_DM_DepartmentRowTest.vb" />
+    <Compile Include="dsARSystemDataSet_LOG_DM_PersonnelDataTableTest.vb" />
+    <Compile Include="dsARSystemDataSet_LOG_DM_PersonnelRowTest.vb" />
+    <Compile Include="dsVIP_EXPANDEDTest.vb" />
+    <Compile Include="dsVIP_EXPANDED_GetLastLoggedOnForPersalNumberDataTableTest.vb" />
+    <Compile Include="dsVIP_EXPANDED_GetLastLoggedOnForPersalNumberRowChangeEventTest.vb" />
+    <Compile Include="dsVIP_EXPANDED_GetLastLoggedOnForPersalNumberRowTest.vb" />
+    <Compile Include="FieldInfoTest.vb" />
+    <Compile Include="frmAD_create_new_shortcodeTest.vb" />
+    <Compile Include="frmCFOTableTest.vb" />
+    <Compile Include="frmConfigProblemTest.vb" />
+    <Compile Include="frmControllersTest.vb" />
+    <Compile Include="frmDeptDiffersTest.vb" />
+    <Compile Include="frmEnvironmentTest.vb" />
+    <Compile Include="frmEstablishmentTest.vb" />
+    <Compile Include="frmInfoRequiredTest.vb" />
+    <Compile Include="frmKodeerTest.vb" />
+    <Compile Include="frmMainTest.vb" />
+    <Compile Include="frmNewUsersTest.vb" />
+    <Compile Include="frmOpenRequestsTest.vb" />
+    <Compile Include="frmReferralsTest.vb" />
+    <Compile Include="frmRemedyBySurnameTest.vb" />
+    <Compile Include="frmResetPasswordTest.vb" />
+    <Compile Include="frmStatsTest.vb" />
+    <Compile Include="frmUsersNotOnEstabTest.vb" />
+    <Compile Include="frmVariationListTest.vb" />
+    <Compile Include="frmVPNadminsTest.vb" />
+    <Compile Include="frmVulExceptionsTest.vb" />
+    <Compile Include="frmWebRequestTest.vb" />
+    <Compile Include="JoinViewRowPropertyDescriptorTest.vb" />
+    <Compile Include="JoinViewRowTest.vb" />
+    <Compile Include="ListViewColumnSorterTest.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="PublicationFactory__Closure%24__1Test.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AuthoringTests.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Shadow Include="Test References\ADAdminDotNet.accessor" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ADAdminConsole.vbproj">
+      <Project>{D50D4A1A-96E6-4B80-92C2-8022F5B5FF90}</Project>
+      <Name>ADAdminConsole</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LocalTestRun.testrunconfig" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

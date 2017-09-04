@@ -1,0 +1,1 @@
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\MiniFTPServer\LibFTPServ\obj\Release\ResolveAssemblyReference.cache

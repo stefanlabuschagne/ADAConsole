@@ -1,0 +1,10 @@
+bin\Debug\PropertyGridDemo.exe
+bin\Debug\PropertyGridDemo.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\PropertyGridDemo.MainForm.resources
+obj\Debug\PropertyGridDemo.Properties.Resources.resources
+obj\Debug\PropertyGridDemo.csproj.GenerateResource.Cache
+obj\Debug\PropertyGridDemo.exe
+obj\Debug\PropertyGridDemo.pdb
+bin\Debug\VS2005Components.dll
+bin\Debug\VS2005Components.pdb

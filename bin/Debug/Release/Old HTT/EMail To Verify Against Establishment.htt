@@ -1,0 +1,48 @@
+<Html>
+	<Head>
+		<Title></Title>
+	    <style type="text/css">
+            .style1
+            {
+                font-family: Verdana;
+                font-size: x-small;
+            }
+        </style>
+	</HEAD>
+	<BODY>
+		<P><font face='Verdana' size='2'>We cannot find Persal Number : <b><FONT color="#0000cc">[[persal_no]]</FONT></b>
+				when using the AD Admin Console Establishment lookup function
+				<BR>
+				<BR>
+				Will you please help us to establish if this person is registered on PERSAL, 
+				thanks.<BR>
+				<BR>
+				NAME : <Font color="#0000cc">[[first_name]]</Font>
+				<BR>
+			</font><font face="Verdana" size="2">
+				<BR>
+				SURNAME : <Font color="#0000cc">[[last_name]]<BR>
+				</FONT>
+				<BR>
+				DEPARTMENT : <Font color="#0000cc">[[dept_code]]</Font>
+				<BR>
+				<BR>
+				NAT/PROV :&nbsp;<FONT color="#0000cc"> [[dept_name]]</Font></Font></P>
+        <P><span class="style1">Comments</span><font face="Verdana" size="2"> :&nbsp;<font 
+                color="#0000cc"> </font></font></P>
+        <P><font face="Verdana" size="2"><font color="#0000cc">[[comments]]<br />
+            <BR>
+				</font></font>&nbsp;<font face="Verdana" size="2"><br>
+				Thanks<br>
+				<br>
+			</font><FONT face="Verdana" size="2">Vulindlela Warehouse Infrastructure Team</FONT></P>
+		<P><Font face="Verdana" size="2"></Font>&nbsp;</P>
+		<P><Font face="Verdana" size="2"></Font>&nbsp;</P>
+		<P><Font face="Verdana" size="2"></Font>&nbsp;</P>
+		<P><Font face="Verdana" size="2"></Font>&nbsp;</P>
+		<P><Font face="Verdana" size="2"></Font>&nbsp;</P>
+		<P><Font face="Verdana" size="2"></Font>&nbsp;</P>
+		<P><Font face="Verdana" size="2"></Font>&nbsp;</P>
+		<P><Font face="Verdana" size="2"></Font>&nbsp;</P>
+	</BODY>
+</HTML>

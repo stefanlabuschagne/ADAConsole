@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:s0="urn:LOG_IN_Request_Tracking_BasicWS__c" targetNamespace="urn:LOG_IN_Request_Tracking_BasicWS__c" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema elementFormDefault="qualified" targetNamespace="urn:LOG_IN_Request_Tracking_BasicWS__c">
+      <xsd:element name="Create" type="s0:InputMapping1" />
+      <xsd:complexType name="InputMapping1">
+        <xsd:sequence>
+          <xsd:element name="Submitter" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Assigned_to" type="xsd:string" />
+          <xsd:element name="Status" type="s0:StatusType" />
+          <xsd:element name="Persal_Number" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Assignee_Group" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Title" type="xsd:string" />
+          <xsd:element minOccurs="0" name="First_Name" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Last_Name" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Telephone" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Department_Name" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Role" type="xsd:string" />
+          <xsd:element name="Request_Type" type="xsd:string" />
+          <xsd:element name="Priority" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Updated_By" type="xsd:string" />
+          <xsd:element name="Long_Description" type="xsd:string" />1
+          <xsd:element name="Project" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Solution" type="xsd:string" />
+          <xsd:element name="Owner" type="xsd:string" />
+          <xsd:element name="Due_Date" type="xsd:dateTime" />
+          <xsd:element minOccurs="0" name="Closed_Date" type="xsd:dateTime" />
+          <xsd:element minOccurs="0" name="FAQ_Number" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Remote_Access_Availability" nillable="true" type="s0:Remote_Access_AvailabilityType" />
+          <xsd:element name="Group" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Request_Log" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Request_History" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Category_1" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Category_2" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispCalcFAQExpiryDate" type="xsd:dateTime" />
+          <xsd:element minOccurs="0" name="zDispClose" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Original_Due_Date" type="xsd:dateTime" />
+          <xsd:element minOccurs="0" name="SCC_Number" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Remote_Access_Usage" nillable="true" type="s0:Remote_Access_UsageType" />
+          <xsd:element minOccurs="0" name="Knowledge_Repository_Usage" nillable="true" type="s0:Remote_Access_UsageType" />
+          <xsd:element minOccurs="0" name="Category_3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Store_Number" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispCheckLog" type="xsd:string" />
+          <xsd:element minOccurs="0" name="WIP_Original_Time" type="xsd:dateTime" />
+          <xsd:element minOccurs="0" name="System_Group" type="xsd:string" />
+          <xsd:element name="Functional_Area" type="xsd:string" />
+          <xsd:element name="Request_Category" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Root_Cause" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispDataFixNo" type="xsd:int" />
+          <xsd:element minOccurs="0" name="Month_End" type="xsd:string" />
+          <xsd:element minOccurs="0" default="0" name="Info_Counter" type="xsd:int" />
+          <xsd:element minOccurs="0" name="Re-Assigned" nillable="true" type="s0:Remote_Access_UsageType" />
+          <xsd:element minOccurs="0" name="Re-Opened" nillable="true" type="s0:Remote_Access_UsageType" />
+          <xsd:element minOccurs="0" name="Last_Status" nillable="true" type="s0:StatusType" />
+          <xsd:element minOccurs="0" name="LOGIS_Usage" nillable="true" type="s0:Remote_Access_UsageType" />
+          <xsd:element minOccurs="0" name="Escalate_" nillable="true" type="s0:Remote_Access_UsageType" />
+          <xsd:element minOccurs="0" name="Rejected" nillable="true" type="s0:Remote_Access_UsageType" />
+          <xsd:element minOccurs="0" name="zDispCharDueDate" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispOffsetHours" type="xsd:int" />
+          <xsd:element minOccurs="0" name="Old_Request_No" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Billing_Code" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Ext_CCF" nillable="true" type="s0:Remote_Access_UsageType" />
+          <xsd:element minOccurs="0" name="Int_CCF" nillable="true" type="s0:Remote_Access_UsageType" />
+          <xsd:element minOccurs="0" name="Keyword" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispFAQTable" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Call_Back_Time" type="xsd:dateTime" />
+          <xsd:element minOccurs="0" name="zDispCheckLogCB" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispEmail" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispInt_" nillable="true" type="s0:zDispInt_Type" />
+          <xsd:element name="Request_Source" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zTrReqExists" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispWebId" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispWebEmail" type="xsd:string" />
+          <xsd:element minOccurs="0" name="WIP_Change_Status" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Attachment_Field_attachmentName" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Attachment_Field_attachmentData" type="xsd:base64Binary" />
+          <xsd:element minOccurs="0" name="Attachment_Field_attachmentOrigSize" type="xsd:int" />
+          <xsd:element minOccurs="0" name="Attachment_Field2_attachmentName" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Attachment_Field2_attachmentData" type="xsd:base64Binary" />
+          <xsd:element minOccurs="0" name="Attachment_Field2_attachmentOrigSize" type="xsd:int" />
+          <xsd:element minOccurs="0" name="Attachment_Field3_attachmentName" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Attachment_Field3_attachmentData" type="xsd:base64Binary" />
+          <xsd:element minOccurs="0" name="Attachment_Field3_attachmentOrigSize" type="xsd:int" />
+          <xsd:element minOccurs="0" name="Attachment_Field4_attachmentName" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Attachment_Field4_attachmentData" type="xsd:base64Binary" />
+          <xsd:element minOccurs="0" name="Attachment_Field4_attachmentOrigSize" type="xsd:int" />
+          <xsd:element minOccurs="0" name="Attachment_Field5_attachmentName" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Attachment_Field5_attachmentData" type="xsd:base64Binary" />
+          <xsd:element minOccurs="0" name="Attachment_Field5_attachmentOrigSize" type="xsd:int" />
+          <xsd:element minOccurs="0" name="Email_Comment" type="xsd:string" />
+          <xsd:element minOccurs="0" name="TopTenReport" nillable="true" type="s0:zDispInt_Type" />
+          <xsd:element minOccurs="0" name="zDispGroup" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Keyword1" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Keyword2" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispLenKey" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Telephone3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Email3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Role3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Rank3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Cellphone3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Extension3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Fax_Number3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Last_Name3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Name" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Initials" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Department_Type3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Department_Name3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Root_Cause2" type="xsd:string" />
+          <xsd:element minOccurs="0" default="None" name="E-Mail" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Attachment_Field6_attachmentName" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Attachment_Field6_attachmentData" type="xsd:base64Binary" />
+          <xsd:element minOccurs="0" name="Attachment_Field6_attachmentOrigSize" type="xsd:int" />
+          <xsd:element minOccurs="0" default="None" name="Customer_Email" type="xsd:string" />
+          <xsd:element minOccurs="0" default="None" name="Submitter_E-Mail" type="xsd:string" />
+          <xsd:element minOccurs="0" default="None" name="Owner_E-Mail" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:simpleType name="StatusType">
+        <xsd:restriction base="xsd:string">
+          <xsd:enumeration value="Logged" />
+          <xsd:enumeration value="Assigned" />
+          <xsd:enumeration value="Work In Progress" />
+          <xsd:enumeration value="Refer To Client" />
+          <xsd:enumeration value="Info Required" />
+          <xsd:enumeration value="Customer Notification" />
+          <xsd:enumeration value="Customer Approval" />
+          <xsd:enumeration value="Closed" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="Remote_Access_AvailabilityType">
+        <xsd:restriction base="xsd:string">
+          <xsd:enumeration value="Active" />
+          <xsd:enumeration value="Inactive" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="Remote_Access_UsageType">
+        <xsd:restriction base="xsd:string">
+          <xsd:enumeration value="No" />
+          <xsd:enumeration value="Yes" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="zDispInt_Type">
+        <xsd:restriction base="xsd:string">
+          <xsd:enumeration value="Yes" />
+          <xsd:enumeration value="No" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:element name="CreateResponse" type="s0:OutputMapping1" />
+      <xsd:complexType name="OutputMapping1">
+        <xsd:sequence>
+          <xsd:element name="Request_No" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="Get" type="s0:InputMapping2" />
+      <xsd:complexType name="InputMapping2">
+        <xsd:sequence>
+          <xsd:element name="Request_No" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="GetResponse" type="s0:OutputMapping2" />
+      <xsd:complexType name="OutputMapping2">
+        <xsd:sequence>
+          <xsd:element name="Request_No" type="xsd:string" />
+          <xsd:element name="Submitter" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Entry_Date" type="xsd:dateTime" />
+          <xsd:element minOccurs="0" name="Assigned_to" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Last_Modified_By" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Updated_Date" type="xsd:dateTime" />
+          <xsd:element name="Status" type="s0:StatusType" />
+          <xsd:element name="Persal_Number" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Status_History" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Assignee_Group" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Title" type="xsd:string" />
+          <xsd:element minOccurs="0" name="First_Name" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Last_Name" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Telephone" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Department_Name" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Role" type="xsd:string" />
+          <xsd:element name="Request_Type" type="xsd:string" />
+          <xsd:element name="Priority" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Updated_By" type="xsd:string" />
+          <xsd:element name="Long_Description" type="xsd:string" />
+          <xsd:element name="Project" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Solution" type="xsd:string" />
+          <xsd:element name="Owner" type="xsd:string" />
+          <xsd:element name="Due_Date" type="xsd:dateTime" />
+          <xsd:element minOccurs="0" name="Closed_Date" type="xsd:dateTime" />
+          <xsd:element minOccurs="0" name="FAQ_Number" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Remote_Access_Availability" nillable="true" type="s0:Remote_Access_AvailabilityType" />
+          <xsd:element name="Group" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Request_Log" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Request_History" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Category_1" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Category_2" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispCalcFAQExpiryDate" type="xsd:dateTime" />
+          <xsd:element minOccurs="0" name="zDispClose" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Original_Due_Date" type="xsd:dateTime" />
+          <xsd:element minOccurs="0" name="SCC_Number" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Remote_Access_Usage" nillable="true" type="s0:Remote_Access_UsageType" />
+          <xsd:element minOccurs="0" name="Knowledge_Repository_Usage" nillable="true" type="s0:Remote_Access_UsageType" />
+          <xsd:element minOccurs="0" name="Category_3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Store_Number" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispCheckLog" type="xsd:string" />
+          <xsd:element minOccurs="0" name="WIP_Original_Time" type="xsd:dateTime" />
+          <xsd:element minOccurs="0" name="System_Group" type="xsd:string" />
+          <xsd:element name="Functional_Area" type="xsd:string" />
+          <xsd:element name="Request_Category" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Root_Cause" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispDataFixNo" type="xsd:int" />
+          <xsd:element minOccurs="0" name="Month_End" type="xsd:string" />
+          <xsd:element minOccurs="0" default="0" name="Info_Counter" type="xsd:int" />
+          <xsd:element minOccurs="0" name="Re-Assigned" nillable="true" type="s0:Remote_Access_UsageType" />
+          <xsd:element minOccurs="0" name="Re-Opened" nillable="true" type="s0:Remote_Access_UsageType" />
+          <xsd:element minOccurs="0" name="Last_Status" nillable="true" type="s0:StatusType" />
+          <xsd:element minOccurs="0" name="LOGIS_Usage" nillable="true" type="s0:Remote_Access_UsageType" />
+          <xsd:element minOccurs="0" name="Escalate_" nillable="true" type="s0:Remote_Access_UsageType" />
+          <xsd:element minOccurs="0" name="Rejected" nillable="true" type="s0:Remote_Access_UsageType" />
+          <xsd:element minOccurs="0" name="zDispCharDueDate" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispOffsetHours" type="xsd:int" />
+          <xsd:element minOccurs="0" name="Old_Request_No" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Billing_Code" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Ext_CCF" nillable="true" type="s0:Remote_Access_UsageType" />
+          <xsd:element minOccurs="0" name="Int_CCF" nillable="true" type="s0:Remote_Access_UsageType" />
+          <xsd:element minOccurs="0" name="Keyword" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispFAQTable" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Call_Back_Time" type="xsd:dateTime" />
+          <xsd:element minOccurs="0" name="zDispCheckLogCB" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispEmail" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispInt_" nillable="true" type="s0:zDispInt_Type" />
+          <xsd:element name="Request_Source" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zTrReqExists" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispWebId" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispWebEmail" type="xsd:string" />
+          <xsd:element minOccurs="0" name="WIP_Change_Status" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Attachment_Field_attachmentName" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Attachment_Field_attachmentData" type="xsd:base64Binary" />
+          <xsd:element minOccurs="0" name="Attachment_Field_attachmentOrigSize" type="xsd:int" />
+          <xsd:element minOccurs="0" name="Attachment_Field2_attachmentName" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Attachment_Field2_attachmentData" type="xsd:base64Binary" />
+          <xsd:element minOccurs="0" name="Attachment_Field2_attachmentOrigSize" type="xsd:int" />
+          <xsd:element minOccurs="0" name="Attachment_Field3_attachmentName" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Attachment_Field3_attachmentData" type="xsd:base64Binary" />
+          <xsd:element minOccurs="0" name="Attachment_Field3_attachmentOrigSize" type="xsd:int" />
+          <xsd:element minOccurs="0" name="Attachment_Field4_attachmentName" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Attachment_Field4_attachmentData" type="xsd:base64Binary" />
+          <xsd:element minOccurs="0" name="Attachment_Field4_attachmentOrigSize" type="xsd:int" />
+          <xsd:element minOccurs="0" name="Attachment_Field5_attachmentName" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Attachment_Field5_attachmentData" type="xsd:base64Binary" />
+          <xsd:element minOccurs="0" name="Attachment_Field5_attachmentOrigSize" type="xsd:int" />
+          <xsd:element minOccurs="0" name="Email_Comment" type="xsd:string" />
+          <xsd:element minOccurs="0" name="TopTenReport" nillable="true" type="s0:zDispInt_Type" />
+          <xsd:element minOccurs="0" name="zDispGroup" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Keyword1" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Keyword2" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispLenKey" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Telephone3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Email3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Role3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Rank3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Cellphone3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Extension3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Fax_Number3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Last_Name3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Name" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Initials" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Department_Type3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Department_Name3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Root_Cause2" type="xsd:string" />
+          <xsd:element minOccurs="0" default="None" name="E-Mail" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Attachment_Field6_attachmentName" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Attachment_Field6_attachmentData" type="xsd:base64Binary" />
+          <xsd:element minOccurs="0" name="Attachment_Field6_attachmentOrigSize" type="xsd:int" />
+          <xsd:element minOccurs="0" default="None" name="Customer_Email" type="xsd:string" />
+          <xsd:element minOccurs="0" default="None" name="Submitter_E-Mail" type="xsd:string" />
+          <xsd:element minOccurs="0" default="None" name="Owner_E-Mail" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="Set" type="s0:InputMapping3" />
+      <xsd:complexType name="InputMapping3">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" default="$USER$" name="Submitter" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Assigned_to" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Status" nillable="true" type="s0:StatusType" />
+          <xsd:element minOccurs="0" name="Persal_Number" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Assignee_Group" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Title" type="xsd:string" />
+          <xsd:element minOccurs="0" name="First_Name" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Last_Name" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Telephone" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Department_Name" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Role" type="xsd:string" />
+          <xsd:element minOccurs="0" default="Problem" name="Request_Type" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Priority" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Updated_By" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Long_Description" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Project" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Solution" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Owner" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Due_Date" type="xsd:dateTime" />
+          <xsd:element minOccurs="0" name="Closed_Date" type="xsd:dateTime" />
+          <xsd:element minOccurs="0" name="FAQ_Number" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Remote_Access_Availability" nillable="true" type="s0:Remote_Access_AvailabilityType" />
+          <xsd:element minOccurs="0" name="Group" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Request_Log" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Request_History" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Category_1" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Category_2" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispCalcFAQExpiryDate" type="xsd:dateTime" />
+          <xsd:element minOccurs="0" name="zDispClose" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Original_Due_Date" type="xsd:dateTime" />
+          <xsd:element minOccurs="0" name="SCC_Number" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Remote_Access_Usage" nillable="true" type="s0:Remote_Access_UsageType" />
+          <xsd:element minOccurs="0" name="Knowledge_Repository_Usage" nillable="true" type="s0:Remote_Access_UsageType" />
+          <xsd:element minOccurs="0" name="Category_3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Store_Number" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispCheckLog" type="xsd:string" />
+          <xsd:element minOccurs="0" name="WIP_Original_Time" type="xsd:dateTime" />
+          <xsd:element minOccurs="0" name="System_Group" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Functional_Area" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Request_Category" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Root_Cause" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispDataFixNo" type="xsd:int" />
+          <xsd:element minOccurs="0" name="Month_End" type="xsd:string" />
+          <xsd:element minOccurs="0" default="0" name="Info_Counter" type="xsd:int" />
+          <xsd:element minOccurs="0" name="Re-Assigned" nillable="true" type="s0:Remote_Access_UsageType" />
+          <xsd:element minOccurs="0" name="Re-Opened" nillable="true" type="s0:Remote_Access_UsageType" />
+          <xsd:element minOccurs="0" name="Last_Status" nillable="true" type="s0:StatusType" />
+          <xsd:element minOccurs="0" name="LOGIS_Usage" nillable="true" type="s0:Remote_Access_UsageType" />
+          <xsd:element minOccurs="0" name="Escalate_" nillable="true" type="s0:Remote_Access_UsageType" />
+          <xsd:element minOccurs="0" name="Rejected" nillable="true" type="s0:Remote_Access_UsageType" />
+          <xsd:element minOccurs="0" name="zDispCharDueDate" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispOffsetHours" type="xsd:int" />
+          <xsd:element minOccurs="0" name="Old_Request_No" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Billing_Code" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Ext_CCF" nillable="true" type="s0:Remote_Access_UsageType" />
+          <xsd:element minOccurs="0" name="Int_CCF" nillable="true" type="s0:Remote_Access_UsageType" />
+          <xsd:element minOccurs="0" name="Keyword" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispFAQTable" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Call_Back_Time" type="xsd:dateTime" />
+          <xsd:element minOccurs="0" name="zDispCheckLogCB" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispEmail" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispInt_" nillable="true" type="s0:zDispInt_Type" />
+          <xsd:element minOccurs="0" name="Request_Source" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zTrReqExists" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispWebId" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispWebEmail" type="xsd:string" />
+          <xsd:element minOccurs="0" name="WIP_Change_Status" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Attachment_Field_attachmentName" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Attachment_Field_attachmentData" type="xsd:base64Binary" />
+          <xsd:element minOccurs="0" name="Attachment_Field_attachmentOrigSize" type="xsd:int" />
+          <xsd:element minOccurs="0" name="Attachment_Field2_attachmentName" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Attachment_Field2_attachmentData" type="xsd:base64Binary" />
+          <xsd:element minOccurs="0" name="Attachment_Field2_attachmentOrigSize" type="xsd:int" />
+          <xsd:element minOccurs="0" name="Attachment_Field3_attachmentName" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Attachment_Field3_attachmentData" type="xsd:base64Binary" />
+          <xsd:element minOccurs="0" name="Attachment_Field3_attachmentOrigSize" type="xsd:int" />
+          <xsd:element minOccurs="0" name="Attachment_Field4_attachmentName" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Attachment_Field4_attachmentData" type="xsd:base64Binary" />
+          <xsd:element minOccurs="0" name="Attachment_Field4_attachmentOrigSize" type="xsd:int" />
+          <xsd:element minOccurs="0" name="Attachment_Field5_attachmentName" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Attachment_Field5_attachmentData" type="xsd:base64Binary" />
+          <xsd:element minOccurs="0" name="Attachment_Field5_attachmentOrigSize" type="xsd:int" />
+          <xsd:element minOccurs="0" name="Email_Comment" type="xsd:string" />
+          <xsd:element minOccurs="0" name="TopTenReport" nillable="true" type="s0:zDispInt_Type" />
+          <xsd:element minOccurs="0" name="zDispGroup" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Keyword1" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Keyword2" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispLenKey" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Telephone3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Email3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Role3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Rank3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Cellphone3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Extension3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Fax_Number3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Last_Name3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Name" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Initials" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Department_Type3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Department_Name3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Root_Cause2" type="xsd:string" />
+          <xsd:element minOccurs="0" default="None" name="E-Mail" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Attachment_Field6_attachmentName" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Attachment_Field6_attachmentData" type="xsd:base64Binary" />
+          <xsd:element minOccurs="0" name="Attachment_Field6_attachmentOrigSize" type="xsd:int" />
+          <xsd:element minOccurs="0" default="None" name="Customer_Email" type="xsd:string" />
+          <xsd:element minOccurs="0" default="None" name="Submitter_E-Mail" type="xsd:string" />
+          <xsd:element minOccurs="0" default="None" name="Owner_E-Mail" type="xsd:string" />
+          <xsd:element name="Request_No" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="SetResponse" type="s0:OutputMapping3" />
+      <xsd:complexType name="OutputMapping3">
+        <xsd:sequence>
+          <xsd:element name="Request_No" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="Service" type="s0:InputMapping4" />
+      <xsd:complexType name="InputMapping4">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" default="$USER$" name="Submitter" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Assigned_to" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Status" nillable="true" type="s0:StatusType" />
+          <xsd:element minOccurs="0" name="Persal_Number" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Assignee_Group" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Title" type="xsd:string" />
+          <xsd:element minOccurs="0" name="First_Name" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Last_Name" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Telephone" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Department_Name" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Role" type="xsd:string" />
+          <xsd:element minOccurs="0" default="Problem" name="Request_Type" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Priority" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Updated_By" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Long_Description" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Project" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Solution" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Owner" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Due_Date" type="xsd:dateTime" />
+          <xsd:element minOccurs="0" name="Closed_Date" type="xsd:dateTime" />
+          <xsd:element minOccurs="0" name="FAQ_Number" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Remote_Access_Availability" nillable="true" type="s0:Remote_Access_AvailabilityType" />
+          <xsd:element minOccurs="0" name="Group" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Request_Log" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Request_History" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Category_1" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Category_2" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispCalcFAQExpiryDate" type="xsd:dateTime" />
+          <xsd:element minOccurs="0" name="zDispClose" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Original_Due_Date" type="xsd:dateTime" />
+          <xsd:element minOccurs="0" name="SCC_Number" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Remote_Access_Usage" nillable="true" type="s0:Remote_Access_UsageType" />
+          <xsd:element minOccurs="0" name="Knowledge_Repository_Usage" nillable="true" type="s0:Remote_Access_UsageType" />
+          <xsd:element minOccurs="0" name="Category_3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Store_Number" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispCheckLog" type="xsd:string" />
+          <xsd:element minOccurs="0" name="WIP_Original_Time" type="xsd:dateTime" />
+          <xsd:element minOccurs="0" name="System_Group" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Functional_Area" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Request_Category" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Root_Cause" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispDataFixNo" type="xsd:int" />
+          <xsd:element minOccurs="0" name="Month_End" type="xsd:string" />
+          <xsd:element minOccurs="0" default="0" name="Info_Counter" type="xsd:int" />
+          <xsd:element minOccurs="0" name="Re-Assigned" nillable="true" type="s0:Remote_Access_UsageType" />
+          <xsd:element minOccurs="0" name="Re-Opened" nillable="true" type="s0:Remote_Access_UsageType" />
+          <xsd:element minOccurs="0" name="Last_Status" nillable="true" type="s0:StatusType" />
+          <xsd:element minOccurs="0" name="LOGIS_Usage" nillable="true" type="s0:Remote_Access_UsageType" />
+          <xsd:element minOccurs="0" name="Escalate_" nillable="true" type="s0:Remote_Access_UsageType" />
+          <xsd:element minOccurs="0" name="Rejected" nillable="true" type="s0:Remote_Access_UsageType" />
+          <xsd:element minOccurs="0" name="zDispCharDueDate" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispOffsetHours" type="xsd:int" />
+          <xsd:element minOccurs="0" name="Old_Request_No" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Billing_Code" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Ext_CCF" nillable="true" type="s0:Remote_Access_UsageType" />
+          <xsd:element minOccurs="0" name="Int_CCF" nillable="true" type="s0:Remote_Access_UsageType" />
+          <xsd:element minOccurs="0" name="Keyword" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispFAQTable" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Call_Back_Time" type="xsd:dateTime" />
+          <xsd:element minOccurs="0" name="zDispCheckLogCB" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispEmail" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispInt_" nillable="true" type="s0:zDispInt_Type" />
+          <xsd:element minOccurs="0" name="Request_Source" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zTrReqExists" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispWebId" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispWebEmail" type="xsd:string" />
+          <xsd:element minOccurs="0" name="WIP_Change_Status" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Attachment_Field_attachmentName" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Attachment_Field_attachmentData" type="xsd:base64Binary" />
+          <xsd:element minOccurs="0" name="Attachment_Field_attachmentOrigSize" type="xsd:int" />
+          <xsd:element minOccurs="0" name="Attachment_Field2_attachmentName" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Attachment_Field2_attachmentData" type="xsd:base64Binary" />
+          <xsd:element minOccurs="0" name="Attachment_Field2_attachmentOrigSize" type="xsd:int" />
+          <xsd:element minOccurs="0" name="Attachment_Field3_attachmentName" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Attachment_Field3_attachmentData" type="xsd:base64Binary" />
+          <xsd:element minOccurs="0" name="Attachment_Field3_attachmentOrigSize" type="xsd:int" />
+          <xsd:element minOccurs="0" name="Attachment_Field4_attachmentName" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Attachment_Field4_attachmentData" type="xsd:base64Binary" />
+          <xsd:element minOccurs="0" name="Attachment_Field4_attachmentOrigSize" type="xsd:int" />
+          <xsd:element minOccurs="0" name="Attachment_Field5_attachmentName" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Attachment_Field5_attachmentData" type="xsd:base64Binary" />
+          <xsd:element minOccurs="0" name="Attachment_Field5_attachmentOrigSize" type="xsd:int" />
+          <xsd:element minOccurs="0" name="Email_Comment" type="xsd:string" />
+          <xsd:element minOccurs="0" name="TopTenReport" nillable="true" type="s0:zDispInt_Type" />
+          <xsd:element minOccurs="0" name="zDispGroup" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Keyword1" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Keyword2" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispLenKey" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Telephone3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Email3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Role3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Rank3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Cellphone3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Extension3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Fax_Number3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Last_Name3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Name" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Initials" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Department_Type3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Department_Name3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Root_Cause2" type="xsd:string" />
+          <xsd:element minOccurs="0" default="None" name="E-Mail" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Attachment_Field6_attachmentName" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Attachment_Field6_attachmentData" type="xsd:base64Binary" />
+          <xsd:element minOccurs="0" name="Attachment_Field6_attachmentOrigSize" type="xsd:int" />
+          <xsd:element minOccurs="0" default="None" name="Customer_Email" type="xsd:string" />
+          <xsd:element minOccurs="0" default="None" name="Submitter_E-Mail" type="xsd:string" />
+          <xsd:element minOccurs="0" default="None" name="Owner_E-Mail" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="ServiceResponse" type="s0:OutputMapping4" />
+      <xsd:complexType name="OutputMapping4">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="Request_No" type="xsd:string" />
+          <xsd:element minOccurs="0" default="$USER$" name="Submitter" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Entry_Date" type="xsd:dateTime" />
+          <xsd:element minOccurs="0" name="Assigned_to" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Last_Modified_By" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Updated_Date" type="xsd:dateTime" />
+          <xsd:element minOccurs="0" name="Status" nillable="true" type="s0:StatusType" />
+          <xsd:element minOccurs="0" name="Persal_Number" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Status_History" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Assignee_Group" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Title" type="xsd:string" />
+          <xsd:element minOccurs="0" name="First_Name" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Last_Name" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Telephone" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Department_Name" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Role" type="xsd:string" />
+          <xsd:element minOccurs="0" default="Problem" name="Request_Type" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Priority" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Updated_By" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Long_Description" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Project" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Solution" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Owner" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Due_Date" type="xsd:dateTime" />
+          <xsd:element minOccurs="0" name="Closed_Date" type="xsd:dateTime" />
+          <xsd:element minOccurs="0" name="FAQ_Number" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Remote_Access_Availability" nillable="true" type="s0:Remote_Access_AvailabilityType" />
+          <xsd:element minOccurs="0" name="Group" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Request_Log" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Request_History" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Category_1" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Category_2" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispCalcFAQExpiryDate" type="xsd:dateTime" />
+          <xsd:element minOccurs="0" name="zDispClose" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Original_Due_Date" type="xsd:dateTime" />
+          <xsd:element minOccurs="0" name="SCC_Number" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Remote_Access_Usage" nillable="true" type="s0:Remote_Access_UsageType" />
+          <xsd:element minOccurs="0" name="Knowledge_Repository_Usage" nillable="true" type="s0:Remote_Access_UsageType" />
+          <xsd:element minOccurs="0" name="Category_3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Store_Number" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispCheckLog" type="xsd:string" />
+          <xsd:element minOccurs="0" name="WIP_Original_Time" type="xsd:dateTime" />
+          <xsd:element minOccurs="0" name="System_Group" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Functional_Area" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Request_Category" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Root_Cause" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispDataFixNo" type="xsd:int" />
+          <xsd:element minOccurs="0" name="Month_End" type="xsd:string" />
+          <xsd:element minOccurs="0" default="0" name="Info_Counter" type="xsd:int" />
+          <xsd:element minOccurs="0" name="Re-Assigned" nillable="true" type="s0:Remote_Access_UsageType" />
+          <xsd:element minOccurs="0" name="Re-Opened" nillable="true" type="s0:Remote_Access_UsageType" />
+          <xsd:element minOccurs="0" name="Last_Status" nillable="true" type="s0:StatusType" />
+          <xsd:element minOccurs="0" name="LOGIS_Usage" nillable="true" type="s0:Remote_Access_UsageType" />
+          <xsd:element minOccurs="0" name="Escalate_" nillable="true" type="s0:Remote_Access_UsageType" />
+          <xsd:element minOccurs="0" name="Rejected" nillable="true" type="s0:Remote_Access_UsageType" />
+          <xsd:element minOccurs="0" name="zDispCharDueDate" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispOffsetHours" type="xsd:int" />
+          <xsd:element minOccurs="0" name="Old_Request_No" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Billing_Code" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Ext_CCF" nillable="true" type="s0:Remote_Access_UsageType" />
+          <xsd:element minOccurs="0" name="Int_CCF" nillable="true" type="s0:Remote_Access_UsageType" />
+          <xsd:element minOccurs="0" name="Keyword" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispFAQTable" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Call_Back_Time" type="xsd:dateTime" />
+          <xsd:element minOccurs="0" name="zDispCheckLogCB" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispEmail" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispInt_" nillable="true" type="s0:zDispInt_Type" />
+          <xsd:element minOccurs="0" name="Request_Source" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zTrReqExists" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispWebId" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispWebEmail" type="xsd:string" />
+          <xsd:element minOccurs="0" name="WIP_Change_Status" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Attachment_Field_attachmentName" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Attachment_Field_attachmentData" type="xsd:base64Binary" />
+          <xsd:element minOccurs="0" name="Attachment_Field_attachmentOrigSize" type="xsd:int" />
+          <xsd:element minOccurs="0" name="Attachment_Field2_attachmentName" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Attachment_Field2_attachmentData" type="xsd:base64Binary" />
+          <xsd:element minOccurs="0" name="Attachment_Field2_attachmentOrigSize" type="xsd:int" />
+          <xsd:element minOccurs="0" name="Attachment_Field3_attachmentName" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Attachment_Field3_attachmentData" type="xsd:base64Binary" />
+          <xsd:element minOccurs="0" name="Attachment_Field3_attachmentOrigSize" type="xsd:int" />
+          <xsd:element minOccurs="0" name="Attachment_Field4_attachmentName" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Attachment_Field4_attachmentData" type="xsd:base64Binary" />
+          <xsd:element minOccurs="0" name="Attachment_Field4_attachmentOrigSize" type="xsd:int" />
+          <xsd:element minOccurs="0" name="Attachment_Field5_attachmentName" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Attachment_Field5_attachmentData" type="xsd:base64Binary" />
+          <xsd:element minOccurs="0" name="Attachment_Field5_attachmentOrigSize" type="xsd:int" />
+          <xsd:element minOccurs="0" name="Email_Comment" type="xsd:string" />
+          <xsd:element minOccurs="0" name="TopTenReport" nillable="true" type="s0:zDispInt_Type" />
+          <xsd:element minOccurs="0" name="zDispGroup" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Keyword1" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Keyword2" type="xsd:string" />
+          <xsd:element minOccurs="0" name="zDispLenKey" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Telephone3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Email3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Role3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Rank3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Cellphone3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Extension3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Fax_Number3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Last_Name3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Name" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Initials" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Department_Type3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Department_Name3" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Root_Cause2" type="xsd:string" />
+          <xsd:element minOccurs="0" default="None" name="E-Mail" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Attachment_Field6_attachmentName" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Attachment_Field6_attachmentData" type="xsd:base64Binary" />
+          <xsd:element minOccurs="0" name="Attachment_Field6_attachmentOrigSize" type="xsd:int" />
+          <xsd:element minOccurs="0" default="None" name="Customer_Email" type="xsd:string" />
+          <xsd:element minOccurs="0" default="None" name="Submitter_E-Mail" type="xsd:string" />
+          <xsd:element minOccurs="0" default="None" name="Owner_E-Mail" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="GetList" type="s0:InputMapping5" />
+      <xsd:complexType name="InputMapping5">
+        <xsd:sequence>
+          <xsd:element name="Qualification" type="xsd:string" />
+          <xsd:element name="startRecord" type="xsd:string" />
+          <xsd:element name="maxLimit" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="GetListResponse" type="s0:OutputMapping5" />
+      <xsd:complexType name="OutputMapping5">
+        <xsd:sequence>
+          <xsd:element maxOccurs="unbounded" name="getListValues">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="Request_No" type="xsd:string" />
+                <xsd:element name="Submitter" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Entry_Date" type="xsd:dateTime" />
+                <xsd:element minOccurs="0" name="Assigned_to" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Last_Modified_By" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Updated_Date" type="xsd:dateTime" />
+                <xsd:element name="Status" type="s0:StatusType" />
+                <xsd:element name="Persal_Number" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Status_History" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Assignee_Group" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Title" type="xsd:string" />
+                <xsd:element minOccurs="0" name="First_Name" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Last_Name" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Telephone" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Department_Name" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Role" type="xsd:string" />
+                <xsd:element name="Request_Type" type="xsd:string" />
+                <xsd:element name="Priority" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Updated_By" type="xsd:string" />
+                <xsd:element name="Long_Description" type="xsd:string" />
+                <xsd:element name="Project" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Solution" type="xsd:string" />
+                <xsd:element name="Owner" type="xsd:string" />
+                <xsd:element name="Due_Date" type="xsd:dateTime" />
+                <xsd:element minOccurs="0" name="Closed_Date" type="xsd:dateTime" />
+                <xsd:element minOccurs="0" name="FAQ_Number" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Remote_Access_Availability" nillable="true" type="s0:Remote_Access_AvailabilityType" />
+                <xsd:element name="Group" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Request_Log" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Request_History" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Category_1" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Category_2" type="xsd:string" />
+                <xsd:element minOccurs="0" name="zDispCalcFAQExpiryDate" type="xsd:dateTime" />
+                <xsd:element minOccurs="0" name="zDispClose" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Original_Due_Date" type="xsd:dateTime" />
+                <xsd:element minOccurs="0" name="SCC_Number" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Remote_Access_Usage" nillable="true" type="s0:Remote_Access_UsageType" />
+                <xsd:element minOccurs="0" name="Knowledge_Repository_Usage" nillable="true" type="s0:Remote_Access_UsageType" />
+                <xsd:element minOccurs="0" name="Category_3" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Store_Number" type="xsd:string" />
+                <xsd:element minOccurs="0" name="zDispCheckLog" type="xsd:string" />
+                <xsd:element minOccurs="0" name="WIP_Original_Time" type="xsd:dateTime" />
+                <xsd:element minOccurs="0" name="System_Group" type="xsd:string" />
+                <xsd:element name="Functional_Area" type="xsd:string" />
+                <xsd:element name="Request_Category" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Root_Cause" type="xsd:string" />
+                <xsd:element minOccurs="0" name="zDispDataFixNo" type="xsd:int" />
+                <xsd:element minOccurs="0" name="Month_End" type="xsd:string" />
+                <xsd:element minOccurs="0" default="0" name="Info_Counter" type="xsd:int" />
+                <xsd:element minOccurs="0" name="Re-Assigned" nillable="true" type="s0:Remote_Access_UsageType" />
+                <xsd:element minOccurs="0" name="Re-Opened" nillable="true" type="s0:Remote_Access_UsageType" />
+                <xsd:element minOccurs="0" name="Last_Status" nillable="true" type="s0:StatusType" />
+                <xsd:element minOccurs="0" name="LOGIS_Usage" nillable="true" type="s0:Remote_Access_UsageType" />
+                <xsd:element minOccurs="0" name="Escalate_" nillable="true" type="s0:Remote_Access_UsageType" />
+                <xsd:element minOccurs="0" name="Rejected" nillable="true" type="s0:Remote_Access_UsageType" />
+                <xsd:element minOccurs="0" name="zDispCharDueDate" type="xsd:string" />
+                <xsd:element minOccurs="0" name="zDispOffsetHours" type="xsd:int" />
+                <xsd:element minOccurs="0" name="Old_Request_No" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Billing_Code" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Ext_CCF" nillable="true" type="s0:Remote_Access_UsageType" />
+                <xsd:element minOccurs="0" name="Int_CCF" nillable="true" type="s0:Remote_Access_UsageType" />
+                <xsd:element minOccurs="0" name="Keyword" type="xsd:string" />
+                <xsd:element minOccurs="0" name="zDispFAQTable" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Call_Back_Time" type="xsd:dateTime" />
+                <xsd:element minOccurs="0" name="zDispCheckLogCB" type="xsd:string" />
+                <xsd:element minOccurs="0" name="zDispEmail" type="xsd:string" />
+                <xsd:element minOccurs="0" name="zDispInt_" nillable="true" type="s0:zDispInt_Type" />
+                <xsd:element name="Request_Source" type="xsd:string" />
+                <xsd:element minOccurs="0" name="zTrReqExists" type="xsd:string" />
+                <xsd:element minOccurs="0" name="zDispWebId" type="xsd:string" />
+                <xsd:element minOccurs="0" name="zDispWebEmail" type="xsd:string" />
+                <xsd:element minOccurs="0" name="WIP_Change_Status" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Attachment_Field_attachmentName" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Attachment_Field_attachmentData" type="xsd:base64Binary" />
+                <xsd:element minOccurs="0" name="Attachment_Field_attachmentOrigSize" type="xsd:int" />
+                <xsd:element minOccurs="0" name="Attachment_Field2_attachmentName" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Attachment_Field2_attachmentData" type="xsd:base64Binary" />
+                <xsd:element minOccurs="0" name="Attachment_Field2_attachmentOrigSize" type="xsd:int" />
+                <xsd:element minOccurs="0" name="Attachment_Field3_attachmentName" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Attachment_Field3_attachmentData" type="xsd:base64Binary" />
+                <xsd:element minOccurs="0" name="Attachment_Field3_attachmentOrigSize" type="xsd:int" />
+                <xsd:element minOccurs="0" name="Attachment_Field4_attachmentName" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Attachment_Field4_attachmentData" type="xsd:base64Binary" />
+                <xsd:element minOccurs="0" name="Attachment_Field4_attachmentOrigSize" type="xsd:int" />
+                <xsd:element minOccurs="0" name="Attachment_Field5_attachmentName" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Attachment_Field5_attachmentData" type="xsd:base64Binary" />
+                <xsd:element minOccurs="0" name="Attachment_Field5_attachmentOrigSize" type="xsd:int" />
+                <xsd:element minOccurs="0" name="Email_Comment" type="xsd:string" />
+                <xsd:element minOccurs="0" name="TopTenReport" nillable="true" type="s0:zDispInt_Type" />
+                <xsd:element minOccurs="0" name="zDispGroup" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Keyword1" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Keyword2" type="xsd:string" />
+                <xsd:element minOccurs="0" name="zDispLenKey" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Telephone3" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Email3" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Role3" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Rank3" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Cellphone3" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Extension3" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Fax_Number3" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Last_Name3" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Name" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Initials" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Department_Type3" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Department_Name3" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Root_Cause2" type="xsd:string" />
+                <xsd:element minOccurs="0" default="None" name="E-Mail" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Attachment_Field6_attachmentName" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Attachment_Field6_attachmentData" type="xsd:base64Binary" />
+                <xsd:element minOccurs="0" name="Attachment_Field6_attachmentOrigSize" type="xsd:int" />
+                <xsd:element minOccurs="0" default="None" name="Customer_Email" type="xsd:string" />
+                <xsd:element minOccurs="0" default="None" name="Submitter_E-Mail" type="xsd:string" />
+                <xsd:element minOccurs="0" default="None" name="Owner_E-Mail" type="xsd:string" />
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="AuthenticationInfo" type="s0:AuthenticationInfo" />
+      <xsd:complexType name="AuthenticationInfo">
+        <xsd:sequence>
+          <xsd:element name="userName" type="xsd:string" />
+          <xsd:element name="password" type="xsd:string" />
+          <xsd:element minOccurs="0" name="authentication" type="xsd:string" />
+          <xsd:element minOccurs="0" name="locale" type="xsd:string" />
+          <xsd:element minOccurs="0" name="timeZone" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ServiceSoapOut">
+    <wsdl:part name="parameters" element="s0:ServiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSoapOut">
+    <wsdl:part name="parameters" element="s0:GetResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateSoapIn">
+    <wsdl:part name="parameters" element="s0:Create" />
+  </wsdl:message>
+  <wsdl:message name="GetListSoapOut">
+    <wsdl:part name="parameters" element="s0:GetListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetListSoapIn">
+    <wsdl:part name="parameters" element="s0:GetList" />
+  </wsdl:message>
+  <wsdl:message name="GetSoapIn">
+    <wsdl:part name="parameters" element="s0:Get" />
+  </wsdl:message>
+  <wsdl:message name="CreateSoapOut">
+    <wsdl:part name="parameters" element="s0:CreateResponse" />
+  </wsdl:message>
+  <wsdl:message name="ARAuthenticate">
+    <wsdl:part name="parameters" element="s0:AuthenticationInfo" />
+  </wsdl:message>
+  <wsdl:message name="SetSoapIn">
+    <wsdl:part name="parameters" element="s0:Set" />
+  </wsdl:message>
+  <wsdl:message name="SetSoapOut">
+    <wsdl:part name="parameters" element="s0:SetResponse" />
+  </wsdl:message>
+  <wsdl:message name="ServiceSoapIn">
+    <wsdl:part name="parameters" element="s0:Service" />
+  </wsdl:message>
+  <wsdl:portType name="PortPortType">
+    <wsdl:operation name="Create">
+      <wsdl:input message="s0:CreateSoapIn" />
+      <wsdl:output message="s0:CreateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get">
+      <wsdl:input message="s0:GetSoapIn" />
+      <wsdl:output message="s0:GetSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Set">
+      <wsdl:input message="s0:SetSoapIn" />
+      <wsdl:output message="s0:SetSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Service">
+      <wsdl:input message="s0:ServiceSoapIn" />
+      <wsdl:output message="s0:ServiceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetList">
+      <wsdl:input message="s0:GetListSoapIn" />
+      <wsdl:output message="s0:GetListSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="PortSoapBinding" type="s0:PortPortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Create">
+      <soap:operation soapAction="urn:LOG_IN_Request_Tracking_BasicWS__c/Create" style="document" />
+      <wsdl:input>
+        <soap:header message="s0:ARAuthenticate" part="parameters" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get">
+      <soap:operation soapAction="urn:LOG_IN_Request_Tracking_BasicWS__c/Get" style="document" />
+      <wsdl:input>
+        <soap:header message="s0:ARAuthenticate" part="parameters" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set">
+      <soap:operation soapAction="urn:LOG_IN_Request_Tracking_BasicWS__c/Set" style="document" />
+      <wsdl:input>
+        <soap:header message="s0:ARAuthenticate" part="parameters" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Service">
+      <soap:operation soapAction="urn:LOG_IN_Request_Tracking_BasicWS__c/Service" style="document" />
+      <wsdl:input>
+        <soap:header message="s0:ARAuthenticate" part="parameters" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetList">
+      <soap:operation soapAction="urn:LOG_IN_Request_Tracking_BasicWS__c/GetList" style="document" />
+      <wsdl:input>
+        <soap:header message="s0:ARAuthenticate" part="parameters" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="LOG_IN_Request_Tracking_BasicWS__cService">
+    <wsdl:port name="PortSoap" binding="s0:PortSoapBinding">
+      <soap:address location="http://prodlgremv1/arsys/services/ARService?server=ProdLGRemV1&amp;webService=LOG_IN_Request_Tracking_BasicWS__c" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

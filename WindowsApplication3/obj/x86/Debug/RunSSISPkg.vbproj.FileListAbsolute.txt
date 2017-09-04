@@ -1,0 +1,12 @@
+C:\_    ExportSecuriyLogs\BI\WindowsApplication3\bin\Debug\WindowsApplication3.exe.config
+C:\_    ExportSecuriyLogs\BI\WindowsApplication3\obj\x86\Debug\RunSSISPkg.vbprojResolveAssemblyReference.cache
+C:\_    ExportSecuriyLogs\BI\WindowsApplication3\obj\x86\Debug\WindowsApplication3.Resources.resources
+C:\_    ExportSecuriyLogs\BI\WindowsApplication3\obj\x86\Debug\RunSSISPkg.vbproj.GenerateResource.Cache
+C:\_    ExportSecuriyLogs\BI\WindowsApplication3\obj\x86\Debug\WindowsApplication3.frmRunSSIS.resources
+C:\_    ExportSecuriyLogs\BI\WindowsApplication3\bin\Debug\WindowsApplication3.exe
+C:\_    ExportSecuriyLogs\BI\WindowsApplication3\bin\Debug\WindowsApplication3.pdb
+C:\_    ExportSecuriyLogs\BI\WindowsApplication3\bin\Debug\WindowsApplication3.xml
+C:\_    ExportSecuriyLogs\BI\WindowsApplication3\obj\x86\Debug\WindowsApplication3.exe
+C:\_    ExportSecuriyLogs\BI\WindowsApplication3\obj\x86\Debug\WindowsApplication3.xml
+C:\_    ExportSecuriyLogs\BI\WindowsApplication3\obj\x86\Debug\WindowsApplication3.pdb
+C:\_    ExportSecuriyLogs\BI\WindowsApplication3\bin\Debug\Microsoft.SqlServer.ManagedDTS.dll

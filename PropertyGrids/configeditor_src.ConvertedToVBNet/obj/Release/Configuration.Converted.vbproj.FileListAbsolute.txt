@@ -1,0 +1,4 @@
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\PropertyGrids\configeditor_src.ConvertedToVBNet\obj\Release\ResolveAssemblyReference.cache
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\PropertyGrids\configeditor_src.ConvertedToVBNet\obj\Release\DotBits.Configuration.DotBits.Configuration.ConfigEditor.resources
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\PropertyGrids\configeditor_src.ConvertedToVBNet\obj\Release\DotBits.Configuration.DotBits.Configuration.CustomClass.resources
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\PropertyGrids\configeditor_src.ConvertedToVBNet\obj\Release\Configuration.Converted.vbproj.GenerateResource.Cache

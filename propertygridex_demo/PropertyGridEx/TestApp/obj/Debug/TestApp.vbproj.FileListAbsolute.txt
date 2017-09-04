@@ -1,0 +1,15 @@
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\propertygridex_demo\PropertyGridEx\TestApp\bin\Debug\books.xml
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\propertygridex_demo\PropertyGridEx\TestApp\bin\Debug\books.xsd
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\propertygridex_demo\PropertyGridEx\TestApp\bin\Debug\TestApp.exe.config
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\propertygridex_demo\PropertyGridEx\TestApp\bin\Debug\TestApp.exe
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\propertygridex_demo\PropertyGridEx\TestApp\bin\Debug\TestApp.pdb
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\propertygridex_demo\PropertyGridEx\TestApp\bin\Debug\TestApp.xml
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\propertygridex_demo\PropertyGridEx\TestApp\bin\Debug\PropertyGridEx.dll
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\propertygridex_demo\PropertyGridEx\TestApp\bin\Debug\PropertyGridEx.xml
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\propertygridex_demo\PropertyGridEx\TestApp\obj\Debug\ResolveAssemblyReference.cache
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\propertygridex_demo\PropertyGridEx\TestApp\obj\Debug\TestApp.frmMain.resources
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\propertygridex_demo\PropertyGridEx\TestApp\obj\Debug\TestApp.Resources.resources
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\propertygridex_demo\PropertyGridEx\TestApp\obj\Debug\TestApp.vbproj.GenerateResource.Cache
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\propertygridex_demo\PropertyGridEx\TestApp\obj\Debug\TestApp.exe
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\propertygridex_demo\PropertyGridEx\TestApp\obj\Debug\TestApp.xml
+C:\a_Source\ADAdminDotNET\ADAdmin.NET3.5\propertygridex_demo\PropertyGridEx\TestApp\obj\Debug\TestApp.pdb

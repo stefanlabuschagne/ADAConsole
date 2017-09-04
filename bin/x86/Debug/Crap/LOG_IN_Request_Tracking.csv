@@ -1,0 +1,117 @@
+"Request_No","Persal_Number","Solution","First_Name","Last_Name","Department_Name","Captured","Due","Long_Description","Group_x","Department_Type","Telephone","E_Mail"
+"(001) 458543","51342111","","Karin","Herbst","Health",2014-07-01T11:27:59,2014-07-03T10:26:57,"Reset Password","Project & User Support","Western Cape","(021) 8504779","karen.herst@westerncape.gov.za"
+"(001) 457671","T0006137","","Ronel","Ilsley","National Treasury",2014-06-26T12:46:59,2014-06-30T11:47:04,"TEST pop-up reqno","Project & User Support","National","(012) 6574334","ronel.ilsley@treasury.gov.za"
+"(001) 457519","26386381","Done","Mahlogonolo","Rakgolela","Basic Education",2014-06-26T09:13:55,2014-06-30T08:13:40,"testing","Project & User Support","National","(012) 3573467","rakgolelamf@hotmail.com"
+"(001) 454097","23309091","Done","Letlhogonolo Eutychus","Sebati","Communications",2014-06-11T11:40:18,2014-06-13T10:37:13,"Reset Password","Project & User Support","National","(012) 4730082","eutychus@gcis.gov.za"
+"(001) 454017","T0005630","","Cobus","Pelzer","Vulindlela Project",2014-06-11T09:19:34,2014-07-11T08:16:04,"QA team - Please QA "All Segments/ Functiona(QA)" on 210. QA history data as well. Please note SANF and Police are not available yet.","Project & User Support","Internal","(012) 6574073","Cobus.Pelzer@treasury.gov.za"
+"(001) 450932","T0003022","","Anton","Martin","Vulindlela Project",2014-05-30T12:11:52,2014-06-03T11:10:53,"Please install SQL server 2008 on 210(QA)","Technical","Internal","(012) 6574325","anton.martin@treasury.gov.za"
+"(001) 447227","10015337","Done","Lolla","Human","Public Service Commission",2014-05-17T08:27:49,2014-05-20T13:30:00,"Reset Password","Project & User Support","National","(012) 3521115","lollah@opsc.gov.za"
+"(001) 443010","(046) 30734","Done","Corne","Erasmus","EC Roads, PW: Graaff-Reinet",2014-05-02T04:42:55,2014-05-05T13:30:00,"Reset Password","Project & User Support","Provincial-EC","(049) 8910318","corne.erasmus@dpw.ecape.gov.za"
+"(001) 439077","T0003034","See email attachment","Wessel","Husselman","Vulindlela",2014-04-11T04:33:38,2014-04-14T13:30:00,"Please add the Defence and SAPS latest data to the FTP server, and amend the processes to move the data to the server when available","Development and Maintenance","Internal","(012) 6574328","Wessel.Husselman@treasury.gov.za"
+"(001) 437072","82521310","","Maditaba","Mokhethi","Education",2014-04-04T07:59:44,2014-04-08T06:57:35,"Im transfered from Department of Health to Department of Education with effect from 04 March 2014. Please provide user with access to Fin for own dept","Project & User Support","Free State","(016) 9739173","m.mokhethi@edu.fs.gov.za"
+"(001) 433535","T0003034","","Wessel","Husselman","Vulindlela",2014-03-24T09:24:06,2014-04-04T08:22:20,"Please:
+1.develop exception reports for departments where the   Programme and sub programme structures on BAS differ from the structures on Persal.
+2. Where will this data be published
+3. User access to these reports
+4. Excel to be used as output
+
+This reports will only be made available in April and will use the latest data received from BAS compared to the latest data received from PERSAL.
+Refer to attached email.
+","Development and Maintenance","Internal","(012) 6574328","Wessel.Husselman@treasury.gov.za"
+"(001) 425565","T0005662","This issue has been attended to since the previous update and works correctly on Johan's PC. needs to be tested now.
+
+Tested by Elaine/Ronel, 
+ Still not working correctly","Elaine","Eybers","Vulindlela Project",2014-02-21T08:39:52,2014-04-24T13:09:47,"User changes Department and record is updated on Remedy and AD, when you sign on to VIP users Department has not changed on VIP. See attached document for screenprints","Technical","Internal","(012) 6574327","elaine.eybers@treasury.gov.za"
+"(001) 419800","T0003022","","Anton","Martin","Vulindlela Project",2014-01-31T12:20:18,2014-02-28T11:19:21,"Please modify the AD Admin console so that it will interface with Remedy using Remedy's version 8.1 Web Service as opposed to the 7.6 API","Technical","Internal","(012) 6574325","anton.martin@treasury.gov.za"
+"(001) 411617","T0005662","","Elaine","Eybers","Vulindlela Project",2014-01-08T11:15:06,2014-06-02T10:15:19,"Counters on AD Console interim system are not functioning and records have to be manually deleted.","Technical","Internal","(012) 6574327","elaine.eybers@treasury.gov.za"
+"(001) 409047","16881052","Done","Matlhodi Regina","Mokhudu","Home Affairs",2013-12-12T11:20:53,2014-01-13T10:50:46,"Reset Password","Project & User Support","National","(012) 4062637","regina.mashishi@dha.gov.za"
+"(001) 402447","T0003034","","Wessel","Husselman","Vulindlela",2013-11-15T08:25:33,2013-11-19T07:13:51,"Please change the name of History to SCOA Version 3 and the Current to SCOA Version 4. Thus Financials==>Downloads, SCOA Version 4, SCOA Version 3==>.
+Please move all the Current Responsibility reports/data, except for 2013/2014, to SCOA Version 3 (History Responsibility).","Development and Maintenance","Internal","(012) 6574328","Wessel.Husselman@treasury.gov.za"
+"(001) 402218","T0003034","","Wessel","Husselman","Vulindlela",2013-11-14T10:31:37,2014-05-30T09:28:38,"Please update and maintain the attached proposed document saved under "V:\Records & Documents_Final\National Treasury\Warehouse\VULIN\HR\Documentation\Metadata"
+
+Charne will copy the latest document as in the directory and apply changes and inform either myself of Michelle, who will copy the "then" latest version to the "Final" document directory again.
+
+Once changes has been made and accepted, the document must be forward to the DPSA.
+
+Please note that this is a working document so the latest date should indicate the latest version
+Refer to attached email","Development and Maintenance","Internal","(012) 6574328","Wessel.Husselman@treasury.gov.za"
+"(001) 374942","T0003034","","Wessel","Husselman","Vulindlela",2013-08-07T07:57:26,2014-06-30T06:56:47,"Please consolidate the history spread sheets (currently per department) for quick reference should Vulindlela receive an Ad hoc request applicable to history years. Please refer to attached email.","Development and Maintenance","Internal","(012) 6574328","Wessel.Husselman@treasury.gov.za"
+"(001) 435279","24520845","","Balanganani","Maphiri","National Treasury",2014-03-28T05:54:35,2014-03-31T14:24:49,"Please supply history Head Count data from 2006 - 2013 in the format as supplied to Jeffrey Smith","Development and Maintenance","National","(012) 3155526","donald.maphiri@treasury.gov.za"
+"(001) 433597","24520845","","Balanganani","Maphiri","National Treasury",2014-03-24T10:07:51,2014-03-26T09:05:45,"Please supply history expenditure data from 2006 - 2013 in the format as supplied to Jeffrey Smith","Development and Maintenance","National","(012) 3155526","donald.maphiri@treasury.gov.za"
+"(001) 417388","91118590","Done","Ndukwane Israel","Masibi","Health",2014-01-24T07:48:02,2014-01-28T06:47:35,"Reset Password","Project & User Support","North West","(018) 3871849","nmasibi@nwpg.gov.za"
+"(001) 394653","12274232","Done","Roelof","Adams","Provincial Treasury",2013-10-17T11:58:03,2013-10-21T10:56:16,"Reset Password","Project & User Support","Northern Cape","(053) 8308387","adamsr@ncpg.gov.za"
+"(001) 385817","24529397","Done","Milano","Nickel","Labour: HQ",2013-09-16T13:17:30,2013-10-14T12:47:09,"Reset Password","Project & User Support","National","(012) 3094879","milano.nickel@labour.gov.za"
+"(001) 385394","53970756","Done","Landiwe","Mpuku","Health",2013-09-13T08:50:09,2013-09-17T07:49:41,"Reset Password","Project & User Support","Eastern Cape","(047) 5029079","landiwe.mpu@impilo.gov.za"
+"(001) 384664","23042575","Done","Letsepa","Pakkies","National Treasury",2013-09-11T09:51:01,2013-09-13T08:50:32,"Reset Password","Project & User Support","National","(012) 3956656","letsepa.pakkies@treasury.gov.za"
+"(001) 368787","82449651","Done","Faith Mhloti","Shitlhelana","Finance",2013-07-16T09:13:57,2013-08-13T08:40:16,"Reset Password","Project & User Support","Mpumalanga","(013) 7664425","fmshitlh@mpg.gov.za"
+"(001) 457351","T0006137","fixed and tested by Ronel","Ronel","Ilsley","National Treasury",2014-06-26T05:49:53,2014-06-27T14:11:48,"Client has access to dpe (Public Enterprises) but in the tree structure he can access dperf(Performance Monitoring And Evaluation) as well. AD is correct, but tree structure on HR applications is incorrect. Refer to attached email.","Technical","National","(012) 6574334","ronel.ilsley@treasury.gov.za"
+"(001) 444975","T0003022","Working through the code on the VIP to see what information currently gets logged to see if it is possible to get the report requested
+
+Planning a SSIS package to import data, to produce a report.
+
+Got info from Johan and writing a script to produce the possible output
+
+Need to add a column that to indicate the level of the hierarchy and test and then its done
+
+Read up on CTE EXpresions to\create a hierarchy for a treeview report.
+
+Does not seem to be available in MS SQl 2000 
+
+http://technet.microsoft.com/en-us/library/ms190766(v=sql.105).aspx
+
+
+•	Generate month end report 
+•	Upgrade Firefox on my pc 
+•	Dowload and Install, Firefox debugging environment toolset.
+o	JsonView
+o	FireBug AddIn
+o	JSLint http://www.jslint.com/
+o	Closure Compiler
+o	QUnit
+o	FireQuey
+•	Read a JQuery eBooks  http://www.it-ebooks.info/","Anton","Martin","Vulindlela Project",2014-05-09T11:55:04,2014-05-13T10:47:55,"Create a summary report of the usage of all the reporting applications (HTML reports). Refer to attached email for example","Technical","Internal","(012) 6574325","anton.martin@treasury.gov.za"
+"(001) 436784","T0003034","Added Job Title to HR Oversight Leave Downloads SAS Dataset, as well as Normal Leave Downloads SAS Datasets for 2014 and 2013. Re-assigning to Ian Petersen to add to the download programmes.","Wessel","Husselman","Vulindlela",2014-04-03T07:55:55,2014-04-25T06:54:30,"Please add "Job Title" to the Leave download file. Wessel approved it.","Development and Maintenance","Internal","(012) 6574328","Wessel.Husselman@treasury.gov.za"
+"(001) 386512","T0005662","This will be implemented simultaneously with AdAdmin Console changes of the same","Elaine","Eybers","Vulindlela Project",2013-09-18T08:02:58,2014-06-02T07:01:18,"Please change the new user registration form as attached document, (Tickboxes). Please refer to requets 1386515, where changes were completed on QA by Stefan .","Technical","Internal","(012) 6574327","elaine.eybers@treasury.gov.za"
+"(000) 830043","13038010","","Johan","Vermeulen","National Treasury",2008-04-23T12:38:08,2014-09-30T12:01:08,"Investigate if all the PERSAL information (reports and downloads) currently populated with the current PERSAL work files can be populated with the PERSAL MIS files (Are all the fields we receive currently available on the MIS).
+
+ 
+","Technical","National","(012) 6574316","johan.vermeulen@treasury.gov.za"
+"(001) 449957","T0004010","Done and tested and implemented.","Charne","Schoeman","Vulindlela Project",2014-05-28T06:06:00,2014-05-29T14:29:29,"Add HR Oversight Reports 2012/2013, 2013/2014, 2014/2015 & HR Oversight Detail Data 2012/2013, 2013/2014, 2014/2015 Applications on 210 as well as 8080. Please omit the years before 2008/2009.","Technical","Internal","(012) 6574175","charne.schoeman@treasury.gov.za"
+"(001) 301948","T0003034","Currently investigating new technologies on IE8 and Win 7 to possibly implement as part of "refresh solution". JQUERY-UI, VS2012, MVC4, EF5.0
+
+????
+
+This thing is older than 12 Months..............","Wessel","Husselman","Vulindlela",2012-11-15T14:12:58,2012-11-19T13:11:13,"Investigate and assist the Persal team to "re-new" the current Persal web (intranet) application. 
+
+The investigation will be to determine if we have the "skills" needed to do the renewal. Once this has been determined, the tasks to be delivered will be listed and specked.
+
+Anton will be the communication point from Vulindlela side and Stephen from the Persal side. Refer to attached email
+","Technical","Internal","(012) 6574328","Wessel.Husselman@treasury.gov.za"
+"(001) 458886","16002431","CFO letter send to Jan Gilliland for approval on 02/07/2014","Joyce Ditsietsi","Morabe","Mineral Resources",2014-07-02T10:38:11,2014-07-04T09:38:19,"Please note that I would appreciate to have access to Finance, SCM and HR information for all National department because as the Chief Director Finance and SCM my work requires me to do inter-departmental comparative analysis of financial and HR information.
+I would appreciate if you could accede to my request.","Project & User Support","National","(012) 4443112","ditsietsi.morabe@dmr.gov.za"
+"(001) 458625","54063078","CFO Letter for Approval sent to Patrys van Wyk on 02/07/2014","Mxolisi","Kanguwe","Provincial Treasury",2014-07-02T04:46:38,2014-07-03T13:30:00,"Please note that I am employed in an oversight office of Provincial Treasury and therefore need provincial access to the financial reports","Project & User Support","Northern Cape","(053) 8308271","mkanguwe@ncpg.gov.za"
+"(001) 458578","22388133","CFO Letter sent to Ashnee Singh on 01/07/2014","Talent","Mpungose","VOTE 13: SOCIAL DEVELOPMENT",2014-07-01T12:36:35,2014-07-03T11:36:04,"Needs Additional Access to HR","Project & User Support","KWAZULU NATAL","(031) 3368722","ntantoyenkosi.mpungose@kznsocdev.gov.za"
+"(001) 458481","91285208","CFO letter sent to Mr Harry Moshao for approval on 01/07/2014","Goitseone","Modisane","Finance",2014-07-01T08:59:22,2014-07-03T07:58:33,"To have access to provincial budget v/s expenditure reports.","Project & User Support","North West","(018) 3882362","gmodisane@nwpg.gov.za"
+"(001) 457723","82844046","CFO letter send to Mr Jan Gilliland on 20140627 for approval.","Mojalodi","Mphahlele","Correctional Services",2014-06-27T05:21:49,2014-07-11T13:50:24,"I need access to provincial budget information as one of my responsibilities is provincial budget monitoring.","Project & User Support","National","(012) 3072763","mojalodi.mphahlele@dcs.gov.za"
+"(001) 457090","62451812","CFO letter send to Mr Mkhize on 25/06/2014 for approval","Precious","Simelane","VOTE 07: HEALTH",2014-06-25T07:45:21,2014-07-09T06:45:40,"May I request HR and SCM be added on my application since I am responsible for both Finance and SCM. My duties also demand HR information on daily basis, so it will make my life easier if I can get access to HR.","Project & User Support","KWAZULU NATAL","(035) 5721327","dumisile.simelane@kznhealth.gov.za"
+"(001) 455842","22664891","CFO letter send to Ms Cathy Motsisi for approval on 20140619 for approval.","Ngaletsane Fortunate","Motlhasedi","Public Works",2014-06-19T12:59:23,2014-07-03T11:58:46,"Person has transferred to  Public Works. Transaction updated 20140606. I need Financial access as well as HR.","Project & User Support","National","(012) 4061541","fortunate.motlhasedi@dpw.gov.za"
+"(001) 455521","91314496","CFO Letter for Approval sent to Harry Mashao on 19/06","Stanley","Mampana","Finance",2014-06-19T05:06:57,2014-06-20T13:37:07,"Please allow me access to all Departments since i will be monitoring Provincial expenditure and revenue.","Project & User Support","North West","(018) 3883555","smampana@nwpg.gov.za"
+"(001) 458566","19269757","CFO letter for approval sent to Jan Gilliland on 01/07/2014.
+Approval Received from Jan Gilliland on 01/07/2014","Mashudu","Bidzha","National Treasury",2014-07-01T12:18:35,2014-07-01T14:24:21,"I’m a newly appointed Senior Budget Analyst in Public Finance within the Justice and Protection Services Chief Directorate and would like to have access to the budgets of the following national votes or departments:
+
+Vote 21: Correctional Services;
+Vote 23: Independent Police Investigative Directorate;
+Vote 24: Justice and Constitutional Development;
+Vote 25: Police; 
+Vote 10: National Treasury; and 
+National Prosecuting Authority (NPA).
+
+Please note that I already have access to Vulindlela with the username of P19269757 since I was in budgets at Mpumalanga Department of Health.","Project & User Support","National","(012) 3155344","mashudu.Bidzha@treasury.gov.za"
+"(001) 454079","T0003022","Done","Anton","Martin","Vulindlela Project",2014-06-11T11:05:27,2014-06-18T14:13:12,"Please change the fin folder on the FTP server on 10.123.45.190 so that Jeffery's userid (FTP_TEST_NT@vulprd.pwv.gov.za?) can create directories and move files around. Refer to attached email","Technical","Internal","(012) 6574325","anton.martin@treasury.gov.za"
+"(001) 453091","13515632","Done","Phillip","Dyonase","VOTE 08: RURAL DEVELOPMENT AND AGRARIAN REFORM",2014-06-09T07:37:07,2014-06-09T09:05:11,"Fin for own dept  ( waiting for the user to apply with official email adress)
+","Project & User Support","EASTERN CAPE","(040) 6093048","pdyonase@webmail.co.za"
+"(001) 447703","T0008005","Jan Visser's department","Masaila","Nale","Vulindlela Project",2014-05-20T06:44:58,2014-05-28T11:35:21,"Option for sending an email on remedy do not appear when i right click","Technical","Internal","(012) 6574196","masaila.nale@treasury.gov.za"
+"(001) 454066","82832897","Done","Jonas","Makgoba","Office of the Premier",2014-06-11T10:35:44,2014-06-13T09:35:29,"Fin for own Dep","Project & User Support","Limpopo","(015) 2876089","makgobaj@premier.limpopo.gov.za"
+"(001) 453004","18794211","Done","Anestine","Jaer","Correctional Services",2014-06-09T05:07:20,2014-06-09T06:09:06,"Additional Access to SCM","Project & User Support","National","(044) 2728951","anestine.jaer@dcs.gov.za"
+"(001) 449048","51156784","Done","Melvin","Leonard","Transport and Public Works",2014-05-23T11:12:11,2014-05-27T10:12:56,"Reset Password","Project & User Support","Western Cape","(021) 4836941","melvinpatrick.leonard@westerncape.gov.za"
+"(001) 447694","T0008005","Fixed in the next release","Masaila","Nale","Vulindlela Project",2014-05-20T06:30:40,2014-05-22T05:29:51,"New user registration and Reset Password does not populate on Remedy","Technical","Internal","(012) 6574196","masaila.nale@treasury.gov.za"

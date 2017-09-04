@@ -1,0 +1,761 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns:cl="http://schemas.microsoft.com/sqlserver/reporting/2010/01/componentdefinition" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/reportdefinition">
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="BMC_ARsystem">
+      <Transaction>true</Transaction>
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString>Data Source=10.123.216.102\SQL2005;Initial Catalog=ARSystem</ConnectString>
+      </ConnectionProperties>
+      <rd:SecurityType>DataBase</rd:SecurityType>
+      <rd:DataSourceID>2d2c3f6d-0e3f-4829-b18a-80950d2e8514</rd:DataSourceID>
+    </DataSource>
+    <DataSource Name="VULQA">
+      <ConnectionProperties>
+        <DataProvider>OLEDB</DataProvider>
+        <ConnectString>Provider=SQLOLEDB.1;Data Source=10.123.45.210;Initial Catalog=ADS</ConnectString>
+      </ConnectionProperties>
+      <rd:SecurityType>DataBase</rd:SecurityType>
+      <rd:DataSourceID>f8ab33d6-4e0d-4f22-a773-1db3c6efced4</rd:DataSourceID>
+    </DataSource>
+    <DataSource Name="prodlgsqlv1">
+      <ConnectionProperties>
+        <DataProvider>OLEDB</DataProvider>
+        <ConnectString>Provider=SQLOLEDB.1;Data Source=prodlgsqlv1\SQL2012;Initial Catalog=ARSystem</ConnectString>
+        <IntegratedSecurity>true</IntegratedSecurity>
+      </ConnectionProperties>
+      <rd:SecurityType>Integrated</rd:SecurityType>
+      <rd:DataSourceID>216470cc-b2ec-4e4f-af38-37d64f58ddbf</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="Request_Tracking">
+      <Query>
+        <DataSourceName>BMC_ARsystem</DataSourceName>
+        <CommandText>SELECT
+  LOG_IN_Request_Tracking.Request_No
+  ,LOG_IN_Request_Tracking.Submitter
+  ,LOG_IN_Request_Tracking.Entry_Date
+  ,LOG_IN_Request_Tracking.Assigned_to
+  ,LOG_IN_Request_Tracking.Last_Modified_By
+  ,LOG_IN_Request_Tracking.Updated_Date
+  ,LOG_IN_Request_Tracking.Status
+  ,LOG_IN_Request_Tracking.Persal_Number
+  ,LOG_IN_Request_Tracking.Assignee_Group
+  ,LOG_IN_Request_Tracking.Request_Type
+  ,LOG_IN_Request_Tracking.Priority
+  ,LOG_IN_Request_Tracking.Updated_By
+  ,LOG_IN_Request_Tracking.Long_Description
+  ,LOG_IN_Request_Tracking.Project
+  ,LOG_IN_Request_Tracking.Solution
+  ,LOG_IN_Request_Tracking.Owner
+  ,LOG_IN_Request_Tracking.Due_Date
+  ,LOG_IN_Request_Tracking.Closed_Date
+  ,LOG_IN_Request_Tracking.FAQ_Number
+  ,LOG_IN_Request_Tracking.Group_x
+  ,LOG_IN_Request_Tracking.Request_Log
+  ,LOG_IN_Request_Tracking.Request_History
+  ,LOG_IN_Request_Tracking.Original_Due_Date
+  ,LOG_IN_Request_Tracking.SCC_Number
+  ,LOG_IN_Request_Tracking.Remote_Access_Usage
+  ,LOG_IN_Request_Tracking.Knowledge_Repository_Usage
+  ,LOG_IN_Request_Tracking.Store_Number
+  ,LOG_IN_Request_Tracking.WIP_Original_Time
+  ,LOG_IN_Request_Tracking.System_Group
+  ,LOG_IN_Request_Tracking.Functional_Area
+  ,LOG_IN_Request_Tracking.Request_Category
+  ,LOG_IN_Request_Tracking.Root_Cause
+  ,LOG_IN_Request_Tracking.Month_End
+  ,LOG_IN_Request_Tracking.Info_Counter
+  ,LOG_IN_Request_Tracking.Re_Assigned
+  ,LOG_IN_Request_Tracking.Re_Opened
+  ,LOG_IN_Request_Tracking.Last_Status
+  ,LOG_IN_Request_Tracking.LOGIS_Usage
+  ,LOG_IN_Request_Tracking.Escalate_
+  ,LOG_IN_Request_Tracking.Rejected
+  ,LOG_IN_Request_Tracking.Old_Request_No
+  ,LOG_IN_Request_Tracking.Ext_CCF
+  ,LOG_IN_Request_Tracking.Int_CCF
+  ,LOG_IN_Request_Tracking.Call_Back_Time
+  ,LOG_IN_Request_Tracking.Request_Source
+  ,LOG_IN_Request_Tracking.zTrReqExists
+  ,LOG_IN_Request_Tracking.WIP_Change_Status
+  ,LOG_IN_Request_Tracking.Attachment_Field
+  ,LOG_IN_Request_Tracking.Attachment_Field2
+  ,LOG_IN_Request_Tracking.Attachment_Field3
+  ,LOG_IN_Request_Tracking.Attachment_Field4
+  ,LOG_IN_Request_Tracking.Attachment_Field5
+  ,LOG_IN_Request_Tracking.TopTenReport
+  ,LOG_IN_Request_Tracking.Telephone3
+  ,LOG_IN_Request_Tracking.Email3
+  ,LOG_IN_Request_Tracking.Role3
+  ,LOG_IN_Request_Tracking.Rank3
+  ,LOG_IN_Request_Tracking.Cellphone3
+  ,LOG_IN_Request_Tracking.Extension3
+  ,LOG_IN_Request_Tracking.Fax_Number3
+  ,LOG_IN_Request_Tracking.Last_Name3
+  ,LOG_IN_Request_Tracking.Name
+  ,LOG_IN_Request_Tracking.Initials
+  ,LOG_IN_Request_Tracking.Department_Type3
+  ,LOG_IN_Request_Tracking.Department_Name3
+  ,LOG_IN_Request_Tracking.Root_Cause2
+  ,LOG_IN_Request_Tracking.E_Mail
+  ,LOG_IN_Request_Tracking.Attachment_Field6
+  ,LOG_IN_Request_Tracking.Customer_Email
+  ,LOG_IN_Request_Tracking.Submitter_E_Mail
+  ,LOG_IN_Request_Tracking.Owner_E_Mail
+FROM
+  LOG_IN_Request_Tracking</CommandText>
+        <rd:DesignerState><QueryDefinition xmlns="http://schemas.microsoft.com/ReportingServices/QueryDefinition/Relational"><SelectedColumns><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Request_No" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Submitter" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Entry_Date" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Assigned_to" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Last_Modified_By" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Updated_Date" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Status" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Persal_Number" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Assignee_Group" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Request_Type" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Priority" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Updated_By" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Long_Description" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Project" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Solution" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Owner" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Due_Date" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Closed_Date" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="FAQ_Number" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Group_x" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Request_Log" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Request_History" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Original_Due_Date" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="SCC_Number" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Remote_Access_Usage" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Knowledge_Repository_Usage" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Store_Number" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="WIP_Original_Time" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="System_Group" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Functional_Area" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Request_Category" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Root_Cause" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Month_End" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Info_Counter" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Re_Assigned" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Re_Opened" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Last_Status" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="LOGIS_Usage" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Escalate_" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Rejected" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Old_Request_No" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Ext_CCF" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Int_CCF" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Call_Back_Time" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Request_Source" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="zTrReqExists" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="WIP_Change_Status" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Attachment_Field" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Attachment_Field2" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Attachment_Field3" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Attachment_Field4" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Attachment_Field5" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="TopTenReport" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Telephone3" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Email3" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Role3" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Rank3" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Cellphone3" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Extension3" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Fax_Number3" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Last_Name3" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Name" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Initials" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Department_Type3" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Department_Name3" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Root_Cause2" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="E_Mail" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Attachment_Field6" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Customer_Email" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Submitter_E_Mail" /><ColumnExpression ColumnOwner="LOG_IN_Request_Tracking" ColumnName="Owner_E_Mail" /></SelectedColumns></QueryDefinition></rd:DesignerState>
+      </Query>
+      <Fields>
+        <Field Name="Request_No">
+          <DataField>Request_No</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Submitter">
+          <DataField>Submitter</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Entry_Date">
+          <DataField>Entry_Date</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Assigned_to">
+          <DataField>Assigned_to</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Last_Modified_By">
+          <DataField>Last_Modified_By</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Updated_Date">
+          <DataField>Updated_Date</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Status">
+          <DataField>Status</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Persal_Number">
+          <DataField>Persal_Number</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Assignee_Group">
+          <DataField>Assignee_Group</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Request_Type">
+          <DataField>Request_Type</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Priority">
+          <DataField>Priority</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Updated_By">
+          <DataField>Updated_By</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Long_Description">
+          <DataField>Long_Description</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Project">
+          <DataField>Project</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Solution">
+          <DataField>Solution</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Owner">
+          <DataField>Owner</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Due_Date">
+          <DataField>Due_Date</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Closed_Date">
+          <DataField>Closed_Date</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="FAQ_Number">
+          <DataField>FAQ_Number</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Group_x">
+          <DataField>Group_x</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Request_Log">
+          <DataField>Request_Log</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Request_History">
+          <DataField>Request_History</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Original_Due_Date">
+          <DataField>Original_Due_Date</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="SCC_Number">
+          <DataField>SCC_Number</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Remote_Access_Usage">
+          <DataField>Remote_Access_Usage</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Knowledge_Repository_Usage">
+          <DataField>Knowledge_Repository_Usage</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Store_Number">
+          <DataField>Store_Number</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="WIP_Original_Time">
+          <DataField>WIP_Original_Time</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="System_Group">
+          <DataField>System_Group</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Functional_Area">
+          <DataField>Functional_Area</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Request_Category">
+          <DataField>Request_Category</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Root_Cause">
+          <DataField>Root_Cause</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Month_End">
+          <DataField>Month_End</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Info_Counter">
+          <DataField>Info_Counter</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Re_Assigned">
+          <DataField>Re_Assigned</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Re_Opened">
+          <DataField>Re_Opened</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Last_Status">
+          <DataField>Last_Status</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="LOGIS_Usage">
+          <DataField>LOGIS_Usage</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Escalate_">
+          <DataField>Escalate_</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Rejected">
+          <DataField>Rejected</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Old_Request_No">
+          <DataField>Old_Request_No</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Ext_CCF">
+          <DataField>Ext_CCF</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Int_CCF">
+          <DataField>Int_CCF</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Call_Back_Time">
+          <DataField>Call_Back_Time</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Request_Source">
+          <DataField>Request_Source</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="zTrReqExists">
+          <DataField>zTrReqExists</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="WIP_Change_Status">
+          <DataField>WIP_Change_Status</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Attachment_Field">
+          <DataField>Attachment_Field</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Attachment_Field2">
+          <DataField>Attachment_Field2</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Attachment_Field3">
+          <DataField>Attachment_Field3</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Attachment_Field4">
+          <DataField>Attachment_Field4</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Attachment_Field5">
+          <DataField>Attachment_Field5</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="TopTenReport">
+          <DataField>TopTenReport</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Telephone3">
+          <DataField>Telephone3</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Email3">
+          <DataField>Email3</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Role3">
+          <DataField>Role3</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Rank3">
+          <DataField>Rank3</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Cellphone3">
+          <DataField>Cellphone3</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Extension3">
+          <DataField>Extension3</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Fax_Number3">
+          <DataField>Fax_Number3</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Last_Name3">
+          <DataField>Last_Name3</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Name">
+          <DataField>Name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Initials">
+          <DataField>Initials</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Department_Type3">
+          <DataField>Department_Type3</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Department_Name3">
+          <DataField>Department_Name3</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Root_Cause2">
+          <DataField>Root_Cause2</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="E_Mail">
+          <DataField>E_Mail</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Attachment_Field6">
+          <DataField>Attachment_Field6</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Customer_Email">
+          <DataField>Customer_Email</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Submitter_E_Mail">
+          <DataField>Submitter_E_Mail</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Owner_E_Mail">
+          <DataField>Owner_E_Mail</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <Filters>
+        <Filter>
+          <FilterExpression>=Fields!Project.Value</FilterExpression>
+          <Operator>Equal</Operator>
+          <FilterValues>
+            <FilterValue>='VULINDLELA'</FilterValue>
+          </FilterValues>
+        </Filter>
+      </Filters>
+    </DataSet>
+    <DataSet Name="Prodlgsqlv1_Data">
+      <Query>
+        <DataSourceName>prodlgsqlv1</DataSourceName>
+        <CommandText>/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP 1000 [Customer_Details_ID]
+      ,[Submitter]
+      ,[Create_Date]
+      ,[Store_No]
+      ,[Last_Modified_By]
+      ,[Modified_Date]
+      ,[Status]
+      ,[Persal_No]
+      ,[PC_Operating_System]
+      ,[System_Group]
+      ,[Birthdate]
+      ,[Room_Number]
+      ,[Building]
+      ,[Street]
+      ,[Suburb]
+      ,[City]
+      ,[Province]
+      ,[Postal_Code]
+      ,[Monitor_Resolution]
+      ,[CPU_Speed]
+      ,[RAM]
+      ,[Free_Disk_Space]
+      ,[CD_ROM_Speed]
+      ,[PC_IP_Address]
+      ,[Client_Installation_Version]
+      ,[SAS_Installation_Version]
+      ,[IT_Director]
+      ,[IT_Director_Telephone]
+      ,[IT_Director_Fax]
+      ,[IT_Director_Email]
+      ,[IT_Contact]
+      ,[IT_Contact_Telephone]
+      ,[IT_Contact_Fax]
+      ,[IT_Contact_Email]
+      ,[Server_IP_Address]
+      ,[Server_Name]
+      ,[Server_Operating_System]
+      ,[Browser_Type]
+      ,[Govnet]
+      ,[Bandwidth]
+      ,[Training_Date]
+      ,[Date_Licence_Received]
+      ,[Installed_By]
+      ,[Installation_Date]
+      ,[IT_Contact_Cellphone]
+      ,[Vulindlela_Contact]
+      ,[Vulindlela_Contact_Telephone]
+      ,[Training_Site]
+      ,[Network_IP]
+      ,[MonthBirth]
+      ,[DayBirth]
+      ,[MonthTS]
+      ,[DayTS]
+  FROM [ARSystem].[dbo].[LOG_DM_Customer_Details]
+  WHERE  [System_Group] like '%VULINDLELA%' and ([Persal_No] like 'T000%')</CommandText>
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+      </Query>
+      <Fields>
+        <Field Name="Customer_Details_ID">
+          <DataField>Customer_Details_ID</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Submitter">
+          <DataField>Submitter</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Create_Date">
+          <DataField>Create_Date</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Store_No">
+          <DataField>Store_No</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Last_Modified_By">
+          <DataField>Last_Modified_By</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Modified_Date">
+          <DataField>Modified_Date</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Status">
+          <DataField>Status</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Persal_No">
+          <DataField>Persal_No</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PC_Operating_System">
+          <DataField>PC_Operating_System</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="System_Group">
+          <DataField>System_Group</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Birthdate">
+          <DataField>Birthdate</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Room_Number">
+          <DataField>Room_Number</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Building">
+          <DataField>Building</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Street">
+          <DataField>Street</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Suburb">
+          <DataField>Suburb</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="City">
+          <DataField>City</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Province">
+          <DataField>Province</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Postal_Code">
+          <DataField>Postal_Code</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Monitor_Resolution">
+          <DataField>Monitor_Resolution</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CPU_Speed">
+          <DataField>CPU_Speed</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="RAM">
+          <DataField>RAM</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Free_Disk_Space">
+          <DataField>Free_Disk_Space</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CD_ROM_Speed">
+          <DataField>CD_ROM_Speed</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PC_IP_Address">
+          <DataField>PC_IP_Address</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Client_Installation_Version">
+          <DataField>Client_Installation_Version</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="SAS_Installation_Version">
+          <DataField>SAS_Installation_Version</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IT_Director">
+          <DataField>IT_Director</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IT_Director_Telephone">
+          <DataField>IT_Director_Telephone</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IT_Director_Fax">
+          <DataField>IT_Director_Fax</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IT_Director_Email">
+          <DataField>IT_Director_Email</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IT_Contact">
+          <DataField>IT_Contact</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IT_Contact_Telephone">
+          <DataField>IT_Contact_Telephone</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IT_Contact_Fax">
+          <DataField>IT_Contact_Fax</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IT_Contact_Email">
+          <DataField>IT_Contact_Email</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Server_IP_Address">
+          <DataField>Server_IP_Address</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Server_Name">
+          <DataField>Server_Name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Server_Operating_System">
+          <DataField>Server_Operating_System</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Browser_Type">
+          <DataField>Browser_Type</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Govnet">
+          <DataField>Govnet</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Bandwidth">
+          <DataField>Bandwidth</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Training_Date">
+          <DataField>Training_Date</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Date_Licence_Received">
+          <DataField>Date_Licence_Received</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Installed_By">
+          <DataField>Installed_By</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Installation_Date">
+          <DataField>Installation_Date</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="IT_Contact_Cellphone">
+          <DataField>IT_Contact_Cellphone</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Vulindlela_Contact">
+          <DataField>Vulindlela_Contact</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Vulindlela_Contact_Telephone">
+          <DataField>Vulindlela_Contact_Telephone</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Training_Site">
+          <DataField>Training_Site</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Network_IP">
+          <DataField>Network_IP</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="MonthBirth">
+          <DataField>MonthBirth</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="DayBirth">
+          <DataField>DayBirth</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="MonthTS">
+          <DataField>MonthTS</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="DayTS">
+          <DataField>DayTS</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
+  </DataSets>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <ReportItems>
+          <Textbox Name="Customer_Details_ID">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=First(Fields!Customer_Details_ID.Value, "Prodlgsqlv1_Data")</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Customer_Details_ID</rd:DefaultName>
+            <Top>0.97578cm</Top>
+            <Left>0.89641cm</Left>
+            <Height>0.6cm</Height>
+            <Width>2.5cm</Width>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+        </ReportItems>
+        <Height>57.15mm</Height>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Body>
+      <Width>325mm</Width>
+      <Page>
+        <PageFooter>
+          <Height>11.43mm</Height>
+          <PrintOnFirstPage>true</PrintOnFirstPage>
+          <PrintOnLastPage>true</PrintOnLastPage>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </PageFooter>
+        <PageHeight>29.7cm</PageHeight>
+        <PageWidth>21cm</PageWidth>
+        <LeftMargin>2cm</LeftMargin>
+        <RightMargin>2cm</RightMargin>
+        <TopMargin>2cm</TopMargin>
+        <BottomMargin>2cm</BottomMargin>
+        <ColumnSpacing>0.13cm</ColumnSpacing>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <EmbeddedImages>
+    <EmbeddedImage Name="Acion">
+      <MIMEType>image/jpeg</MIMEType>
+      <ImageData>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</ImageData>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <rd:ReportUnitType>Cm</rd:ReportUnitType>
+  <rd:ReportID>16814570-0813-4763-9fa8-60f2f9b8a753</rd:ReportID>
+</Report>

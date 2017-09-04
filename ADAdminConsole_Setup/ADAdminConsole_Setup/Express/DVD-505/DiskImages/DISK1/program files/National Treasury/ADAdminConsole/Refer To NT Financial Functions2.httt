@@ -1,0 +1,294 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=windows-1252">
+	<TITLE></TITLE>
+	<STYLE TYPE="text/css">
+	    <!--
+		page { margin: 0cm }
+		TD P { color: #000000;
+            height: 10px;
+        }
+		P { color: #000000 }
+		H2 { color: #000000 }
+	    .style1
+        {
+            text-align: center;
+        }
+	    #txtComment
+        {
+            width: 352px;
+        }
+	    .style10
+        {
+            width: 84px;
+            height: 27px;
+            border-bottom: 1px #000000 outset;
+            text-align: center;
+            vertical-align: middle;
+            border-left: 1px #000000 ridge;
+            border-right: 1px #000000 outset;
+            border-top: 1px #000000 ridge;
+            background-color: #CCCCCC;
+            border-color: #808080;
+        }
+        .style11
+        {
+            border: 1px outset #808080;
+            width: 88px;
+            height: 27px;
+            text-align: center;
+            vertical-align: middle;
+            background-color: #CCCCCC;
+         }
+        -->
+	</STYLE>
+</HEAD>
+<BODY TEXT="#000000" DIR="LTR">
+<TABLE CELLPADDING=5 CELLSPACING=5 border-color: #000000 #000000 #000000 #000000; 
+        width: 588px; border: thin #000000 solid; height: 671px;" 
+        style="border-bottom: thin #000000 solid; border-left: thin #000000 solid; border-right: thin #000000 solid; border-top: thin #000000 solid">
+	<TR>
+		<TD>
+			<FONT size="5"FACE="Verdana, sans-serif"><center>Approval by <br />National Treasury</center></FONT>
+		</TD>
+	</TR>
+	<TR>
+		<TD  align=center  style="text-align: center; vertical-align: middle;">
+			<HR style="text-align: center; border-bottom-color: #000000; border-bottom-width: thin; border-bottom-style: solid;">
+		</TD>
+	</TR>
+	<TR>
+		<TD VALIGN=TOP>
+			<P STYLE="border: none; padding: 0cm" class="style1"><FONT SIZE=2 face="Verdana, sans-serif">
+                Please advise what rights may be granted for the following person. The request&nbsp;management system description reads as follow:</FONT></P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=702 VALIGN=TOP>
+			<P STYLE="border: none; padding: 0cm" class="style1"><FONT FACE="Verdana, sans-serif">
+                <FONT SIZE=2 color="#0000ff">[[remedy_req]]</FONT></FONT>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=702 VALIGN=TOP>
+			<P STYLE="border: none; padding: 0cm" class="style1"><FONT SIZE=2 
+                    face="Verdana, sans-serif">
+                Details as recorded on National Treasury's Request Management System are as 
+                follows:</FONT></P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=702 VALIGN=TOP>
+			<TABLE DIR="LTR" ALIGN=center WIDTH=356 BORDER=1 CELLPADDING=1 CELLSPACING=2>
+				<COL WIDTH=102>
+				<COL WIDTH=235>
+				<TR>
+					<TD WIDTH=102 HEIGHT=18>
+						<P><FONT FACE="Verdana"><FONT SIZE=2>Username:</FONT></FONT>
+												</P>
+					</TD>
+					<TD WIDTH=235>
+						<P><FONT COLOR="#0000cc"><FONT FACE="Verdana"><FONT SIZE=2>[[persal_no]]</FONT></FONT></FONT>
+												</P>
+					</TD>
+				</TR>
+				<TR>
+					<TD WIDTH=102>
+						<P><FONT FACE="Verdana"><FONT SIZE=2>Firstnames:
+						</FONT></FONT>
+						</P>
+					</TD>
+					<TD WIDTH=235>
+						<P><FONT COLOR="#0000cc"><FONT FACE="Verdana"><FONT SIZE=2>[[firstnames]]</FONT></FONT></FONT>
+												</P>
+					</TD>
+				</TR>
+				<TR>
+					<TD WIDTH=102>
+						<P><FONT FACE="Verdana"><FONT SIZE=2>Lastname:</FONT></FONT>
+												</P>
+					</TD>
+					<TD WIDTH=235>
+						<P><FONT COLOR="#0000cc"><FONT FACE="Verdana"><FONT SIZE=2>[[lastname]]</FONT></FONT></FONT>
+												</P>
+					</TD>
+				</TR>
+				<TR>
+					<TD WIDTH=102>
+						<P><FONT FACE="Verdana"><FONT SIZE=2>Cellphone:
+						</FONT></FONT>
+						</P>
+					</TD>
+					<TD WIDTH=235>
+						<P><FONT COLOR="#0000cc"><FONT FACE="Verdana"><FONT SIZE=2>[[cellphone]]</FONT></FONT></FONT>
+												</P>
+					</TD>
+				</TR>
+				<TR>
+					<TD WIDTH=102>
+						<P><FONT FACE="Verdana"><FONT SIZE=2>Telephone:
+						</FONT></FONT>
+						</P>
+					</TD>
+					<TD WIDTH=235>
+						<P><FONT COLOR="#0000cc"><FONT FACE="Verdana"><FONT SIZE=2>[[telephone]]</FONT></FONT></FONT>
+												</P>
+					</TD>
+				</TR>
+				<TR>
+					<TD WIDTH=102>
+						<P><FONT FACE="Verdana"><FONT SIZE=2>Dept Name:</FONT></FONT></P>
+					</TD>
+					<TD WIDTH=235>
+						<P><FONT COLOR="#0000cc"><FONT FACE="Verdana"><FONT SIZE=2>[[deptname]]</FONT></FONT></FONT>
+												</P>
+					</TD>
+				</TR>
+				<TR>
+					<TD WIDTH=102>
+						<P><FONT FACE="Verdana"><FONT SIZE=2>Dept Type: </FONT></FONT>
+						</P>
+					</TD>
+					<TD WIDTH=235>
+						<P><FONT COLOR="#0000cc"><FONT FACE="Verdana"><FONT SIZE=2>[[depttype]]</FONT></FONT></FONT>
+												</P>
+					</TD>
+				</TR>
+				<TR>
+					<TD WIDTH=102>
+						<P><FONT FACE="Verdana"><FONT SIZE=2>Rank: </FONT></FONT>
+						</P>
+					</TD>
+					<TD WIDTH=235>
+						<P><FONT COLOR="#0000cc"><FONT FACE="Verdana"><FONT SIZE=2>[[rank]]</FONT></FONT></FONT>
+												</P>
+					</TD>
+				</TR>
+			</TABLE></TD>
+	</TR>
+	<TR>
+		<TD WIDTH=702 VALIGN=TOP>
+			<P STYLE="border-style: none; border-color: inherit; border-width: medium; padding: 0cm; text-align: center;"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>
+                According to the Persal Establishment database this person is:</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=702 VALIGN=TOP>
+			<P STYLE="border: none; padding: 0cm" class="style1"><FONT SIZE=2 color="#0000cc" 
+                    face="Verdana, sans-serif">[[establishment]]</FONT></P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=702 VALIGN=TOP>
+			<P STYLE="border: none; padding: 0cm" class="style1"><FONT SIZE=2 
+                    face="Verdana, sans-serif"><B>Current Profile details as found on Vulndlela 
+                system:</B></FONT></P>
+		</TD>
+	</TR><BR><BR>
+	<TR>
+		<TD WIDTH=702 VALIGN=TOP>
+			<P STYLE="border: none; padding: 0cm" class="style1"><FONT SIZE=2 color="#0000cc" 
+                    face="Verdana, sans-serif">[[accessnow]]</FONT></P>
+		</TD>
+	</TR>
+	<tr>
+                    <td >&nbsp;<table align="center" cellpadding="3" cellspacing="3">
+                        <tr>
+                            <td>
+			            <table cellpadding="2" cellspacing="4">
+                            <tr>
+                                <td align="center">
+                                </td>
+                                <td class="style10">
+                                    <a href="http://www.vulindlela.gov.za/screens/x.asp?r=[[r]]&Eventflag=23"                
+                            
+                                        style="font-family: Verdana; font-size: medium; font-weight: bold; color: green; color: #009933; font-size: small; font-weight: bolder; color: #009933; font-family: Verdana; font-style: normal; font-variant: normal; text-transform: capitalize;">
+                                    Accepted</a></td>
+                                <td>
+                                </td>
+                                <td class="style11">
+                                    &nbsp;<a href="http://www.vulindlela.gov.za/screens/x.asp?r=[[r]]&amp;Eventflag=24" 
+               
+                            
+                                        style="font-family: Verdana; font-size: medium; font-weight: bold; color: #FF5050; font-size: small; font-weight: bold; font-family: Verdana, Helvetica, sans-serif; font-style: normal; font-variant: normal; text-transform: capitalize;">Declined</a></td>
+                                <td>
+                                </td>
+                            </tr>
+                            </table>
+                            </td>
+                        </tr>
+                        </table>
+                    </td></tr>
+	</TABLE>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+</BODY>
+</HTML>

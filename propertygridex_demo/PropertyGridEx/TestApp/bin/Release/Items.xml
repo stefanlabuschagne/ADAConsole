@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<ArrayOfCustomProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CustomProperty>
+    <Name>My Integer</Name>
+    <ReadOnly>false</ReadOnly>
+    <Visible>true</Visible>
+    <Value xsi:type="xsd:int">100</Value>
+    <Description>This is an integer</Description>
+    <Category>Simple properties</Category>
+    <IsBrowsable>false</IsBrowsable>
+    <BrowsableText />
+    <BrowsableLabelStyle>lsEllipsis</BrowsableLabelStyle>
+    <IsPassword>false</IsPassword>
+    <IsPercentage>false</IsPercentage>
+    <UseFileNameEditor>false</UseFileNameEditor>
+    <FileNameDialogType>LoadFileDialog</FileNameDialogType>
+    <IsDropdownResizable>false</IsDropdownResizable>
+    <HasChildNodes>false</HasChildNodes>
+  </CustomProperty>
+  <CustomProperty>
+    <Name>My Double</Name>
+    <ReadOnly>false</ReadOnly>
+    <Visible>true</Visible>
+    <Value xsi:type="xsd:double">10.4</Value>
+    <Description>This is a double</Description>
+    <Category>Simple properties</Category>
+    <IsBrowsable>false</IsBrowsable>
+    <BrowsableText />
+    <BrowsableLabelStyle>lsEllipsis</BrowsableLabelStyle>
+    <IsPassword>false</IsPassword>
+    <IsPercentage>false</IsPercentage>
+    <UseFileNameEditor>false</UseFileNameEditor>
+    <FileNameDialogType>LoadFileDialog</FileNameDialogType>
+    <IsDropdownResizable>false</IsDropdownResizable>
+    <HasChildNodes>false</HasChildNodes>
+  </CustomProperty>
+  <CustomProperty>
+    <Name>My Date</Name>
+    <ReadOnly>false</ReadOnly>
+    <Visible>true</Visible>
+    <Value xsi:type="xsd:dateTime">2014-05-06T00:00:00</Value>
+    <Description>This is point class</Description>
+    <Category>Simple properties</Category>
+    <IsBrowsable>false</IsBrowsable>
+    <BrowsableText />
+    <BrowsableLabelStyle>lsEllipsis</BrowsableLabelStyle>
+    <IsPassword>false</IsPassword>
+    <IsPercentage>false</IsPercentage>
+    <UseFileNameEditor>false</UseFileNameEditor>
+    <FileNameDialogType>LoadFileDialog</FileNameDialogType>
+    <IsDropdownResizable>false</IsDropdownResizable>
+    <HasChildNodes>false</HasChildNodes>
+  </CustomProperty>
+  <CustomProperty>
+    <Name>My Password</Name>
+    <ReadOnly>false</ReadOnly>
+    <Visible>true</Visible>
+    <Value xsi:type="xsd:string">password</Value>
+    <Description>This is a masked string.
+(This feature is available only under .NET v2.0)</Description>
+    <Category>.NET v2.0 only</Category>
+    <IsBrowsable>false</IsBrowsable>
+    <BrowsableText />
+    <BrowsableLabelStyle>lsEllipsis</BrowsableLabelStyle>
+    <IsPassword>true</IsPassword>
+    <IsPercentage>false</IsPercentage>
+    <UseFileNameEditor>false</UseFileNameEditor>
+    <FileNameDialogType>LoadFileDialog</FileNameDialogType>
+    <IsDropdownResizable>false</IsDropdownResizable>
+    <HasChildNodes>false</HasChildNodes>
+  </CustomProperty>
+  <CustomProperty>
+    <Name>Filename</Name>
+    <ReadOnly>false</ReadOnly>
+    <Visible>true</Visible>
+    <Value xsi:type="xsd:string" />
+    <Description>This property is a filename path. It define a custom UITypeConverter that show a OpenFileDialog or a SaveFileDialog when the user press the 3 dots button to edit the value.</Description>
+    <Category>Properties with custom UITypeEditor</Category>
+    <IsBrowsable>false</IsBrowsable>
+    <BrowsableText />
+    <BrowsableLabelStyle>lsEllipsis</BrowsableLabelStyle>
+    <IsPassword>false</IsPassword>
+    <IsPercentage>false</IsPercentage>
+    <UseFileNameEditor>true</UseFileNameEditor>
+    <FileNameFilter>Text files (*.txt)|*.txt|All files (*.*)|*.*</FileNameFilter>
+    <FileNameDialogType>LoadFileDialog</FileNameDialogType>
+    <IsDropdownResizable>false</IsDropdownResizable>
+    <HasChildNodes>false</HasChildNodes>
+  </CustomProperty>
+  <CustomProperty>
+    <Name>Language</Name>
+    <ReadOnly>false</ReadOnly>
+    <Visible>true</Visible>
+    <Value xsi:type="xsd:string" />
+    <Description>This property uses a TypeConverter to dropdown a list of values.</Description>
+    <Category>Properties with custom TypeConverter</Category>
+    <IsBrowsable>false</IsBrowsable>
+    <BrowsableText />
+    <BrowsableLabelStyle>lsEllipsis</BrowsableLabelStyle>
+    <IsPassword>false</IsPassword>
+    <IsPercentage>false</IsPercentage>
+    <UseFileNameEditor>false</UseFileNameEditor>
+    <FileNameDialogType>LoadFileDialog</FileNameDialogType>
+    <Choices xsi:type="xsd:string">Dutch</Choices>
+    <Choices xsi:type="xsd:string">English</Choices>
+    <Choices xsi:type="xsd:string">Italian</Choices>
+    <Choices xsi:type="xsd:string">Spanish</Choices>
+    <IsDropdownResizable>false</IsDropdownResizable>
+    <HasChildNodes>false</HasChildNodes>
+  </CustomProperty>
+  <CustomProperty>
+    <Name>Values</Name>
+    <ReadOnly>false</ReadOnly>
+    <Visible>true</Visible>
+    <Value xsi:type="xsd:int">1</Value>
+    <Description>This property uses a TypeConverter to dropdown a list of values.</Description>
+    <Category>Properties with custom TypeConverter</Category>
+    <IsBrowsable>false</IsBrowsable>
+    <BrowsableText />
+    <BrowsableLabelStyle>lsEllipsis</BrowsableLabelStyle>
+    <IsPassword>false</IsPassword>
+    <IsPercentage>false</IsPercentage>
+    <UseFileNameEditor>false</UseFileNameEditor>
+    <FileNameDialogType>LoadFileDialog</FileNameDialogType>
+    <Choices xsi:type="xsd:int">1</Choices>
+    <Choices xsi:type="xsd:int">2</Choices>
+    <Choices xsi:type="xsd:int">3</Choices>
+    <Choices xsi:type="xsd:int">4</Choices>
+    <IsDropdownResizable>false</IsDropdownResizable>
+    <HasChildNodes>false</HasChildNodes>
+  </CustomProperty>
+</ArrayOfCustomProperty>

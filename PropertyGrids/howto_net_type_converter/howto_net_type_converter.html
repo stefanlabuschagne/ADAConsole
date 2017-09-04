@@ -1,0 +1,391 @@
+<HTML>
+<META http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "RodStephens@vb-helper.com" for "http://www.vb-helper.com" on "1998.03.17T18:18-0800" r (n 0 s 0 v 0 l 0))'>
+<HEAD>
+<TITLE>VB Helper: HowTo: Make a type converter in Visual Basic .NET</TITLE>
+<META NAME="Author" CONTENT="Rod Stephens">
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META HTTP-EQUIV="Keywords" CONTENT="TypeConverter, type converter, PropertyGrid, Properties window, property, VB .NET">
+<META NAME="Keywords" CONTENT="TypeConverter, type converter, PropertyGrid, Properties window, property, VB .NET">
+<META NAME="Description" CONTENT="VB Helper: HowTo: Make a type converter in Visual Basic .NET">
+<META NAME="Copyright" CONTENT="Copyright 1997-2003, Rocky Mountain Computer Consulting, Inc.">
+<META NAME="Rating" CONTENT="General">
+<META NAME="Robots" CONTENT="All">
+</HEAD>
+
+<BODY BGCOLOR="#E1F3FF" BACKGROUND="bg_blue.jpg">
+
+  <!-- This table contains the banner, menu column, and content. -->
+  <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+    <!-- ****** -->
+    <!-- Banner -->
+    <!-- ****** -->
+    <TR><TD>
+      <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0" ALIGN="Left">
+        <TR>
+          <TD BACKGROUND="banner_mid.jpg"><IMG SRC="banner_l.jpg" WIDTH="410" HEIGHT="64"></TD>
+          <TD BGCOLOR="#E1F3FF"><IMG SRC="banner_r.jpg" WIDTH="32" HEIGHT="64"></TD>
+        </TR>
+      </TABLE>
+    </TD></TR>
+    <TR><TD>&nbsp;</TD></TR>
+
+    <!-- Menu column and content -->
+    <TR><TD>
+      <TABLE WIDTH="100%" BORDER="0" CELLSPACING="2" CELLPADDING="0">
+        <!-- *********** -->
+        <!-- Menu column -->
+        <!-- *********** -->
+        <TR>
+          <TD ALIGN="Left" VALIGN="Top">
+            <TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0">
+              <!-- Menu top -->
+              <TR>
+                <TD><IMG SRC="blue_ul.jpg" WIDTH="16" HEIGHT="16"></TD>
+                <TD><IMG SRC="blue_um.jpg" WIDTH="93" HEIGHT="16"></TD>
+                <TD><IMG SRC="blue_ur.jpg" WIDTH="16" HEIGHT="16"></TD>
+              </TR>
+
+              <!-- Menu entries -->
+              <TR BGCOLOR="#7FCFFF">
+                <TD BACKGROUND="blue_l.jpg" WIDTH="16">&nbsp;</TD>
+                <TD><CENTER>
+                  <A HREF="index.html"><B><FONT SIZE="+1">Home</FONT></B></A><BR>
+                  <A HREF="search.html"><B>Search</B></A><BR>
+                  &nbsp;<BR>
+                  <A HREF="whats_new.html"><B>What's New</B></A><BR>
+                  <A HREF="index_categories.html"><B>Index</B></A><BR>
+                  <A HREF="books.html"><B>Books</B></A><BR>
+                  <A HREF="links.html"><B>Links</B></A><BR>
+                  <A HREF="http://www.topica.com/lists/VBHelperQA/read"><B>Q &amp; A</B></A><BR>
+                  <A HREF="newsletter.html"><B>Newsletter</B></A><BR>
+                  <A HREF="banners.html"><B>Banners</B></A><BR>
+                  &nbsp;<BR>
+                  <A HREF="mailto:feedback@vb-helper.com"><B>Feedback</B></A><BR>
+                  <A HREF="tip_jar.html"><B>Tip Jar</B></A><BR>
+                  &nbsp;<BR>
+                  <A HREF="feed.xml"><IMG SRC="xml_rss.jpg" BORDER="0" ALT="XML RSS Feed"></A><BR>
+                </CENTER></TD>
+                <TD BACKGROUND="blue_r.jpg" WIDTH="16">&nbsp;</TD>
+              </TR>
+
+              <!-- Menu bottom -->
+              <TR>
+                <TD><IMG SRC="blue_ll.jpg" WIDTH="16" HEIGHT="16"></TD>
+                <TD><IMG SRC="blue_lm.jpg" WIDTH="93" HEIGHT="16"></TD>
+                <TD><IMG SRC="blue_lr.jpg" WIDTH="16" HEIGHT="16"></TD>
+              </TR>
+
+              <TR><TD HEIGHT="50" COLSPAN="3">&nbsp;</TR></TD>
+
+              <!-- ******** -->
+              <!-- Partners -->
+              <!-- ******** -->
+
+              <!-- MVP -->
+              <TR><TD COLSPAN="3"><A HREF="http://www.mvps.org"><IMG SRC="mvp_logo.gif" BORDER="0"></A></TR></TD>
+              <TR><TD HEIGHT="20" COLSPAN="3">&nbsp;</TR></TD>
+
+              <!-- MSDN VB Community -->
+              <TR><TD COLSPAN="3" ALIGN="Center">
+<A HREF="http://msdn.microsoft.com/vbasic/community/default.aspx">MSDN Visual Basic Community</A>
+              </TD></TR>
+              <TR><TD HEIGHT="50" COLSPAN="3">&nbsp;</TR></TD>
+
+              <!-- Amazon Recommends -->
+              <TR><TD COLSPAN="3" ALIGN="Center">
+<!-- -->
+                <SCRIPT SRC="http://rcm.amazon.com/e/cm?t=vbhelper&l=rc1&p=2&o=1" TYPE="text/JavaScript"></SCRIPT>
+<!-- -->
+                <NOSCRIPT>
+                  <TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="125">
+                    <TR><TD>
+                      <MAP NAME="boxmap">
+                        <AREA SHAPE="RECT" COORDS="18, 263, 105, 274" HREF="http://rcm.amazon.com/e/cm/privacy-policy.html?o=1">
+                        <AREA COORDS="0,0,10000,10000" HREF="http://www.amazon.com/exec/obidos/redirect-home/vbhelper">
+                      </MAP>
+                      <img src="http://rcm-images.amazon.com/images/G/01/associates/amzn_recommends/gnbox125x275.gif" width="125" height="275" border="0" usemap="#boxmap">
+                    </TD></TR>
+                  </TABLE>
+                </NOSCRIPT>
+              </TD></TR>
+              <TR><TD HEIGHT="50" COLSPAN="3">&nbsp;</TR></TD>
+
+              <!-- Wiley -->
+              <TR><TD COLSPAN="3" ALIGN="Center" BACKGROUND="sandpaper.gif"><A HREF="http://service.bfast.com/bfast/click?bfmid=37920629&siteid=40078832&bfpage=computer_science" TARGET="_top"><IMG SRC="wiley_logo.gif" BORDER="0" ALIGN="Center" WIDTH="77" HEIGHT="105"></TD></TR>
+              <TR><TD HEIGHT="10" COLSPAN="3">&nbsp;</TR></TD>
+
+              <!-- Que -->
+              <TR><TD COLSPAN="3" ALIGN="Center"><A HREF="http://www.quepublishing.com"><IMG SRC="que.gif" BORDER="0" ALIGN="Center" WIDTH="121" HEIGHT="36"></A></TD></TR>
+              <TR><TD HEIGHT="10" COLSPAN="3">&nbsp;</TR></TD>
+
+              <!-- Amazon -->
+              <TR><TD COLSPAN="3" ALIGN="Center"><A HREF="amazon.html"><IMG SRC="amazon_logo.gif" BORDER="0" ALIGN="Center" WIDTH="68" HEIGHT="65"></A></TD></TR>
+              <TR><TD HEIGHT="10" COLSPAN="3">&nbsp;</TR></TD>
+
+              <!-- ********** -->
+              <!-- More stuff -->
+              <!-- ********** -->
+
+            </TABLE>
+          </TD>
+
+          <!-- A little space between the menus and content -->
+          <TD WIDTH="5">&nbsp;</TD>
+
+          <!-- ******* -->
+          <!-- Content -->
+          <!-- ******* -->
+          <TD WIDTH="100%" ALIGN="Left" VALIGN="Top">
+            <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+              <!-- How To Summary -->
+              <TR><TD>
+                <TABLE WIDTH="100%" BORDER="2" CELLSPACING="0" CELLPADDING="2">
+                  <TR><TH ALIGN="Left">Title</TH><TD WIDTH="100%">Make a type converter in Visual Basic .NET</TD></TR>
+                  <TR><TH ALIGN="Left">Description</TH><TD WIDTH="100%">This example shows how to make a type converter in Visual Basic .NET.</TD></TR>
+                  <TR><TH ALIGN="Left">Keywords</TH><TD>TypeConverter, type converter, PropertyGrid, Properties window, property, VB .NET</TD></TR>
+                  <TR><TH ALIGN="Left">Categories</TH><TD>Controls</TD></TR>
+                </TABLE>
+              </TD></TR>
+
+              <!-- Text content -->
+              <TR><TD>&nbsp;<BR></TD></TR>
+              <TR><TD>
+One of the cooler new controls in VB .NET is the PropertyGrid. If you set the control's SelectedObject property to an object, the control displays the object's properties much as the Properties window does in the IDE.
+<P>
+However, if the object contains properties that are also objects, then the PropertyGrid displays a string representation of the property object. If the object has a ToString method, the grid uses that. If the object has no ToString method, it inherits a ToString method from the Object class that simply gives the object's class name. This will geneally be something like project_name.class_name.
+<P>
+To help the PropertyGrid understand how to display the property object, you need to give it a type converter. This is a class that can convert the object to and from a textual representation.
+<P>
+The example program's Person class contains an Address property that is an object of type StreetAddress. The following code shows the StreetAddress class. Notice how the TypeConverter attribute indicates that this class's type converter is the StreetAddressConverter class. The class has a constructor that takes a street address, city, and state as parameters to make initializing objects easy, and it has a ToString method to produce a string representation. This representation has the form "street,city,state" as in "123 Crash Ave,Bugsville,CA".
+              </TD></TR>
+
+              <!-- Code content -->
+              <TR><TD>&nbsp;<BR></TD></TR>
+              <TR>
+                <TD BACKGROUND="computer_paper.jpg">
+                  <PRE><FONT NAME="Courier New" POINT-SIZE="10" SIZE="2">&lt;TypeConverter(GetType(StreetAddressConverter))&gt; _
+Public Class StreetAddress
+    Public Sub New()
+    End Sub
+    Public Sub New(ByVal new_street As String, ByVal _
+        new_city As String, ByVal new_state As String)
+        m_Street = new_street
+        m_City = new_city
+        m_State = new_state
+    End Sub
+
+    Public Overrides Function ToString() As String
+        Return m_Street &amp; "," &amp; m_City &amp; "," &amp; State
+    End Function
+
+    Private m_Street As String
+    Public Property Street() As String
+        Get
+            Return m_Street
+        End Get
+        Set(ByVal Value As String)
+            m_Street = Value
+        End Set
+    End Property
+
+    Private m_City As String
+    Public Property City() As String
+        Get
+            Return m_City
+        End Get
+        Set(ByVal Value As String)
+            m_City = Value
+        End Set
+    End Property
+
+    Private m_State As String
+    Public Property State() As String
+        Get
+            Return m_State
+        End Get
+        Set(ByVal Value As String)
+            m_State = Value
+        End Set
+    End Property
+End Class</FONT></PRE>
+              </TD></TR>
+
+              <!-- Text content -->
+              <TR><TD>&nbsp;<BR></TD></TR>
+              <TR><TD>
+The following code shows the StreetAddressConverter class, which inherits from TypeConverter. Its CanConvertFrom and CanConvertTo methods indicate whether the converter can convert objects from or to certain data types. In this example, CanConvertFrom indicates that the converter can convert a string into a StreetAddress object and CanConvertTo indicates that the converter can convert a StreetAddress object into a string.
+<P>
+The ConvertFrom and ConvertTo methods perform the conversions. ConvertFrom splits a text representation into the street, city, and state fields, and uses them to create a new StreetAddress object. ConvertTo simply calls the object's ToString method.
+<P>
+The GetPropertiesSupported method should return True if the PropertyGrid should allow the user to view and edit any of the object's properties separately. This is how the PropertyGrid decides whether to display a plus sign to the left of the StreetAddress indicating that it has editable sub-properties. If GetPropertiesSupported returns False, then the PropertyGrid does not display the plus sign, displays the StreetAddress as a single string, and does not display the street, city, and state as their own separate entries.
+<P>
+The GetProperties method should return a collection of PropertyDescriptors describing the properties that should be separately editable. Normally you will use TypeDescriptor.GetProperties(value) to get a collection of PropertyDescriptors describing all of the object's properties but you could make a PropertyDescriptorCollection describing only some of the properties if you don't want to let the user view and edit them separately.
+              </TD></TR>
+
+              <!-- Code content -->
+              <TR><TD>&nbsp;<BR></TD></TR>
+              <TR>
+                <TD BACKGROUND="computer_paper.jpg">
+                  <PRE><FONT NAME="Courier New" POINT-SIZE="10" SIZE="2">Public Class StreetAddressConverter
+    Inherits TypeConverter
+
+    Public Overloads Overrides Function _
+        CanConvertFrom(ByVal context As _
+        System.ComponentModel.ITypeDescriptorContext, ByVal _
+        sourceType As System.Type) As Boolean
+        If (sourceType.Equals(GetType(String))) Then
+            Return True
+        Else
+            Return MyBase.CanConvertFrom(context, _
+                sourceType)
+        End If
+    End Function
+
+    Public Overloads Overrides Function CanConvertTo(ByVal _
+        context As _
+        System.ComponentModel.ITypeDescriptorContext, ByVal _
+        destinationType As System.Type) As Boolean
+        If (destinationType.Equals(GetType(String))) Then
+            Return True
+        Else
+            Return MyBase.CanConvertTo(context, _
+                destinationType)
+        End If
+    End Function
+
+    Public Overloads Overrides Function ConvertFrom(ByVal _
+        context As _
+        System.ComponentModel.ITypeDescriptorContext, ByVal _
+        culture As System.Globalization.CultureInfo, ByVal _
+        value As Object) As Object
+        If (TypeOf value Is String) Then
+            Dim txt As String = CType(value, String)
+            Dim fields() As String = txt.Split(New Char() _
+                {","})
+
+            Try
+                Return New StreetAddress(fields(0), _
+                    fields(1), fields(2))
+            Catch
+                Throw New InvalidCastException(value)
+            End Try
+        Else
+            Return MyBase.ConvertFrom(context, culture, _
+                value)
+        End If
+    End Function
+
+    Public Overloads Overrides Function ConvertTo(ByVal _
+        context As _
+        System.ComponentModel.ITypeDescriptorContext, ByVal _
+        culture As System.Globalization.CultureInfo, ByVal _
+        value As Object, ByVal destinationType As _
+        System.Type) As Object
+        If (destinationType.Equals(GetType(String))) Then
+            Return value.ToString()
+        Else
+            Return MyBase.ConvertTo(context, culture, _
+                value, destinationType)
+        End If
+    End Function
+
+    Public Overloads Overrides Function _
+        GetPropertiesSupported(ByVal context As _
+        ITypeDescriptorContext) As Boolean
+        Return True
+    End Function
+
+    Public Overloads Overrides Function GetProperties(ByVal _
+        context As ITypeDescriptorContext, ByVal value As _
+        Object, ByVal Attribute() As Attribute) As _
+        PropertyDescriptorCollection
+        Return TypeDescriptor.GetProperties(value)
+    End Function
+End Class</FONT></PRE>
+              </TD></TR>
+
+              <!-- Text content -->
+              <TR><TD>&nbsp;<BR></TD></TR>
+              <TR><TD>
+With all this set up, the rest is automatic. The PropertyGrid displays the Person object's properties. It uses the StreetAddressConverter class to convert the StreetAddress property to and from a String representation.
+<P>
+(It's not clear to me why the PropertyGrid doesn't use reflection to automatically build a converter for the StreetAddress class. After all, that's what it does for the Person class. I guess this gives you more direct control but it would be a lot easier if there were a MakeConverter attribute to do this automatically.
+<P>
+For more information on type converters, see <A HREF="http://www.codeguru.com/columns/VB/article.php/c6529">Implementing a TypeConverter</A> by Paul Kimmel at CodeGuru.
+<P>
+There's lots more information about VB 2005 (although not type converters) in my book <A HREF="http://www.vb-helper.com/vb_prog_ref.htm">Visual Basic 2005 Programmer's Reference</A>.
+              </TD></TR>
+
+              <!-- *************** -->
+              <!-- Download button -->
+              <!-- *************** -->
+
+              <TR><TD><FONT SIZE="-2">&nbsp;</FONT></TD></TR>
+              <TR><TD ALIGN="Center"><A HREF="HowTo/howto_net_type_converter.zip"><IMG SRC="download.jpg" BORDER="0"></A></TD></TR>
+              <TR><TD><FONT SIZE="-2">&nbsp;</FONT></TD></TR>
+
+            </TABLE> <!-- End content table -->
+          </TD> <!-- End content column -->
+
+          <!-- ************** -->
+          <!-- Google AdSense -->
+          <!-- ************** -->
+          <TD WIDTH="120" ALIGN="Right" VALIGN="Top">
+            <TABLE WIDTH="165" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+              <TR><TD ALIGN="Right">
+
+<script type="text/javascript"><!--
+google_ad_client = "pub-6627515316741006";
+google_ad_width = 160;
+google_ad_height = 600;
+google_ad_format = "160x600_as";
+google_ad_channel ="4974732445";
+google_color_border = "00CC66";
+google_color_bg = "99FF99";
+google_color_link = "0000FF";
+google_color_url = "0033FF";
+google_color_text = "000000";
+//--></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+              </TD></TR>
+            </TABLE> <!-- End Google AdSense table -->
+          </TD> <!-- End Google AdSense column -->
+
+
+        </TR> <!-- End row containing menu column and content -->
+      </TABLE> <!-- End table containing menu column and content -->
+    </TD></TR>
+
+    <!-- ****** -->
+    <!-- Footer -->
+    <!-- ****** -->
+    <TR><TD WIDTH="100%">
+      <TABLE WIDTH="100%" BORDER="0" BGCOLOR="#87CEFA" CELLSPACING="0" CELLPADDING="0">
+        <!-- Top row -->
+        <TR>
+          <TD BGCOLOR="#E1F3FF" ALIGN="Right" WIDTH="16"><IMG SRC="blue_ul.jpg" WIDTH="16" HEIGHT="16"></TD>
+          <TD BACKGROUND="blue_um.jpg" COLSPAN="2" ALIGN="Center"><FONT SIZE="-2">
+            Copyright &copy; 1997-2003 Rocky Mountain Computer Consulting, Inc. &nbsp; All rights reserved.
+          </FONT></TD>
+          <TD BGCOLOR="#E1F3FF"><IMG SRC="blue_ur.jpg" WIDTH="16" HEIGHT="16"></TD>
+        </TR>
+
+        <!-- Bottom row -->
+        <TR>
+          <TD BGCOLOR="#E1F3FF" ALIGN="Right" WIDTH="16"><IMG SRC="blue_ll.jpg" WIDTH="16" HEIGHT="16"></TD>
+          <TD BACKGROUND="blue_lm.jpg"><FONT SIZE="-2">
+            &nbsp;<SCRIPT LANGUAGE=JavaScript>document.write(document.URL)</SCRIPT></FONT></TD>
+          <TD BACKGROUND="blue_lm.jpg" ALIGN="Right"><FONT SIZE="-2">
+            Updated <SCRIPT LANGUAGE=JavaScript>document.write(document.lastModified)</SCRIPT> &nbsp;
+          </FONT></TD>
+          <TD BGCOLOR="#E1F3FF"><IMG SRC="blue_lr.jpg" WIDTH="16" HEIGHT="16"></TD>
+        </TR>
+      </TABLE>
+    </TD></TR>
+  </TABLE> <!-- End table containing banner, menu column + content, and footer -->
+
+</BODY>
+</HTML>

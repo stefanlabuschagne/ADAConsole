@@ -1,0 +1,303 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="IP_ADDRESS_PRD" Type="System.String" Scope="User">
+      <Value Profile="(Default)">10.120.50.90</Value>
+    </Setting>
+    <Setting Name="IP_ADDRESS_QA" Type="System.String" Scope="User">
+      <Value Profile="(Default)">10.120.50.53</Value>
+    </Setting>
+    <Setting Name="AD_USERS_PRD" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">OU=USERS,OU=Vulindlela3,DC=vulindlelaprd,DC=gov,DC=za</Value>
+    </Setting>
+    <Setting Name="AD_USERS_QA" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">OU=USERS,OU=Vulindlela3,DC=vulqa,DC=pwv,DC=gov,DC=za</Value>
+    </Setting>
+    <Setting Name="AD_DC_PRD" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DC=vulprd,DC=pwv,DC=gov,DC=za</Value>
+    </Setting>
+    <Setting Name="AD_DC_QA" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DC=vulqa,DC=pwv,DC=gov,DC=za</Value>
+    </Setting>
+    <Setting Name="AD_ServerName_PRD" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">VULWEB</Value>
+    </Setting>
+    <Setting Name="AD_ServerName_QA" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">VULQA1</Value>
+    </Setting>
+    <Setting Name="ADSMasterUsername_PRD" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">vulindlelaprd\vulalter</Value>
+    </Setting>
+    <Setting Name="ADSMasterUsername_QA" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">vulsystem</Value>
+    </Setting>
+    <Setting Name="Active_QA" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="Active_PRD" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ADSMasterPassword_QA" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">UnRlqHdCaqp8mOHvR2N3bg==</Value>
+    </Setting>
+    <Setting Name="WEBURLQA" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://10.120.50.54/</Value>
+    </Setting>
+    <Setting Name="WEBURLPRD" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://www.vulindlela.gov.za/</Value>
+    </Setting>
+    <Setting Name="ValidUser" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="contextApplicationPRD" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">OU=APPLICATION_RIGHTS,OU=Vulindlela3,DC=vulindlelaprd,DC=gov,DC=za</Value>
+    </Setting>
+    <Setting Name="contextApplicationQA" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">OU=APPLICATION_RIGHTS,OU=Vulindlela3,DC=vulqa,DC=pwv,DC=gov,DC=za</Value>
+    </Setting>
+    <Setting Name="VulindlelaContextPRD" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">OU=Vulindlela3,DC=vulindlelaprd,DC=gov,DC=za</Value>
+    </Setting>
+    <Setting Name="VulindlelaContextQA" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">OU=Vulindlela3,DC=vulqa,DC=pwv,DC=gov,DC=za</Value>
+    </Setting>
+    <Setting Name="HelpDesk_PhoneNo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">(012 - 657 4444)</Value>
+    </Setting>
+    <Setting Name="SMTPServerIPAddress" Type="System.String" Scope="User">
+      <Value Profile="(Default)">10.120.50.45</Value>
+    </Setting>
+    <Setting Name="RemedyServerName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">prodlgremv1</Value>
+    </Setting>
+    <Setting Name="RemedyUserName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">T0005221
+</Value>
+    </Setting>
+    <Setting Name="Vulindlela_Controllers" Type="System.String" Scope="User">
+      <Value Profile="(Default)">NCP,Michael Femmers &lt;femmersm@ncpg.gov.za&gt;</Value>
+    </Setting>
+    <Setting Name="ARSServerName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">prodlgremv1</Value>
+    </Setting>
+    <Setting Name="ARServerPort" Type="System.String" Scope="User">
+      <Value Profile="(Default)">80</Value>
+    </Setting>
+    <Setting Name="ARUser" Type="System.String" Scope="User">
+      <Value Profile="(Default)">T0005221</Value>
+    </Setting>
+    <Setting Name="ARPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)">logik007</Value>
+    </Setting>
+    <Setting Name="DeptDescPair" Type="System.String" Scope="User">
+      <Value Profile="(Default)">mpu_|Mpumalanga,kzn_|Kwazulu Natal,nop_|Limpopo,gau_|Gauteng,wcp_|Western Cape,ecp_|Eastern Cape,nwp_|North West,fsp_|Free State</Value>
+    </Setting>
+    <Setting Name="WebBrowserEXE" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Users\vul2126\AppData\Local\Google\Chrome\Application\chrome.exe</Value>
+    </Setting>
+    <Setting Name="ARSystemConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=prodlgsqlv1.logis.gov.za\SQL2012;Initial Catalog=ARSystem;Integrated Security=True;Connect Timeout=120&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=prodlgsqlv1.logis.gov.za\SQL2012;Initial Catalog=ARSystem;Integrated Security=True;Connect Timeout=120</Value>
+    </Setting>
+    <Setting Name="ADAdminConsole_WS_CI__c1_WS_CI__c1Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://prodlgremv1/arsys/services/ARService?server=ProdLGRemV1&amp;webService=WS_CI__c1</Value>
+    </Setting>
+    <Setting Name="ADAdminConsole_Request_LOG_IN_Request_Tracking_BasicWS__cService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://prodlgremv1/arsys/services/ARService?server=ProdLGRemV1&amp;webService=LOG_IN_Request_Tracking_BasicWS__c</Value>
+    </Setting>
+    <Setting Name="HR_MIS_STAGINGConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=10.131.120.224;Initial Catalog=HR_MIS_STAGING;Integrated Security=True&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=10.131.120.224;Initial Catalog=HR_MIS_STAGING;Integrated Security=True</Value>
+    </Setting>
+    <Setting Name="ADAdminConsole_LOG_DM_Department_BasicWS__c_LOG_DM_Department_BasicWS__cService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://prodlgremv1/arsys/services/ARService?server=ProdLGRemV1&amp;webService=LOG_DM_Department_BasicWS__c</Value>
+    </Setting>
+    <Setting Name="VIP_EXPANDEDConnectionString2008QA" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=10.120.50.55;Initial Catalog=ADS;Persist Security Info=True;User ID=sa;Password=S@P@SSW0RD&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=10.120.50.55;Initial Catalog=ADS;Persist Security Info=True;User ID=sa;Password=S@P@SSW0RD</Value>
+    </Setting>
+    <Setting Name="VulindlelaUser" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ProxyOveride" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Close_Pick_Forms" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="AdsQAConnectionString1" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=10.120.50.55;Initial Catalog=ADS;Persist Security Info=True;User ID=sa;Password=S@P@SSW0RD&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=10.120.50.55;Initial Catalog=ADS;Persist Security Info=True;User ID=sa;Password=S@P@SSW0RD</Value>
+    </Setting>
+    <Setting Name="ADAdminConsole_devlgremv1_LOG_DM_Customer_Information_BasicWS__cService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://devlgremv1/arsys/services/ARService?server=devLGRemV1&amp;webService=LOG_DM_Customer_Information_BasicWS__c</Value>
+    </Setting>
+    <Setting Name="ARSServerDevelopment" Type="System.String" Scope="User">
+      <Value Profile="(Default)">devlgremv1</Value>
+    </Setting>
+    <Setting Name="VIP_EXPANDEDConnectionStringQA" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=10.120.50.55;Initial Catalog=ADS;Persist Security Info=True;User ID=sa;Password=S@P@SSW0RD&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=10.120.50.55;Initial Catalog=ADS;Persist Security Info=True;User ID=sa;Password=S@P@SSW0RD</Value>
+    </Setting>
+    <Setting Name="ADSConnectionString2008PRD" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=10.120.50.72;Initial Catalog=VIP_EXPANDED;Persist Security Info=True;User ID=sa;Password=S@P@SSW0RD</Value>
+    </Setting>
+    <Setting Name="VIP_EXPANDEDConnectionString2008PRD" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=10.120.50.72;Initial Catalog=VIP_EXPANDED;Persist Security Info=True;User ID=sa;Password=S@P@SSW0RD</Value>
+    </Setting>
+    <Setting Name="ARSystemProdConnectionString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=prodlgsqlv1.logis.gov.za\SQL2012;Initial Catalog=ARSystem;Integrated Security=True;Connect Timeout=120</Value>
+    </Setting>
+    <Setting Name="ADSQAConnectionString2014" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=10.120.50.55;Initial Catalog=ADS;Persist Security Info=True;User ID=sa;Password=S@P@SSW0RD&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=10.120.50.55;Initial Catalog=ADS;Persist Security Info=True;User ID=sa;Password=S@P@SSW0RD</Value>
+    </Setting>
+    <Setting Name="VIP_EXPANDEDQAConnectionString2014" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=10.120.50.55;Initial Catalog=VIP_EXPANDED;Persist Security Info=True;User ID=sa;Password=S@P@SSW0RD&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=10.120.50.55;Initial Catalog=VIP_EXPANDED;Persist Security Info=True;User ID=sa;Password=S@P@SSW0RD</Value>
+    </Setting>
+    <Setting Name="ADSPRDConnectionString2014" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=10.120.50.72;Initial Catalog=ADS;Persist Security Info=True;User ID=sa;Password=S@P@SSW0RD&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=10.120.50.72;Initial Catalog=ADS;Persist Security Info=True;User ID=sa;Password=S@P@SSW0RD</Value>
+    </Setting>
+    <Setting Name="VIP_EXPANDEDPRDConnectionString2014" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=10.120.50.72;Initial Catalog=VIP_EXPANDED;Persist Security Info=True;User ID=sa;Password=S@P@SSW0RD</Value>
+    </Setting>
+    <Setting Name="ADSConnectionString20141" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=10.120.50.72;Initial Catalog=ADS;Persist Security Info=True;User ID=sa;Password=S@P@SSW0RD</Value>
+    </Setting>
+    <Setting Name="VIP_EXPANDEDConnectionString2014" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=10.120.50.72;Initial Catalog=VIP_EXPANDED;Persist Security Info=True;User ID=sa;Password=S@P@SSW0RD</Value>
+    </Setting>
+    <Setting Name="VIP_EXPANDEDConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=10.120.50.72;Initial Catalog=VIP_EXPANDED;Persist Security Info=True;User ID=sa;Password=S@P@SSW0RD&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=10.120.50.72;Initial Catalog=VIP_EXPANDED;Persist Security Info=True;User ID=sa;Password=S@P@SSW0RD</Value>
+    </Setting>
+    <Setting Name="SMTPServerIPAddressNEW" Type="System.String" Scope="User">
+      <Value Profile="(Default)">10.120.50.45</Value>
+    </Setting>
+    <Setting Name="TAConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=10.120.50.55;Initial Catalog=TA;User ID=sa;Password=S@P@SSW0RD&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=10.120.50.55;Initial Catalog=TA;User ID=sa;Password=S@P@SSW0RD</Value>
+    </Setting>
+    <Setting Name="ADSMasterPassword_PRD" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">aDEOqw0kwvN6n4doJmF8Qg==</Value>
+    </Setting>
+    <Setting Name="ARSystemDevConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=devlgsqlv1\sql2012;Initial Catalog=ARSystem;Integrated Security=True&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=devlgsqlv1\sql2012;Initial Catalog=ARSystem;Integrated Security=True</Value>
+    </Setting>
+    <Setting Name="HR_MISConnectionStringDev" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=10.120.50.52;Initial Catalog=HR_MIS;Persist Security Info=True;User ID=adconusr;Password=R3dNy0ny1&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=10.120.50.52;Initial Catalog=HR_MIS;Persist Security Info=True;User ID=adconusr;Password=R3dNy0ny1</Value>
+    </Setting>
+    <Setting Name="AdsConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=10.120.50.72;Initial Catalog=ADS;Persist Security Info=True;User ID=sa;Password=S@P@SSW0RD4443&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=10.120.50.72;Initial Catalog=ADS;Persist Security Info=True;User ID=sa;Password=S@P@SSW0RD4443</Value>
+    </Setting>
+    <Setting Name="testQa" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=10.123.45.210;Initial Catalog=ADS;Persist Security Info=True;User ID=sa;Password=S@P@SSW0RD&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=10.123.45.210;Initial Catalog=ADS;Persist Security Info=True;User ID=sa;Password=S@P@SSW0RD</Value>
+    </Setting>
+    <Setting Name="ADAdminConsole_za_gov_logis_devlgremv1_CustomerInformationWebServiceService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://devlgremv1.logis.gov.za/arsys/services/ARService?server=devLGRemV1&amp;webService=CustomerInformationWebService</Value>
+    </Setting>
+    <Setting Name="SHARED_TABLESConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=10.120.50.74;Initial Catalog=SHARED_TABLES;Persist Security Info=True;User ID=adconusr;Password=R3dNy0ny1&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=10.120.50.74;Initial Catalog=SHARED_TABLES;Persist Security Info=True;User ID=adconusr;Password=R3dNy0ny1</Value>
+    </Setting>
+    <Setting Name="SHARED_TABLESConnectionStringDev" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=10.120.50.52;Initial Catalog=SHARED_TABLES;User ID=adconusr;Password=R3dNy0ny1&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=10.120.50.52;Initial Catalog=SHARED_TABLES;User ID=adconusr;Password=R3dNy0ny1</Value>
+    </Setting>
+    <Setting Name="SHARED_TABLESConnectionStringPRD" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=10.120.50.74;Initial Catalog=SHARED_TABLES;Persist Security Info=True;User ID=adconusr;Password=R3dNy0ny1&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=10.120.50.74;Initial Catalog=SHARED_TABLES;Persist Security Info=True;User ID=adconusr;Password=R3dNy0ny1</Value>
+    </Setting>
+    <Setting Name="Setting" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=10.120.50.96;Initial Catalog=HR_MIS;Persist Security Info=True;User ID=adconusr;Password=R3dNy0ny1</Value>
+    </Setting>
+    <Setting Name="HR_MISConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=10.120.50.96;Initial Catalog=HR_MIS;Persist Security Info=True;User ID=adconusr;Password=R3dNy0ny1&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=10.120.50.96;Initial Catalog=HR_MIS;Persist Security Info=True;User ID=adconusr;Password=R3dNy0ny1</Value>
+    </Setting>
+    <Setting Name="HR_MISConnectionStringPRD" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=10.120.50.96;Initial Catalog=HR_MIS;Persist Security Info=True;User ID=adconusr;Password=R3dNy0ny1&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=10.120.50.96;Initial Catalog=HR_MIS;Persist Security Info=True;User ID=adconusr;Password=R3dNy0ny1</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

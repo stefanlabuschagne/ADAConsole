@@ -1,0 +1,1008 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ADAdminDotNet
+</name>
+</assembly>
+<members>
+<member name="T:ADAdminDotNet.dsADS.GetResetPasswordsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.CountNewUsersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.VIP_USERS_ResetPasswordDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.VIP_USERS_NewUsersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.ADCONSOLELOGDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.VIP_USERSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.get_shortcodeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.KICKOUTDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.Vulindlela_ControllersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.Vulindlela_EmailDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.EstablishmentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.CustomerInfoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.AD_SNAPSHOT_USER_COUNTDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.AD_SNAPSHOT_ALLDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.Not_On_Estab_Thismonth_CountDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.ViewJJ_Max_User_COuntDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.AD_Disabled_UsersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.CFO_Letters_YearMonthDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.CFODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.VIEW_CFO_APPPLICATION_TOOK_TO_LONGDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.AD_SNAPSHOT_EXCEPTIONSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.Estab2DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.Department_DiffersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.RULES_FLAGSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.RULES_FLOWSEQUENCEDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.CFOApprovalDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.VIP_USERS1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.CFOListDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.RULES_FLAGS_VALIDDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.EXCLUSIONSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.VPN_Admin_CategoriesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.VPN_AdminsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.RULES_FLAGS2DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.Config_ProblemDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.RULES_FLAGS1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.GetResetPasswordsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.CountNewUsersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.VIP_USERS_ResetPasswordRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.VIP_USERS_NewUsersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.ADCONSOLELOGRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.VIP_USERSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.get_shortcodeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.KICKOUTRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.Vulindlela_ControllersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.Vulindlela_EmailRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.EstablishmentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.CustomerInfoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.AD_SNAPSHOT_USER_COUNTRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.AD_SNAPSHOT_ALLRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.Not_On_Estab_Thismonth_CountRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.ViewJJ_Max_User_COuntRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.AD_Disabled_UsersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.CFO_Letters_YearMonthRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.CFORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.VIEW_CFO_APPPLICATION_TOOK_TO_LONGRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.AD_SNAPSHOT_EXCEPTIONSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.Estab2Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.Department_DiffersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.RULES_FLAGSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.RULES_FLOWSEQUENCERow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.CFOApprovalRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.VIP_USERS1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.CFOListRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.RULES_FLAGS_VALIDRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.EXCLUSIONSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.VPN_Admin_CategoriesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.VPN_AdminsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.RULES_FLAGS2Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.Config_ProblemRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.RULES_FLAGS1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.GetResetPasswordsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.CountNewUsersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.VIP_USERS_ResetPasswordRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.VIP_USERS_NewUsersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.ADCONSOLELOGRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.VIP_USERSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.get_shortcodeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.KICKOUTRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.Vulindlela_ControllersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.Vulindlela_EmailRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.EstablishmentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.CustomerInfoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.AD_SNAPSHOT_USER_COUNTRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.AD_SNAPSHOT_ALLRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.Not_On_Estab_Thismonth_CountRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.ViewJJ_Max_User_COuntRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.AD_Disabled_UsersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.CFO_Letters_YearMonthRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.CFORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.VIEW_CFO_APPPLICATION_TOOK_TO_LONGRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.AD_SNAPSHOT_EXCEPTIONSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.Estab2RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.Department_DiffersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.RULES_FLAGSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.RULES_FLOWSEQUENCERowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.CFOApprovalRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.VIP_USERS1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.CFOListRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.RULES_FLAGS_VALIDRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.EXCLUSIONSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.VPN_Admin_CategoriesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.VPN_AdminsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.RULES_FLAGS2RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.Config_ProblemRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS.RULES_FLAGS1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsADS">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADSTableAdapters.GetResetPasswordsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADSTableAdapters.CountNewUsersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADSTableAdapters.VIP_USERS_ResetPasswordTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADSTableAdapters.VIP_USERS_NewUsersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADSTableAdapters.ADCONSOLELOGTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADSTableAdapters.VIP_USERSTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADSTableAdapters.get_shortcodeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADSTableAdapters.KICKOUTTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADSTableAdapters.ta_Vulindlela_Controllers">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADSTableAdapters.Vulindlela_EmailTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADSTableAdapters.ta_Establishment">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADSTableAdapters.CustomerInfoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADSTableAdapters.AD_SNAPSHOT_USER_COUNTTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADSTableAdapters.AD_SNAPSHOT_ALLTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADSTableAdapters.Not_On_Estab_Thismonth_CountTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADSTableAdapters.ViewJJ_Max_User_COuntTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADSTableAdapters.AD_Disabled_UsersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADSTableAdapters.CFO_Letters_YearMonthTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADSTableAdapters.CFOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADSTableAdapters.VIEW_CFO_APPPLICATION_TOOK_TO_LONGTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADSTableAdapters.AD_SNAPSHOT_EXCEPTIONSTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADSTableAdapters.ta_Estab2">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADSTableAdapters.Department_DiffersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADSTableAdapters.RULES_FLAGSTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADSTableAdapters.RULES_FLOWSEQUENCETableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADSTableAdapters.CFOApproval_ta">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADSTableAdapters.VIP_USERS1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADSTableAdapters.CFOListTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADSTableAdapters.RULES_FLAGS_VALIDTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADSTableAdapters.EXCLUSIONSTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADSTableAdapters.VPN_Admin_CategoriesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADSTableAdapters.VPN_AdminsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADSTableAdapters.RULES_FLAGS2TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADSTableAdapters.Config_ProblemTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsADSTableAdapters.ADS_StoredProcs">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ADAdminDotNet.PublicationFactory.DeltaMaker(System.Data.DataSet,System.Data.DataSet)">
+	<summary>
+ Create a diffgram from two datasets
+ diffgram contains the list of row to create, update and delete to pass from old to new step
+ old and new datasets must have the same schema
+ the old dataset give the list of table to compute
+ Is supposed that all data have a ToString() method wich render a representative value of the data
+ Is supposed that a column named "PK" got a unique string identifier
+ </summary>
+	<param name="oldDataSet">Old step</param>
+	<param name="newDataSet">Current step</param>
+	<returns>diffgram as dataset</returns>
+</member><member name="P:ADAdminDotNet.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ADAdminDotNet.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:ADAdminDotNet.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSet.LOG_DM_Customer_InformationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSet.LOG_DM_DepartmentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSet.LOG_DM_PersonnelDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSet.LOG_IN_Request_TrackingDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSet.RemedyOpenRequestsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSet.LOG_DM_Customer_Information1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSet.RemedyByFirstLetterOfSurnameDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSet.RemedyUsersByFirstLetterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSet.SurnamesByPortionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSet.CustNotifyDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSet.CFOClosureListDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSet.VIEW_CFO_RULES_FLAGS_OUTSTANDINGDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSet.LOG_DM_Customer_InformationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSet.LOG_DM_DepartmentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSet.LOG_DM_PersonnelRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSet.LOG_IN_Request_TrackingRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSet.RemedyOpenRequestsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSet.LOG_DM_Customer_Information1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSet.RemedyByFirstLetterOfSurnameRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSet.RemedyUsersByFirstLetterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSet.SurnamesByPortionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSet.CustNotifyRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSet.CFOClosureListRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSet.VIEW_CFO_RULES_FLAGS_OUTSTANDINGRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSet.LOG_DM_Customer_InformationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSet.LOG_DM_DepartmentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSet.LOG_DM_PersonnelRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSet.LOG_IN_Request_TrackingRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSet.RemedyOpenRequestsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSet.LOG_DM_Customer_Information1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSet.RemedyByFirstLetterOfSurnameRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSet.RemedyUsersByFirstLetterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSet.SurnamesByPortionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSet.CustNotifyRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSet.CFOClosureListRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSet.VIEW_CFO_RULES_FLAGS_OUTSTANDINGRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSetTableAdapters.LOG_DM_Customer_InformationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSetTableAdapters.LOG_DM_DepartmentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSetTableAdapters.LOG_DM_PersonnelTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSetTableAdapters.LOG_IN_Request_TrackingTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSetTableAdapters.RemedyOpenRequestsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSetTableAdapters.LOG_DM_Customer_Information1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSetTableAdapters.RemedyByFirstLetterOfSurnameTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSetTableAdapters.ta_RemedyUsersByFirstLetter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSetTableAdapters.ta_SurnameByPortion">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSetTableAdapters.ta_CustNotify">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSetTableAdapters.CFOClosureListTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSetTableAdapters.VIEW_CFO_RULES_FLAGS_OUTSTANDINGTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsARSystemDataSetTableAdapters.QueriesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="F:ADAdminDotNet.ListViewColumnSorter.ColumnToSort">
+	<summary>
+ Specifies the column to be sorted
+ </summary>
+</member><member name="F:ADAdminDotNet.ListViewColumnSorter.OrderOfSort">
+	<summary>
+ Specifies the order in which to sort (i.e. 'Ascending').
+ </summary>
+</member><member name="F:ADAdminDotNet.ListViewColumnSorter.ObjectCompare">
+	<summary>
+ Case insensitive comparer object
+ </summary>
+</member><member name="M:ADAdminDotNet.ListViewColumnSorter.#ctor">
+	<summary>
+ Class constructor.  Initializes various elements
+ </summary>
+</member><member name="M:ADAdminDotNet.ListViewColumnSorter.Compare(System.Object,System.Object)">
+	<summary>
+ This method is inherited from the IComparer interface.  It compares the two objects passed using a case insensitive comparison.
+ </summary>
+	<param name="x">First object to be compared</param>
+	<param name="y">Second object to be compared</param>
+	<returns>The result of the comparison. "0" if equal, negative if 'x' is less than 'y' and positive if 'x' is greater than 'y'</returns>
+</member><member name="P:ADAdminDotNet.ListViewColumnSorter.SortColumn">
+	<summary>
+ Gets or sets the number of the column to which to apply the sorting operation (Defaults to '0').
+ </summary>
+</member><member name="P:ADAdminDotNet.ListViewColumnSorter.Order">
+	<summary>
+ Gets or sets the order of sorting to apply (for example, 'Ascending' or 'Descending').
+ </summary>
+</member><member name="T:ADAdminDotNet.ListViewColumnSorter">
+	<summary>
+ This class is an implementation of the 'IComparer' interface.
+ </summary>
+</member><member name="T:ADAdminDotNet.dsVIP_EXPANDED.VIEW_GOVERNMENT_STRUCTUREDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsVIP_EXPANDED.VIEW_departmentsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsVIP_EXPANDED.VIEW_Assigned_DepartmentsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsVIP_EXPANDED.VIEW_APPLICATION_RIGHTSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsVIP_EXPANDED.GetLastLoggedOnForPersalNumberDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsVIP_EXPANDED.VIEW_GOVERNMENT_STRUCTURERow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsVIP_EXPANDED.VIEW_departmentsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsVIP_EXPANDED.VIEW_Assigned_DepartmentsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsVIP_EXPANDED.VIEW_APPLICATION_RIGHTSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsVIP_EXPANDED.GetLastLoggedOnForPersalNumberRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ADAdminDotNet.dsVIP_EXPANDED.VIEW_GOVERNMENT_STRUCTURERowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsVIP_EXPANDED.VIEW_departmentsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsVIP_EXPANDED.VIEW_Assigned_DepartmentsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsVIP_EXPANDED.VIEW_APPLICATION_RIGHTSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsVIP_EXPANDED.GetLastLoggedOnForPersalNumberRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ADAdminDotNet.dsVIP_EXPANDED">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsVIP_EXPANDEDTableAdapters.ta_VIEW_GOVERNMENT_STRUCTURE">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsVIP_EXPANDEDTableAdapters.VIEW_departmentsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsVIP_EXPANDEDTableAdapters.ta_VIEW_Assigned_Departments">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsVIP_EXPANDEDTableAdapters.ta_VIEW_APPLICATION_RIGHTS">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ADAdminDotNet.dsVIP_EXPANDEDTableAdapters.ta_GetLastLoggedOnForPersalNumber">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ADAdminDotNet.dsVIP_EXPANDEDTableAdapters.TableAdapterManager.UpdateUpdatedRows(ADAdminDotNet.dsVIP_EXPANDED,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ADAdminDotNet.dsVIP_EXPANDEDTableAdapters.TableAdapterManager.UpdateInsertedRows(ADAdminDotNet.dsVIP_EXPANDED,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ADAdminDotNet.dsVIP_EXPANDEDTableAdapters.TableAdapterManager.UpdateDeletedRows(ADAdminDotNet.dsVIP_EXPANDED,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ADAdminDotNet.dsVIP_EXPANDEDTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ADAdminDotNet.dsVIP_EXPANDEDTableAdapters.TableAdapterManager.UpdateAll(ADAdminDotNet.dsVIP_EXPANDED)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ADAdminDotNet.dsVIP_EXPANDEDTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ADAdminDotNet.dsVIP_EXPANDEDTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ADAdminDotNet.dsVIP_EXPANDEDTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="M:ADAdminDotNet.frmStats.frmStats_KeyPress(System.Object,System.Windows.Forms.KeyPressEventArgs)">
+	<summary>
+ Handles the KeyPress event of the frmStats control.
+ </summary>
+	<param name="sender">The source of the event.</param>
+	<param name="e">The <see cref="T:System.Windows.Forms.KeyPressEventArgs"/> instance containing the event data.</param>
+</member><member name="M:ADAdminDotNet.frmStats.btnCalculate_Click(System.Object,System.EventArgs)">
+	<summary>
+ Handles the Click event of the btnCalculate control.
+ </summary>
+	<param name="sender">The source of the event.</param>
+	<param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member><member name="M:ADAdminDotNet.frmStats.Button1_Click(System.Object,System.EventArgs)">
+	<summary>
+ Export to Excel
+ </summary>
+	<param name="sender">The source of the event.</param>
+	<param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member><member name="M:ADAdminDotNet.frmStats.frmStats_Load(System.Object,System.EventArgs)">
+	<summary>
+ Handles the Load event of the frmStats control.
+ </summary>
+	<param name="sender">The source of the event.</param>
+	<param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member><member name="M:ADAdminDotNet.frmStats.AD_SNAPSHOT_USER_COUNTBindingNavigatorSaveItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Handles the Click event of the AD_SNAPSHOT_USER_COUNTBindingNavigatorSaveItem control.
+ </summary>
+	<param name="sender">The source of the event.</param>
+	<param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member><member name="M:ADAdminDotNet.frmStats.dtp_Period_Ending_ValueChanged(System.Object,System.EventArgs)">
+	<summary>
+ Handles the ValueChanged event of the dtp_Period_Ending control.
+ </summary>
+	<param name="sender">The source of the event.</param>
+	<param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member><member name="T:ADAdminDotNet.frmStats">
+	<summary>
+	</summary>
+</member><member name="M:ADAdminDotNet.frmEnvironment.btnQA_Click(System.Object,System.EventArgs)">
+	<summary>
+ Handles the Click event of the btnQA control.
+ </summary>
+	<param name="sender">The source of the event.</param>
+	<param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member><member name="M:ADAdminDotNet.frmEnvironment.frmEnvironment_FormClosing(System.Object,System.Windows.Forms.FormClosingEventArgs)">
+	<summary>
+ Handles the FormClosing event of the frmEnvironment control.
+ </summary>
+	<param name="sender">The source of the event.</param>
+	<param name="e">The <see cref="T:System.Windows.Forms.FormClosingEventArgs"/> instance containing the event data.</param>
+</member><member name="M:ADAdminDotNet.frmEnvironment.frmEnvironment_Load(System.Object,System.EventArgs)">
+	<summary>
+ Handles the Load event of the frmEnvironment control.
+ </summary>
+	<param name="sender">The source of the event.</param>
+	<param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+</members>
+</doc>
